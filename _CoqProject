@@ -1,0 +1,40 @@
+-R src QWIRE
+-R libraries QWIRE.Libraries
+-Q examples QWIRE.Examples
+
+# Core language (src)
+
+src/Base/Contexts.v
+src/Base/Monad.v
+src/Base/Monoid.v
+
+src/Syntax/HOAS/HOASCircuits.v
+src/Syntax/HOAS/HOASLib.v
+
+src/Syntax/DB/DBCircuits.v
+
+src/Typing/TypeChecking.v
+
+src/Semantics/Denotation.v
+src/Semantics/SemanticLib.v
+src/Semantics/Composition.v
+src/Semantics/UnitarySemantics.v
+src/Semantics/Oracles.v
+src/Semantics/Ancilla.v
+src/Semantics/Symmetric.v
+
+src/CompilationQASM/QASM.v
+src/CompilationQASM/QASMPrinter.v
+
+# Libraries
+
+libraries/Equations.v
+libraries/Algorithms/Arithmetic.v
+libraries/Algorithms/Deutsch.v
+libraries/Algorithms/GHZ.v
+
+# Examples
+
+examples/HOASExamples.v
+examples/HOASProofs.v
+examples/QASMExamples.v
