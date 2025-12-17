@@ -1,0 +1,3239 @@
+DIGEST 8a9d4396e37d3e6b0a797462fbd86a5f
+FQWIRE.Base.Contexts
+R15:31 QuantumLib.Prelim <> <> lib
+R49:65 QWIRE.Base.Monoid <> <> lib
+ind 147:151 <> WType
+constr 156:160 <> Qubit
+constr 164:166 <> Bit
+constr 170:172 <> One
+constr 176:181 <> Tensor
+R190:193 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R185:189 QWIRE.Base.Contexts <> WType:1 ind
+R199:202 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R194:198 QWIRE.Base.Contexts <> WType:1 ind
+R203:207 QWIRE.Base.Contexts <> WType:1 ind
+scheme 147:151 <> WType_rect
+scheme 147:151 <> WType_ind
+scheme 147:151 <> WType_rec
+scheme 147:151 <> WType_sind
+R264:269 QWIRE.Base.Contexts <> Tensor constr
+not 246:246 <> ::circ_scope:x_'⊗'_x
+def 380:389 <> size_wtype
+R396:400 QWIRE.Base.Contexts <> WType ind
+binder 392:392 <> W:3
+R405:407 Coq.Init.Datatypes <> nat ind
+R421:421 QWIRE.Base.Contexts <> W:3 var
+R432:434 QWIRE.Base.Contexts <> One constr
+R445:449 QWIRE.Base.Contexts <> Qubit constr
+R460:462 QWIRE.Base.Contexts <> Bit constr
+R475:479 QWIRE.Base.Contexts <> ::circ_scope:x_'⊗'_x not
+R499:501 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R486:495 QWIRE.Base.Contexts <> size_wtype:4 def
+R502:511 QWIRE.Base.Contexts <> size_wtype:4 def
+def 573:581 <> interpret
+R586:590 QWIRE.Base.Contexts <> WType ind
+binder 584:584 <> w:6
+R610:610 QWIRE.Base.Contexts <> w:6 var
+R623:627 QWIRE.Base.Contexts <> Qubit constr
+R632:635 Coq.Init.Datatypes <> bool ind
+R643:645 QWIRE.Base.Contexts <> Bit constr
+R652:655 Coq.Init.Datatypes <> bool ind
+R664:666 QWIRE.Base.Contexts <> One constr
+R673:676 Coq.Init.Datatypes <> unit ind
+R686:690 QWIRE.Base.Contexts <> ::circ_scope:x_'⊗'_x not
+R697:697 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R710:714 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R727:727 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R698:706 QWIRE.Base.Contexts <> interpret:7 def
+R715:723 QWIRE.Base.Contexts <> interpret:7 def
+def 813:819 <> NTensor
+R826:828 Coq.Init.Datatypes <> nat ind
+binder 822:822 <> n:9
+R836:840 QWIRE.Base.Contexts <> WType ind
+binder 832:832 <> W:10
+R855:855 QWIRE.Base.Contexts <> n:9 var
+R875:877 QWIRE.Base.Contexts <> One constr
+R883:883 Coq.Init.Datatypes <> S constr
+R892:896 QWIRE.Base.Contexts <> ::circ_scope:x_'⊗'_x not
+R891:891 QWIRE.Base.Contexts <> W:10 var
+R897:903 QWIRE.Base.Contexts <> NTensor:11 def
+R908:908 QWIRE.Base.Contexts <> W:10 var
+R933:939 QWIRE.Base.Contexts <> NTensor def
+not 924:924 <> ::circ_scope:x_'⨂'_x
+prf 976:987 <> size_ntensor
+binder 998:998 <> n:13
+binder 1000:1000 <> W:14
+R1023:1025 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1003:1012 QWIRE.Base.Contexts <> size_wtype def
+R1016:1020 QWIRE.Base.Contexts <> ::circ_scope:x_'⨂'_x not
+R1015:1015 QWIRE.Base.Contexts <> n:13 var
+R1021:1021 QWIRE.Base.Contexts <> W:14 var
+R1028:1030 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R1027:1027 QWIRE.Base.Contexts <> n:13 var
+R1031:1040 QWIRE.Base.Contexts <> size_wtype def
+R1042:1042 QWIRE.Base.Contexts <> W:14 var
+def 1195:1197 <> Var
+R1202:1204 Coq.Init.Datatypes <> nat ind
+def 1218:1220 <> Ctx
+R1225:1228 Coq.Init.Datatypes <> list ind
+R1231:1236 Coq.Init.Datatypes <> option ind
+R1238:1242 QWIRE.Base.Contexts <> WType ind
+ind 1257:1260 <> OCtx
+constr 1268:1274 <> Invalid
+constr 1286:1290 <> Valid
+R1278:1281 QWIRE.Base.Contexts <> OCtx:15 ind
+R1297:1300 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1294:1296 QWIRE.Base.Contexts <> Ctx def
+R1301:1304 QWIRE.Base.Contexts <> OCtx:15 ind
+scheme 1257:1260 <> OCtx_rect
+scheme 1257:1260 <> OCtx_ind
+scheme 1257:1260 <> OCtx_rec
+scheme 1257:1260 <> OCtx_sind
+prf 1314:1321 <> ctx_octx
+binder 1332:1333 <> Γ:17
+binder 1335:1337 <> Γ':18
+R1360:1364 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1348:1350 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1340:1344 QWIRE.Base.Contexts <> Valid constr
+R1346:1347 QWIRE.Base.Contexts <> Γ:17 var
+R1351:1355 QWIRE.Base.Contexts <> Valid constr
+R1357:1359 QWIRE.Base.Contexts <> Γ':18 var
+R1367:1369 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1365:1366 QWIRE.Base.Contexts <> Γ:17 var
+R1370:1372 QWIRE.Base.Contexts <> Γ':18 var
+def 1484:1491 <> size_ctx
+R1499:1501 QWIRE.Base.Contexts <> Ctx def
+binder 1494:1495 <> Γ:19
+R1506:1508 Coq.Init.Datatypes <> nat ind
+R1521:1522 QWIRE.Base.Contexts <> Γ:19 var
+R1533:1534 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R1549:1552 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1545:1548 Coq.Init.Datatypes <> None constr
+R1560:1567 QWIRE.Base.Contexts <> size_ctx:20 def
+R1583:1586 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1577:1580 Coq.Init.Datatypes <> Some constr
+R1594:1594 Coq.Init.Datatypes <> S constr
+R1597:1604 QWIRE.Base.Contexts <> size_ctx:20 def
+def 1629:1637 <> size_octx
+R1645:1648 QWIRE.Base.Contexts <> OCtx ind
+binder 1640:1641 <> Γ:22
+R1653:1655 Coq.Init.Datatypes <> nat ind
+R1668:1669 QWIRE.Base.Contexts <> Γ:22 var
+R1680:1686 QWIRE.Base.Contexts <> Invalid constr
+R1697:1701 QWIRE.Base.Contexts <> Valid constr
+R1710:1717 QWIRE.Base.Contexts <> size_ctx def
+prf 1737:1754 <> size_ctx_size_octx
+R1771:1773 QWIRE.Base.Contexts <> Ctx def
+binder 1766:1767 <> Γ:24
+R1788:1790 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1777:1784 QWIRE.Base.Contexts <> size_ctx def
+R1786:1787 QWIRE.Base.Contexts <> Γ:24 var
+R1791:1799 QWIRE.Base.Contexts <> size_octx def
+R1802:1806 QWIRE.Base.Contexts <> Valid constr
+R1808:1809 QWIRE.Base.Contexts <> Γ:24 var
+prf 1838:1849 <> size_ctx_app
+R1871:1873 QWIRE.Base.Contexts <> Ctx def
+binder 1861:1863 <> Γ1:25
+binder 1865:1867 <> Γ2:26
+R1904:1906 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1883:1890 QWIRE.Base.Contexts <> size_ctx def
+R1896:1899 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R1893:1895 QWIRE.Base.Contexts <> Γ1:25 var
+R1900:1902 QWIRE.Base.Contexts <> Γ2:26 var
+R1920:1922 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1908:1915 QWIRE.Base.Contexts <> size_ctx def
+R1917:1919 QWIRE.Base.Contexts <> Γ1:25 var
+R1923:1930 QWIRE.Base.Contexts <> size_ctx def
+R1932:1934 QWIRE.Base.Contexts <> Γ2:26 var
+ind 2126:2137 <> SingletonCtx
+constr 2174:2186 <> SingletonHere
+constr 2228:2241 <> SingletonLater
+R2144:2147 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2141:2143 QWIRE.Base.Contexts <> Var def
+R2153:2156 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2148:2152 QWIRE.Base.Contexts <> WType ind
+R2160:2163 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2157:2159 QWIRE.Base.Contexts <> Ctx def
+binder 2197:2197 <> w:29
+R2200:2211 QWIRE.Base.Contexts <> SingletonCtx:27 ind
+R2217:2217 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R2224:2224 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R2218:2221 Coq.Init.Datatypes <> Some constr
+R2223:2223 QWIRE.Base.Contexts <> w:29 var
+R2215:2215 QWIRE.Base.Contexts <> w:29 var
+binder 2252:2252 <> x:30
+binder 2254:2254 <> w:31
+binder 2256:2257 <> Γ:32
+R2279:2282 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2260:2271 QWIRE.Base.Contexts <> SingletonCtx:27 ind
+R2277:2278 QWIRE.Base.Contexts <> Γ:32 var
+R2275:2275 QWIRE.Base.Contexts <> w:31 var
+R2273:2273 QWIRE.Base.Contexts <> x:30 var
+R2283:2294 QWIRE.Base.Contexts <> SingletonCtx:27 ind
+R2309:2310 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2305:2308 Coq.Init.Datatypes <> None constr
+R2311:2312 QWIRE.Base.Contexts <> Γ:32 var
+R2302:2302 QWIRE.Base.Contexts <> w:31 var
+R2297:2297 Coq.Init.Datatypes <> S constr
+R2299:2299 QWIRE.Base.Contexts <> x:30 var
+scheme 2126:2137 <> SingletonCtx_ind
+scheme 2126:2137 <> SingletonCtx_sind
+ind 2327:2339 <> SingletonOCtx
+constr 2365:2378 <> SingletonValid
+binder 2341:2341 <> x:33
+binder 2343:2343 <> w:34
+R2351:2354 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2347:2350 QWIRE.Base.Contexts <> OCtx ind
+binder 2389:2390 <> Γ:37
+R2412:2415 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2393:2404 QWIRE.Base.Contexts <> SingletonCtx ind
+R2406:2406 QWIRE.Base.Contexts <> x:33 var
+R2408:2408 QWIRE.Base.Contexts <> w:34 var
+R2410:2411 QWIRE.Base.Contexts <> Γ:37 var
+R2416:2428 QWIRE.Base.Contexts <> SingletonOCtx:35 ind
+R2435:2439 QWIRE.Base.Contexts <> Valid constr
+R2441:2442 QWIRE.Base.Contexts <> Γ:37 var
+R2432:2432 QWIRE.Base.Contexts <> w:34 var
+R2430:2430 QWIRE.Base.Contexts <> x:33 var
+scheme 2327:2339 <> SingletonOCtx_ind
+scheme 2327:2339 <> SingletonOCtx_sind
+prf 2453:2466 <> Singleton_size
+binder 2477:2477 <> x:38
+binder 2479:2479 <> w:39
+binder 2481:2482 <> Γ:40
+R2504:2507 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2485:2496 QWIRE.Base.Contexts <> SingletonCtx ind
+R2498:2498 QWIRE.Base.Contexts <> x:38 var
+R2500:2500 QWIRE.Base.Contexts <> w:39 var
+R2502:2503 QWIRE.Base.Contexts <> Γ:40 var
+R2519:2521 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2508:2515 QWIRE.Base.Contexts <> size_ctx def
+R2517:2518 QWIRE.Base.Contexts <> Γ:40 var
+def 2570:2578 <> singleton
+R2585:2587 QWIRE.Base.Contexts <> Var def
+binder 2581:2581 <> x:41
+R2595:2599 QWIRE.Base.Contexts <> WType ind
+binder 2591:2591 <> W:42
+R2604:2606 QWIRE.Base.Contexts <> Ctx def
+R2619:2619 QWIRE.Base.Contexts <> x:41 var
+R2630:2630 Coq.Init.Datatypes <> O constr
+R2635:2635 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R2642:2642 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R2636:2639 Coq.Init.Datatypes <> Some constr
+R2641:2641 QWIRE.Base.Contexts <> W:42 var
+R2648:2648 Coq.Init.Datatypes <> S constr
+R2659:2662 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2655:2658 Coq.Init.Datatypes <> None constr
+R2663:2671 QWIRE.Base.Contexts <> singleton:43 def
+R2675:2675 QWIRE.Base.Contexts <> W:42 var
+R2673:2673 QWIRE.Base.Contexts <> x:41 var
+prf 2691:2709 <> singleton_singleton
+binder 2720:2720 <> x:45
+binder 2722:2722 <> W:46
+R2731:2742 QWIRE.Base.Contexts <> SingletonCtx ind
+R2744:2744 QWIRE.Base.Contexts <> x:45 var
+R2746:2746 QWIRE.Base.Contexts <> W:46 var
+R2749:2757 QWIRE.Base.Contexts <> singleton def
+R2759:2759 QWIRE.Base.Contexts <> x:45 var
+R2761:2761 QWIRE.Base.Contexts <> W:46 var
+prf 2869:2883 <> singleton_equiv
+binder 2894:2894 <> x:47
+binder 2896:2896 <> W:48
+binder 2898:2899 <> Γ:49
+R2927:2930 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2908:2919 QWIRE.Base.Contexts <> SingletonCtx ind
+R2921:2921 QWIRE.Base.Contexts <> x:47 var
+R2923:2923 QWIRE.Base.Contexts <> W:48 var
+R2925:2926 QWIRE.Base.Contexts <> Γ:49 var
+R2933:2935 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2931:2932 QWIRE.Base.Contexts <> Γ:49 var
+R2936:2944 QWIRE.Base.Contexts <> singleton def
+R2946:2946 QWIRE.Base.Contexts <> x:47 var
+R2948:2948 QWIRE.Base.Contexts <> W:48 var
+prf 3044:3057 <> singleton_size
+binder 3068:3068 <> x:50
+binder 3070:3070 <> w:51
+R3097:3099 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3073:3080 QWIRE.Base.Contexts <> size_ctx def
+R3083:3091 QWIRE.Base.Contexts <> singleton def
+R3093:3093 QWIRE.Base.Contexts <> x:50 var
+R3095:3095 QWIRE.Base.Contexts <> w:51 var
+def 3193:3202 <> merge_wire
+R3213:3218 Coq.Init.Datatypes <> option ind
+R3220:3224 QWIRE.Base.Contexts <> WType ind
+binder 3205:3206 <> o1:52
+binder 3208:3209 <> o2:53
+R3229:3232 QWIRE.Base.Contexts <> OCtx ind
+R3249:3250 QWIRE.Base.Contexts <> o2:53 var
+R3245:3246 QWIRE.Base.Contexts <> o1:52 var
+R3261:3264 Coq.Init.Datatypes <> None constr
+R3273:3277 QWIRE.Base.Contexts <> Valid constr
+R3279:3279 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R3282:3282 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R3280:3281 QWIRE.Base.Contexts <> o2:53 var
+R3288:3291 Coq.Init.Datatypes <> Some constr
+R3297:3300 Coq.Init.Datatypes <> None constr
+R3305:3309 QWIRE.Base.Contexts <> Valid constr
+R3311:3311 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R3319:3319 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R3312:3315 Coq.Init.Datatypes <> Some constr
+R3333:3339 QWIRE.Base.Contexts <> Invalid constr
+def 3358:3363 <> merge'
+R3376:3378 QWIRE.Base.Contexts <> Ctx def
+binder 3366:3368 <> Γ1:56
+binder 3370:3372 <> Γ2:57
+R3383:3386 QWIRE.Base.Contexts <> OCtx ind
+R3404:3406 QWIRE.Base.Contexts <> Γ2:57 var
+R3399:3401 QWIRE.Base.Contexts <> Γ1:56 var
+R3417:3418 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R3426:3430 QWIRE.Base.Contexts <> Valid constr
+R3432:3434 QWIRE.Base.Contexts <> Γ2:57 var
+R3443:3444 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R3449:3453 QWIRE.Base.Contexts <> Valid constr
+R3455:3457 QWIRE.Base.Contexts <> Γ1:56 var
+R3465:3468 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3477:3480 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3495:3504 QWIRE.Base.Contexts <> merge_wire def
+R3546:3552 QWIRE.Base.Contexts <> Invalid constr
+R3557:3563 QWIRE.Base.Contexts <> Invalid constr
+R3594:3598 QWIRE.Base.Contexts <> Valid constr
+R3613:3618 QWIRE.Base.Contexts <> merge':58 def
+R3677:3683 QWIRE.Base.Contexts <> Invalid constr
+R3688:3694 QWIRE.Base.Contexts <> Invalid constr
+R3738:3742 QWIRE.Base.Contexts <> Valid constr
+R3751:3755 QWIRE.Base.Contexts <> Valid constr
+R3761:3764 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+def 3892:3896 <> merge
+R3909:3912 QWIRE.Base.Contexts <> OCtx ind
+binder 3899:3901 <> Γ1:61
+binder 3903:3905 <> Γ2:62
+R3917:3920 QWIRE.Base.Contexts <> OCtx ind
+R3938:3940 QWIRE.Base.Contexts <> Γ2:62 var
+R3933:3935 QWIRE.Base.Contexts <> Γ1:61 var
+R3951:3955 QWIRE.Base.Contexts <> Valid constr
+R3963:3967 QWIRE.Base.Contexts <> Valid constr
+R3977:3982 QWIRE.Base.Contexts <> merge' def
+R4006:4012 QWIRE.Base.Contexts <> Invalid constr
+prf 4087:4098 <> merge_shadow
+R4107:4109 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4102:4106 QWIRE.Base.Contexts <> merge def
+binder 4114:4116 <> Γ1:65
+binder 4118:4120 <> Γ2:66
+R4134:4136 QWIRE.Base.Contexts <> Γ1:65 var
+R4147:4153 QWIRE.Base.Contexts <> Invalid constr
+R4158:4164 QWIRE.Base.Contexts <> Invalid constr
+R4170:4174 QWIRE.Base.Contexts <> Valid constr
+R4190:4192 QWIRE.Base.Contexts <> Γ2:66 var
+R4217:4223 QWIRE.Base.Contexts <> Invalid constr
+R4228:4234 QWIRE.Base.Contexts <> Invalid constr
+R4254:4258 QWIRE.Base.Contexts <> Valid constr
+R4268:4273 QWIRE.Base.Contexts <> merge' def
+R4366:4377 QWIRE.Base.Contexts <> merge_shadow thm
+R4405:4409 QWIRE.Base.Contexts <> Valid constr
+R4411:4412 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+not 4395:4395 <> :::'∅'
+R4431:4435 QWIRE.Base.Contexts <> merge def
+not 4422:4422 <> :::x_'⋓'_x
+R4472:4500 QWIRE.Base.Contexts <> Valid constr
+prf 4540:4551 <> merge_merge'
+R4573:4575 QWIRE.Base.Contexts <> Ctx def
+binder 4563:4565 <> Γ1:69
+binder 4567:4569 <> Γ2:70
+R4590:4593 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4608:4608 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4582:4586 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R4579:4581 QWIRE.Base.Contexts <> Γ1:69 var
+R4587:4589 QWIRE.Base.Contexts <> Γ2:70 var
+R4594:4599 QWIRE.Base.Contexts <> merge' def
+R4601:4603 QWIRE.Base.Contexts <> Γ1:69 var
+R4605:4607 QWIRE.Base.Contexts <> Γ2:70 var
+prf 4766:4779 <> merge_cancel_l
+binder 4790:4791 <> Γ:71
+binder 4793:4795 <> Γ1:72
+binder 4797:4799 <> Γ2:73
+R4812:4815 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4806:4808 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4803:4805 QWIRE.Base.Contexts <> Γ1:72 var
+R4809:4811 QWIRE.Base.Contexts <> Γ2:73 var
+R4826:4828 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4818:4822 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R4816:4817 QWIRE.Base.Contexts <> Γ:71 var
+R4823:4825 QWIRE.Base.Contexts <> Γ1:72 var
+R4831:4835 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R4829:4830 QWIRE.Base.Contexts <> Γ:71 var
+R4836:4838 QWIRE.Base.Contexts <> Γ2:73 var
+prf 4892:4905 <> merge_cancel_r
+binder 4916:4917 <> Γ:74
+binder 4919:4921 <> Γ1:75
+binder 4923:4925 <> Γ2:76
+R4938:4941 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4932:4934 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4929:4931 QWIRE.Base.Contexts <> Γ1:75 var
+R4935:4937 QWIRE.Base.Contexts <> Γ2:76 var
+R4952:4954 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4945:4949 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R4942:4944 QWIRE.Base.Contexts <> Γ1:75 var
+R4950:4951 QWIRE.Base.Contexts <> Γ:74 var
+R4958:4962 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R4955:4957 QWIRE.Base.Contexts <> Γ2:76 var
+R4963:4964 QWIRE.Base.Contexts <> Γ:74 var
+prf 5018:5026 <> merge_I_l
+binder 5037:5038 <> Γ:77
+R5055:5057 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5048:5052 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R5041:5047 QWIRE.Base.Contexts <> Invalid constr
+R5053:5054 QWIRE.Base.Contexts <> Γ:77 var
+R5058:5064 QWIRE.Base.Contexts <> Invalid constr
+prf 5103:5111 <> merge_I_r
+binder 5122:5123 <> Γ:78
+R5140:5142 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5128:5132 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R5126:5127 QWIRE.Base.Contexts <> Γ:78 var
+R5133:5139 QWIRE.Base.Contexts <> Invalid constr
+R5143:5149 QWIRE.Base.Contexts <> Invalid constr
+prf 5464:5474 <> merge_valid
+R5496:5499 QWIRE.Base.Contexts <> OCtx ind
+binder 5486:5488 <> Γ1:79
+binder 5490:5492 <> Γ2:80
+R5508:5510 QWIRE.Base.Contexts <> Ctx def
+binder 5503:5504 <> Γ:81
+R5539:5544 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5528:5530 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5520:5524 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R5517:5519 QWIRE.Base.Contexts <> Γ1:79 var
+R5525:5527 QWIRE.Base.Contexts <> Γ2:80 var
+R5531:5535 QWIRE.Base.Contexts <> Valid constr
+R5537:5538 QWIRE.Base.Contexts <> Γ:81 var
+R5576:5578 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R5545:5545 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R5550:5552 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R5556:5558 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R5575:5575 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R5553:5555 QWIRE.Base.Contexts <> Ctx def
+binder 5546:5549 <> Γ1':82
+R5562:5564 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5559:5561 QWIRE.Base.Contexts <> Γ1:79 var
+R5565:5569 QWIRE.Base.Contexts <> Valid constr
+R5571:5574 QWIRE.Base.Contexts <> Γ1':82 var
+R5579:5579 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R5584:5586 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R5590:5592 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R5609:5609 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R5587:5589 QWIRE.Base.Contexts <> Ctx def
+binder 5580:5583 <> Γ2':83
+R5596:5598 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5593:5595 QWIRE.Base.Contexts <> Γ2:80 var
+R5599:5603 QWIRE.Base.Contexts <> Valid constr
+R5605:5608 QWIRE.Base.Contexts <> Γ2':83 var
+prf 5724:5740 <> merge_invalid_iff
+R5760:5765 Coq.Init.Datatypes <> option ind
+R5767:5771 QWIRE.Base.Contexts <> WType ind
+binder 5752:5753 <> o1:84
+binder 5755:5756 <> o2:85
+R5785:5787 QWIRE.Base.Contexts <> Ctx def
+binder 5775:5777 <> Γ1:86
+binder 5779:5781 <> Γ2:87
+R5843:5850 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R5833:5835 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5811:5815 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R5794:5798 QWIRE.Base.Contexts <> Valid constr
+R5803:5806 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5801:5802 QWIRE.Base.Contexts <> o1:84 var
+R5807:5809 QWIRE.Base.Contexts <> Γ1:86 var
+R5816:5820 QWIRE.Base.Contexts <> Valid constr
+R5825:5828 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5823:5824 QWIRE.Base.Contexts <> o2:85 var
+R5829:5831 QWIRE.Base.Contexts <> Γ2:87 var
+R5836:5842 QWIRE.Base.Contexts <> Invalid constr
+R5877:5880 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R5867:5869 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5851:5860 QWIRE.Base.Contexts <> merge_wire def
+R5862:5863 QWIRE.Base.Contexts <> o1:84 var
+R5865:5866 QWIRE.Base.Contexts <> o2:85 var
+R5870:5876 QWIRE.Base.Contexts <> Invalid constr
+R5892:5894 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5884:5888 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R5881:5883 QWIRE.Base.Contexts <> Γ1:86 var
+R5889:5891 QWIRE.Base.Contexts <> Γ2:87 var
+R5895:5901 QWIRE.Base.Contexts <> Invalid constr
+R6027:6038 QWIRE.Base.Contexts <> merge_merge' thm
+R6027:6038 QWIRE.Base.Contexts <> merge_merge' thm
+R6027:6038 QWIRE.Base.Contexts <> merge_merge' thm
+R6065:6069 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R6065:6069 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R6121:6132 QWIRE.Base.Contexts <> merge_merge' thm
+R6121:6132 QWIRE.Base.Contexts <> merge_merge' thm
+R6121:6132 QWIRE.Base.Contexts <> merge_merge' thm
+R6159:6163 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R6159:6163 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R6215:6226 QWIRE.Base.Contexts <> merge_merge' thm
+R6215:6226 QWIRE.Base.Contexts <> merge_merge' thm
+R6215:6226 QWIRE.Base.Contexts <> merge_merge' thm
+R6253:6257 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R6253:6257 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R6384:6393 QWIRE.Base.Contexts <> merge_wire def
+R6384:6393 QWIRE.Base.Contexts <> merge_wire def
+R6424:6435 QWIRE.Base.Contexts <> merge_merge' thm
+R6424:6435 QWIRE.Base.Contexts <> merge_merge' thm
+R6424:6435 QWIRE.Base.Contexts <> merge_merge' thm
+prf 6493:6503 <> merge_nil_l
+binder 6514:6515 <> Γ:88
+R6528:6530 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6521:6525 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R6518:6520 QWIRE.Base.Contexts <> :::'∅' not
+R6526:6527 QWIRE.Base.Contexts <> Γ:88 var
+R6531:6532 QWIRE.Base.Contexts <> Γ:88 var
+prf 6584:6594 <> merge_nil_r
+binder 6605:6606 <> Γ:89
+R6619:6621 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6611:6615 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R6609:6610 QWIRE.Base.Contexts <> Γ:89 var
+R6616:6618 QWIRE.Base.Contexts <> :::'∅' not
+R6622:6623 QWIRE.Base.Contexts <> Γ:89 var
+prf 6694:6703 <> merge_comm
+binder 6714:6716 <> Γ1:90
+binder 6718:6720 <> Γ2:91
+R6734:6736 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6726:6730 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R6723:6725 QWIRE.Base.Contexts <> Γ1:90 var
+R6731:6733 QWIRE.Base.Contexts <> Γ2:91 var
+R6740:6744 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R6737:6739 QWIRE.Base.Contexts <> Γ2:91 var
+R6745:6747 QWIRE.Base.Contexts <> Γ1:90 var
+R6948:6952 QWIRE.Base.Contexts <> merge def
+prf 7036:7046 <> merge_assoc
+binder 7057:7059 <> Γ1:92
+binder 7061:7063 <> Γ2:93
+binder 7065:7067 <> Γ3:94
+R7091:7093 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7073:7078 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R7090:7090 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R7070:7072 QWIRE.Base.Contexts <> Γ1:92 var
+R7082:7086 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R7079:7081 QWIRE.Base.Contexts <> Γ2:93 var
+R7087:7089 QWIRE.Base.Contexts <> Γ3:94 var
+R7105:7109 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R7097:7101 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R7094:7096 QWIRE.Base.Contexts <> Γ1:92 var
+R7102:7104 QWIRE.Base.Contexts <> Γ2:93 var
+R7110:7112 QWIRE.Base.Contexts <> Γ3:94 var
+R7217:7225 QWIRE.Base.Contexts <> merge_I_r thm
+R7217:7225 QWIRE.Base.Contexts <> merge_I_r thm
+R7217:7225 QWIRE.Base.Contexts <> merge_I_r thm
+R7217:7225 QWIRE.Base.Contexts <> merge_I_r thm
+R7217:7225 QWIRE.Base.Contexts <> merge_I_r thm
+R7217:7225 QWIRE.Base.Contexts <> merge_I_r thm
+R7217:7225 QWIRE.Base.Contexts <> merge_I_r thm
+R7217:7225 QWIRE.Base.Contexts <> merge_I_r thm
+R7217:7225 QWIRE.Base.Contexts <> merge_I_r thm
+R7217:7225 QWIRE.Base.Contexts <> merge_I_r thm
+R7217:7225 QWIRE.Base.Contexts <> merge_I_r thm
+R7217:7225 QWIRE.Base.Contexts <> merge_I_r thm
+R7217:7225 QWIRE.Base.Contexts <> merge_I_r thm
+R7217:7225 QWIRE.Base.Contexts <> merge_I_r thm
+R7217:7225 QWIRE.Base.Contexts <> merge_I_r thm
+R7217:7225 QWIRE.Base.Contexts <> merge_I_r thm
+R7217:7225 QWIRE.Base.Contexts <> merge_I_r thm
+R7217:7225 QWIRE.Base.Contexts <> merge_I_r thm
+R7217:7225 QWIRE.Base.Contexts <> merge_I_r thm
+R7217:7225 QWIRE.Base.Contexts <> merge_I_r thm
+R7217:7225 QWIRE.Base.Contexts <> merge_I_r thm
+R7217:7225 QWIRE.Base.Contexts <> merge_I_r thm
+R7217:7225 QWIRE.Base.Contexts <> merge_I_r thm
+R7217:7225 QWIRE.Base.Contexts <> merge_I_r thm
+R7217:7225 QWIRE.Base.Contexts <> merge_I_r thm
+R7217:7225 QWIRE.Base.Contexts <> merge_I_r thm
+R7217:7225 QWIRE.Base.Contexts <> merge_I_r thm
+R7217:7225 QWIRE.Base.Contexts <> merge_I_r thm
+R7217:7225 QWIRE.Base.Contexts <> merge_I_r thm
+R7217:7225 QWIRE.Base.Contexts <> merge_I_r thm
+R7217:7225 QWIRE.Base.Contexts <> merge_I_r thm
+R7217:7225 QWIRE.Base.Contexts <> merge_I_r thm
+R7217:7225 QWIRE.Base.Contexts <> merge_I_r thm
+R7345:7355 QWIRE.Base.Contexts <> merge_nil_l thm
+R7358:7368 QWIRE.Base.Contexts <> merge_nil_r thm
+R7345:7355 QWIRE.Base.Contexts <> merge_nil_l thm
+R7345:7355 QWIRE.Base.Contexts <> merge_nil_l thm
+R7358:7368 QWIRE.Base.Contexts <> merge_nil_r thm
+R7358:7368 QWIRE.Base.Contexts <> merge_nil_r thm
+R7482:7492 QWIRE.Base.Contexts <> merge_nil_l thm
+R7482:7492 QWIRE.Base.Contexts <> merge_nil_l thm
+R7482:7492 QWIRE.Base.Contexts <> merge_nil_l thm
+R7482:7492 QWIRE.Base.Contexts <> merge_nil_l thm
+R7530:7540 QWIRE.Base.Contexts <> merge_nil_r thm
+R7530:7540 QWIRE.Base.Contexts <> merge_nil_r thm
+R7530:7540 QWIRE.Base.Contexts <> merge_nil_r thm
+R7530:7540 QWIRE.Base.Contexts <> merge_nil_r thm
+R7623:7628 QWIRE.Base.Contexts <> merge' def
+R7623:7628 QWIRE.Base.Contexts <> merge' def
+R7680:7685 QWIRE.Base.Contexts <> merge' def
+R7700:7705 QWIRE.Base.Contexts <> merge' def
+R7680:7685 QWIRE.Base.Contexts <> merge' def
+R7700:7705 QWIRE.Base.Contexts <> merge' def
+R7700:7705 QWIRE.Base.Contexts <> merge' def
+R7757:7762 QWIRE.Base.Contexts <> merge' def
+R7785:7790 QWIRE.Base.Contexts <> merge' def
+R7757:7762 QWIRE.Base.Contexts <> merge' def
+R7785:7790 QWIRE.Base.Contexts <> merge' def
+R7785:7790 QWIRE.Base.Contexts <> merge' def
+R7852:7863 QWIRE.Base.Contexts <> merge_merge' thm
+R7852:7863 QWIRE.Base.Contexts <> merge_merge' thm
+R7852:7863 QWIRE.Base.Contexts <> merge_merge' thm
+R7981:7992 QWIRE.Base.Contexts <> merge_merge' thm
+R7981:7992 QWIRE.Base.Contexts <> merge_merge' thm
+R7981:7992 QWIRE.Base.Contexts <> merge_merge' thm
+R8024:8040 QWIRE.Base.Contexts <> merge_invalid_iff thm
+R8024:8040 QWIRE.Base.Contexts <> merge_invalid_iff thm
+R8161:8166 QWIRE.Base.Contexts <> merge' def
+R8161:8166 QWIRE.Base.Contexts <> merge' def
+R8206:8217 QWIRE.Base.Contexts <> merge_merge' thm
+R8206:8217 QWIRE.Base.Contexts <> merge_merge' thm
+R8206:8217 QWIRE.Base.Contexts <> merge_merge' thm
+R8249:8265 QWIRE.Base.Contexts <> merge_invalid_iff thm
+R8249:8265 QWIRE.Base.Contexts <> merge_invalid_iff thm
+R8401:8412 QWIRE.Base.Contexts <> merge_merge' thm
+R8401:8412 QWIRE.Base.Contexts <> merge_merge' thm
+R8401:8412 QWIRE.Base.Contexts <> merge_merge' thm
+R8544:8549 QWIRE.Base.Contexts <> merge' def
+R8564:8569 QWIRE.Base.Contexts <> merge' def
+R8544:8549 QWIRE.Base.Contexts <> merge' def
+R8564:8569 QWIRE.Base.Contexts <> merge' def
+R8564:8569 QWIRE.Base.Contexts <> merge' def
+R8621:8626 QWIRE.Base.Contexts <> merge' def
+R8649:8654 QWIRE.Base.Contexts <> merge' def
+R8621:8626 QWIRE.Base.Contexts <> merge' def
+R8649:8654 QWIRE.Base.Contexts <> merge' def
+R8649:8654 QWIRE.Base.Contexts <> merge' def
+R8716:8727 QWIRE.Base.Contexts <> merge_merge' thm
+R8716:8727 QWIRE.Base.Contexts <> merge_merge' thm
+R8716:8727 QWIRE.Base.Contexts <> merge_merge' thm
+R8845:8856 QWIRE.Base.Contexts <> merge_merge' thm
+R8845:8856 QWIRE.Base.Contexts <> merge_merge' thm
+R8845:8856 QWIRE.Base.Contexts <> merge_merge' thm
+R8888:8904 QWIRE.Base.Contexts <> merge_invalid_iff thm
+R8888:8904 QWIRE.Base.Contexts <> merge_invalid_iff thm
+R9025:9030 QWIRE.Base.Contexts <> merge' def
+R9025:9030 QWIRE.Base.Contexts <> merge' def
+R9070:9081 QWIRE.Base.Contexts <> merge_merge' thm
+R9070:9081 QWIRE.Base.Contexts <> merge_merge' thm
+R9070:9081 QWIRE.Base.Contexts <> merge_merge' thm
+R9113:9129 QWIRE.Base.Contexts <> merge_invalid_iff thm
+R9113:9129 QWIRE.Base.Contexts <> merge_invalid_iff thm
+R9265:9276 QWIRE.Base.Contexts <> merge_merge' thm
+R9265:9276 QWIRE.Base.Contexts <> merge_merge' thm
+R9265:9276 QWIRE.Base.Contexts <> merge_merge' thm
+R9408:9413 QWIRE.Base.Contexts <> merge' def
+R9436:9441 QWIRE.Base.Contexts <> merge' def
+R9408:9413 QWIRE.Base.Contexts <> merge' def
+R9436:9441 QWIRE.Base.Contexts <> merge' def
+R9436:9441 QWIRE.Base.Contexts <> merge' def
+R9503:9514 QWIRE.Base.Contexts <> merge_merge' thm
+R9503:9514 QWIRE.Base.Contexts <> merge_merge' thm
+R9503:9514 QWIRE.Base.Contexts <> merge_merge' thm
+R9632:9643 QWIRE.Base.Contexts <> merge_merge' thm
+R9632:9643 QWIRE.Base.Contexts <> merge_merge' thm
+R9632:9643 QWIRE.Base.Contexts <> merge_merge' thm
+R9675:9691 QWIRE.Base.Contexts <> merge_invalid_iff thm
+R9675:9691 QWIRE.Base.Contexts <> merge_invalid_iff thm
+R9812:9817 QWIRE.Base.Contexts <> merge' def
+R9812:9817 QWIRE.Base.Contexts <> merge' def
+R9857:9868 QWIRE.Base.Contexts <> merge_merge' thm
+R9857:9868 QWIRE.Base.Contexts <> merge_merge' thm
+R9857:9868 QWIRE.Base.Contexts <> merge_merge' thm
+R9900:9916 QWIRE.Base.Contexts <> merge_invalid_iff thm
+R9900:9916 QWIRE.Base.Contexts <> merge_invalid_iff thm
+R10052:10063 QWIRE.Base.Contexts <> merge_merge' thm
+R10052:10063 QWIRE.Base.Contexts <> merge_merge' thm
+R10052:10063 QWIRE.Base.Contexts <> merge_merge' thm
+R10195:10200 QWIRE.Base.Contexts <> merge' def
+R10223:10228 QWIRE.Base.Contexts <> merge' def
+R10195:10200 QWIRE.Base.Contexts <> merge' def
+R10223:10228 QWIRE.Base.Contexts <> merge' def
+R10223:10228 QWIRE.Base.Contexts <> merge' def
+R10290:10301 QWIRE.Base.Contexts <> merge_merge' thm
+R10290:10301 QWIRE.Base.Contexts <> merge_merge' thm
+R10290:10301 QWIRE.Base.Contexts <> merge_merge' thm
+R10419:10430 QWIRE.Base.Contexts <> merge_merge' thm
+R10419:10430 QWIRE.Base.Contexts <> merge_merge' thm
+R10419:10430 QWIRE.Base.Contexts <> merge_merge' thm
+R10462:10478 QWIRE.Base.Contexts <> merge_invalid_iff thm
+R10462:10478 QWIRE.Base.Contexts <> merge_invalid_iff thm
+R10599:10604 QWIRE.Base.Contexts <> merge' def
+R10599:10604 QWIRE.Base.Contexts <> merge' def
+R10644:10655 QWIRE.Base.Contexts <> merge_merge' thm
+R10644:10655 QWIRE.Base.Contexts <> merge_merge' thm
+R10644:10655 QWIRE.Base.Contexts <> merge_merge' thm
+R10687:10703 QWIRE.Base.Contexts <> merge_invalid_iff thm
+R10687:10703 QWIRE.Base.Contexts <> merge_invalid_iff thm
+R10839:10850 QWIRE.Base.Contexts <> merge_merge' thm
+R10839:10850 QWIRE.Base.Contexts <> merge_merge' thm
+R10839:10850 QWIRE.Base.Contexts <> merge_merge' thm
+def 10980:10985 <> cons_o
+R10992:10997 Coq.Init.Datatypes <> option ind
+R10999:11003 QWIRE.Base.Contexts <> WType ind
+binder 10988:10988 <> o:95
+R11012:11015 QWIRE.Base.Contexts <> OCtx ind
+binder 11007:11008 <> Γ:96
+R11020:11023 QWIRE.Base.Contexts <> OCtx ind
+R11036:11037 QWIRE.Base.Contexts <> Γ:96 var
+R11048:11054 QWIRE.Base.Contexts <> Invalid constr
+R11059:11065 QWIRE.Base.Contexts <> Invalid constr
+R11071:11075 QWIRE.Base.Contexts <> Valid constr
+R11084:11088 QWIRE.Base.Contexts <> Valid constr
+R11092:11095 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11091:11091 QWIRE.Base.Contexts <> o:95 var
+prf 11115:11130 <> cons_distr_merge
+binder 11141:11143 <> Γ1:98
+binder 11145:11147 <> Γ2:99
+R11177:11179 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11152:11157 QWIRE.Base.Contexts <> cons_o def
+R11159:11162 Coq.Init.Datatypes <> None constr
+R11168:11172 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R11165:11167 QWIRE.Base.Contexts <> Γ1:98 var
+R11173:11175 QWIRE.Base.Contexts <> Γ2:99 var
+R11195:11199 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R11180:11185 QWIRE.Base.Contexts <> cons_o def
+R11187:11190 Coq.Init.Datatypes <> None constr
+R11192:11194 QWIRE.Base.Contexts <> Γ1:98 var
+R11200:11205 QWIRE.Base.Contexts <> cons_o def
+R11207:11210 Coq.Init.Datatypes <> None constr
+R11212:11214 QWIRE.Base.Contexts <> Γ2:99 var
+prf 11281:11300 <> merge_nil_inversion'
+R11322:11324 QWIRE.Base.Contexts <> Ctx def
+binder 11312:11314 <> Γ1:100
+binder 11316:11318 <> Γ2:101
+R11345:11348 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11339:11341 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11331:11335 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R11328:11330 QWIRE.Base.Contexts <> Γ1:100 var
+R11336:11338 QWIRE.Base.Contexts <> Γ2:101 var
+R11342:11344 QWIRE.Base.Contexts <> :::'∅' not
+R11349:11349 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R11358:11362 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R11371:11371 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R11353:11355 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11350:11352 QWIRE.Base.Contexts <> Γ1:100 var
+R11356:11357 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R11366:11368 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11363:11365 QWIRE.Base.Contexts <> Γ2:101 var
+R11369:11370 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R11523:11528 QWIRE.Base.Contexts <> merge' def
+R11523:11528 QWIRE.Base.Contexts <> merge' def
+R11523:11528 QWIRE.Base.Contexts <> merge' def
+R11523:11528 QWIRE.Base.Contexts <> merge' def
+R11523:11528 QWIRE.Base.Contexts <> merge' def
+prf 11571:11589 <> merge_nil_inversion
+R11611:11614 QWIRE.Base.Contexts <> OCtx ind
+binder 11601:11603 <> Γ1:102
+binder 11605:11607 <> Γ2:103
+R11635:11638 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11629:11631 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11621:11625 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R11618:11620 QWIRE.Base.Contexts <> Γ1:102 var
+R11626:11628 QWIRE.Base.Contexts <> Γ2:103 var
+R11632:11634 QWIRE.Base.Contexts <> :::'∅' not
+R11639:11639 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R11649:11653 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R11663:11663 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R11643:11645 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11640:11642 QWIRE.Base.Contexts <> Γ1:102 var
+R11646:11648 QWIRE.Base.Contexts <> :::'∅' not
+R11657:11659 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11654:11656 QWIRE.Base.Contexts <> Γ2:103 var
+R11660:11662 QWIRE.Base.Contexts <> :::'∅' not
+R11769:11788 QWIRE.Base.Contexts <> merge_nil_inversion' thm
+R11769:11788 QWIRE.Base.Contexts <> merge_nil_inversion' thm
+prf 11838:11855 <> ctx_cons_inversion
+R11880:11882 QWIRE.Base.Contexts <> Ctx def
+binder 11867:11868 <> Γ:104
+binder 11870:11872 <> Γ1:105
+binder 11874:11876 <> Γ2:106
+binder 11885:11885 <> o:107
+binder 11887:11888 <> o1:108
+binder 11890:11891 <> o2:109
+R11957:11966 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11939:11941 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11917:11921 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R11900:11904 QWIRE.Base.Contexts <> Valid constr
+R11909:11912 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11907:11908 QWIRE.Base.Contexts <> o1:108 var
+R11913:11915 QWIRE.Base.Contexts <> Γ1:105 var
+R11922:11926 QWIRE.Base.Contexts <> Valid constr
+R11931:11934 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11929:11930 QWIRE.Base.Contexts <> o2:109 var
+R11935:11937 QWIRE.Base.Contexts <> Γ2:106 var
+R11942:11946 QWIRE.Base.Contexts <> Valid constr
+R11950:11953 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11949:11949 QWIRE.Base.Contexts <> o:107 var
+R11954:11955 QWIRE.Base.Contexts <> Γ:104 var
+R11967:11967 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R11990:11994 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R12023:12023 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R11979:11981 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11971:11975 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R11968:11970 QWIRE.Base.Contexts <> Γ1:105 var
+R11976:11978 QWIRE.Base.Contexts <> Γ2:106 var
+R11982:11986 QWIRE.Base.Contexts <> Valid constr
+R11988:11989 QWIRE.Base.Contexts <> Γ:104 var
+R12011:12013 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11995:12004 QWIRE.Base.Contexts <> merge_wire def
+R12006:12007 QWIRE.Base.Contexts <> o1:108 var
+R12009:12010 QWIRE.Base.Contexts <> o2:109 var
+R12014:12018 QWIRE.Base.Contexts <> Valid constr
+R12020:12020 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12022:12022 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12021:12021 QWIRE.Base.Contexts <> o:107 var
+R12091:12100 QWIRE.Base.Contexts <> merge_wire def
+R12091:12100 QWIRE.Base.Contexts <> merge_wire def
+R12145:12156 QWIRE.Base.Contexts <> merge_merge' thm
+R12145:12156 QWIRE.Base.Contexts <> merge_merge' thm
+R12145:12156 QWIRE.Base.Contexts <> merge_merge' thm
+R12180:12184 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R12180:12184 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R12271:12278 QWIRE.Base.Contexts <> ctx_octx thm
+R12271:12278 QWIRE.Base.Contexts <> ctx_octx thm
+R12367:12374 QWIRE.Base.Contexts <> ctx_octx thm
+R12367:12374 QWIRE.Base.Contexts <> ctx_octx thm
+R12463:12470 QWIRE.Base.Contexts <> ctx_octx thm
+R12463:12470 QWIRE.Base.Contexts <> ctx_octx thm
+prf 12565:12586 <> merge_singleton_append
+binder 12597:12597 <> W:110
+R12605:12607 QWIRE.Base.Contexts <> Ctx def
+binder 12600:12601 <> Γ:111
+R12652:12654 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12622:12627 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R12651:12651 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R12620:12621 QWIRE.Base.Contexts <> Γ:111 var
+R12628:12636 QWIRE.Base.Contexts <> singleton def
+R12639:12644 Coq.Init.Datatypes <> length def
+R12646:12647 QWIRE.Base.Contexts <> Γ:111 var
+R12650:12650 QWIRE.Base.Contexts <> W:110 var
+R12655:12659 QWIRE.Base.Contexts <> Valid constr
+R12664:12667 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R12662:12663 QWIRE.Base.Contexts <> Γ:111 var
+R12668:12668 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12675:12675 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12669:12672 Coq.Init.Datatypes <> Some constr
+R12674:12674 QWIRE.Base.Contexts <> W:110 var
+prf 12807:12818 <> merge_offset
+R12834:12836 Coq.Init.Datatypes <> nat ind
+binder 12830:12830 <> n:112
+R12853:12855 QWIRE.Base.Contexts <> Ctx def
+binder 12840:12842 <> Γ1:113
+binder 12844:12846 <> Γ2:114
+binder 12848:12849 <> Γ:115
+R12881:12886 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12867:12869 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12859:12863 QWIRE.Base.Contexts <> Valid constr
+R12865:12866 QWIRE.Base.Contexts <> Γ:115 var
+R12873:12877 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R12870:12872 QWIRE.Base.Contexts <> Γ1:113 var
+R12878:12880 QWIRE.Base.Contexts <> Γ2:114 var
+R12948:12953 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12915:12919 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R12887:12891 QWIRE.Base.Contexts <> Valid constr
+R12907:12910 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R12894:12899 Coq.Lists.List <> repeat def
+R12906:12906 QWIRE.Base.Contexts <> n:112 var
+R12901:12904 Coq.Init.Datatypes <> None constr
+R12911:12913 QWIRE.Base.Contexts <> Γ1:113 var
+R12920:12924 QWIRE.Base.Contexts <> Valid constr
+R12940:12943 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R12927:12932 Coq.Lists.List <> repeat def
+R12939:12939 QWIRE.Base.Contexts <> n:112 var
+R12934:12937 Coq.Init.Datatypes <> None constr
+R12944:12946 QWIRE.Base.Contexts <> Γ2:114 var
+R12954:12958 QWIRE.Base.Contexts <> Valid constr
+R12974:12977 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R12961:12966 Coq.Lists.List <> repeat def
+R12973:12973 QWIRE.Base.Contexts <> n:112 var
+R12968:12971 Coq.Init.Datatypes <> None constr
+R12978:12979 QWIRE.Base.Contexts <> Γ:115 var
+inst 13178:13185 <> PCM_OCtx
+R13189:13191 QWIRE.Base.Monoid <> PCM class
+R13193:13196 QWIRE.Base.Contexts <> OCtx ind
+R13242:13242 QWIRE.Base.Monoid <> m meth
+R13221:13224 QWIRE.Base.Monoid <> zero meth
+R13205:13207 QWIRE.Base.Monoid <> one meth
+R13212:13214 QWIRE.Base.Contexts <> :::'∅' not
+R13229:13235 QWIRE.Base.Contexts <> Invalid constr
+R13247:13251 QWIRE.Base.Contexts <> merge def
+inst 13268:13280 <> PCM_Laws_OCtx
+R13284:13291 QWIRE.Base.Monoid <> PCM_Laws class
+R13293:13296 QWIRE.Base.Contexts <> OCtx ind
+R13388:13395 QWIRE.Base.Monoid <> M_absorb meth
+R13361:13366 QWIRE.Base.Monoid <> M_comm meth
+R13333:13339 QWIRE.Base.Monoid <> M_assoc meth
+R13305:13310 QWIRE.Base.Monoid <> M_unit meth
+R13317:13327 QWIRE.Base.Contexts <> merge_nil_r thm
+R13345:13355 QWIRE.Base.Contexts <> merge_assoc thm
+R13373:13382 QWIRE.Base.Contexts <> merge_comm thm
+R13400:13408 QWIRE.Base.Contexts <> merge_I_r thm
+def 13533:13540 <> is_valid
+R13548:13551 QWIRE.Base.Contexts <> OCtx ind
+binder 13543:13544 <> Γ:116
+R13564:13570 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R13574:13575 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 13571:13573 <> Γ':117
+R13578:13580 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13576:13577 QWIRE.Base.Contexts <> Γ:116 var
+R13581:13585 QWIRE.Base.Contexts <> Valid constr
+R13587:13589 QWIRE.Base.Contexts <> Γ':117 var
+rec 13600:13610 <> valid_merge
+proj 13630:13637 <> pf_valid
+proj 13657:13664 <> pf_merge
+binder 13612:13614 <> Γ1:118
+binder 13616:13618 <> Γ2:119
+binder 13620:13621 <> Γ:120
+R13641:13648 QWIRE.Base.Contexts <> is_valid def
+R13650:13651 QWIRE.Base.Contexts <> Γ:120 var
+R13670:13672 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13668:13669 QWIRE.Base.Contexts <> Γ:120 var
+R13676:13680 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R13673:13675 QWIRE.Base.Contexts <> Γ1:118 var
+R13681:13683 QWIRE.Base.Contexts <> Γ2:119 var
+R13722:13732 QWIRE.Base.Contexts <> valid_merge rec
+not 13698:13698 <> :::x_'=='_x_'∙'_x
+prf 13768:13778 <> valid_valid
+binder 13789:13790 <> Γ:124
+R13793:13800 QWIRE.Base.Contexts <> is_valid def
+R13803:13807 QWIRE.Base.Contexts <> Valid constr
+R13809:13810 QWIRE.Base.Contexts <> Γ:124 var
+prf 13869:13879 <> valid_empty
+R13883:13890 QWIRE.Base.Contexts <> is_valid def
+R13892:13894 QWIRE.Base.Contexts <> :::'∅' not
+R13911:13918 QWIRE.Base.Contexts <> is_valid def
+prf 13944:13952 <> not_valid
+R13956:13958 Coq.Init.Logic <> not def
+R13961:13968 QWIRE.Base.Contexts <> is_valid def
+R13970:13976 QWIRE.Base.Contexts <> Invalid constr
+prf 14031:14037 <> valid_l
+binder 14048:14050 <> Γ1:125
+binder 14052:14054 <> Γ2:126
+R14079:14082 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14057:14064 QWIRE.Base.Contexts <> is_valid def
+R14070:14074 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R14067:14069 QWIRE.Base.Contexts <> Γ1:125 var
+R14075:14077 QWIRE.Base.Contexts <> Γ2:126 var
+R14083:14090 QWIRE.Base.Contexts <> is_valid def
+R14092:14094 QWIRE.Base.Contexts <> Γ1:125 var
+R14133:14140 QWIRE.Base.Contexts <> is_valid def
+R14181:14191 QWIRE.Base.Contexts <> merge_valid thm
+R14181:14191 QWIRE.Base.Contexts <> merge_valid thm
+prf 14243:14249 <> valid_r
+binder 14260:14262 <> Γ1:127
+binder 14264:14266 <> Γ2:128
+R14291:14294 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14269:14276 QWIRE.Base.Contexts <> is_valid def
+R14282:14286 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R14279:14281 QWIRE.Base.Contexts <> Γ1:127 var
+R14287:14289 QWIRE.Base.Contexts <> Γ2:128 var
+R14295:14302 QWIRE.Base.Contexts <> is_valid def
+R14304:14306 QWIRE.Base.Contexts <> Γ2:128 var
+R14345:14352 QWIRE.Base.Contexts <> is_valid def
+R14393:14403 QWIRE.Base.Contexts <> merge_valid thm
+R14393:14403 QWIRE.Base.Contexts <> merge_valid thm
+prf 14455:14464 <> valid_cons
+R14484:14489 Coq.Init.Datatypes <> option ind
+R14491:14495 QWIRE.Base.Contexts <> WType ind
+binder 14476:14477 <> o1:129
+binder 14479:14480 <> o2:130
+R14509:14511 QWIRE.Base.Contexts <> Ctx def
+binder 14499:14501 <> Γ1:131
+binder 14503:14505 <> Γ2:132
+R14568:14576 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R14630:14630 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R14518:14525 QWIRE.Base.Contexts <> is_valid def
+R14545:14549 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R14528:14532 QWIRE.Base.Contexts <> Valid constr
+R14537:14540 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R14535:14536 QWIRE.Base.Contexts <> o1:129 var
+R14541:14543 QWIRE.Base.Contexts <> Γ1:131 var
+R14550:14554 QWIRE.Base.Contexts <> Valid constr
+R14559:14562 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R14557:14558 QWIRE.Base.Contexts <> o2:130 var
+R14563:14565 QWIRE.Base.Contexts <> Γ2:132 var
+R14604:14607 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14577:14584 QWIRE.Base.Contexts <> is_valid def
+R14587:14596 QWIRE.Base.Contexts <> merge_wire def
+R14598:14599 QWIRE.Base.Contexts <> o1:129 var
+R14601:14602 QWIRE.Base.Contexts <> o2:130 var
+R14608:14615 QWIRE.Base.Contexts <> is_valid def
+R14621:14625 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R14618:14620 QWIRE.Base.Contexts <> Γ1:131 var
+R14626:14628 QWIRE.Base.Contexts <> Γ2:132 var
+R14721:14730 QWIRE.Base.Contexts <> merge_wire def
+R14721:14730 QWIRE.Base.Contexts <> merge_wire def
+R14775:14780 QWIRE.Base.Contexts <> merge' def
+R14775:14780 QWIRE.Base.Contexts <> merge' def
+R14817:14824 QWIRE.Base.Contexts <> is_valid def
+R14915:14922 QWIRE.Base.Contexts <> is_valid def
+prf 14949:14958 <> valid_join
+binder 14969:14971 <> Γ1:133
+binder 14973:14975 <> Γ2:134
+binder 14977:14979 <> Γ3:135
+R15004:15007 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14982:14989 QWIRE.Base.Contexts <> is_valid def
+R14995:14999 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R14992:14994 QWIRE.Base.Contexts <> Γ1:133 var
+R15000:15002 QWIRE.Base.Contexts <> Γ2:134 var
+R15030:15033 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15008:15015 QWIRE.Base.Contexts <> is_valid def
+R15021:15025 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R15018:15020 QWIRE.Base.Contexts <> Γ1:133 var
+R15026:15028 QWIRE.Base.Contexts <> Γ3:135 var
+R15056:15091 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15034:15041 QWIRE.Base.Contexts <> is_valid def
+R15047:15051 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R15044:15046 QWIRE.Base.Contexts <> Γ2:134 var
+R15052:15054 QWIRE.Base.Contexts <> Γ3:135 var
+R15092:15099 QWIRE.Base.Contexts <> is_valid def
+R15113:15117 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R15105:15109 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R15102:15104 QWIRE.Base.Contexts <> Γ1:133 var
+R15110:15112 QWIRE.Base.Contexts <> Γ2:134 var
+R15118:15120 QWIRE.Base.Contexts <> Γ3:135 var
+R15269:15279 QWIRE.Base.Contexts <> merge_nil_l thm
+R15269:15279 QWIRE.Base.Contexts <> merge_nil_l thm
+R15269:15279 QWIRE.Base.Contexts <> merge_nil_l thm
+R15473:15483 QWIRE.Base.Contexts <> merge_nil_r thm
+R15473:15483 QWIRE.Base.Contexts <> merge_nil_r thm
+R15473:15483 QWIRE.Base.Contexts <> merge_nil_r thm
+R15473:15483 QWIRE.Base.Contexts <> merge_nil_r thm
+R15473:15483 QWIRE.Base.Contexts <> merge_nil_r thm
+R15473:15483 QWIRE.Base.Contexts <> merge_nil_r thm
+R15473:15483 QWIRE.Base.Contexts <> merge_nil_r thm
+R15473:15483 QWIRE.Base.Contexts <> merge_nil_r thm
+R15709:15718 QWIRE.Base.Contexts <> valid_cons thm
+R15709:15718 QWIRE.Base.Contexts <> valid_cons thm
+R15758:15767 QWIRE.Base.Contexts <> valid_cons thm
+R15758:15767 QWIRE.Base.Contexts <> valid_cons thm
+R15807:15816 QWIRE.Base.Contexts <> valid_cons thm
+R15807:15816 QWIRE.Base.Contexts <> valid_cons thm
+R15867:15871 QWIRE.Base.Contexts <> Valid constr
+R15879:15883 QWIRE.Base.Contexts <> Valid constr
+R15912:15919 QWIRE.Base.Contexts <> is_valid def
+R15867:15871 QWIRE.Base.Contexts <> Valid constr
+R15879:15883 QWIRE.Base.Contexts <> Valid constr
+R15949:15952 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R15943:15946 Coq.Init.Datatypes <> Some constr
+R15949:15952 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R15943:15946 Coq.Init.Datatypes <> Some constr
+R16089:16098 QWIRE.Base.Contexts <> valid_cons thm
+R16089:16098 QWIRE.Base.Contexts <> valid_cons thm
+R16138:16147 QWIRE.Base.Contexts <> valid_cons thm
+R16138:16147 QWIRE.Base.Contexts <> valid_cons thm
+R16187:16196 QWIRE.Base.Contexts <> valid_cons thm
+R16187:16196 QWIRE.Base.Contexts <> valid_cons thm
+R16247:16251 QWIRE.Base.Contexts <> Valid constr
+R16259:16263 QWIRE.Base.Contexts <> Valid constr
+R16292:16299 QWIRE.Base.Contexts <> is_valid def
+R16247:16251 QWIRE.Base.Contexts <> Valid constr
+R16259:16263 QWIRE.Base.Contexts <> Valid constr
+R16329:16332 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R16323:16326 Coq.Init.Datatypes <> Some constr
+R16329:16332 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R16323:16326 Coq.Init.Datatypes <> Some constr
+R16469:16478 QWIRE.Base.Contexts <> valid_cons thm
+R16469:16478 QWIRE.Base.Contexts <> valid_cons thm
+R16518:16527 QWIRE.Base.Contexts <> valid_cons thm
+R16518:16527 QWIRE.Base.Contexts <> valid_cons thm
+R16567:16576 QWIRE.Base.Contexts <> valid_cons thm
+R16567:16576 QWIRE.Base.Contexts <> valid_cons thm
+R16627:16631 QWIRE.Base.Contexts <> Valid constr
+R16639:16643 QWIRE.Base.Contexts <> Valid constr
+R16672:16679 QWIRE.Base.Contexts <> is_valid def
+R16627:16631 QWIRE.Base.Contexts <> Valid constr
+R16639:16643 QWIRE.Base.Contexts <> Valid constr
+R16709:16712 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R16703:16706 Coq.Init.Datatypes <> Some constr
+R16709:16712 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R16703:16706 Coq.Init.Datatypes <> Some constr
+R16849:16858 QWIRE.Base.Contexts <> valid_cons thm
+R16849:16858 QWIRE.Base.Contexts <> valid_cons thm
+R16898:16907 QWIRE.Base.Contexts <> valid_cons thm
+R16898:16907 QWIRE.Base.Contexts <> valid_cons thm
+R16947:16956 QWIRE.Base.Contexts <> valid_cons thm
+R16947:16956 QWIRE.Base.Contexts <> valid_cons thm
+R17007:17011 QWIRE.Base.Contexts <> Valid constr
+R17019:17023 QWIRE.Base.Contexts <> Valid constr
+R17052:17059 QWIRE.Base.Contexts <> is_valid def
+R17007:17011 QWIRE.Base.Contexts <> Valid constr
+R17019:17023 QWIRE.Base.Contexts <> Valid constr
+R17087:17090 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R17083:17086 Coq.Init.Datatypes <> None constr
+R17087:17090 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R17083:17086 Coq.Init.Datatypes <> None constr
+prf 17231:17241 <> valid_split
+binder 17252:17254 <> Γ1:136
+binder 17256:17258 <> Γ2:137
+binder 17260:17262 <> Γ3:138
+R17295:17331 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17265:17272 QWIRE.Base.Contexts <> is_valid def
+R17286:17290 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R17278:17282 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R17275:17277 QWIRE.Base.Contexts <> Γ1:136 var
+R17283:17285 QWIRE.Base.Contexts <> Γ2:137 var
+R17291:17293 QWIRE.Base.Contexts <> Γ3:138 var
+R17354:17357 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R17332:17339 QWIRE.Base.Contexts <> is_valid def
+R17345:17349 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R17342:17344 QWIRE.Base.Contexts <> Γ1:136 var
+R17350:17352 QWIRE.Base.Contexts <> Γ2:137 var
+R17380:17383 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R17358:17365 QWIRE.Base.Contexts <> is_valid def
+R17371:17375 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R17368:17370 QWIRE.Base.Contexts <> Γ1:136 var
+R17376:17378 QWIRE.Base.Contexts <> Γ3:138 var
+R17384:17391 QWIRE.Base.Contexts <> is_valid def
+R17397:17401 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R17394:17396 QWIRE.Base.Contexts <> Γ2:137 var
+R17402:17404 QWIRE.Base.Contexts <> Γ3:138 var
+R17453:17460 QWIRE.Base.Contexts <> is_valid def
+R17495:17499 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R17495:17499 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R17543:17552 QWIRE.Base.Contexts <> merge_comm thm
+R17567:17577 QWIRE.Base.Contexts <> merge_assoc thm
+R17543:17552 QWIRE.Base.Contexts <> merge_comm thm
+R17543:17552 QWIRE.Base.Contexts <> merge_comm thm
+R17567:17577 QWIRE.Base.Contexts <> merge_assoc thm
+R17567:17577 QWIRE.Base.Contexts <> merge_assoc thm
+R17602:17606 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R17622:17630 QWIRE.Base.Contexts <> merge_I_r thm
+R17602:17606 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R17622:17630 QWIRE.Base.Contexts <> merge_I_r thm
+R17622:17630 QWIRE.Base.Contexts <> merge_I_r thm
+R17676:17686 QWIRE.Base.Contexts <> merge_assoc thm
+R17676:17686 QWIRE.Base.Contexts <> merge_assoc thm
+R17676:17686 QWIRE.Base.Contexts <> merge_assoc thm
+R17711:17715 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R17731:17739 QWIRE.Base.Contexts <> merge_I_r thm
+R17711:17715 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R17731:17739 QWIRE.Base.Contexts <> merge_I_r thm
+R17731:17739 QWIRE.Base.Contexts <> merge_I_r thm
+prf 17787:17801 <> size_octx_merge
+R17823:17826 QWIRE.Base.Contexts <> OCtx ind
+binder 17813:17815 <> Γ1:139
+binder 17817:17819 <> Γ2:140
+R17852:17878 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17830:17837 QWIRE.Base.Contexts <> is_valid def
+R17843:17847 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R17840:17842 QWIRE.Base.Contexts <> Γ1:139 var
+R17848:17850 QWIRE.Base.Contexts <> Γ2:140 var
+R17902:17904 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17879:17887 QWIRE.Base.Contexts <> size_octx def
+R17893:17897 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R17890:17892 QWIRE.Base.Contexts <> Γ1:139 var
+R17898:17900 QWIRE.Base.Contexts <> Γ2:140 var
+R17919:17921 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R17906:17914 QWIRE.Base.Contexts <> size_octx def
+R17916:17918 QWIRE.Base.Contexts <> Γ1:139 var
+R17922:17930 QWIRE.Base.Contexts <> size_octx def
+R17932:17934 QWIRE.Base.Contexts <> Γ2:140 var
+R18024:18032 QWIRE.Base.Contexts <> not_valid thm
+R18024:18032 QWIRE.Base.Contexts <> not_valid thm
+R18024:18032 QWIRE.Base.Contexts <> not_valid thm
+R18024:18032 QWIRE.Base.Contexts <> not_valid thm
+R18024:18032 QWIRE.Base.Contexts <> not_valid thm
+R18131:18141 QWIRE.Base.Contexts <> merge_nil_l thm
+R18202:18212 QWIRE.Base.Contexts <> merge_nil_r thm
+R18239:18246 QWIRE.Base.Contexts <> is_valid def
+R18248:18254 QWIRE.Base.Contexts <> Invalid constr
+R18270:18278 QWIRE.Base.Contexts <> not_valid thm
+R18131:18141 QWIRE.Base.Contexts <> merge_nil_l thm
+R18131:18141 QWIRE.Base.Contexts <> merge_nil_l thm
+R18202:18212 QWIRE.Base.Contexts <> merge_nil_r thm
+R18202:18212 QWIRE.Base.Contexts <> merge_nil_r thm
+R18202:18212 QWIRE.Base.Contexts <> merge_nil_r thm
+R18202:18212 QWIRE.Base.Contexts <> merge_nil_r thm
+R18239:18246 QWIRE.Base.Contexts <> is_valid def
+R18248:18254 QWIRE.Base.Contexts <> Invalid constr
+R18270:18278 QWIRE.Base.Contexts <> not_valid thm
+R18349:18354 QWIRE.Base.Contexts <> merge' def
+R18399:18406 QWIRE.Base.Contexts <> is_valid def
+R18408:18414 QWIRE.Base.Contexts <> Invalid constr
+R18430:18438 QWIRE.Base.Contexts <> not_valid thm
+R18349:18354 QWIRE.Base.Contexts <> merge' def
+R18399:18406 QWIRE.Base.Contexts <> is_valid def
+R18408:18414 QWIRE.Base.Contexts <> Invalid constr
+R18430:18438 QWIRE.Base.Contexts <> not_valid thm
+R18488:18498 QWIRE.Base.Contexts <> valid_valid thm
+R18488:18498 QWIRE.Base.Contexts <> valid_valid thm
+R18562:18567 QWIRE.Base.Contexts <> merge' def
+R18612:18619 QWIRE.Base.Contexts <> is_valid def
+R18621:18627 QWIRE.Base.Contexts <> Invalid constr
+R18643:18651 QWIRE.Base.Contexts <> not_valid thm
+R18562:18567 QWIRE.Base.Contexts <> merge' def
+R18612:18619 QWIRE.Base.Contexts <> is_valid def
+R18621:18627 QWIRE.Base.Contexts <> Invalid constr
+R18643:18651 QWIRE.Base.Contexts <> not_valid thm
+R18701:18711 QWIRE.Base.Contexts <> valid_valid thm
+R18701:18711 QWIRE.Base.Contexts <> valid_valid thm
+R18775:18780 QWIRE.Base.Contexts <> merge' def
+R18825:18832 QWIRE.Base.Contexts <> is_valid def
+R18834:18840 QWIRE.Base.Contexts <> Invalid constr
+R18856:18864 QWIRE.Base.Contexts <> not_valid thm
+R18775:18780 QWIRE.Base.Contexts <> merge' def
+R18825:18832 QWIRE.Base.Contexts <> is_valid def
+R18834:18840 QWIRE.Base.Contexts <> Invalid constr
+R18856:18864 QWIRE.Base.Contexts <> not_valid thm
+R18914:18924 QWIRE.Base.Contexts <> valid_valid thm
+R18914:18924 QWIRE.Base.Contexts <> valid_valid thm
+R19065:19073 QWIRE.Base.Contexts <> merge_I_l thm
+R19121:19129 QWIRE.Base.Contexts <> merge_I_r thm
+R19304:19307 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R19312:19316 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R19304:19307 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R19312:19316 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R19405:19412 QWIRE.Base.Contexts <> is_valid def
+R19414:19420 QWIRE.Base.Contexts <> Invalid constr
+R19405:19412 QWIRE.Base.Contexts <> is_valid def
+R19414:19420 QWIRE.Base.Contexts <> Invalid constr
+R19485:19487 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19478:19482 QWIRE.Base.Contexts <> Valid constr
+R19488:19494 QWIRE.Base.Contexts <> Invalid constr
+R19485:19487 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19478:19482 QWIRE.Base.Contexts <> Valid constr
+R19488:19494 QWIRE.Base.Contexts <> Invalid constr
+R19440:19449 Coq.Init.Logic <> False_rect scheme
+R19454:19462 QWIRE.Base.Contexts <> not_valid thm
+ind 19654:19660 <> merge_o
+constr 19719:19728 <> merge_None
+constr 19757:19768 <> merge_Some_l
+constr 19815:19826 <> merge_Some_r
+binder 19663:19663 <> A:141
+R19682:19685 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19674:19679 Coq.Init.Datatypes <> option ind
+R19694:19697 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19686:19691 Coq.Init.Datatypes <> option ind
+R19706:19709 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19698:19703 Coq.Init.Datatypes <> option ind
+R19732:19738 QWIRE.Base.Contexts <> merge_o:142 ind
+R19750:19753 Coq.Init.Datatypes <> None constr
+R19745:19748 Coq.Init.Datatypes <> None constr
+R19740:19743 Coq.Init.Datatypes <> None constr
+binder 19779:19779 <> w:144
+R19782:19788 QWIRE.Base.Contexts <> merge_o:142 ind
+R19805:19808 Coq.Init.Datatypes <> Some constr
+R19810:19810 QWIRE.Base.Contexts <> w:144 var
+R19799:19802 Coq.Init.Datatypes <> None constr
+R19791:19794 Coq.Init.Datatypes <> Some constr
+R19796:19796 QWIRE.Base.Contexts <> w:144 var
+binder 19837:19837 <> w:145
+R19840:19846 QWIRE.Base.Contexts <> merge_o:142 ind
+R19863:19866 Coq.Init.Datatypes <> Some constr
+R19868:19868 QWIRE.Base.Contexts <> w:145 var
+R19854:19857 Coq.Init.Datatypes <> Some constr
+R19859:19859 QWIRE.Base.Contexts <> w:145 var
+R19848:19851 Coq.Init.Datatypes <> None constr
+scheme 19654:19660 <> merge_o_rect
+scheme 19654:19660 <> merge_o_ind
+scheme 19654:19660 <> merge_o_rec
+scheme 19654:19660 <> merge_o_sind
+ind 19888:19896 <> merge_ind
+constr 19933:19939 <> m_nil_l
+constr 19992:19998 <> m_nil_r
+constr 20051:20056 <> m_cons
+R19904:19907 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19900:19903 QWIRE.Base.Contexts <> OCtx ind
+R19912:19915 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19908:19911 QWIRE.Base.Contexts <> OCtx ind
+R19920:19923 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19916:19919 QWIRE.Base.Contexts <> OCtx ind
+binder 19950:19951 <> Γ:148
+R19954:19962 QWIRE.Base.Contexts <> merge_ind:146 ind
+R19980:19984 QWIRE.Base.Contexts <> Valid constr
+R19986:19987 QWIRE.Base.Contexts <> Γ:148 var
+R19969:19973 QWIRE.Base.Contexts <> Valid constr
+R19975:19976 QWIRE.Base.Contexts <> Γ:148 var
+R19964:19966 QWIRE.Base.Contexts <> :::'∅' not
+binder 20009:20010 <> Γ:149
+R20013:20021 QWIRE.Base.Contexts <> merge_ind:146 ind
+R20039:20043 QWIRE.Base.Contexts <> Valid constr
+R20045:20046 QWIRE.Base.Contexts <> Γ:149 var
+R20034:20036 QWIRE.Base.Contexts <> :::'∅' not
+R20024:20028 QWIRE.Base.Contexts <> Valid constr
+R20030:20031 QWIRE.Base.Contexts <> Γ:149 var
+binder 20068:20069 <> o1:150
+binder 20071:20072 <> o2:151
+binder 20074:20074 <> o:152
+binder 20076:20078 <> Γ1:153
+binder 20080:20082 <> Γ2:154
+binder 20084:20085 <> Γ:155
+R20107:20114 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20092:20098 QWIRE.Base.Contexts <> merge_o ind
+R20106:20106 QWIRE.Base.Contexts <> o:152 var
+R20103:20104 QWIRE.Base.Contexts <> o2:151 var
+R20100:20101 QWIRE.Base.Contexts <> o1:150 var
+R20159:20166 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20115:20123 QWIRE.Base.Contexts <> merge_ind:146 ind
+R20150:20154 QWIRE.Base.Contexts <> Valid constr
+R20156:20157 QWIRE.Base.Contexts <> Γ:155 var
+R20138:20142 QWIRE.Base.Contexts <> Valid constr
+R20144:20146 QWIRE.Base.Contexts <> Γ2:154 var
+R20126:20130 QWIRE.Base.Contexts <> Valid constr
+R20132:20134 QWIRE.Base.Contexts <> Γ1:153 var
+R20167:20175 QWIRE.Base.Contexts <> merge_ind:146 ind
+R20218:20222 QWIRE.Base.Contexts <> Valid constr
+R20226:20229 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R20225:20225 QWIRE.Base.Contexts <> o:152 var
+R20230:20231 QWIRE.Base.Contexts <> Γ:155 var
+R20198:20202 QWIRE.Base.Contexts <> Valid constr
+R20207:20210 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R20205:20206 QWIRE.Base.Contexts <> o2:151 var
+R20211:20213 QWIRE.Base.Contexts <> Γ2:154 var
+R20178:20182 QWIRE.Base.Contexts <> Valid constr
+R20187:20190 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R20185:20186 QWIRE.Base.Contexts <> o1:150 var
+R20191:20193 QWIRE.Base.Contexts <> Γ1:153 var
+scheme 19888:19896 <> merge_ind_rect
+scheme 19888:19896 <> merge_ind_ind
+scheme 19888:19896 <> merge_ind_rec
+scheme 19888:19896 <> merge_ind_sind
+prf 20243:20257 <> merge_o_ind_fun
+binder 20268:20269 <> o1:156
+binder 20271:20272 <> o2:157
+binder 20274:20274 <> o:158
+R20296:20299 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20281:20287 QWIRE.Base.Contexts <> merge_o ind
+R20295:20295 QWIRE.Base.Contexts <> o:158 var
+R20292:20293 QWIRE.Base.Contexts <> o2:157 var
+R20289:20290 QWIRE.Base.Contexts <> o1:156 var
+R20316:20318 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20300:20309 QWIRE.Base.Contexts <> merge_wire def
+R20311:20312 QWIRE.Base.Contexts <> o1:156 var
+R20314:20315 QWIRE.Base.Contexts <> o2:157 var
+R20319:20323 QWIRE.Base.Contexts <> Valid constr
+R20325:20325 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R20327:20327 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R20326:20326 QWIRE.Base.Contexts <> o:158 var
+prf 20368:20380 <> merge_ind_fun
+binder 20391:20393 <> Γ1:159
+binder 20395:20397 <> Γ2:160
+binder 20399:20400 <> Γ:161
+R20427:20434 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20407:20415 QWIRE.Base.Contexts <> merge_ind ind
+R20417:20419 QWIRE.Base.Contexts <> Γ1:159 var
+R20421:20423 QWIRE.Base.Contexts <> Γ2:160 var
+R20425:20426 QWIRE.Base.Contexts <> Γ:161 var
+R20437:20440 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R20444:20448 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R20441:20443 QWIRE.Base.Contexts <> Γ1:159 var
+R20449:20451 QWIRE.Base.Contexts <> Γ2:160 var
+R20435:20436 QWIRE.Base.Contexts <> Γ:161 var
+R20494:20504 QWIRE.Base.Contexts <> valid_valid thm
+R20494:20504 QWIRE.Base.Contexts <> valid_valid thm
+R20534:20544 QWIRE.Base.Contexts <> valid_valid thm
+R20556:20566 QWIRE.Base.Contexts <> merge_nil_r thm
+R20534:20544 QWIRE.Base.Contexts <> valid_valid thm
+R20556:20566 QWIRE.Base.Contexts <> merge_nil_r thm
+R20556:20566 QWIRE.Base.Contexts <> merge_nil_r thm
+R20621:20631 QWIRE.Base.Contexts <> valid_valid thm
+R20621:20631 QWIRE.Base.Contexts <> valid_valid thm
+R20658:20672 QWIRE.Base.Contexts <> merge_o_ind_fun thm
+R20658:20672 QWIRE.Base.Contexts <> merge_o_ind_fun thm
+R20658:20672 QWIRE.Base.Contexts <> merge_o_ind_fun thm
+R20658:20672 QWIRE.Base.Contexts <> merge_o_ind_fun thm
+R20698:20702 QWIRE.Base.Contexts <> merge def
+prf 20766:20780 <> merge_o_fun_ind
+binder 20791:20792 <> o1:162
+binder 20794:20795 <> o2:163
+binder 20797:20797 <> o:164
+R20832:20835 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20820:20822 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20804:20813 QWIRE.Base.Contexts <> merge_wire def
+R20815:20816 QWIRE.Base.Contexts <> o1:162 var
+R20818:20819 QWIRE.Base.Contexts <> o2:163 var
+R20823:20827 QWIRE.Base.Contexts <> Valid constr
+R20829:20829 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R20831:20831 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R20830:20830 QWIRE.Base.Contexts <> o:164 var
+R20836:20842 QWIRE.Base.Contexts <> merge_o ind
+R20850:20850 QWIRE.Base.Contexts <> o:164 var
+R20847:20848 QWIRE.Base.Contexts <> o2:163 var
+R20844:20845 QWIRE.Base.Contexts <> o1:162 var
+prf 20938:20950 <> merge_fun_ind
+binder 20961:20963 <> Γ1:165
+binder 20965:20967 <> Γ2:166
+binder 20969:20970 <> Γ:167
+R20994:21001 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20979:20982 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R20986:20990 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R20983:20985 QWIRE.Base.Contexts <> Γ1:165 var
+R20991:20993 QWIRE.Base.Contexts <> Γ2:166 var
+R20977:20978 QWIRE.Base.Contexts <> Γ:167 var
+R21002:21010 QWIRE.Base.Contexts <> merge_ind ind
+R21012:21014 QWIRE.Base.Contexts <> Γ1:165 var
+R21016:21018 QWIRE.Base.Contexts <> Γ2:166 var
+R21020:21021 QWIRE.Base.Contexts <> Γ:167 var
+R21325:21335 QWIRE.Base.Contexts <> merge_nil_r thm
+R21325:21335 QWIRE.Base.Contexts <> merge_nil_r thm
+R21325:21335 QWIRE.Base.Contexts <> merge_nil_r thm
+R21526:21531 QWIRE.Base.Contexts <> merge' def
+R21526:21531 QWIRE.Base.Contexts <> merge' def
+R21647:21661 QWIRE.Base.Contexts <> merge_o_fun_ind thm
+R21647:21661 QWIRE.Base.Contexts <> merge_o_fun_ind thm
+R21717:21727 QWIRE.Base.Contexts <> valid_valid thm
+R21717:21727 QWIRE.Base.Contexts <> valid_valid thm
+R21783:21788 QWIRE.Base.Contexts <> merge' def
+R21783:21788 QWIRE.Base.Contexts <> merge' def
+R21904:21918 QWIRE.Base.Contexts <> merge_o_fun_ind thm
+R21904:21918 QWIRE.Base.Contexts <> merge_o_fun_ind thm
+R21974:21984 QWIRE.Base.Contexts <> valid_valid thm
+R21974:21984 QWIRE.Base.Contexts <> valid_valid thm
+R22040:22045 QWIRE.Base.Contexts <> merge' def
+R22040:22045 QWIRE.Base.Contexts <> merge' def
+R22161:22175 QWIRE.Base.Contexts <> merge_o_fun_ind thm
+R22161:22175 QWIRE.Base.Contexts <> merge_o_fun_ind thm
+R22231:22241 QWIRE.Base.Contexts <> valid_valid thm
+R22231:22241 QWIRE.Base.Contexts <> valid_valid thm
+prf 22264:22281 <> merge_intersection
+binder 22292:22294 <> Γ1:168
+binder 22296:22298 <> Γ2:169
+binder 22300:22302 <> Γ3:170
+binder 22304:22306 <> Γ4:171
+R22333:22338 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22311:22318 QWIRE.Base.Contexts <> is_valid def
+R22324:22328 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R22321:22323 QWIRE.Base.Contexts <> Γ1:168 var
+R22329:22331 QWIRE.Base.Contexts <> Γ2:169 var
+R22368:22373 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22339:22339 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22351:22355 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22367:22367 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22343:22347 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R22340:22342 QWIRE.Base.Contexts <> Γ1:168 var
+R22348:22350 QWIRE.Base.Contexts <> Γ2:169 var
+R22359:22363 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R22356:22358 QWIRE.Base.Contexts <> Γ3:170 var
+R22364:22366 QWIRE.Base.Contexts <> Γ4:171 var
+R22374:22375 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R22380:22382 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R22387:22389 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R22535:22535 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R22383:22386 QWIRE.Base.Contexts <> OCtx ind
+binder 22376:22379 <> Γ13:172
+R22390:22391 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R22396:22398 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R22403:22405 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R22534:22534 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R22399:22402 QWIRE.Base.Contexts <> OCtx ind
+binder 22392:22395 <> Γ14:173
+R22406:22407 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R22412:22414 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R22419:22421 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R22533:22533 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R22415:22418 QWIRE.Base.Contexts <> OCtx ind
+binder 22408:22411 <> Γ23:174
+R22422:22423 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R22428:22430 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R22435:22439 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R22532:22532 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R22431:22434 QWIRE.Base.Contexts <> OCtx ind
+binder 22424:22427 <> Γ24:175
+R22460:22463 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R22443:22446 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R22451:22455 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R22447:22450 QWIRE.Base.Contexts <> Γ13:172 var
+R22456:22459 QWIRE.Base.Contexts <> Γ14:173 var
+R22440:22442 QWIRE.Base.Contexts <> Γ1:168 var
+R22484:22487 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R22467:22470 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R22475:22479 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R22471:22474 QWIRE.Base.Contexts <> Γ23:174 var
+R22480:22483 QWIRE.Base.Contexts <> Γ24:175 var
+R22464:22466 QWIRE.Base.Contexts <> Γ2:169 var
+R22508:22511 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R22491:22494 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R22499:22503 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R22495:22498 QWIRE.Base.Contexts <> Γ13:172 var
+R22504:22507 QWIRE.Base.Contexts <> Γ23:174 var
+R22488:22490 QWIRE.Base.Contexts <> Γ3:170 var
+R22515:22518 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R22523:22527 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R22519:22522 QWIRE.Base.Contexts <> Γ14:173 var
+R22528:22531 QWIRE.Base.Contexts <> Γ24:175 var
+R22512:22514 QWIRE.Base.Contexts <> Γ4:171 var
+R22591:22591 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R22603:22607 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R22611:22615 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R22595:22599 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R22591:22591 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R22603:22607 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R22611:22615 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R22595:22599 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R22669:22681 QWIRE.Base.Contexts <> merge_fun_ind thm
+R22669:22681 QWIRE.Base.Contexts <> merge_fun_ind thm
+R22704:22708 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R22704:22708 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R22825:22827 QWIRE.Base.Contexts <> :::'∅' not
+R22835:22837 QWIRE.Base.Contexts <> :::'∅' not
+R22825:22827 QWIRE.Base.Contexts <> :::'∅' not
+R22835:22837 QWIRE.Base.Contexts <> :::'∅' not
+R22874:22884 QWIRE.Base.Contexts <> valid_valid thm
+R22874:22884 QWIRE.Base.Contexts <> valid_valid thm
+R22874:22884 QWIRE.Base.Contexts <> valid_valid thm
+R22874:22884 QWIRE.Base.Contexts <> valid_valid thm
+R22874:22884 QWIRE.Base.Contexts <> valid_valid thm
+R22874:22884 QWIRE.Base.Contexts <> valid_valid thm
+R22874:22884 QWIRE.Base.Contexts <> valid_valid thm
+R22874:22884 QWIRE.Base.Contexts <> valid_valid thm
+R22934:22944 QWIRE.Base.Contexts <> valid_valid thm
+R22934:22944 QWIRE.Base.Contexts <> valid_valid thm
+R22960:22970 QWIRE.Base.Contexts <> merge_nil_l thm
+R22960:22970 QWIRE.Base.Contexts <> merge_nil_l thm
+R22960:22970 QWIRE.Base.Contexts <> merge_nil_l thm
+R23034:23044 QWIRE.Base.Contexts <> valid_valid thm
+R23034:23044 QWIRE.Base.Contexts <> valid_valid thm
+R23060:23070 QWIRE.Base.Contexts <> merge_nil_l thm
+R23060:23070 QWIRE.Base.Contexts <> merge_nil_l thm
+R23060:23070 QWIRE.Base.Contexts <> merge_nil_l thm
+R23138:23140 QWIRE.Base.Contexts <> :::'∅' not
+R23148:23150 QWIRE.Base.Contexts <> :::'∅' not
+R23138:23140 QWIRE.Base.Contexts <> :::'∅' not
+R23148:23150 QWIRE.Base.Contexts <> :::'∅' not
+R23182:23192 QWIRE.Base.Contexts <> valid_valid thm
+R23182:23192 QWIRE.Base.Contexts <> valid_valid thm
+R23182:23192 QWIRE.Base.Contexts <> valid_valid thm
+R23182:23192 QWIRE.Base.Contexts <> valid_valid thm
+R23182:23192 QWIRE.Base.Contexts <> valid_valid thm
+R23182:23192 QWIRE.Base.Contexts <> valid_valid thm
+R23182:23192 QWIRE.Base.Contexts <> valid_valid thm
+R23182:23192 QWIRE.Base.Contexts <> valid_valid thm
+R23242:23252 QWIRE.Base.Contexts <> valid_valid thm
+R23242:23252 QWIRE.Base.Contexts <> valid_valid thm
+R23268:23278 QWIRE.Base.Contexts <> merge_nil_r thm
+R23268:23278 QWIRE.Base.Contexts <> merge_nil_r thm
+R23268:23278 QWIRE.Base.Contexts <> merge_nil_r thm
+R23342:23352 QWIRE.Base.Contexts <> valid_valid thm
+R23342:23352 QWIRE.Base.Contexts <> valid_valid thm
+R23368:23378 QWIRE.Base.Contexts <> merge_nil_r thm
+R23368:23378 QWIRE.Base.Contexts <> merge_nil_r thm
+R23368:23378 QWIRE.Base.Contexts <> merge_nil_r thm
+R23701:23711 QWIRE.Base.Contexts <> merge_nil_l thm
+R23701:23711 QWIRE.Base.Contexts <> merge_nil_l thm
+R23701:23711 QWIRE.Base.Contexts <> merge_nil_l thm
+R23752:23754 QWIRE.Base.Contexts <> :::'∅' not
+R23757:23759 QWIRE.Base.Contexts <> :::'∅' not
+R23763:23767 QWIRE.Base.Contexts <> Valid constr
+R23772:23775 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R23784:23788 QWIRE.Base.Contexts <> Valid constr
+R23793:23796 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R23752:23754 QWIRE.Base.Contexts <> :::'∅' not
+R23757:23759 QWIRE.Base.Contexts <> :::'∅' not
+R23763:23767 QWIRE.Base.Contexts <> Valid constr
+R23772:23775 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R23784:23788 QWIRE.Base.Contexts <> Valid constr
+R23793:23796 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R23834:23844 QWIRE.Base.Contexts <> valid_valid thm
+R23834:23844 QWIRE.Base.Contexts <> valid_valid thm
+R23834:23844 QWIRE.Base.Contexts <> valid_valid thm
+R23834:23844 QWIRE.Base.Contexts <> valid_valid thm
+R23834:23844 QWIRE.Base.Contexts <> valid_valid thm
+R23834:23844 QWIRE.Base.Contexts <> valid_valid thm
+R23865:23877 QWIRE.Base.Contexts <> merge_ind_fun thm
+R23865:23877 QWIRE.Base.Contexts <> merge_ind_fun thm
+R23925:23935 QWIRE.Base.Contexts <> merge_nil_r thm
+R23925:23935 QWIRE.Base.Contexts <> merge_nil_r thm
+R23925:23935 QWIRE.Base.Contexts <> merge_nil_r thm
+R23977:23981 QWIRE.Base.Contexts <> Valid constr
+R23986:23989 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R23998:24002 QWIRE.Base.Contexts <> Valid constr
+R24007:24010 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R24018:24020 QWIRE.Base.Contexts <> :::'∅' not
+R24023:24025 QWIRE.Base.Contexts <> :::'∅' not
+R23977:23981 QWIRE.Base.Contexts <> Valid constr
+R23986:23989 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R23998:24002 QWIRE.Base.Contexts <> Valid constr
+R24007:24010 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R24018:24020 QWIRE.Base.Contexts <> :::'∅' not
+R24023:24025 QWIRE.Base.Contexts <> :::'∅' not
+R24058:24068 QWIRE.Base.Contexts <> valid_valid thm
+R24058:24068 QWIRE.Base.Contexts <> valid_valid thm
+R24058:24068 QWIRE.Base.Contexts <> valid_valid thm
+R24058:24068 QWIRE.Base.Contexts <> valid_valid thm
+R24058:24068 QWIRE.Base.Contexts <> valid_valid thm
+R24058:24068 QWIRE.Base.Contexts <> valid_valid thm
+R24089:24101 QWIRE.Base.Contexts <> merge_ind_fun thm
+R24089:24101 QWIRE.Base.Contexts <> merge_ind_fun thm
+R24171:24174 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R24192:24196 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R24175:24179 QWIRE.Base.Contexts <> Valid constr
+R24184:24187 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R24197:24201 QWIRE.Base.Contexts <> Valid constr
+R24206:24209 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R24156:24160 QWIRE.Base.Contexts <> Valid constr
+R24164:24167 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R24171:24174 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R24192:24196 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R24175:24179 QWIRE.Base.Contexts <> Valid constr
+R24184:24187 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R24197:24201 QWIRE.Base.Contexts <> Valid constr
+R24206:24209 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R24156:24160 QWIRE.Base.Contexts <> Valid constr
+R24164:24167 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R24243:24253 QWIRE.Base.Contexts <> valid_valid thm
+R24243:24253 QWIRE.Base.Contexts <> valid_valid thm
+R24295:24307 QWIRE.Base.Contexts <> merge_fun_ind thm
+R24295:24307 QWIRE.Base.Contexts <> merge_fun_ind thm
+R24385:24389 QWIRE.Base.Contexts <> Valid constr
+R24397:24401 QWIRE.Base.Contexts <> Valid constr
+R24385:24389 QWIRE.Base.Contexts <> Valid constr
+R24397:24401 QWIRE.Base.Contexts <> Valid constr
+R24456:24468 QWIRE.Base.Contexts <> merge_ind_fun thm
+R24456:24468 QWIRE.Base.Contexts <> merge_ind_fun thm
+R24918:24922 QWIRE.Base.Contexts <> Valid constr
+R24929:24932 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R24925:24928 Coq.Init.Datatypes <> None constr
+R24942:24946 QWIRE.Base.Contexts <> Valid constr
+R24953:24956 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R24949:24952 Coq.Init.Datatypes <> None constr
+R24977:24981 QWIRE.Base.Contexts <> Valid constr
+R24988:24991 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R24984:24987 Coq.Init.Datatypes <> None constr
+R25001:25005 QWIRE.Base.Contexts <> Valid constr
+R25012:25015 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25008:25011 Coq.Init.Datatypes <> None constr
+R24918:24922 QWIRE.Base.Contexts <> Valid constr
+R24929:24932 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R24925:24928 Coq.Init.Datatypes <> None constr
+R24942:24946 QWIRE.Base.Contexts <> Valid constr
+R24953:24956 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R24949:24952 Coq.Init.Datatypes <> None constr
+R24977:24981 QWIRE.Base.Contexts <> Valid constr
+R24988:24991 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R24984:24987 Coq.Init.Datatypes <> None constr
+R25001:25005 QWIRE.Base.Contexts <> Valid constr
+R25012:25015 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25008:25011 Coq.Init.Datatypes <> None constr
+R25056:25066 QWIRE.Base.Contexts <> valid_valid thm
+R25056:25066 QWIRE.Base.Contexts <> valid_valid thm
+R25056:25066 QWIRE.Base.Contexts <> valid_valid thm
+R25056:25066 QWIRE.Base.Contexts <> valid_valid thm
+R25056:25066 QWIRE.Base.Contexts <> valid_valid thm
+R25056:25066 QWIRE.Base.Contexts <> valid_valid thm
+R25056:25066 QWIRE.Base.Contexts <> valid_valid thm
+R25056:25066 QWIRE.Base.Contexts <> valid_valid thm
+R25056:25066 QWIRE.Base.Contexts <> valid_valid thm
+R25245:25249 QWIRE.Base.Contexts <> Valid constr
+R25258:25261 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25252:25255 Coq.Init.Datatypes <> Some constr
+R25271:25275 QWIRE.Base.Contexts <> Valid constr
+R25282:25285 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25278:25281 Coq.Init.Datatypes <> None constr
+R25306:25310 QWIRE.Base.Contexts <> Valid constr
+R25317:25320 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25313:25316 Coq.Init.Datatypes <> None constr
+R25330:25334 QWIRE.Base.Contexts <> Valid constr
+R25341:25344 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25337:25340 Coq.Init.Datatypes <> None constr
+R25245:25249 QWIRE.Base.Contexts <> Valid constr
+R25258:25261 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25252:25255 Coq.Init.Datatypes <> Some constr
+R25271:25275 QWIRE.Base.Contexts <> Valid constr
+R25282:25285 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25278:25281 Coq.Init.Datatypes <> None constr
+R25306:25310 QWIRE.Base.Contexts <> Valid constr
+R25317:25320 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25313:25316 Coq.Init.Datatypes <> None constr
+R25330:25334 QWIRE.Base.Contexts <> Valid constr
+R25341:25344 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25337:25340 Coq.Init.Datatypes <> None constr
+R25385:25395 QWIRE.Base.Contexts <> valid_valid thm
+R25385:25395 QWIRE.Base.Contexts <> valid_valid thm
+R25385:25395 QWIRE.Base.Contexts <> valid_valid thm
+R25385:25395 QWIRE.Base.Contexts <> valid_valid thm
+R25385:25395 QWIRE.Base.Contexts <> valid_valid thm
+R25385:25395 QWIRE.Base.Contexts <> valid_valid thm
+R25385:25395 QWIRE.Base.Contexts <> valid_valid thm
+R25385:25395 QWIRE.Base.Contexts <> valid_valid thm
+R25385:25395 QWIRE.Base.Contexts <> valid_valid thm
+R25574:25578 QWIRE.Base.Contexts <> Valid constr
+R25585:25588 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25581:25584 Coq.Init.Datatypes <> None constr
+R25598:25602 QWIRE.Base.Contexts <> Valid constr
+R25609:25612 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25605:25608 Coq.Init.Datatypes <> None constr
+R25633:25637 QWIRE.Base.Contexts <> Valid constr
+R25646:25649 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25640:25643 Coq.Init.Datatypes <> Some constr
+R25659:25663 QWIRE.Base.Contexts <> Valid constr
+R25670:25673 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25666:25669 Coq.Init.Datatypes <> None constr
+R25574:25578 QWIRE.Base.Contexts <> Valid constr
+R25585:25588 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25581:25584 Coq.Init.Datatypes <> None constr
+R25598:25602 QWIRE.Base.Contexts <> Valid constr
+R25609:25612 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25605:25608 Coq.Init.Datatypes <> None constr
+R25633:25637 QWIRE.Base.Contexts <> Valid constr
+R25646:25649 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25640:25643 Coq.Init.Datatypes <> Some constr
+R25659:25663 QWIRE.Base.Contexts <> Valid constr
+R25670:25673 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25666:25669 Coq.Init.Datatypes <> None constr
+R25714:25724 QWIRE.Base.Contexts <> valid_valid thm
+R25714:25724 QWIRE.Base.Contexts <> valid_valid thm
+R25714:25724 QWIRE.Base.Contexts <> valid_valid thm
+R25714:25724 QWIRE.Base.Contexts <> valid_valid thm
+R25714:25724 QWIRE.Base.Contexts <> valid_valid thm
+R25714:25724 QWIRE.Base.Contexts <> valid_valid thm
+R25714:25724 QWIRE.Base.Contexts <> valid_valid thm
+R25714:25724 QWIRE.Base.Contexts <> valid_valid thm
+R25714:25724 QWIRE.Base.Contexts <> valid_valid thm
+R25903:25907 QWIRE.Base.Contexts <> Valid constr
+R25914:25917 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25910:25913 Coq.Init.Datatypes <> None constr
+R25927:25931 QWIRE.Base.Contexts <> Valid constr
+R25940:25943 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25934:25937 Coq.Init.Datatypes <> Some constr
+R25964:25968 QWIRE.Base.Contexts <> Valid constr
+R25975:25978 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25971:25974 Coq.Init.Datatypes <> None constr
+R25988:25992 QWIRE.Base.Contexts <> Valid constr
+R25999:26002 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25995:25998 Coq.Init.Datatypes <> None constr
+R25903:25907 QWIRE.Base.Contexts <> Valid constr
+R25914:25917 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25910:25913 Coq.Init.Datatypes <> None constr
+R25927:25931 QWIRE.Base.Contexts <> Valid constr
+R25940:25943 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25934:25937 Coq.Init.Datatypes <> Some constr
+R25964:25968 QWIRE.Base.Contexts <> Valid constr
+R25975:25978 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25971:25974 Coq.Init.Datatypes <> None constr
+R25988:25992 QWIRE.Base.Contexts <> Valid constr
+R25999:26002 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25995:25998 Coq.Init.Datatypes <> None constr
+R26043:26053 QWIRE.Base.Contexts <> valid_valid thm
+R26043:26053 QWIRE.Base.Contexts <> valid_valid thm
+R26043:26053 QWIRE.Base.Contexts <> valid_valid thm
+R26043:26053 QWIRE.Base.Contexts <> valid_valid thm
+R26043:26053 QWIRE.Base.Contexts <> valid_valid thm
+R26043:26053 QWIRE.Base.Contexts <> valid_valid thm
+R26043:26053 QWIRE.Base.Contexts <> valid_valid thm
+R26043:26053 QWIRE.Base.Contexts <> valid_valid thm
+R26043:26053 QWIRE.Base.Contexts <> valid_valid thm
+R26232:26236 QWIRE.Base.Contexts <> Valid constr
+R26243:26246 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R26239:26242 Coq.Init.Datatypes <> None constr
+R26256:26260 QWIRE.Base.Contexts <> Valid constr
+R26267:26270 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R26263:26266 Coq.Init.Datatypes <> None constr
+R26291:26295 QWIRE.Base.Contexts <> Valid constr
+R26302:26305 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R26298:26301 Coq.Init.Datatypes <> None constr
+R26315:26319 QWIRE.Base.Contexts <> Valid constr
+R26328:26331 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R26322:26325 Coq.Init.Datatypes <> Some constr
+R26232:26236 QWIRE.Base.Contexts <> Valid constr
+R26243:26246 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R26239:26242 Coq.Init.Datatypes <> None constr
+R26256:26260 QWIRE.Base.Contexts <> Valid constr
+R26267:26270 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R26263:26266 Coq.Init.Datatypes <> None constr
+R26291:26295 QWIRE.Base.Contexts <> Valid constr
+R26302:26305 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R26298:26301 Coq.Init.Datatypes <> None constr
+R26315:26319 QWIRE.Base.Contexts <> Valid constr
+R26328:26331 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R26322:26325 Coq.Init.Datatypes <> Some constr
+R26372:26382 QWIRE.Base.Contexts <> valid_valid thm
+R26372:26382 QWIRE.Base.Contexts <> valid_valid thm
+R26372:26382 QWIRE.Base.Contexts <> valid_valid thm
+R26372:26382 QWIRE.Base.Contexts <> valid_valid thm
+R26372:26382 QWIRE.Base.Contexts <> valid_valid thm
+R26372:26382 QWIRE.Base.Contexts <> valid_valid thm
+R26372:26382 QWIRE.Base.Contexts <> valid_valid thm
+R26372:26382 QWIRE.Base.Contexts <> valid_valid thm
+R26372:26382 QWIRE.Base.Contexts <> valid_valid thm
+def 26664:26671 <> Disjoint
+binder 26673:26675 <> Γ1:176
+binder 26677:26679 <> Γ2:177
+R26705:26707 QWIRE.Base.Contexts <> Γ2:177 var
+R26700:26702 QWIRE.Base.Contexts <> Γ1:176 var
+R26718:26724 QWIRE.Base.Contexts <> Invalid constr
+R26732:26735 Coq.Init.Logic <> True ind
+R26744:26750 QWIRE.Base.Contexts <> Invalid constr
+R26755:26758 Coq.Init.Logic <> True ind
+R26764:26768 QWIRE.Base.Contexts <> Valid constr
+R26773:26777 QWIRE.Base.Contexts <> Valid constr
+R26784:26791 QWIRE.Base.Contexts <> is_valid def
+R26797:26801 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R26794:26796 QWIRE.Base.Contexts <> Γ1:176 var
+R26802:26804 QWIRE.Base.Contexts <> Γ2:177 var
+prf 26820:26833 <> disjoint_nil_r
+binder 26844:26845 <> Γ:180
+R26848:26855 QWIRE.Base.Contexts <> Disjoint def
+R26857:26858 QWIRE.Base.Contexts <> Γ:180 var
+R26860:26862 QWIRE.Base.Contexts <> :::'∅' not
+R26905:26905 Coq.Init.Logic <> I constr
+R26905:26905 Coq.Init.Logic <> I constr
+R26921:26928 QWIRE.Base.Contexts <> Disjoint def
+R26939:26949 QWIRE.Base.Contexts <> merge_nil_r thm
+R26939:26949 QWIRE.Base.Contexts <> merge_nil_r thm
+R26939:26949 QWIRE.Base.Contexts <> merge_nil_r thm
+prf 26993:27006 <> disjoint_valid
+binder 27017:27019 <> Γ1:181
+binder 27021:27023 <> Γ2:182
+R27042:27045 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27026:27033 QWIRE.Base.Contexts <> Disjoint def
+R27035:27037 QWIRE.Base.Contexts <> Γ1:181 var
+R27039:27041 QWIRE.Base.Contexts <> Γ2:182 var
+R27058:27061 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27046:27053 QWIRE.Base.Contexts <> is_valid def
+R27055:27057 QWIRE.Base.Contexts <> Γ1:181 var
+R27074:27077 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27062:27069 QWIRE.Base.Contexts <> is_valid def
+R27071:27073 QWIRE.Base.Contexts <> Γ2:182 var
+R27078:27085 QWIRE.Base.Contexts <> is_valid def
+R27091:27095 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R27088:27090 QWIRE.Base.Contexts <> Γ1:181 var
+R27096:27098 QWIRE.Base.Contexts <> Γ2:182 var
+prf 27227:27240 <> disjoint_merge
+binder 27251:27252 <> Γ:183
+binder 27254:27256 <> Γ1:184
+binder 27258:27260 <> Γ2:185
+R27301:27304 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27286:27293 QWIRE.Base.Contexts <> Disjoint def
+R27295:27296 QWIRE.Base.Contexts <> Γ:183 var
+R27298:27300 QWIRE.Base.Contexts <> Γ1:184 var
+R27320:27323 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27305:27312 QWIRE.Base.Contexts <> Disjoint def
+R27314:27315 QWIRE.Base.Contexts <> Γ:183 var
+R27317:27319 QWIRE.Base.Contexts <> Γ2:185 var
+R27324:27331 QWIRE.Base.Contexts <> Disjoint def
+R27333:27334 QWIRE.Base.Contexts <> Γ:183 var
+R27340:27344 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R27337:27339 QWIRE.Base.Contexts <> Γ1:184 var
+R27345:27347 QWIRE.Base.Contexts <> Γ2:185 var
+R27406:27410 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R27406:27410 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R27457:27457 Coq.Init.Logic <> I constr
+R27457:27457 Coq.Init.Logic <> I constr
+R27499:27499 Coq.Init.Logic <> I constr
+R27499:27499 Coq.Init.Logic <> I constr
+R27525:27532 QWIRE.Base.Contexts <> is_valid def
+R27525:27532 QWIRE.Base.Contexts <> is_valid def
+R27547:27557 QWIRE.Base.Contexts <> valid_valid thm
+R27547:27557 QWIRE.Base.Contexts <> valid_valid thm
+R27581:27588 QWIRE.Base.Contexts <> is_valid def
+R27581:27588 QWIRE.Base.Contexts <> is_valid def
+R27658:27668 QWIRE.Base.Contexts <> valid_valid thm
+R27658:27668 QWIRE.Base.Contexts <> valid_valid thm
+R27692:27699 QWIRE.Base.Contexts <> is_valid def
+R27692:27699 QWIRE.Base.Contexts <> is_valid def
+R27748:27756 QWIRE.Base.Contexts <> merge_I_r thm
+R27748:27756 QWIRE.Base.Contexts <> merge_I_r thm
+R27748:27756 QWIRE.Base.Contexts <> merge_I_r thm
+R27792:27802 QWIRE.Base.Contexts <> valid_valid thm
+R27792:27802 QWIRE.Base.Contexts <> valid_valid thm
+R27827:27834 QWIRE.Base.Contexts <> is_valid def
+R27839:27843 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R27827:27834 QWIRE.Base.Contexts <> is_valid def
+R27839:27843 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R27859:27872 QWIRE.Base.Contexts <> disjoint_valid thm
+R27859:27872 QWIRE.Base.Contexts <> disjoint_valid thm
+R27903:27910 QWIRE.Base.Contexts <> is_valid def
+R27915:27919 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R27903:27910 QWIRE.Base.Contexts <> is_valid def
+R27915:27919 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R27935:27948 QWIRE.Base.Contexts <> disjoint_valid thm
+R27935:27948 QWIRE.Base.Contexts <> disjoint_valid thm
+R27968:27975 QWIRE.Base.Contexts <> Disjoint def
+R28006:28016 QWIRE.Base.Contexts <> merge_assoc thm
+R28006:28016 QWIRE.Base.Contexts <> merge_assoc thm
+R28006:28016 QWIRE.Base.Contexts <> merge_assoc thm
+R28027:28036 QWIRE.Base.Contexts <> valid_join thm
+R28027:28036 QWIRE.Base.Contexts <> valid_join thm
+prf 28082:28095 <> disjoint_split
+binder 28106:28108 <> Γ1:186
+binder 28110:28112 <> Γ2:187
+binder 28114:28115 <> Γ:188
+R28130:28133 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28118:28125 QWIRE.Base.Contexts <> is_valid def
+R28127:28129 QWIRE.Base.Contexts <> Γ1:186 var
+R28146:28184 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28134:28141 QWIRE.Base.Contexts <> is_valid def
+R28143:28145 QWIRE.Base.Contexts <> Γ2:187 var
+R28201:28204 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28185:28192 QWIRE.Base.Contexts <> Disjoint def
+R28194:28196 QWIRE.Base.Contexts <> Γ1:186 var
+R28198:28200 QWIRE.Base.Contexts <> Γ2:187 var
+R28230:28268 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28205:28212 QWIRE.Base.Contexts <> Disjoint def
+R28218:28222 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R28215:28217 QWIRE.Base.Contexts <> Γ1:186 var
+R28223:28225 QWIRE.Base.Contexts <> Γ2:187 var
+R28228:28229 QWIRE.Base.Contexts <> Γ:188 var
+R28284:28287 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R28269:28276 QWIRE.Base.Contexts <> Disjoint def
+R28278:28280 QWIRE.Base.Contexts <> Γ1:186 var
+R28282:28283 QWIRE.Base.Contexts <> Γ:188 var
+R28288:28295 QWIRE.Base.Contexts <> Disjoint def
+R28297:28299 QWIRE.Base.Contexts <> Γ2:187 var
+R28301:28302 QWIRE.Base.Contexts <> Γ:188 var
+R28388:28395 QWIRE.Base.Contexts <> Disjoint def
+R28446:28446 Coq.Init.Logic <> I constr
+R28446:28446 Coq.Init.Logic <> I constr
+R28446:28446 Coq.Init.Logic <> I constr
+R28462:28469 QWIRE.Base.Contexts <> Disjoint def
+R28545:28552 QWIRE.Base.Contexts <> Disjoint def
+R28604:28614 QWIRE.Base.Contexts <> valid_split thm
+R28604:28614 QWIRE.Base.Contexts <> valid_split thm
+def 28783:28792 <> xor_option
+binder 28795:28795 <> a:189
+R28804:28809 Coq.Init.Datatypes <> option ind
+R28811:28811 QWIRE.Base.Contexts <> a:189 var
+binder 28799:28800 <> o1:190
+R28820:28825 Coq.Init.Datatypes <> option ind
+R28827:28827 QWIRE.Base.Contexts <> a:189 var
+binder 28815:28816 <> o2:191
+R28832:28837 Coq.Init.Datatypes <> option ind
+R28839:28839 QWIRE.Base.Contexts <> a:189 var
+R28856:28857 QWIRE.Base.Contexts <> o2:191 var
+R28852:28853 QWIRE.Base.Contexts <> o1:190 var
+R28868:28871 Coq.Init.Datatypes <> Some constr
+R28877:28880 Coq.Init.Datatypes <> None constr
+R28885:28888 Coq.Init.Datatypes <> Some constr
+R28897:28900 Coq.Init.Datatypes <> None constr
+R28903:28906 Coq.Init.Datatypes <> Some constr
+R28914:28917 Coq.Init.Datatypes <> Some constr
+R28943:28946 Coq.Init.Datatypes <> None constr
+def 29036:29040 <> index
+R29048:29051 QWIRE.Base.Contexts <> OCtx ind
+binder 29043:29044 <> Γ:194
+R29059:29061 Coq.Init.Datatypes <> nat ind
+binder 29055:29055 <> i:195
+R29066:29071 Coq.Init.Datatypes <> option ind
+R29073:29077 QWIRE.Base.Contexts <> WType ind
+R29090:29091 QWIRE.Base.Contexts <> Γ:194 var
+R29102:29108 QWIRE.Base.Contexts <> Invalid constr
+R29113:29116 Coq.Init.Datatypes <> None constr
+R29122:29126 QWIRE.Base.Contexts <> Valid constr
+R29135:29139 QuantumLib.Prelim <> maybe def
+R29152:29155 Coq.Init.Datatypes <> None constr
+R29145:29148 QuantumLib.Prelim <> :::x_'!!'_x not
+R29149:29149 QWIRE.Base.Contexts <> i:195 var
+prf 29171:29177 <> nth_nil
+binder 29189:29189 <> A:197
+binder 29192:29192 <> x:198
+R29213:29215 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29195:29195 QuantumLib.Prelim <> :::x_'!!'_x not
+R29207:29211 QuantumLib.Prelim <> :::x_'!!'_x not
+R29201:29204 Coq.Init.Datatypes <> list ind
+R29206:29206 QWIRE.Base.Contexts <> A:197 var
+R29196:29197 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R29212:29212 QWIRE.Base.Contexts <> x:198 var
+R29216:29219 Coq.Init.Datatypes <> None constr
+prf 29261:29273 <> index_invalid
+binder 29284:29284 <> i:199
+R29302:29304 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29287:29291 QWIRE.Base.Contexts <> index def
+R29293:29299 QWIRE.Base.Contexts <> Invalid constr
+R29301:29301 QWIRE.Base.Contexts <> i:199 var
+R29305:29308 Coq.Init.Datatypes <> None constr
+prf 29337:29347 <> index_empty
+binder 29358:29358 <> i:200
+R29372:29374 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29361:29365 QWIRE.Base.Contexts <> index def
+R29367:29369 QWIRE.Base.Contexts <> :::'∅' not
+R29371:29371 QWIRE.Base.Contexts <> i:200 var
+R29375:29378 Coq.Init.Datatypes <> None constr
+R29418:29424 QWIRE.Base.Contexts <> nth_nil thm
+R29418:29424 QWIRE.Base.Contexts <> nth_nil thm
+R29418:29424 QWIRE.Base.Contexts <> nth_nil thm
+prf 29447:29461 <> singleton_index
+binder 29472:29472 <> x:201
+binder 29474:29474 <> w:202
+binder 29476:29477 <> Γ:203
+R29505:29514 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29486:29497 QWIRE.Base.Contexts <> SingletonCtx ind
+R29499:29499 QWIRE.Base.Contexts <> x:201 var
+R29501:29501 QWIRE.Base.Contexts <> w:202 var
+R29503:29504 QWIRE.Base.Contexts <> Γ:203 var
+R29525:29527 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29515:29519 QWIRE.Base.Contexts <> index def
+R29521:29522 QWIRE.Base.Contexts <> Γ:203 var
+R29524:29524 QWIRE.Base.Contexts <> x:201 var
+R29528:29531 Coq.Init.Datatypes <> Some constr
+R29533:29533 QWIRE.Base.Contexts <> w:202 var
+ind 29655:29663 <> empty_ctx
+constr 29684:29692 <> empty_nil
+constr 29711:29720 <> empty_cons
+R29670:29673 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29667:29669 QWIRE.Base.Contexts <> Ctx def
+R29696:29704 QWIRE.Base.Contexts <> empty_ctx:204 ind
+R29706:29707 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+binder 29731:29732 <> Γ:206
+R29747:29750 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29735:29743 QWIRE.Base.Contexts <> empty_ctx:204 ind
+R29745:29746 QWIRE.Base.Contexts <> Γ:206 var
+R29751:29759 QWIRE.Base.Contexts <> empty_ctx:204 ind
+R29766:29769 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R29762:29765 Coq.Init.Datatypes <> None constr
+R29770:29771 QWIRE.Base.Contexts <> Γ:206 var
+scheme 29655:29663 <> empty_ctx_ind
+scheme 29655:29663 <> empty_ctx_sind
+prf 29783:29796 <> empty_ctx_size
+binder 29807:29808 <> Γ:207
+R29823:29826 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29811:29819 QWIRE.Base.Contexts <> empty_ctx ind
+R29821:29822 QWIRE.Base.Contexts <> Γ:207 var
+R29838:29840 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29827:29834 QWIRE.Base.Contexts <> size_ctx def
+R29836:29837 QWIRE.Base.Contexts <> Γ:207 var
+prf 29887:29902 <> eq_dec_empty_ctx
+binder 29913:29914 <> Γ:208
+R29917:29917 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R29930:29934 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R29948:29948 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R29918:29926 QWIRE.Base.Contexts <> empty_ctx ind
+R29928:29929 QWIRE.Base.Contexts <> Γ:208 var
+R29935:29935 Coq.Init.Logic <> ::type_scope:'~'_x not
+R29936:29944 QWIRE.Base.Contexts <> empty_ctx ind
+R29946:29947 QWIRE.Base.Contexts <> Γ:208 var
+prf 30161:30171 <> merge_empty
+R30196:30198 QWIRE.Base.Contexts <> Ctx def
+binder 30183:30184 <> Γ:209
+binder 30186:30188 <> Γ1:210
+binder 30190:30192 <> Γ2:211
+R30221:30226 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30206:30209 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R30213:30217 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R30210:30212 QWIRE.Base.Contexts <> Γ1:210 var
+R30218:30220 QWIRE.Base.Contexts <> Γ2:211 var
+R30204:30205 QWIRE.Base.Contexts <> Γ:209 var
+R30239:30244 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30227:30235 QWIRE.Base.Contexts <> empty_ctx ind
+R30237:30238 QWIRE.Base.Contexts <> Γ:209 var
+R30258:30261 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R30245:30253 QWIRE.Base.Contexts <> empty_ctx ind
+R30255:30257 QWIRE.Base.Contexts <> Γ1:210 var
+R30262:30270 QWIRE.Base.Contexts <> empty_ctx ind
+R30272:30274 QWIRE.Base.Contexts <> Γ2:211 var
+R30317:30329 QWIRE.Base.Contexts <> merge_fun_ind thm
+R30317:30329 QWIRE.Base.Contexts <> merge_fun_ind thm
+R30508:30514 Coq.Init.Logic <> eq_refl constr
+R30516:30522 Coq.Init.Logic <> eq_refl constr
+R30524:30530 Coq.Init.Logic <> eq_refl constr
+R30508:30514 Coq.Init.Logic <> eq_refl constr
+R30516:30522 Coq.Init.Logic <> eq_refl constr
+R30524:30530 Coq.Init.Logic <> eq_refl constr
+def 30698:30701 <> trim
+R30709:30711 QWIRE.Base.Contexts <> Ctx def
+binder 30704:30705 <> Γ:212
+R30716:30718 QWIRE.Base.Contexts <> Ctx def
+R30731:30732 QWIRE.Base.Contexts <> Γ:212 var
+R30743:30744 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R30749:30750 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R30760:30763 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R30756:30759 Coq.Init.Datatypes <> None constr
+R30777:30780 QWIRE.Base.Contexts <> trim:213 def
+R30811:30812 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R30817:30818 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R30853:30856 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R30849:30852 Coq.Init.Datatypes <> None constr
+R30894:30897 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R30888:30891 Coq.Init.Datatypes <> Some constr
+R30911:30914 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R30905:30908 Coq.Init.Datatypes <> Some constr
+R30915:30918 QWIRE.Base.Contexts <> trim:213 def
+def 30943:30947 <> otrim
+R30955:30958 QWIRE.Base.Contexts <> OCtx ind
+binder 30950:30951 <> Γ:215
+R30972:30973 QWIRE.Base.Contexts <> Γ:215 var
+R30984:30990 QWIRE.Base.Contexts <> Invalid constr
+R30995:31001 QWIRE.Base.Contexts <> Invalid constr
+R31007:31011 QWIRE.Base.Contexts <> Valid constr
+R31019:31023 QWIRE.Base.Contexts <> Valid constr
+R31026:31029 QWIRE.Base.Contexts <> trim def
+R31031:31032 QWIRE.Base.Contexts <> Γ:215 var
+prf 31049:31058 <> trim_otrim
+R31075:31077 QWIRE.Base.Contexts <> Ctx def
+binder 31070:31071 <> Γ:217
+R31096:31098 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31081:31085 QWIRE.Base.Contexts <> Valid constr
+R31088:31091 QWIRE.Base.Contexts <> trim def
+R31093:31094 QWIRE.Base.Contexts <> Γ:217 var
+R31099:31103 QWIRE.Base.Contexts <> otrim def
+R31105:31106 QWIRE.Base.Contexts <> Γ:217 var
+prf 31135:31147 <> size_ctx_trim
+binder 31158:31159 <> Γ:218
+R31180:31182 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31162:31169 QWIRE.Base.Contexts <> size_ctx def
+R31172:31175 QWIRE.Base.Contexts <> trim def
+R31177:31178 QWIRE.Base.Contexts <> Γ:218 var
+R31183:31190 QWIRE.Base.Contexts <> size_ctx def
+R31192:31193 QWIRE.Base.Contexts <> Γ:218 var
+R31289:31292 QWIRE.Base.Contexts <> trim def
+R31289:31292 QWIRE.Base.Contexts <> trim def
+prf 31319:31332 <> size_octx_trim
+binder 31343:31344 <> Γ:219
+R31366:31368 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31347:31355 QWIRE.Base.Contexts <> size_octx def
+R31358:31361 QWIRE.Base.Contexts <> trim def
+R31363:31364 QWIRE.Base.Contexts <> Γ:219 var
+R31369:31377 QWIRE.Base.Contexts <> size_octx def
+R31379:31380 QWIRE.Base.Contexts <> Γ:219 var
+R31396:31408 QWIRE.Base.Contexts <> size_ctx_trim thm
+R31396:31408 QWIRE.Base.Contexts <> size_ctx_trim thm
+prf 31424:31433 <> index_trim
+binder 31444:31445 <> Γ:220
+binder 31447:31447 <> i:221
+R31475:31477 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31458:31462 QWIRE.Base.Contexts <> index def
+R31465:31468 QWIRE.Base.Contexts <> trim def
+R31470:31471 QWIRE.Base.Contexts <> Γ:220 var
+R31474:31474 QWIRE.Base.Contexts <> i:221 var
+R31478:31482 QWIRE.Base.Contexts <> index def
+R31484:31485 QWIRE.Base.Contexts <> Γ:220 var
+R31487:31487 QWIRE.Base.Contexts <> i:221 var
+R31631:31634 QWIRE.Base.Contexts <> trim def
+R31631:31634 QWIRE.Base.Contexts <> trim def
+R31700:31706 QWIRE.Base.Contexts <> nth_nil thm
+R31700:31706 QWIRE.Base.Contexts <> nth_nil thm
+R31700:31706 QWIRE.Base.Contexts <> nth_nil thm
+R31800:31806 QWIRE.Base.Contexts <> nth_nil thm
+R31800:31806 QWIRE.Base.Contexts <> nth_nil thm
+R31800:31806 QWIRE.Base.Contexts <> nth_nil thm
+prf 31882:31891 <> trim_empty
+binder 31902:31903 <> Γ:222
+R31918:31921 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31906:31914 QWIRE.Base.Contexts <> empty_ctx ind
+R31916:31917 QWIRE.Base.Contexts <> Γ:222 var
+R31929:31931 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31922:31925 QWIRE.Base.Contexts <> trim def
+R31927:31928 QWIRE.Base.Contexts <> Γ:222 var
+R31932:31933 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+prf 32012:32025 <> trim_non_empty
+binder 32036:32037 <> Γ:223
+R32054:32057 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32040:32041 Coq.Init.Logic <> ::type_scope:'~'_x not
+R32042:32050 QWIRE.Base.Contexts <> empty_ctx ind
+R32052:32053 QWIRE.Base.Contexts <> Γ:223 var
+R32065:32068 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R32058:32061 QWIRE.Base.Contexts <> trim def
+R32063:32064 QWIRE.Base.Contexts <> Γ:223 var
+R32069:32070 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R32211:32214 QWIRE.Base.Contexts <> trim def
+R32211:32214 QWIRE.Base.Contexts <> trim def
+prf 32331:32349 <> trim_cons_non_empty
+binder 32360:32360 <> o:224
+binder 32362:32363 <> Γ:225
+R32380:32413 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32366:32367 Coq.Init.Logic <> ::type_scope:'~'_x not
+R32368:32376 QWIRE.Base.Contexts <> empty_ctx ind
+R32378:32379 QWIRE.Base.Contexts <> Γ:225 var
+R32428:32430 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32414:32417 QWIRE.Base.Contexts <> trim def
+R32421:32424 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R32420:32420 QWIRE.Base.Contexts <> o:224 var
+R32425:32426 QWIRE.Base.Contexts <> Γ:225 var
+R32432:32435 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R32431:32431 QWIRE.Base.Contexts <> o:224 var
+R32436:32439 QWIRE.Base.Contexts <> trim def
+R32441:32442 QWIRE.Base.Contexts <> Γ:225 var
+R32511:32524 QWIRE.Base.Contexts <> trim_non_empty thm
+R32511:32524 QWIRE.Base.Contexts <> trim_non_empty thm
+R32544:32547 QWIRE.Base.Contexts <> trim def
+R32544:32547 QWIRE.Base.Contexts <> trim def
+prf 32574:32583 <> trim_valid
+R32600:32603 QWIRE.Base.Contexts <> OCtx ind
+binder 32595:32596 <> Γ:226
+R32618:32622 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R32607:32614 QWIRE.Base.Contexts <> is_valid def
+R32616:32617 QWIRE.Base.Contexts <> Γ:226 var
+R32623:32630 QWIRE.Base.Contexts <> is_valid def
+R32633:32637 QWIRE.Base.Contexts <> otrim def
+R32639:32640 QWIRE.Base.Contexts <> Γ:226 var
+R32724:32734 QWIRE.Base.Contexts <> valid_valid thm
+R32724:32734 QWIRE.Base.Contexts <> valid_valid thm
+R32724:32734 QWIRE.Base.Contexts <> valid_valid thm
+prf 32824:32838 <> trim_merge_dist
+binder 32849:32851 <> Γ1:227
+binder 32853:32855 <> Γ2:228
+R32881:32883 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32867:32871 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R32858:32862 QWIRE.Base.Contexts <> otrim def
+R32864:32866 QWIRE.Base.Contexts <> Γ1:227 var
+R32872:32876 QWIRE.Base.Contexts <> otrim def
+R32878:32880 QWIRE.Base.Contexts <> Γ2:228 var
+R32884:32888 QWIRE.Base.Contexts <> otrim def
+R32894:32898 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R32891:32893 QWIRE.Base.Contexts <> Γ1:227 var
+R32899:32901 QWIRE.Base.Contexts <> Γ2:228 var
+R33100:33110 QWIRE.Base.Contexts <> merge_nil_r thm
+R33100:33110 QWIRE.Base.Contexts <> merge_nil_r thm
+R33100:33110 QWIRE.Base.Contexts <> merge_nil_r thm
+R33100:33110 QWIRE.Base.Contexts <> merge_nil_r thm
+R33158:33173 QWIRE.Base.Contexts <> eq_dec_empty_ctx thm
+R33209:33224 QWIRE.Base.Contexts <> eq_dec_empty_ctx thm
+R33158:33173 QWIRE.Base.Contexts <> eq_dec_empty_ctx thm
+R33209:33224 QWIRE.Base.Contexts <> eq_dec_empty_ctx thm
+R33209:33224 QWIRE.Base.Contexts <> eq_dec_empty_ctx thm
+R33270:33279 QWIRE.Base.Contexts <> trim_otrim thm
+R33270:33279 QWIRE.Base.Contexts <> trim_otrim thm
+R33270:33279 QWIRE.Base.Contexts <> trim_otrim thm
+R33270:33279 QWIRE.Base.Contexts <> trim_otrim thm
+R33270:33279 QWIRE.Base.Contexts <> trim_otrim thm
+R33270:33279 QWIRE.Base.Contexts <> trim_otrim thm
+R33299:33308 QWIRE.Base.Contexts <> trim_empty thm
+R33299:33308 QWIRE.Base.Contexts <> trim_empty thm
+R33329:33338 QWIRE.Base.Contexts <> trim_empty thm
+R33329:33338 QWIRE.Base.Contexts <> trim_empty thm
+R33388:33398 QWIRE.Base.Contexts <> merge_nil_l thm
+R33388:33398 QWIRE.Base.Contexts <> merge_nil_l thm
+R33388:33398 QWIRE.Base.Contexts <> merge_nil_l thm
+R33513:33518 QWIRE.Base.Contexts <> merge' def
+R33513:33518 QWIRE.Base.Contexts <> merge' def
+R33663:33668 QWIRE.Base.Contexts <> merge' def
+R33663:33668 QWIRE.Base.Contexts <> merge' def
+R33812:33817 QWIRE.Base.Contexts <> merge' def
+R33812:33817 QWIRE.Base.Contexts <> merge' def
+R33923:33932 QWIRE.Base.Contexts <> trim_otrim thm
+R33923:33932 QWIRE.Base.Contexts <> trim_otrim thm
+R33923:33932 QWIRE.Base.Contexts <> trim_otrim thm
+R33923:33932 QWIRE.Base.Contexts <> trim_otrim thm
+R33923:33932 QWIRE.Base.Contexts <> trim_otrim thm
+R33923:33932 QWIRE.Base.Contexts <> trim_otrim thm
+R33952:33961 QWIRE.Base.Contexts <> trim_empty thm
+R33952:33961 QWIRE.Base.Contexts <> trim_empty thm
+R34007:34017 QWIRE.Base.Contexts <> merge_nil_l thm
+R34007:34017 QWIRE.Base.Contexts <> merge_nil_l thm
+R34007:34017 QWIRE.Base.Contexts <> merge_nil_l thm
+R34038:34056 QWIRE.Base.Contexts <> trim_cons_non_empty thm
+R34038:34056 QWIRE.Base.Contexts <> trim_cons_non_empty thm
+R34200:34205 QWIRE.Base.Contexts <> merge' def
+R34200:34205 QWIRE.Base.Contexts <> merge' def
+R34337:34342 QWIRE.Base.Contexts <> merge' def
+R34337:34342 QWIRE.Base.Contexts <> merge' def
+R34483:34488 QWIRE.Base.Contexts <> merge' def
+R34483:34488 QWIRE.Base.Contexts <> merge' def
+R34587:34590 QWIRE.Base.Contexts <> trim def
+R34587:34590 QWIRE.Base.Contexts <> trim def
+R34651:34660 QWIRE.Base.Contexts <> trim_otrim thm
+R34651:34660 QWIRE.Base.Contexts <> trim_otrim thm
+R34651:34660 QWIRE.Base.Contexts <> trim_otrim thm
+R34651:34660 QWIRE.Base.Contexts <> trim_otrim thm
+R34651:34660 QWIRE.Base.Contexts <> trim_otrim thm
+R34651:34660 QWIRE.Base.Contexts <> trim_otrim thm
+R34680:34689 QWIRE.Base.Contexts <> trim_empty thm
+R34680:34689 QWIRE.Base.Contexts <> trim_empty thm
+R34735:34745 QWIRE.Base.Contexts <> merge_nil_r thm
+R34735:34745 QWIRE.Base.Contexts <> merge_nil_r thm
+R34735:34745 QWIRE.Base.Contexts <> merge_nil_r thm
+R34766:34784 QWIRE.Base.Contexts <> trim_cons_non_empty thm
+R34766:34784 QWIRE.Base.Contexts <> trim_cons_non_empty thm
+R34928:34933 QWIRE.Base.Contexts <> merge' def
+R34928:34933 QWIRE.Base.Contexts <> merge' def
+R35065:35070 QWIRE.Base.Contexts <> merge' def
+R35065:35070 QWIRE.Base.Contexts <> merge' def
+R35121:35132 QWIRE.Base.Contexts <> merge_merge' thm
+R35121:35132 QWIRE.Base.Contexts <> merge_merge' thm
+R35121:35132 QWIRE.Base.Contexts <> merge_merge' thm
+R35143:35153 QWIRE.Base.Contexts <> merge_nil_r thm
+R35143:35153 QWIRE.Base.Contexts <> merge_nil_r thm
+R35143:35153 QWIRE.Base.Contexts <> merge_nil_r thm
+R35266:35271 QWIRE.Base.Contexts <> merge' def
+R35266:35271 QWIRE.Base.Contexts <> merge' def
+R35370:35373 QWIRE.Base.Contexts <> trim def
+R35370:35373 QWIRE.Base.Contexts <> trim def
+R35434:35443 QWIRE.Base.Contexts <> trim_otrim thm
+R35434:35443 QWIRE.Base.Contexts <> trim_otrim thm
+R35434:35443 QWIRE.Base.Contexts <> trim_otrim thm
+R35434:35443 QWIRE.Base.Contexts <> trim_otrim thm
+R35434:35443 QWIRE.Base.Contexts <> trim_otrim thm
+R35434:35443 QWIRE.Base.Contexts <> trim_otrim thm
+R35464:35482 QWIRE.Base.Contexts <> trim_cons_non_empty thm
+R35464:35482 QWIRE.Base.Contexts <> trim_cons_non_empty thm
+R35529:35547 QWIRE.Base.Contexts <> trim_cons_non_empty thm
+R35529:35547 QWIRE.Base.Contexts <> trim_cons_non_empty thm
+R35684:35689 QWIRE.Base.Contexts <> merge' def
+R35684:35689 QWIRE.Base.Contexts <> merge' def
+R35795:35800 QWIRE.Base.Contexts <> merge' def
+R35795:35800 QWIRE.Base.Contexts <> merge' def
+R35905:35910 QWIRE.Base.Contexts <> merge' def
+R35905:35910 QWIRE.Base.Contexts <> merge' def
+R35972:35975 QWIRE.Base.Contexts <> trim def
+R35972:35975 QWIRE.Base.Contexts <> trim def
+R35999:36002 QWIRE.Base.Contexts <> trim def
+R35999:36002 QWIRE.Base.Contexts <> trim def
+R36044:36047 QWIRE.Base.Contexts <> trim def
+R36044:36047 QWIRE.Base.Contexts <> trim def
+R36101:36110 QWIRE.Base.Contexts <> merge_wire def
+R36101:36110 QWIRE.Base.Contexts <> merge_wire def
+R36158:36163 QWIRE.Base.Contexts <> merge' def
+R36158:36163 QWIRE.Base.Contexts <> merge' def
+prf 36320:36329 <> trim_merge
+binder 36340:36341 <> Γ:229
+binder 36343:36345 <> Γ1:230
+binder 36347:36349 <> Γ2:231
+R36369:36402 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36354:36357 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R36361:36365 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R36358:36360 QWIRE.Base.Contexts <> Γ1:230 var
+R36366:36368 QWIRE.Base.Contexts <> Γ2:231 var
+R36352:36353 QWIRE.Base.Contexts <> Γ:229 var
+R36411:36414 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R36424:36428 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R36415:36419 QWIRE.Base.Contexts <> otrim def
+R36421:36423 QWIRE.Base.Contexts <> Γ1:230 var
+R36429:36433 QWIRE.Base.Contexts <> otrim def
+R36435:36437 QWIRE.Base.Contexts <> Γ2:231 var
+R36403:36407 QWIRE.Base.Contexts <> otrim def
+R36409:36410 QWIRE.Base.Contexts <> Γ:229 var
+R36478:36490 QWIRE.Base.Contexts <> merge_fun_ind thm
+R36478:36490 QWIRE.Base.Contexts <> merge_fun_ind thm
+R36542:36552 QWIRE.Base.Contexts <> valid_valid thm
+R36542:36552 QWIRE.Base.Contexts <> valid_valid thm
+R36568:36578 QWIRE.Base.Contexts <> merge_nil_l thm
+R36568:36578 QWIRE.Base.Contexts <> merge_nil_l thm
+R36568:36578 QWIRE.Base.Contexts <> merge_nil_l thm
+R36616:36626 QWIRE.Base.Contexts <> valid_valid thm
+R36616:36626 QWIRE.Base.Contexts <> valid_valid thm
+R36642:36652 QWIRE.Base.Contexts <> merge_nil_r thm
+R36642:36652 QWIRE.Base.Contexts <> merge_nil_r thm
+R36642:36652 QWIRE.Base.Contexts <> merge_nil_r thm
+R36689:36699 QWIRE.Base.Contexts <> valid_valid thm
+R36689:36699 QWIRE.Base.Contexts <> valid_valid thm
+R36716:36731 QWIRE.Base.Contexts <> eq_dec_empty_ctx thm
+R36716:36731 QWIRE.Base.Contexts <> eq_dec_empty_ctx thm
+R36750:36762 QWIRE.Base.Contexts <> merge_ind_fun thm
+R36750:36762 QWIRE.Base.Contexts <> merge_ind_fun thm
+R36788:36798 QWIRE.Base.Contexts <> merge_empty thm
+R36788:36798 QWIRE.Base.Contexts <> merge_empty thm
+R36880:36889 QWIRE.Base.Contexts <> trim_empty thm
+R36880:36889 QWIRE.Base.Contexts <> trim_empty thm
+R36880:36889 QWIRE.Base.Contexts <> trim_empty thm
+R36880:36889 QWIRE.Base.Contexts <> trim_empty thm
+R36880:36889 QWIRE.Base.Contexts <> trim_empty thm
+R36880:36889 QWIRE.Base.Contexts <> trim_empty thm
+R36880:36889 QWIRE.Base.Contexts <> trim_empty thm
+R36880:36889 QWIRE.Base.Contexts <> trim_empty thm
+R36880:36889 QWIRE.Base.Contexts <> trim_empty thm
+R36880:36889 QWIRE.Base.Contexts <> trim_empty thm
+R36880:36889 QWIRE.Base.Contexts <> trim_empty thm
+R36880:36889 QWIRE.Base.Contexts <> trim_empty thm
+R36880:36889 QWIRE.Base.Contexts <> trim_empty thm
+R36880:36889 QWIRE.Base.Contexts <> trim_empty thm
+R36921:36930 QWIRE.Base.Contexts <> trim_empty thm
+R36921:36930 QWIRE.Base.Contexts <> trim_empty thm
+R36921:36930 QWIRE.Base.Contexts <> trim_empty thm
+R36921:36930 QWIRE.Base.Contexts <> trim_empty thm
+R36921:36930 QWIRE.Base.Contexts <> trim_empty thm
+R36921:36930 QWIRE.Base.Contexts <> trim_empty thm
+R36921:36930 QWIRE.Base.Contexts <> trim_empty thm
+R36921:36930 QWIRE.Base.Contexts <> trim_empty thm
+R36921:36930 QWIRE.Base.Contexts <> trim_empty thm
+R36921:36930 QWIRE.Base.Contexts <> trim_empty thm
+R36921:36930 QWIRE.Base.Contexts <> trim_empty thm
+R36921:36930 QWIRE.Base.Contexts <> trim_empty thm
+R36921:36930 QWIRE.Base.Contexts <> trim_empty thm
+R36921:36930 QWIRE.Base.Contexts <> trim_empty thm
+R36962:36971 QWIRE.Base.Contexts <> trim_empty thm
+R36962:36971 QWIRE.Base.Contexts <> trim_empty thm
+R36962:36971 QWIRE.Base.Contexts <> trim_empty thm
+R36962:36971 QWIRE.Base.Contexts <> trim_empty thm
+R36962:36971 QWIRE.Base.Contexts <> trim_empty thm
+R36962:36971 QWIRE.Base.Contexts <> trim_empty thm
+R36962:36971 QWIRE.Base.Contexts <> trim_empty thm
+R36962:36971 QWIRE.Base.Contexts <> trim_empty thm
+R36962:36971 QWIRE.Base.Contexts <> trim_empty thm
+R36962:36971 QWIRE.Base.Contexts <> trim_empty thm
+R36962:36971 QWIRE.Base.Contexts <> trim_empty thm
+R36962:36971 QWIRE.Base.Contexts <> trim_empty thm
+R36962:36971 QWIRE.Base.Contexts <> trim_empty thm
+R36962:36971 QWIRE.Base.Contexts <> trim_empty thm
+R36992:37005 QWIRE.Base.Contexts <> trim_non_empty thm
+R36992:37005 QWIRE.Base.Contexts <> trim_non_empty thm
+R37100:37103 QWIRE.Base.Contexts <> trim def
+R37100:37103 QWIRE.Base.Contexts <> trim def
+R37140:37143 QWIRE.Base.Contexts <> trim def
+R37159:37162 QWIRE.Base.Contexts <> trim def
+R37140:37143 QWIRE.Base.Contexts <> trim def
+R37159:37162 QWIRE.Base.Contexts <> trim def
+R37159:37162 QWIRE.Base.Contexts <> trim def
+R37239:37242 QWIRE.Base.Contexts <> trim def
+R37258:37261 QWIRE.Base.Contexts <> trim def
+R37239:37242 QWIRE.Base.Contexts <> trim def
+R37258:37261 QWIRE.Base.Contexts <> trim def
+R37258:37261 QWIRE.Base.Contexts <> trim def
+R37338:37341 QWIRE.Base.Contexts <> trim def
+R37357:37360 QWIRE.Base.Contexts <> trim def
+R37338:37341 QWIRE.Base.Contexts <> trim def
+R37357:37360 QWIRE.Base.Contexts <> trim def
+R37357:37360 QWIRE.Base.Contexts <> trim def
+def 37575:37585 <> octx_length
+R37593:37596 QWIRE.Base.Contexts <> OCtx ind
+binder 37588:37589 <> Γ:232
+R37601:37603 Coq.Init.Datatypes <> nat ind
+R37616:37617 QWIRE.Base.Contexts <> Γ:232 var
+R37628:37634 QWIRE.Base.Contexts <> Invalid constr
+R37639:37639 Coq.Init.Datatypes <> O constr
+R37645:37649 QWIRE.Base.Contexts <> Valid constr
+R37657:37662 Coq.Init.Datatypes <> length def
+prf 37707:37715 <> merge_dec
+binder 37717:37719 <> Γ1:234
+binder 37721:37723 <> Γ2:235
+R37749:37752 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R37774:37774 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R37727:37734 QWIRE.Base.Contexts <> is_valid def
+R37740:37744 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R37737:37739 QWIRE.Base.Contexts <> Γ1:234 var
+R37745:37747 QWIRE.Base.Contexts <> Γ2:235 var
+R37764:37766 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R37756:37760 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R37753:37755 QWIRE.Base.Contexts <> Γ1:234 var
+R37761:37763 QWIRE.Base.Contexts <> Γ2:235 var
+R37767:37773 QWIRE.Base.Contexts <> Invalid constr
+R37959:37969 QWIRE.Base.Contexts <> valid_valid thm
+R37959:37969 QWIRE.Base.Contexts <> valid_valid thm
+R38028:38038 QWIRE.Base.Contexts <> valid_valid thm
+R38028:38038 QWIRE.Base.Contexts <> valid_valid thm
+R38165:38170 QWIRE.Base.Contexts <> merge' def
+R38165:38170 QWIRE.Base.Contexts <> merge' def
+R38194:38204 QWIRE.Base.Contexts <> valid_valid thm
+R38194:38204 QWIRE.Base.Contexts <> valid_valid thm
+R38231:38236 QWIRE.Base.Contexts <> merge' def
+R38231:38236 QWIRE.Base.Contexts <> merge' def
+R38260:38270 QWIRE.Base.Contexts <> valid_valid thm
+R38260:38270 QWIRE.Base.Contexts <> valid_valid thm
+R38297:38302 QWIRE.Base.Contexts <> merge' def
+R38297:38302 QWIRE.Base.Contexts <> merge' def
+R38326:38336 QWIRE.Base.Contexts <> valid_valid thm
+R38326:38336 QWIRE.Base.Contexts <> valid_valid thm
+R38386:38395 QWIRE.Base.Contexts <> merge_wire def
+R38386:38395 QWIRE.Base.Contexts <> merge_wire def
+ind 38480:38482 <> Pat
+constr 38505:38508 <> unit
+constr 38522:38526 <> qubit
+constr 38549:38551 <> bit
+constr 38572:38575 <> pair
+R38491:38495 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R38486:38490 QWIRE.Base.Contexts <> WType ind
+R38512:38514 QWIRE.Base.Contexts <> Pat:236 ind
+R38516:38518 QWIRE.Base.Contexts <> One constr
+R38533:38536 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R38530:38532 QWIRE.Base.Contexts <> Var def
+R38537:38539 QWIRE.Base.Contexts <> Pat:236 ind
+R38541:38545 QWIRE.Base.Contexts <> Qubit constr
+R38558:38561 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R38555:38557 QWIRE.Base.Contexts <> Var def
+R38562:38564 QWIRE.Base.Contexts <> Pat:236 ind
+R38566:38568 QWIRE.Base.Contexts <> Bit constr
+binder 38587:38588 <> W1:238
+binder 38590:38591 <> W2:239
+R38601:38604 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R38595:38597 QWIRE.Base.Contexts <> Pat:236 ind
+R38599:38600 QWIRE.Base.Contexts <> W1:238 var
+R38611:38614 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R38605:38607 QWIRE.Base.Contexts <> Pat:236 ind
+R38609:38610 QWIRE.Base.Contexts <> W2:239 var
+R38615:38617 QWIRE.Base.Contexts <> Pat:236 ind
+R38622:38626 QWIRE.Base.Contexts <> ::circ_scope:x_'⊗'_x not
+R38620:38621 QWIRE.Base.Contexts <> W1:238 var
+R38627:38628 QWIRE.Base.Contexts <> W2:239 var
+scheme 38480:38482 <> Pat_rect
+scheme 38480:38482 <> Pat_ind
+scheme 38480:38482 <> Pat_rec
+scheme 38480:38482 <> Pat_sind
+def 38643:38653 <> pat_to_list
+binder 38656:38656 <> w:240
+R38664:38666 QWIRE.Base.Contexts <> Pat ind
+R38668:38668 QWIRE.Base.Contexts <> w:240 var
+binder 38660:38660 <> p:241
+R38673:38676 Coq.Init.Datatypes <> list ind
+R38678:38680 QWIRE.Base.Contexts <> Var def
+R38693:38693 QWIRE.Base.Contexts <> p:241 var
+R38704:38707 QWIRE.Base.Contexts <> unit constr
+R38712:38713 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R38719:38723 QWIRE.Base.Contexts <> qubit constr
+R38730:38730 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R38732:38732 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R38738:38740 QWIRE.Base.Contexts <> bit constr
+R38747:38747 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R38749:38749 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R38755:38758 QWIRE.Base.Contexts <> pair constr
+R38783:38786 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R38769:38779 QWIRE.Base.Contexts <> pat_to_list:242 def
+R38787:38797 QWIRE.Base.Contexts <> pat_to_list:242 def
+def 38820:38826 <> pat_map
+binder 38829:38829 <> w:244
+R38840:38843 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R38837:38839 QWIRE.Base.Contexts <> Var def
+R38844:38846 QWIRE.Base.Contexts <> Var def
+binder 38833:38833 <> f:245
+R38854:38856 QWIRE.Base.Contexts <> Pat ind
+R38858:38858 QWIRE.Base.Contexts <> w:244 var
+binder 38850:38850 <> p:246
+R38863:38865 QWIRE.Base.Contexts <> Pat ind
+R38867:38867 QWIRE.Base.Contexts <> w:244 var
+R38880:38880 QWIRE.Base.Contexts <> p:246 var
+R38891:38894 QWIRE.Base.Contexts <> unit constr
+R38899:38902 QWIRE.Base.Contexts <> unit constr
+R38908:38912 QWIRE.Base.Contexts <> qubit constr
+R38919:38923 QWIRE.Base.Contexts <> qubit constr
+R38926:38926 QWIRE.Base.Contexts <> f:245 var
+R38935:38937 QWIRE.Base.Contexts <> bit constr
+R38944:38946 QWIRE.Base.Contexts <> bit constr
+R38949:38949 QWIRE.Base.Contexts <> f:245 var
+R38958:38961 QWIRE.Base.Contexts <> pair constr
+R38972:38975 QWIRE.Base.Contexts <> pair constr
+R38993:38999 QWIRE.Base.Contexts <> pat_map:247 def
+R39001:39001 QWIRE.Base.Contexts <> f:245 var
+R38978:38984 QWIRE.Base.Contexts <> pat_map:247 def
+R38986:38986 QWIRE.Base.Contexts <> f:245 var
+ind 39078:39086 <> Types_Pat
+constr 39136:39145 <> types_unit
+constr 39169:39179 <> types_qubit
+constr 39246:39254 <> types_bit
+constr 39316:39325 <> types_pair
+R39094:39097 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R39090:39093 QWIRE.Base.Contexts <> OCtx ind
+R39110:39114 QWIRE.Base.Contexts <> WType ind
+binder 39106:39106 <> W:249
+R39123:39126 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R39118:39120 QWIRE.Base.Contexts <> Pat ind
+R39122:39122 QWIRE.Base.Contexts <> W:249 var
+R39541:39549 QWIRE.Base.Contexts <> Types_Pat:251 ind
+R39152:39156 QWIRE.Base.Contexts <> :::x_'⊢'_x_':Pat' not
+R39161:39165 QWIRE.Base.Contexts <> :::x_'⊢'_x_':Pat' not
+R39149:39151 QWIRE.Base.Contexts <> :::'∅' not
+R39157:39160 QWIRE.Base.Contexts <> unit constr
+binder 39190:39190 <> x:252
+binder 39192:39193 <> Γ:253
+R39219:39223 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R39196:39207 QWIRE.Base.Contexts <> SingletonCtx ind
+R39209:39209 QWIRE.Base.Contexts <> x:252 var
+R39211:39215 QWIRE.Base.Contexts <> Qubit constr
+R39217:39218 QWIRE.Base.Contexts <> Γ:253 var
+R39226:39230 QWIRE.Base.Contexts <> :::x_'⊢'_x_':Pat' not
+R39238:39242 QWIRE.Base.Contexts <> :::x_'⊢'_x_':Pat' not
+R39224:39225 QWIRE.Base.Contexts <> Γ:253 var
+R39231:39235 QWIRE.Base.Contexts <> qubit constr
+R39237:39237 QWIRE.Base.Contexts <> x:252 var
+binder 39265:39265 <> x:254
+binder 39267:39268 <> Γ:255
+R39292:39295 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R39271:39282 QWIRE.Base.Contexts <> SingletonCtx ind
+R39284:39284 QWIRE.Base.Contexts <> x:254 var
+R39286:39288 QWIRE.Base.Contexts <> Bit constr
+R39290:39291 QWIRE.Base.Contexts <> Γ:255 var
+R39298:39302 QWIRE.Base.Contexts <> :::x_'⊢'_x_':Pat' not
+R39308:39312 QWIRE.Base.Contexts <> :::x_'⊢'_x_':Pat' not
+R39296:39297 QWIRE.Base.Contexts <> Γ:255 var
+R39303:39305 QWIRE.Base.Contexts <> bit constr
+R39307:39307 QWIRE.Base.Contexts <> x:254 var
+binder 39336:39338 <> Γ1:256
+binder 39340:39342 <> Γ2:257
+binder 39344:39345 <> Γ:258
+binder 39347:39348 <> w1:259
+binder 39350:39351 <> w2:260
+R39359:39361 QWIRE.Base.Contexts <> Pat ind
+R39363:39364 QWIRE.Base.Contexts <> w1:259 var
+binder 39354:39355 <> p1:261
+R39373:39375 QWIRE.Base.Contexts <> Pat ind
+R39377:39378 QWIRE.Base.Contexts <> w2:260 var
+binder 39368:39369 <> p2:262
+R39401:39411 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R39390:39397 QWIRE.Base.Contexts <> is_valid def
+R39399:39400 QWIRE.Base.Contexts <> Γ:258 var
+R39428:39437 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R39414:39416 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R39412:39413 QWIRE.Base.Contexts <> Γ:258 var
+R39420:39424 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R39417:39419 QWIRE.Base.Contexts <> Γ1:256 var
+R39425:39427 QWIRE.Base.Contexts <> Γ2:257 var
+R39453:39462 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R39441:39445 QWIRE.Base.Contexts <> :::x_'⊢'_x_':Pat' not
+R39448:39452 QWIRE.Base.Contexts <> :::x_'⊢'_x_':Pat' not
+R39438:39440 QWIRE.Base.Contexts <> Γ1:256 var
+R39446:39447 QWIRE.Base.Contexts <> p1:261 var
+R39478:39487 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R39466:39470 QWIRE.Base.Contexts <> :::x_'⊢'_x_':Pat' not
+R39473:39477 QWIRE.Base.Contexts <> :::x_'⊢'_x_':Pat' not
+R39463:39465 QWIRE.Base.Contexts <> Γ2:257 var
+R39471:39472 QWIRE.Base.Contexts <> p2:262 var
+R39490:39495 QWIRE.Base.Contexts <> :::x_'⊢'_x_':Pat' not
+R39506:39510 QWIRE.Base.Contexts <> :::x_'⊢'_x_':Pat' not
+R39488:39489 QWIRE.Base.Contexts <> Γ:258 var
+R39496:39499 QWIRE.Base.Contexts <> pair constr
+R39504:39505 QWIRE.Base.Contexts <> p2:262 var
+R39501:39502 QWIRE.Base.Contexts <> p1:261 var
+scheme 39078:39086 <> Types_Pat_rect
+scheme 39078:39086 <> Types_Pat_ind
+scheme 39078:39086 <> Types_Pat_rec
+scheme 39078:39086 <> Types_Pat_sind
+R39541:39549 QWIRE.Base.Contexts <> Types_Pat ind
+not 39518:39518 <> :::x_'⊢'_x_':Pat'
+prf 39567:39579 <> pat_ctx_valid
+binder 39590:39591 <> Γ:263
+binder 39593:39593 <> W:264
+R39600:39602 QWIRE.Base.Contexts <> Pat ind
+R39604:39604 QWIRE.Base.Contexts <> W:264 var
+binder 39596:39596 <> p:265
+R39621:39624 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R39610:39614 QWIRE.Base.Contexts <> :::x_'⊢'_x_':Pat' not
+R39616:39620 QWIRE.Base.Contexts <> :::x_'⊢'_x_':Pat' not
+R39608:39609 QWIRE.Base.Contexts <> Γ:263 var
+R39615:39615 QWIRE.Base.Contexts <> p:265 var
+R39625:39632 QWIRE.Base.Contexts <> is_valid def
+R39634:39635 QWIRE.Base.Contexts <> Γ:263 var
+R39670:39677 QWIRE.Base.Contexts <> is_valid def
+prf 39713:39727 <> octx_wtype_size
+binder 39738:39738 <> w:266
+R39745:39747 QWIRE.Base.Contexts <> Pat ind
+R39749:39749 QWIRE.Base.Contexts <> w:266 var
+binder 39741:39741 <> p:267
+R39758:39761 QWIRE.Base.Contexts <> OCtx ind
+binder 39753:39754 <> Γ:268
+R39783:39786 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R39773:39777 QWIRE.Base.Contexts <> :::x_'⊢'_x_':Pat' not
+R39779:39782 QWIRE.Base.Contexts <> :::x_'⊢'_x_':Pat' not
+R39771:39772 QWIRE.Base.Contexts <> Γ:268 var
+R39778:39778 QWIRE.Base.Contexts <> p:267 var
+R39799:39801 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R39787:39796 QWIRE.Base.Contexts <> size_wtype def
+R39798:39798 QWIRE.Base.Contexts <> w:266 var
+R39802:39810 QWIRE.Base.Contexts <> size_octx def
+R39812:39813 QWIRE.Base.Contexts <> Γ:268 var
+R39890:39903 QWIRE.Base.Contexts <> Singleton_size thm
+R39890:39903 QWIRE.Base.Contexts <> Singleton_size thm
+R39928:39941 QWIRE.Base.Contexts <> Singleton_size thm
+R39928:39941 QWIRE.Base.Contexts <> Singleton_size thm
+R39979:39993 QWIRE.Base.Contexts <> size_octx_merge thm
+R39979:39993 QWIRE.Base.Contexts <> size_octx_merge thm
+R39979:39993 QWIRE.Base.Contexts <> size_octx_merge thm
+R39979:39993 QWIRE.Base.Contexts <> size_octx_merge thm
+prf 40014:40027 <> ctx_wtype_size
+binder 40038:40038 <> w:269
+R40045:40047 QWIRE.Base.Contexts <> Pat ind
+R40049:40049 QWIRE.Base.Contexts <> w:269 var
+binder 40041:40041 <> p:270
+R40058:40060 QWIRE.Base.Contexts <> Ctx def
+binder 40053:40054 <> Γ:271
+R40082:40085 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R40072:40076 QWIRE.Base.Contexts <> :::x_'⊢'_x_':Pat' not
+R40078:40081 QWIRE.Base.Contexts <> :::x_'⊢'_x_':Pat' not
+R40070:40071 QWIRE.Base.Contexts <> Γ:271 var
+R40077:40077 QWIRE.Base.Contexts <> p:270 var
+R40098:40100 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R40086:40095 QWIRE.Base.Contexts <> size_wtype def
+R40097:40097 QWIRE.Base.Contexts <> w:269 var
+R40101:40108 QWIRE.Base.Contexts <> size_ctx def
+R40110:40111 QWIRE.Base.Contexts <> Γ:271 var
+R40151:40158 QWIRE.Base.Contexts <> size_ctx def
+R40170:40178 QWIRE.Base.Contexts <> size_octx def
+R40151:40158 QWIRE.Base.Contexts <> size_ctx def
+R40170:40178 QWIRE.Base.Contexts <> size_octx def
+R40202:40216 QWIRE.Base.Contexts <> octx_wtype_size thm
+R40202:40216 QWIRE.Base.Contexts <> octx_wtype_size thm
+prf 40240:40256 <> size_wtype_length
+binder 40268:40268 <> w:272
+R40276:40278 QWIRE.Base.Contexts <> Pat ind
+R40280:40280 QWIRE.Base.Contexts <> w:272 var
+binder 40272:40272 <> p:273
+R40310:40312 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R40288:40293 Coq.Init.Datatypes <> length def
+R40296:40306 QWIRE.Base.Contexts <> pat_to_list def
+R40308:40308 QWIRE.Base.Contexts <> p:273 var
+R40313:40322 QWIRE.Base.Contexts <> size_wtype def
+R40324:40324 QWIRE.Base.Contexts <> w:272 var
+R40372:40381 Coq.Lists.List <> app_length thm
+R40372:40381 Coq.Lists.List <> app_length thm
+R40372:40381 Coq.Lists.List <> app_length thm
+ind 40453:40459 <> Unitary
+constr 40484:40485 <> _H
+constr 40516:40517 <> _X
+constr 40547:40548 <> _Y
+constr 40578:40579 <> _Z
+constr 40609:40611 <> _R_
+constr 40646:40649 <> ctrl
+constr 40713:40720 <> bit_ctrl
+R40468:40471 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R40463:40467 QWIRE.Base.Contexts <> WType ind
+R40497:40503 QWIRE.Base.Contexts <> Unitary:274 ind
+R40505:40509 QWIRE.Base.Contexts <> Qubit constr
+R40529:40535 QWIRE.Base.Contexts <> Unitary:274 ind
+R40537:40541 QWIRE.Base.Contexts <> Qubit constr
+R40560:40566 QWIRE.Base.Contexts <> Unitary:274 ind
+R40568:40572 QWIRE.Base.Contexts <> Qubit constr
+R40591:40597 QWIRE.Base.Contexts <> Unitary:274 ind
+R40599:40603 QWIRE.Base.Contexts <> Qubit constr
+R40623:40626 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R40622:40622 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R40627:40633 QWIRE.Base.Contexts <> Unitary:274 ind
+R40635:40639 QWIRE.Base.Contexts <> Qubit constr
+binder 40666:40666 <> W:276
+R40674:40680 QWIRE.Base.Contexts <> Unitary:274 ind
+R40682:40682 QWIRE.Base.Contexts <> W:276 var
+binder 40670:40670 <> U:277
+R40686:40692 QWIRE.Base.Contexts <> Unitary:274 ind
+R40700:40704 QWIRE.Base.Contexts <> ::circ_scope:x_'⊗'_x not
+R40695:40699 QWIRE.Base.Contexts <> Qubit constr
+R40705:40705 QWIRE.Base.Contexts <> W:276 var
+binder 40733:40733 <> W:278
+R40741:40747 QWIRE.Base.Contexts <> Unitary:274 ind
+R40749:40749 QWIRE.Base.Contexts <> W:278 var
+binder 40737:40737 <> U:279
+R40753:40759 QWIRE.Base.Contexts <> Unitary:274 ind
+R40765:40769 QWIRE.Base.Contexts <> ::circ_scope:x_'⊗'_x not
+R40762:40764 QWIRE.Base.Contexts <> Bit constr
+R40770:40770 QWIRE.Base.Contexts <> W:278 var
+scheme 40453:40459 <> Unitary_rect
+scheme 40453:40459 <> Unitary_ind
+scheme 40453:40459 <> Unitary_rec
+scheme 40453:40459 <> Unitary_sind
+abbrev 40816:40819 <> CNOT
+R40825:40828 QWIRE.Base.Contexts <> ctrl constr
+R40830:40831 QWIRE.Base.Contexts <> _X constr
+abbrev 40844:40848 <> CCNOT
+R40854:40857 QWIRE.Base.Contexts <> ctrl constr
+R40860:40863 QWIRE.Base.Contexts <> ctrl constr
+R40865:40866 QWIRE.Base.Contexts <> _X constr
+abbrev 40881:40882 <> _S
+R40888:40890 QWIRE.Base.Contexts <> _R_ constr
+R40895:40897 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R40893:40894 Coq.Reals.Rtrigo1 <> PI def
+abbrev 40913:40914 <> _T
+R40920:40922 QWIRE.Base.Contexts <> _R_ constr
+R40927:40929 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R40925:40926 Coq.Reals.Rtrigo1 <> PI def
+def 40963:40967 <> trans
+binder 40970:40970 <> W:280
+R40978:40984 QWIRE.Base.Contexts <> Unitary ind
+R40986:40986 QWIRE.Base.Contexts <> W:280 var
+binder 40974:40974 <> U:281
+R40991:40997 QWIRE.Base.Contexts <> Unitary ind
+R40999:40999 QWIRE.Base.Contexts <> W:280 var
+R41012:41012 QWIRE.Base.Contexts <> U:281 var
+R41023:41025 QWIRE.Base.Contexts <> _R_ constr
+R41039:41041 QWIRE.Base.Contexts <> _R_ constr
+R41044:41045 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R41054:41057 QWIRE.Base.Contexts <> ctrl constr
+R41069:41072 QWIRE.Base.Contexts <> ctrl constr
+R41075:41079 QWIRE.Base.Contexts <> trans:282 def
+R41089:41096 QWIRE.Base.Contexts <> bit_ctrl constr
+R41104:41111 QWIRE.Base.Contexts <> bit_ctrl constr
+R41114:41118 QWIRE.Base.Contexts <> trans:282 def
+ind 41213:41216 <> Gate
+constr 41250:41250 <> U
+constr 41295:41298 <> BNOT
+constr 41323:41327 <> init0
+constr 41352:41356 <> init1
+constr 41381:41384 <> new0
+constr 41408:41411 <> new1
+constr 41435:41438 <> meas
+constr 41464:41468 <> measQ
+constr 41495:41501 <> discard
+constr 41522:41528 <> assert0
+constr 41551:41557 <> assert1
+R41225:41228 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R41220:41224 QWIRE.Base.Contexts <> WType ind
+R41234:41237 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R41229:41233 QWIRE.Base.Contexts <> WType ind
+binder 41262:41262 <> W:286
+R41270:41276 QWIRE.Base.Contexts <> Unitary ind
+R41278:41278 QWIRE.Base.Contexts <> W:286 var
+binder 41266:41266 <> u:287
+R41282:41285 QWIRE.Base.Contexts <> Gate:284 ind
+R41289:41289 QWIRE.Base.Contexts <> W:286 var
+R41287:41287 QWIRE.Base.Contexts <> W:286 var
+R41306:41309 QWIRE.Base.Contexts <> Gate:284 ind
+R41315:41317 QWIRE.Base.Contexts <> Bit constr
+R41311:41313 QWIRE.Base.Contexts <> Bit constr
+R41333:41336 QWIRE.Base.Contexts <> Gate:284 ind
+R41342:41346 QWIRE.Base.Contexts <> Qubit constr
+R41338:41340 QWIRE.Base.Contexts <> One constr
+R41362:41365 QWIRE.Base.Contexts <> Gate:284 ind
+R41371:41375 QWIRE.Base.Contexts <> Qubit constr
+R41367:41369 QWIRE.Base.Contexts <> One constr
+R41391:41394 QWIRE.Base.Contexts <> Gate:284 ind
+R41400:41402 QWIRE.Base.Contexts <> Bit constr
+R41396:41398 QWIRE.Base.Contexts <> One constr
+R41418:41421 QWIRE.Base.Contexts <> Gate:284 ind
+R41427:41429 QWIRE.Base.Contexts <> Bit constr
+R41423:41425 QWIRE.Base.Contexts <> One constr
+R41445:41448 QWIRE.Base.Contexts <> Gate:284 ind
+R41456:41458 QWIRE.Base.Contexts <> Bit constr
+R41450:41454 QWIRE.Base.Contexts <> Qubit constr
+R41474:41477 QWIRE.Base.Contexts <> Gate:284 ind
+R41485:41489 QWIRE.Base.Contexts <> Qubit constr
+R41479:41483 QWIRE.Base.Contexts <> Qubit constr
+R41505:41508 QWIRE.Base.Contexts <> Gate:284 ind
+R41514:41516 QWIRE.Base.Contexts <> One constr
+R41510:41512 QWIRE.Base.Contexts <> Bit constr
+R41532:41535 QWIRE.Base.Contexts <> Gate:284 ind
+R41543:41545 QWIRE.Base.Contexts <> One constr
+R41537:41541 QWIRE.Base.Contexts <> Qubit constr
+R41561:41564 QWIRE.Base.Contexts <> Gate:284 ind
+R41572:41574 QWIRE.Base.Contexts <> One constr
+R41566:41570 QWIRE.Base.Contexts <> Qubit constr
+scheme 41213:41216 <> Gate_rect
+scheme 41213:41216 <> Gate_ind
+scheme 41213:41216 <> Gate_rec
+scheme 41213:41216 <> Gate_sind
+R41578:41606 QWIRE.Base.Contexts <> U constr
+R41681:41689 QWIRE.Base.Monoid <> translate meth
+R41711:41715 QWIRE.Base.Contexts <> merge def
+R41722:41722 QWIRE.Base.Monoid <> m meth
+R41747:41749 QWIRE.Base.Contexts <> :::'∅' not
+R41756:41758 QWIRE.Base.Monoid <> ::monoid_scope:'⊤' not
+R41783:41789 QWIRE.Base.Contexts <> Invalid constr
+R41796:41798 QWIRE.Base.Monoid <> ::monoid_scope:'⊥' not
+R41836:41844 QWIRE.Base.Monoid <> translate meth
+R41860:41860 QWIRE.Base.Monoid <> m meth
+R41876:41878 QWIRE.Base.Monoid <> ::monoid_scope:'⊤' not
+R41876:41878 QWIRE.Base.Monoid <> ::monoid_scope:'⊤' not
+R41894:41896 QWIRE.Base.Monoid <> ::monoid_scope:'⊥' not
+R41894:41896 QWIRE.Base.Monoid <> ::monoid_scope:'⊥' not
+R42132:42140 QWIRE.Base.Contexts <> Types_Pat ind
+R42132:42140 QWIRE.Base.Contexts <> Types_Pat ind
+R42214:42221 QWIRE.Base.Contexts <> is_valid def
+R42224:42228 QWIRE.Base.Contexts <> Valid constr
+R42214:42221 QWIRE.Base.Contexts <> is_valid def
+R42224:42228 QWIRE.Base.Contexts <> Valid constr
+R42283:42290 QWIRE.Base.Contexts <> is_valid def
+R42283:42290 QWIRE.Base.Contexts <> is_valid def
+R42299:42306 QWIRE.Base.Contexts <> is_valid def
+R42299:42306 QWIRE.Base.Contexts <> is_valid def
+R42342:42349 QWIRE.Base.Contexts <> is_valid def
+R42356:42360 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R42342:42349 QWIRE.Base.Contexts <> is_valid def
+R42356:42360 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R42370:42377 QWIRE.Base.Contexts <> is_valid def
+R42370:42377 QWIRE.Base.Contexts <> is_valid def
+R42421:42428 QWIRE.Base.Contexts <> is_valid def
+R42435:42439 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R42421:42428 QWIRE.Base.Contexts <> is_valid def
+R42435:42439 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R42449:42456 QWIRE.Base.Contexts <> is_valid def
+R42449:42456 QWIRE.Base.Contexts <> is_valid def
+R42500:42507 QWIRE.Base.Contexts <> is_valid def
+R42514:42518 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R42500:42507 QWIRE.Base.Contexts <> is_valid def
+R42514:42518 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R42528:42535 QWIRE.Base.Contexts <> is_valid def
+R42542:42546 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R42528:42535 QWIRE.Base.Contexts <> is_valid def
+R42542:42546 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R42626:42630 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R42623:42625 QWIRE.Base.Contexts <> :::'∅' not
+R42626:42630 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R42623:42625 QWIRE.Base.Contexts <> :::'∅' not
+R42698:42702 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R42703:42705 QWIRE.Base.Contexts <> :::'∅' not
+R42698:42702 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R42703:42705 QWIRE.Base.Contexts <> :::'∅' not
+R42807:42814 QWIRE.Base.Contexts <> is_valid def
+R42821:42826 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R42840:42840 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R42831:42835 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R42807:42814 QWIRE.Base.Contexts <> is_valid def
+R42821:42826 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R42840:42840 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R42831:42835 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R42900:42907 QWIRE.Base.Contexts <> is_valid def
+R42923:42927 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R42914:42918 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R42900:42907 QWIRE.Base.Contexts <> is_valid def
+R42923:42927 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R42914:42918 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R43033:43040 QWIRE.Base.Contexts <> is_valid def
+R43047:43052 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R43066:43066 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R43057:43061 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R43033:43040 QWIRE.Base.Contexts <> is_valid def
+R43047:43052 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R43066:43066 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R43057:43061 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R43116:43123 QWIRE.Base.Contexts <> is_valid def
+R43139:43143 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R43130:43134 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R43116:43123 QWIRE.Base.Contexts <> is_valid def
+R43139:43143 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R43130:43134 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R43163:43172 QWIRE.Base.Contexts <> valid_join thm
+R43083:43093 QWIRE.Base.Contexts <> merge_assoc thm
+R42952:42962 QWIRE.Base.Contexts <> valid_split thm
+R42862:42872 QWIRE.Base.Contexts <> merge_assoc thm
+R42734:42744 QWIRE.Base.Contexts <> merge_nil_r thm
+R42662:42672 QWIRE.Base.Contexts <> merge_nil_l thm
+R42566:42575 QWIRE.Base.Contexts <> merge_comm thm
+R42475:42481 QWIRE.Base.Contexts <> valid_r thm
+R42396:42402 QWIRE.Base.Contexts <> valid_l thm
+R42262:42272 QWIRE.Base.Contexts <> valid_valid thm
+R42165:42177 QWIRE.Base.Contexts <> pat_ctx_valid thm
+R43243:43245 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R43243:43245 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R43288:43291 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R43295:43299 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R43288:43291 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R43295:43299 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R43345:43349 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R43345:43349 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R43401:43405 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R43401:43405 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R43444:43448 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R43444:43448 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R43326:43330 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R43319:43323 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R43272:43276 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R43719:43722 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R43724:43728 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R43719:43722 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R43724:43728 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R43811:43814 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R43816:43820 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R43811:43814 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R43816:43820 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R43845:43852 QWIRE.Base.Contexts <> is_valid def
+R43845:43852 QWIRE.Base.Contexts <> is_valid def
+R43882:43884 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R43882:43884 Coq.Init.Logic <> ::type_scope:x_'='_x not
+def 43963:43974 <> mk_typed_bit
+R43982:43984 QWIRE.Base.Contexts <> Ctx def
+binder 43977:43978 <> Γ:288
+R43996:43998 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R43989:43991 QWIRE.Base.Contexts <> Pat ind
+R43993:43995 QWIRE.Base.Contexts <> Bit constr
+R43999:44001 QWIRE.Base.Contexts <> Ctx def
+R44014:44015 QWIRE.Base.Contexts <> Γ:288 var
+R44027:44028 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R44043:44043 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R44049:44050 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R44061:44061 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R44044:44046 QWIRE.Base.Contexts <> bit constr
+R44048:44048 Coq.Init.Datatypes <> O constr
+R44051:44051 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R44060:44060 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R44052:44055 Coq.Init.Datatypes <> Some constr
+R44057:44059 QWIRE.Base.Contexts <> Bit constr
+R44071:44074 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R44067:44070 Coq.Init.Datatypes <> None constr
+R44084:44084 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R44090:44091 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R44102:44102 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R44085:44087 QWIRE.Base.Contexts <> bit constr
+R44089:44089 Coq.Init.Datatypes <> O constr
+R44092:44092 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R44101:44101 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R44093:44096 Coq.Init.Datatypes <> Some constr
+R44098:44100 QWIRE.Base.Contexts <> Bit constr
+R44114:44117 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R44108:44111 Coq.Init.Datatypes <> Some constr
+R44141:44152 QWIRE.Base.Contexts <> mk_typed_bit:289 def
+binder 44130:44130 <> p:291
+binder 44132:44135 <> Γ'':292
+R44186:44186 QWIRE.Base.Contexts <> p:291 var
+R44214:44216 QWIRE.Base.Contexts <> bit constr
+R44223:44223 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R44233:44234 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R44247:44247 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R44224:44226 QWIRE.Base.Contexts <> bit constr
+R44229:44229 Coq.Init.Datatypes <> S constr
+R44239:44242 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R44235:44238 Coq.Init.Datatypes <> None constr
+R44243:44246 QWIRE.Base.Contexts <> Γ'':292 var
+def 44289:44302 <> mk_typed_qubit
+R44310:44312 QWIRE.Base.Contexts <> Ctx def
+binder 44305:44306 <> Γ:294
+R44326:44328 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R44317:44319 QWIRE.Base.Contexts <> Pat ind
+R44321:44325 QWIRE.Base.Contexts <> Qubit constr
+R44329:44331 QWIRE.Base.Contexts <> Ctx def
+R44344:44345 QWIRE.Base.Contexts <> Γ:294 var
+R44357:44358 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R44373:44373 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R44381:44382 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R44395:44395 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R44374:44378 QWIRE.Base.Contexts <> qubit constr
+R44380:44380 Coq.Init.Datatypes <> O constr
+R44383:44383 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R44394:44394 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R44384:44387 Coq.Init.Datatypes <> Some constr
+R44389:44393 QWIRE.Base.Contexts <> Qubit constr
+R44405:44408 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R44401:44404 Coq.Init.Datatypes <> None constr
+R44418:44418 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R44426:44427 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R44440:44440 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R44419:44423 QWIRE.Base.Contexts <> qubit constr
+R44425:44425 Coq.Init.Datatypes <> O constr
+R44428:44428 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R44439:44439 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R44429:44432 Coq.Init.Datatypes <> Some constr
+R44434:44438 QWIRE.Base.Contexts <> Qubit constr
+R44452:44455 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R44446:44449 Coq.Init.Datatypes <> Some constr
+R44479:44492 QWIRE.Base.Contexts <> mk_typed_qubit:295 def
+binder 44468:44468 <> p:297
+binder 44470:44473 <> Γ'':298
+R44526:44526 QWIRE.Base.Contexts <> p:297 var
+R44554:44558 QWIRE.Base.Contexts <> qubit constr
+R44565:44565 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R44577:44578 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R44591:44591 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R44566:44570 QWIRE.Base.Contexts <> qubit constr
+R44573:44573 Coq.Init.Datatypes <> S constr
+R44583:44586 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R44579:44582 Coq.Init.Datatypes <> None constr
+R44587:44590 QWIRE.Base.Contexts <> Γ'':298 var
+def 44663:44671 <> dummy_ctx
+R44675:44677 QWIRE.Base.Contexts <> Ctx def
+R44686:44687 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R44686:44687 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+def 44707:44715 <> dummy_pat
+binder 44718:44718 <> W:300
+R44723:44725 QWIRE.Base.Contexts <> Pat ind
+R44727:44727 QWIRE.Base.Contexts <> W:300 var
+R44752:44756 QWIRE.Base.Contexts <> qubit constr
+R44758:44758 Coq.Init.Datatypes <> O constr
+R44752:44756 QWIRE.Base.Contexts <> qubit constr
+R44758:44758 Coq.Init.Datatypes <> O constr
+R44771:44773 QWIRE.Base.Contexts <> bit constr
+R44775:44775 Coq.Init.Datatypes <> O constr
+R44771:44773 QWIRE.Base.Contexts <> bit constr
+R44775:44775 Coq.Init.Datatypes <> O constr
+R44787:44790 QWIRE.Base.Contexts <> unit constr
+R44787:44790 QWIRE.Base.Contexts <> unit constr
+def 44829:44840 <> mk_typed_pat
+R44847:44851 QWIRE.Base.Contexts <> WType ind
+binder 44843:44843 <> W:301
+R44860:44862 QWIRE.Base.Contexts <> Ctx def
+binder 44855:44856 <> Γ:302
+R44883:44885 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R44878:44880 QWIRE.Base.Contexts <> Pat ind
+R44882:44882 QWIRE.Base.Contexts <> W:301 var
+R44886:44888 QWIRE.Base.Contexts <> Ctx def
+R44901:44901 QWIRE.Base.Contexts <> W:301 var
+R44912:44914 QWIRE.Base.Contexts <> One constr
+R44921:44921 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R44926:44927 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R44930:44930 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R44922:44925 QWIRE.Base.Contexts <> unit constr
+R44928:44929 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R44936:44938 QWIRE.Base.Contexts <> Bit constr
+R44945:44956 QWIRE.Base.Contexts <> mk_typed_bit def
+R44958:44959 QWIRE.Base.Contexts <> Γ:302 var
+R44994:44998 QWIRE.Base.Contexts <> Qubit constr
+R45005:45018 QWIRE.Base.Contexts <> mk_typed_qubit def
+R45020:45021 QWIRE.Base.Contexts <> Γ:302 var
+R45056:45061 QWIRE.Base.Contexts <> Tensor constr
+R45088:45099 QWIRE.Base.Contexts <> mk_typed_pat:303 def
+R45104:45105 QWIRE.Base.Contexts <> Γ:302 var
+binder 45077:45078 <> p1:305
+binder 45080:45082 <> Γ1:306
+R45139:45143 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R45137:45138 QWIRE.Base.Contexts <> Γ:302 var
+R45144:45146 QWIRE.Base.Contexts <> Γ1:306 var
+binder 45128:45131 <> Γ1':307
+R45189:45192 QWIRE.Base.Contexts <> Γ1':307 var
+R45231:45237 QWIRE.Base.Contexts <> Invalid constr
+R45242:45242 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R45252:45253 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R45263:45263 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R45243:45251 QWIRE.Base.Contexts <> dummy_pat def
+R45254:45262 QWIRE.Base.Contexts <> dummy_ctx def
+R45296:45300 QWIRE.Base.Contexts <> Valid constr
+R45311:45322 QWIRE.Base.Contexts <> mk_typed_pat:303 def
+binder 45172:45173 <> p2:309
+binder 45175:45177 <> Γ2:310
+R45398:45402 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R45389:45393 QWIRE.Base.Contexts <> Valid constr
+R45395:45397 QWIRE.Base.Contexts <> Γ1:306 var
+R45403:45407 QWIRE.Base.Contexts <> Valid constr
+R45409:45411 QWIRE.Base.Contexts <> Γ2:310 var
+R45434:45440 QWIRE.Base.Contexts <> Invalid constr
+R45448:45448 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R45458:45459 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R45469:45469 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R45449:45457 QWIRE.Base.Contexts <> dummy_pat def
+R45460:45468 QWIRE.Base.Contexts <> dummy_ctx def
+R45487:45491 QWIRE.Base.Contexts <> Valid constr
+R45502:45503 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R45514:45516 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R45521:45521 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R45504:45507 QWIRE.Base.Contexts <> pair constr
+R45512:45513 QWIRE.Base.Contexts <> p2:309 var
+R45509:45510 QWIRE.Base.Contexts <> p1:305 var
+prf 45555:45575 <> typed_pat_merge_valid
+binder 45586:45586 <> W:311
+binder 45588:45589 <> Γ:312
+binder 45591:45593 <> Γ':313
+R45600:45602 QWIRE.Base.Contexts <> Pat ind
+R45604:45604 QWIRE.Base.Contexts <> W:311 var
+binder 45596:45596 <> p:314
+R45638:45643 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R45618:45620 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R45610:45610 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R45612:45613 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R45617:45617 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R45611:45611 QWIRE.Base.Contexts <> p:314 var
+R45614:45616 QWIRE.Base.Contexts <> Γ':313 var
+R45621:45632 QWIRE.Base.Contexts <> mk_typed_pat def
+R45634:45634 QWIRE.Base.Contexts <> W:311 var
+R45636:45637 QWIRE.Base.Contexts <> Γ:312 var
+R45644:45651 QWIRE.Base.Contexts <> is_valid def
+R45656:45660 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R45654:45655 QWIRE.Base.Contexts <> Γ:312 var
+R45661:45663 QWIRE.Base.Contexts <> Γ':313 var
+R45825:45838 QWIRE.Base.Contexts <> mk_typed_qubit def
+R45825:45838 QWIRE.Base.Contexts <> mk_typed_qubit def
+R46032:46037 QWIRE.Base.Contexts <> merge' def
+R46032:46037 QWIRE.Base.Contexts <> merge' def
+R46152:46157 QWIRE.Base.Contexts <> merge' def
+R46162:46163 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R46180:46184 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R46172:46176 QWIRE.Base.Contexts <> Valid constr
+R46185:46187 QWIRE.Base.Contexts <> :::'∅' not
+R46152:46157 QWIRE.Base.Contexts <> merge' def
+R46162:46163 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R46180:46184 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R46172:46176 QWIRE.Base.Contexts <> Valid constr
+R46185:46187 QWIRE.Base.Contexts <> :::'∅' not
+R46213:46223 QWIRE.Base.Contexts <> merge_nil_r thm
+R46213:46223 QWIRE.Base.Contexts <> merge_nil_r thm
+R46213:46223 QWIRE.Base.Contexts <> merge_nil_r thm
+R46378:46389 QWIRE.Base.Contexts <> mk_typed_bit def
+R46378:46389 QWIRE.Base.Contexts <> mk_typed_bit def
+R46578:46583 QWIRE.Base.Contexts <> merge' def
+R46578:46583 QWIRE.Base.Contexts <> merge' def
+R46705:46710 QWIRE.Base.Contexts <> merge' def
+R46715:46716 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R46733:46737 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R46725:46729 QWIRE.Base.Contexts <> Valid constr
+R46738:46740 QWIRE.Base.Contexts <> :::'∅' not
+R46705:46710 QWIRE.Base.Contexts <> merge' def
+R46715:46716 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R46733:46737 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R46725:46729 QWIRE.Base.Contexts <> Valid constr
+R46738:46740 QWIRE.Base.Contexts <> :::'∅' not
+R46766:46776 QWIRE.Base.Contexts <> merge_nil_r thm
+R46766:46776 QWIRE.Base.Contexts <> merge_nil_r thm
+R46766:46776 QWIRE.Base.Contexts <> merge_nil_r thm
+R46863:46873 QWIRE.Base.Contexts <> merge_nil_r thm
+R46863:46873 QWIRE.Base.Contexts <> merge_nil_r thm
+R46863:46873 QWIRE.Base.Contexts <> merge_nil_r thm
+R46943:46954 QWIRE.Base.Contexts <> mk_typed_pat def
+R46943:46954 QWIRE.Base.Contexts <> mk_typed_pat def
+R47098:47109 QWIRE.Base.Contexts <> mk_typed_pat def
+R47098:47109 QWIRE.Base.Contexts <> mk_typed_pat def
+R47238:47243 QWIRE.Base.Contexts <> merge' def
+R47261:47265 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R47238:47243 QWIRE.Base.Contexts <> merge' def
+R47261:47265 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R47299:47304 QWIRE.Base.Contexts <> merge' def
+R47326:47330 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R47299:47304 QWIRE.Base.Contexts <> merge' def
+R47326:47330 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R47368:47375 QWIRE.Base.Contexts <> is_valid def
+R47382:47386 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R47368:47375 QWIRE.Base.Contexts <> is_valid def
+R47382:47386 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R47438:47445 QWIRE.Base.Contexts <> is_valid def
+R47451:47455 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R47438:47445 QWIRE.Base.Contexts <> is_valid def
+R47451:47455 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R47526:47531 QWIRE.Base.Contexts <> merge' def
+R47526:47531 QWIRE.Base.Contexts <> merge' def
+R47622:47627 QWIRE.Base.Contexts <> merge' def
+R47647:47651 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R47622:47627 QWIRE.Base.Contexts <> merge' def
+R47647:47651 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+prf 47756:47770 <> typed_bit_typed
+binder 47781:47782 <> Γ:315
+binder 47784:47784 <> p:316
+binder 47786:47788 <> Γ':317
+R47817:47855 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R47799:47801 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R47791:47791 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R47793:47794 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R47798:47798 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R47792:47792 QWIRE.Base.Contexts <> p:316 var
+R47795:47797 QWIRE.Base.Contexts <> Γ':317 var
+R47802:47813 QWIRE.Base.Contexts <> mk_typed_bit def
+R47815:47816 QWIRE.Base.Contexts <> Γ:315 var
+R47859:47863 QWIRE.Base.Contexts <> :::x_'⊢'_x_':Pat' not
+R47865:47868 QWIRE.Base.Contexts <> :::x_'⊢'_x_':Pat' not
+R47856:47858 QWIRE.Base.Contexts <> Γ':317 var
+R47864:47864 QWIRE.Base.Contexts <> p:316 var
+R47980:47998 QWIRE.Base.Contexts <> singleton_singleton thm
+R47980:47998 QWIRE.Base.Contexts <> singleton_singleton thm
+R48096:48107 QWIRE.Base.Contexts <> mk_typed_bit def
+R48096:48107 QWIRE.Base.Contexts <> mk_typed_bit def
+R48202:48204 QWIRE.Base.Contexts <> bit constr
+R48214:48220 Coq.Init.Logic <> eq_refl constr
+R48202:48204 QWIRE.Base.Contexts <> bit constr
+R48214:48220 Coq.Init.Logic <> eq_refl constr
+prf 48398:48414 <> typed_qubit_typed
+binder 48425:48426 <> Γ:318
+binder 48428:48428 <> p:319
+binder 48430:48432 <> Γ':320
+R48463:48512 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R48443:48445 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R48435:48435 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R48437:48438 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R48442:48442 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R48436:48436 QWIRE.Base.Contexts <> p:319 var
+R48439:48441 QWIRE.Base.Contexts <> Γ':320 var
+R48446:48459 QWIRE.Base.Contexts <> mk_typed_qubit def
+R48461:48462 QWIRE.Base.Contexts <> Γ:318 var
+R48516:48520 QWIRE.Base.Contexts <> :::x_'⊢'_x_':Pat' not
+R48522:48525 QWIRE.Base.Contexts <> :::x_'⊢'_x_':Pat' not
+R48513:48515 QWIRE.Base.Contexts <> Γ':320 var
+R48521:48521 QWIRE.Base.Contexts <> p:319 var
+R48637:48655 QWIRE.Base.Contexts <> singleton_singleton thm
+R48637:48655 QWIRE.Base.Contexts <> singleton_singleton thm
+R48753:48766 QWIRE.Base.Contexts <> mk_typed_qubit def
+R48753:48766 QWIRE.Base.Contexts <> mk_typed_qubit def
+R48861:48865 QWIRE.Base.Contexts <> qubit constr
+R48875:48881 Coq.Init.Logic <> eq_refl constr
+R48861:48865 QWIRE.Base.Contexts <> qubit constr
+R48875:48881 Coq.Init.Logic <> eq_refl constr
+prf 49059:49073 <> typed_pat_typed
+binder 49084:49084 <> W:321
+binder 49086:49087 <> Γ:322
+R49094:49096 QWIRE.Base.Contexts <> Pat ind
+R49098:49098 QWIRE.Base.Contexts <> W:321 var
+binder 49090:49090 <> p:323
+binder 49101:49103 <> Γ':324
+R49137:49142 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R49117:49119 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R49109:49109 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R49111:49112 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R49116:49116 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R49110:49110 QWIRE.Base.Contexts <> p:323 var
+R49113:49115 QWIRE.Base.Contexts <> Γ':324 var
+R49120:49131 QWIRE.Base.Contexts <> mk_typed_pat def
+R49133:49133 QWIRE.Base.Contexts <> W:321 var
+R49135:49136 QWIRE.Base.Contexts <> Γ:322 var
+R49146:49150 QWIRE.Base.Contexts <> :::x_'⊢'_x_':Pat' not
+R49152:49155 QWIRE.Base.Contexts <> :::x_'⊢'_x_':Pat' not
+R49143:49145 QWIRE.Base.Contexts <> Γ':324 var
+R49151:49151 QWIRE.Base.Contexts <> p:323 var
+R49211:49227 QWIRE.Base.Contexts <> typed_qubit_typed thm
+R49211:49227 QWIRE.Base.Contexts <> typed_qubit_typed thm
+R49253:49267 QWIRE.Base.Contexts <> typed_bit_typed thm
+R49253:49267 QWIRE.Base.Contexts <> typed_bit_typed thm
+R49393:49404 QWIRE.Base.Contexts <> mk_typed_pat def
+R49393:49404 QWIRE.Base.Contexts <> mk_typed_pat def
+R49467:49472 QWIRE.Base.Contexts <> merge' def
+R49467:49472 QWIRE.Base.Contexts <> merge' def
+R49514:49534 QWIRE.Base.Contexts <> typed_pat_merge_valid thm
+R49514:49534 QWIRE.Base.Contexts <> typed_pat_merge_valid thm
+R49618:49629 QWIRE.Base.Contexts <> mk_typed_pat def
+R49618:49629 QWIRE.Base.Contexts <> mk_typed_pat def
+R49694:49699 QWIRE.Base.Contexts <> merge' def
+R49694:49699 QWIRE.Base.Contexts <> merge' def
+R49742:49762 QWIRE.Base.Contexts <> typed_pat_merge_valid thm
+R49742:49762 QWIRE.Base.Contexts <> typed_pat_merge_valid thm
+R49808:49813 QWIRE.Base.Contexts <> merge' def
+R49831:49835 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R49808:49813 QWIRE.Base.Contexts <> merge' def
+R49831:49835 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R49975:49980 QWIRE.Base.Contexts <> merge' def
+R50000:50004 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R49975:49980 QWIRE.Base.Contexts <> merge' def
+R50000:50004 QWIRE.Base.Contexts <> :::x_'⋓'_x not

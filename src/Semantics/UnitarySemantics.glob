@@ -1,0 +1,662 @@
+DIGEST b3dbfcbe3fbe69be7da6bd722e2d45a9
+FQWIRE.Semantics.UnitarySemantics
+R15:40 QWIRE.Semantics.Denotation <> <> lib
+ind 205:219 <> Unitary_Circuit
+constr 250:257 <> u_output
+constr 300:305 <> u_gate
+binder 222:222 <> W:1
+R236:239 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R227:233 QWIRE.Syntax.HOAS.HOASCircuits <> Circuit ind
+binder 268:268 <> p:4
+R271:285 QWIRE.Semantics.UnitarySemantics <> Unitary_Circuit:2 ind
+R288:293 QWIRE.Syntax.HOAS.HOASCircuits <> output constr
+R295:295 QWIRE.Semantics.UnitarySemantics <> p:4 var
+binder 316:317 <> W':5
+binder 319:319 <> c:6
+R326:332 QWIRE.Base.Contexts <> Unitary ind
+R334:335 QWIRE.Semantics.UnitarySemantics <> W':5 var
+binder 322:322 <> u:7
+binder 338:338 <> p:8
+R345:345 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R379:387 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 353:354 <> p':9
+R357:371 QWIRE.Semantics.UnitarySemantics <> Unitary_Circuit:2 ind
+R374:374 QWIRE.Semantics.UnitarySemantics <> c:6 var
+R376:377 QWIRE.Semantics.UnitarySemantics <> p':9 var
+R388:402 QWIRE.Semantics.UnitarySemantics <> Unitary_Circuit:2 ind
+R405:408 QWIRE.Syntax.HOAS.HOASCircuits <> gate constr
+R418:418 QWIRE.Semantics.UnitarySemantics <> c:6 var
+R416:416 QWIRE.Semantics.UnitarySemantics <> p:8 var
+R411:411 QWIRE.Base.Contexts <> U constr
+R413:413 QWIRE.Semantics.UnitarySemantics <> u:7 var
+scheme 205:219 <> Unitary_Circuit_ind
+scheme 205:219 <> Unitary_Circuit_sind
+def 434:444 <> Unitary_Box
+binder 447:447 <> W:10
+R455:457 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R459:459 QWIRE.Semantics.UnitarySemantics <> W:10 var
+R461:461 QWIRE.Semantics.UnitarySemantics <> W:10 var
+binder 451:451 <> b:11
+R482:482 QWIRE.Semantics.UnitarySemantics <> b:11 var
+R493:495 QWIRE.Syntax.HOAS.HOASCircuits <> box constr
+binder 509:509 <> p:13
+R513:527 QWIRE.Semantics.UnitarySemantics <> Unitary_Circuit ind
+R532:532 QWIRE.Semantics.UnitarySemantics <> p:13 var
+ind 554:571 <> Unitary_DB_Circuit
+constr 611:621 <> u_db_output
+constr 670:678 <> u_db_gate
+binder 574:574 <> W:14
+R597:600 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R579:594 QWIRE.Syntax.DB.DBCircuits <> DeBruijn_Circuit ind
+binder 632:632 <> p:17
+R635:652 QWIRE.Semantics.UnitarySemantics <> Unitary_DB_Circuit:15 ind
+R655:663 QWIRE.Syntax.DB.DBCircuits <> db_output constr
+R665:665 QWIRE.Semantics.UnitarySemantics <> p:17 var
+binder 689:690 <> W':18
+binder 692:692 <> c:19
+R699:705 QWIRE.Base.Contexts <> Unitary ind
+R707:708 QWIRE.Semantics.UnitarySemantics <> W':18 var
+binder 695:695 <> u:20
+binder 711:711 <> p:21
+R738:745 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R718:735 QWIRE.Semantics.UnitarySemantics <> Unitary_DB_Circuit:15 ind
+R737:737 QWIRE.Semantics.UnitarySemantics <> c:19 var
+R746:763 QWIRE.Semantics.UnitarySemantics <> Unitary_DB_Circuit:15 ind
+R766:772 QWIRE.Syntax.DB.DBCircuits <> db_gate constr
+R782:782 QWIRE.Semantics.UnitarySemantics <> c:19 var
+R780:780 QWIRE.Semantics.UnitarySemantics <> p:21 var
+R775:775 QWIRE.Base.Contexts <> U constr
+R777:777 QWIRE.Semantics.UnitarySemantics <> u:20 var
+scheme 554:571 <> Unitary_DB_Circuit_ind
+scheme 554:571 <> Unitary_DB_Circuit_sind
+def 798:811 <> Unitary_DB_Box
+binder 814:814 <> W:22
+R822:833 QWIRE.Syntax.DB.DBCircuits <> DeBruijn_Box ind
+R835:835 QWIRE.Semantics.UnitarySemantics <> W:22 var
+R837:837 QWIRE.Semantics.UnitarySemantics <> W:22 var
+binder 818:818 <> b:23
+R858:858 QWIRE.Semantics.UnitarySemantics <> b:23 var
+R869:874 QWIRE.Syntax.DB.DBCircuits <> db_box constr
+R883:900 QWIRE.Semantics.UnitarySemantics <> Unitary_DB_Circuit ind
+def 921:939 <> denote_u_db_circuit
+binder 942:942 <> W:25
+R950:965 QWIRE.Syntax.DB.DBCircuits <> DeBruijn_Circuit ind
+R967:967 QWIRE.Semantics.UnitarySemantics <> W:25 var
+binder 946:946 <> c:26
+R972:977 QuantumLib.Matrix <> Square abbrev
+R981:982 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R990:990 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R983:985 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R987:989 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R986:986 QWIRE.Semantics.UnitarySemantics <> W:25 var
+R981:982 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R990:990 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R983:985 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R987:989 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R986:986 QWIRE.Semantics.UnitarySemantics <> W:25 var
+R1004:1004 QWIRE.Semantics.UnitarySemantics <> c:26 var
+R1015:1023 QWIRE.Syntax.DB.DBCircuits <> db_output constr
+R1030:1032 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R1034:1036 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R1042:1048 QWIRE.Syntax.DB.DBCircuits <> db_gate constr
+R1096:1096 QWIRE.Base.Contexts <> U constr
+R1124:1127 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R1103:1121 QWIRE.Semantics.UnitarySemantics <> denote_u_db_circuit:27 def
+R1123:1123 QWIRE.Semantics.UnitarySemantics <> c:26 var
+R1128:1140 QWIRE.Semantics.Denotation <> apply_unitary def
+R1155:1165 QWIRE.Base.Contexts <> pat_to_list def
+R1143:1145 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R1147:1149 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R1146:1146 QWIRE.Semantics.UnitarySemantics <> W:25 var
+R1200:1208 QWIRE.Semantics.Denotation <> dummy_mat def
+R1246:1254 QWIRE.Semantics.Denotation <> dummy_mat def
+def 1275:1289 <> denote_u_db_box
+binder 1292:1292 <> W:30
+R1300:1311 QWIRE.Syntax.DB.DBCircuits <> DeBruijn_Box ind
+R1313:1313 QWIRE.Semantics.UnitarySemantics <> W:30 var
+R1315:1315 QWIRE.Semantics.UnitarySemantics <> W:30 var
+binder 1296:1296 <> c:31
+R1320:1325 QuantumLib.Matrix <> Square abbrev
+R1329:1329 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R1330:1332 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R1334:1336 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R1333:1333 QWIRE.Semantics.UnitarySemantics <> W:30 var
+R1329:1329 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R1330:1332 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R1334:1336 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R1333:1333 QWIRE.Semantics.UnitarySemantics <> W:30 var
+R1350:1350 QWIRE.Semantics.UnitarySemantics <> c:31 var
+R1361:1366 QWIRE.Syntax.DB.DBCircuits <> db_box constr
+R1376:1394 QWIRE.Semantics.UnitarySemantics <> denote_u_db_circuit def
+prf 1414:1426 <> unitary_to_db
+binder 1437:1437 <> W:33
+binder 1439:1440 <> Γ:34
+R1447:1453 QWIRE.Syntax.HOAS.HOASCircuits <> Circuit ind
+R1455:1455 QWIRE.Semantics.UnitarySemantics <> W:33 var
+binder 1443:1443 <> c:35
+R1477:1480 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1460:1474 QWIRE.Semantics.UnitarySemantics <> Unitary_Circuit ind
+R1476:1476 QWIRE.Semantics.UnitarySemantics <> c:35 var
+R1481:1498 QWIRE.Semantics.UnitarySemantics <> Unitary_DB_Circuit ind
+R1501:1510 QWIRE.Syntax.DB.DBCircuits <> hoas_to_db def
+R1515:1515 QWIRE.Semantics.UnitarySemantics <> c:35 var
+R1512:1513 QWIRE.Semantics.UnitarySemantics <> Γ:34 var
+R1627:1638 QWIRE.Syntax.DB.DBCircuits <> process_gate def
+R1627:1638 QWIRE.Syntax.DB.DBCircuits <> process_gate def
+prf 1758:1774 <> unitary_box_to_db
+binder 1785:1785 <> W:36
+R1792:1794 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R1796:1796 QWIRE.Semantics.UnitarySemantics <> W:36 var
+R1798:1798 QWIRE.Semantics.UnitarySemantics <> W:36 var
+binder 1788:1788 <> c:37
+R1816:1819 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1803:1813 QWIRE.Semantics.UnitarySemantics <> Unitary_Box def
+R1815:1815 QWIRE.Semantics.UnitarySemantics <> c:37 var
+R1820:1833 QWIRE.Semantics.UnitarySemantics <> Unitary_DB_Box def
+R1836:1849 QWIRE.Syntax.DB.DBCircuits <> hoas_to_db_box def
+R1851:1851 QWIRE.Semantics.UnitarySemantics <> c:37 var
+R1887:1897 QWIRE.Semantics.UnitarySemantics <> Unitary_Box def
+R1900:1913 QWIRE.Semantics.UnitarySemantics <> Unitary_DB_Box def
+R1959:1967 QWIRE.Syntax.DB.DBCircuits <> add_fresh def
+R1971:1972 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R1959:1967 QWIRE.Syntax.DB.DBCircuits <> add_fresh def
+R1971:1972 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R1984:1996 QWIRE.Semantics.UnitarySemantics <> unitary_to_db thm
+R1984:1996 QWIRE.Semantics.UnitarySemantics <> unitary_to_db thm
+def 2027:2044 <> denote_unitary_box
+binder 2047:2047 <> W:38
+R2055:2057 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R2059:2059 QWIRE.Semantics.UnitarySemantics <> W:38 var
+R2061:2061 QWIRE.Semantics.UnitarySemantics <> W:38 var
+binder 2051:2051 <> c:39
+R2066:2071 QuantumLib.Matrix <> Square abbrev
+R2075:2075 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R2076:2078 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R2080:2082 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R2079:2079 QWIRE.Semantics.UnitarySemantics <> W:38 var
+R2075:2075 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R2076:2078 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R2080:2082 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R2079:2079 QWIRE.Semantics.UnitarySemantics <> W:38 var
+R2090:2104 QWIRE.Semantics.UnitarySemantics <> denote_u_db_box def
+R2107:2120 QWIRE.Syntax.DB.DBCircuits <> hoas_to_db_box def
+R2122:2122 QWIRE.Semantics.UnitarySemantics <> c:39 var
+prf 2133:2153 <> denote_unitary_box_eq
+binder 2164:2164 <> W:40
+binder 2166:2169 <> safe:41
+R2176:2178 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R2180:2180 QWIRE.Semantics.UnitarySemantics <> W:40 var
+R2182:2182 QWIRE.Semantics.UnitarySemantics <> W:40 var
+binder 2172:2172 <> c:42
+binder 2185:2186 <> ρ:43
+R2206:2213 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2193:2203 QWIRE.Semantics.UnitarySemantics <> Unitary_Box def
+R2205:2205 QWIRE.Semantics.UnitarySemantics <> c:42 var
+R2234:2236 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2214:2223 QWIRE.Semantics.Denotation <> denote_box def
+R2232:2233 QWIRE.Semantics.UnitarySemantics <> ρ:43 var
+R2230:2230 QWIRE.Semantics.UnitarySemantics <> c:42 var
+R2225:2228 QWIRE.Semantics.UnitarySemantics <> safe:41 var
+R2263:2266 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R2257:2260 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R2237:2254 QWIRE.Semantics.UnitarySemantics <> denote_unitary_box def
+R2256:2256 QWIRE.Semantics.UnitarySemantics <> c:42 var
+R2261:2262 QWIRE.Semantics.UnitarySemantics <> ρ:43 var
+R2267:2267 QuantumLib.Matrix <> ::matrix_scope:x_'†' not
+R2288:2291 QuantumLib.Matrix <> ::matrix_scope:x_'†' not
+R2268:2285 QWIRE.Semantics.UnitarySemantics <> denote_unitary_box def
+R2287:2287 QWIRE.Semantics.UnitarySemantics <> c:42 var
+R2352:2369 QWIRE.Semantics.UnitarySemantics <> denote_unitary_box def
+R2372:2381 QWIRE.Semantics.Denotation <> denote_box def
+R2393:2405 QWIRE.Semantics.Denotation <> denote_db_box def
+R2417:2430 QWIRE.Syntax.DB.DBCircuits <> hoas_to_db_box def
+R2445:2453 QWIRE.Syntax.DB.DBCircuits <> add_fresh def
+R2457:2458 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R2445:2453 QWIRE.Syntax.DB.DBCircuits <> add_fresh def
+R2457:2458 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R2533:2547 QWIRE.Semantics.UnitarySemantics <> denote_u_db_box def
+R2573:2583 QWIRE.Semantics.Denotation <> pad_nothing thm
+R2573:2583 QWIRE.Semantics.Denotation <> pad_nothing thm
+R2573:2583 QWIRE.Semantics.Denotation <> pad_nothing thm
+R2681:2693 QuantumLib.Quantum <> compose_super def
+R2696:2700 QuantumLib.Quantum <> super def
+R2715:2725 Coq.Arith.PeanoNat Nat add_sub thm
+R2715:2725 Coq.Arith.PeanoNat Nat add_sub thm
+R2715:2725 Coq.Arith.PeanoNat Nat add_sub thm
+R2763:2777 QWIRE.Semantics.UnitarySemantics <> denote_u_db_box def
+R2802:2808 QWIRE.Semantics.Denotation <> apply_U def
+R2811:2815 QuantumLib.Quantum <> super def
+R2830:2842 QuantumLib.Matrix <> Mmult_adjoint thm
+R2830:2842 QuantumLib.Matrix <> Mmult_adjoint thm
+R2830:2842 QuantumLib.Matrix <> Mmult_adjoint thm
+R2864:2874 QuantumLib.Matrix <> Mmult_assoc thm
+R2864:2874 QuantumLib.Matrix <> Mmult_assoc thm
+R2864:2874 QuantumLib.Matrix <> Mmult_assoc thm
+R2864:2874 QuantumLib.Matrix <> Mmult_assoc thm
+R2864:2874 QuantumLib.Matrix <> Mmult_assoc thm
+R2864:2874 QuantumLib.Matrix <> Mmult_assoc thm
+R2864:2874 QuantumLib.Matrix <> Mmult_assoc thm
+R2864:2874 QuantumLib.Matrix <> Mmult_assoc thm
+R2864:2874 QuantumLib.Matrix <> Mmult_assoc thm
+R2864:2874 QuantumLib.Matrix <> Mmult_assoc thm
+R2864:2874 QuantumLib.Matrix <> Mmult_assoc thm
+R2864:2874 QuantumLib.Matrix <> Mmult_assoc thm
+def 2943:2945 <> HZH
+R2949:2951 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R2953:2957 QWIRE.Base.Contexts <> Qubit constr
+R2959:2963 QWIRE.Base.Contexts <> Qubit constr
+R2971:2975 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_x_'⇒'_x not
+R2977:2981 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_x_'⇒'_x not
+binder 2976:2976 <> q:44
+R2984:2986 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R2982:2983 QWIRE.Base.Contexts <> _H constr
+R2989:2991 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R2987:2988 QWIRE.Base.Contexts <> _Z constr
+R2994:2996 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R2992:2993 QWIRE.Base.Contexts <> _H constr
+R2997:2997 QWIRE.Semantics.UnitarySemantics <> q:44 var
+prf 3007:3011 <> U_HZH
+R3015:3025 QWIRE.Semantics.UnitarySemantics <> Unitary_Box def
+R3027:3029 QWIRE.Semantics.UnitarySemantics <> HZH def
+ind 3278:3290 <> Isometry_Gate
+constr 3332:3336 <> iso_u
+constr 3380:3388 <> iso_init0
+constr 3420:3428 <> iso_init1
+constr 3460:3470 <> iso_assert0
+constr 3504:3514 <> iso_assert1
+binder 3301:3301 <> W:45
+binder 3303:3304 <> W':46
+R3316:3319 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3307:3310 QWIRE.Base.Contexts <> Gate ind
+R3312:3312 QWIRE.Semantics.UnitarySemantics <> W:45 var
+R3314:3315 QWIRE.Semantics.UnitarySemantics <> W':46 var
+binder 3347:3347 <> W:49
+binder 3349:3349 <> u:50
+R3352:3364 QWIRE.Semantics.UnitarySemantics <> Isometry_Gate:47 ind
+R3371:3371 QWIRE.Base.Contexts <> U constr
+R3373:3373 QWIRE.Semantics.UnitarySemantics <> u:50 var
+R3368:3368 QWIRE.Semantics.UnitarySemantics <> W:49 var
+R3366:3366 QWIRE.Semantics.UnitarySemantics <> W:49 var
+R3392:3404 QWIRE.Semantics.UnitarySemantics <> Isometry_Gate:47 ind
+R3410:3414 QWIRE.Base.Contexts <> init0 constr
+R3432:3444 QWIRE.Semantics.UnitarySemantics <> Isometry_Gate:47 ind
+R3450:3454 QWIRE.Base.Contexts <> init1 constr
+R3474:3486 QWIRE.Semantics.UnitarySemantics <> Isometry_Gate:47 ind
+R3492:3498 QWIRE.Base.Contexts <> assert0 constr
+R3518:3530 QWIRE.Semantics.UnitarySemantics <> Isometry_Gate:47 ind
+R3536:3542 QWIRE.Base.Contexts <> assert1 constr
+scheme 3278:3290 <> Isometry_Gate_ind
+scheme 3278:3290 <> Isometry_Gate_sind
+ind 3556:3571 <> Isometry_Circuit
+constr 3602:3611 <> iso_output
+constr 3655:3662 <> iso_gate
+binder 3574:3574 <> W:51
+R3588:3591 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3579:3585 QWIRE.Syntax.HOAS.HOASCircuits <> Circuit ind
+binder 3622:3622 <> p:54
+R3625:3640 QWIRE.Semantics.UnitarySemantics <> Isometry_Circuit:52 ind
+R3643:3648 QWIRE.Syntax.HOAS.HOASCircuits <> output constr
+R3650:3650 QWIRE.Semantics.UnitarySemantics <> p:54 var
+binder 3673:3674 <> W':55
+binder 3676:3678 <> W'':56
+binder 3680:3680 <> c:57
+R3687:3690 QWIRE.Base.Contexts <> Gate ind
+R3692:3693 QWIRE.Semantics.UnitarySemantics <> W':55 var
+R3695:3697 QWIRE.Semantics.UnitarySemantics <> W'':56 var
+binder 3683:3683 <> g:58
+binder 3700:3700 <> p:59
+R3726:3733 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3707:3719 QWIRE.Semantics.UnitarySemantics <> Isometry_Gate ind
+R3725:3725 QWIRE.Semantics.UnitarySemantics <> g:58 var
+R3734:3734 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3769:3777 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 3742:3743 <> p':60
+R3746:3761 QWIRE.Semantics.UnitarySemantics <> Isometry_Circuit:52 ind
+R3764:3764 QWIRE.Semantics.UnitarySemantics <> c:57 var
+R3766:3767 QWIRE.Semantics.UnitarySemantics <> p':60 var
+R3778:3793 QWIRE.Semantics.UnitarySemantics <> Isometry_Circuit:52 ind
+R3796:3799 QWIRE.Syntax.HOAS.HOASCircuits <> gate constr
+R3805:3805 QWIRE.Semantics.UnitarySemantics <> c:57 var
+R3803:3803 QWIRE.Semantics.UnitarySemantics <> p:59 var
+R3801:3801 QWIRE.Semantics.UnitarySemantics <> g:58 var
+scheme 3556:3571 <> Isometry_Circuit_ind
+scheme 3556:3571 <> Isometry_Circuit_sind
+prf 3816:3842 <> Unitary_Circuit_is_Isometry
+binder 3853:3853 <> W:61
+R3860:3866 QWIRE.Syntax.HOAS.HOASCircuits <> Circuit ind
+R3868:3868 QWIRE.Semantics.UnitarySemantics <> W:61 var
+binder 3856:3856 <> c:62
+R3893:3896 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3876:3890 QWIRE.Semantics.UnitarySemantics <> Unitary_Circuit ind
+R3892:3892 QWIRE.Semantics.UnitarySemantics <> c:62 var
+R3897:3912 QWIRE.Semantics.UnitarySemantics <> Isometry_Circuit ind
+R3914:3914 QWIRE.Semantics.UnitarySemantics <> c:62 var
+def 4135:4146 <> Isometry_Box
+binder 4149:4149 <> W:63
+binder 4151:4152 <> W':64
+R4160:4162 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R4164:4164 QWIRE.Semantics.UnitarySemantics <> W:63 var
+R4166:4167 QWIRE.Semantics.UnitarySemantics <> W':64 var
+binder 4156:4156 <> b:65
+R4188:4188 QWIRE.Semantics.UnitarySemantics <> b:65 var
+R4199:4201 QWIRE.Syntax.HOAS.HOASCircuits <> box constr
+binder 4215:4215 <> p:67
+R4219:4234 QWIRE.Semantics.UnitarySemantics <> Isometry_Circuit ind
+R4239:4239 QWIRE.Semantics.UnitarySemantics <> p:67 var
+ind 4261:4279 <> Isometry_DB_Circuit
+constr 4319:4331 <> iso_db_output
+constr 4381:4391 <> iso_db_gate
+binder 4282:4282 <> W:68
+R4305:4308 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4287:4302 QWIRE.Syntax.DB.DBCircuits <> DeBruijn_Circuit ind
+binder 4342:4342 <> p:71
+R4345:4363 QWIRE.Semantics.UnitarySemantics <> Isometry_DB_Circuit:69 ind
+R4366:4374 QWIRE.Syntax.DB.DBCircuits <> db_output constr
+R4376:4376 QWIRE.Semantics.UnitarySemantics <> p:71 var
+binder 4402:4403 <> W':72
+binder 4405:4407 <> W'':73
+binder 4409:4409 <> c:74
+R4416:4419 QWIRE.Base.Contexts <> Gate ind
+R4421:4422 QWIRE.Semantics.UnitarySemantics <> W':72 var
+R4424:4426 QWIRE.Semantics.UnitarySemantics <> W'':73 var
+binder 4412:4412 <> g:75
+binder 4429:4429 <> p:76
+R4455:4462 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4436:4448 QWIRE.Semantics.UnitarySemantics <> Isometry_Gate ind
+R4454:4454 QWIRE.Semantics.UnitarySemantics <> g:75 var
+R4484:4491 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4463:4481 QWIRE.Semantics.UnitarySemantics <> Isometry_DB_Circuit:69 ind
+R4483:4483 QWIRE.Semantics.UnitarySemantics <> c:74 var
+R4492:4510 QWIRE.Semantics.UnitarySemantics <> Isometry_DB_Circuit:69 ind
+R4513:4519 QWIRE.Syntax.DB.DBCircuits <> db_gate constr
+R4525:4525 QWIRE.Semantics.UnitarySemantics <> c:74 var
+R4523:4523 QWIRE.Semantics.UnitarySemantics <> p:76 var
+R4521:4521 QWIRE.Semantics.UnitarySemantics <> g:75 var
+scheme 4261:4279 <> Isometry_DB_Circuit_ind
+scheme 4261:4279 <> Isometry_DB_Circuit_sind
+def 4541:4555 <> Isometry_DB_Box
+binder 4558:4558 <> W:77
+binder 4560:4561 <> W':78
+R4569:4580 QWIRE.Syntax.DB.DBCircuits <> DeBruijn_Box ind
+R4582:4582 QWIRE.Semantics.UnitarySemantics <> W:77 var
+R4584:4585 QWIRE.Semantics.UnitarySemantics <> W':78 var
+binder 4565:4565 <> b:79
+R4606:4606 QWIRE.Semantics.UnitarySemantics <> b:79 var
+R4617:4622 QWIRE.Syntax.DB.DBCircuits <> db_box constr
+R4631:4649 QWIRE.Semantics.UnitarySemantics <> Isometry_DB_Circuit ind
+def 4672:4683 <> denote_init0
+R4690:4692 Coq.Init.Datatypes <> nat ind
+binder 4686:4686 <> n:81
+R4697:4702 QuantumLib.Matrix <> Matrix def
+R4706:4707 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R4711:4711 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R4709:4709 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4708:4708 QWIRE.Semantics.UnitarySemantics <> n:81 var
+R4716:4716 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R4717:4717 QWIRE.Semantics.UnitarySemantics <> n:81 var
+R4735:4739 QuantumLib.Matrix <> ::matrix_scope:x_'⊗'_x not
+R4726:4726 QuantumLib.Matrix <> I def
+R4730:4732 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R4733:4733 QWIRE.Semantics.UnitarySemantics <> n:81 var
+R4740:4746 QuantumLib.Quantum <> :::'∣0⟩' not
+def 4762:4773 <> denote_init1
+R4780:4782 Coq.Init.Datatypes <> nat ind
+binder 4776:4776 <> n:82
+R4787:4792 QuantumLib.Matrix <> Matrix def
+R4796:4797 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R4801:4801 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R4799:4799 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4798:4798 QWIRE.Semantics.UnitarySemantics <> n:82 var
+R4806:4806 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R4807:4807 QWIRE.Semantics.UnitarySemantics <> n:82 var
+R4825:4829 QuantumLib.Matrix <> ::matrix_scope:x_'⊗'_x not
+R4816:4816 QuantumLib.Matrix <> I def
+R4820:4822 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R4823:4823 QWIRE.Semantics.UnitarySemantics <> n:82 var
+R4830:4836 QuantumLib.Quantum <> :::'∣1⟩' not
+def 4852:4865 <> denote_assert0
+R4874:4876 Coq.Init.Datatypes <> nat ind
+binder 4868:4868 <> n:83
+binder 4870:4870 <> k:84
+R4881:4886 QuantumLib.Matrix <> Matrix def
+R4890:4891 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R4895:4895 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R4893:4893 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R4892:4892 QWIRE.Semantics.UnitarySemantics <> n:83 var
+R4900:4900 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R4901:4901 QWIRE.Semantics.UnitarySemantics <> n:83 var
+R4930:4934 QuantumLib.Matrix <> ::matrix_scope:x_'⊗'_x not
+R4918:4922 QuantumLib.Matrix <> ::matrix_scope:x_'⊗'_x not
+R4909:4909 QuantumLib.Matrix <> I def
+R4913:4915 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R4916:4916 QWIRE.Semantics.UnitarySemantics <> k:84 var
+R4923:4929 QuantumLib.Quantum <> :::'⟨0∣' not
+R4935:4935 QuantumLib.Matrix <> I def
+R4939:4942 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R4952:4952 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R4948:4950 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R4944:4946 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R4943:4943 QWIRE.Semantics.UnitarySemantics <> n:83 var
+R4947:4947 QWIRE.Semantics.UnitarySemantics <> k:84 var
+def 4968:4981 <> denote_assert1
+R4990:4992 Coq.Init.Datatypes <> nat ind
+binder 4984:4984 <> n:85
+binder 4986:4986 <> k:86
+R4997:5002 QuantumLib.Matrix <> Matrix def
+R5006:5007 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R5011:5011 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R5009:5009 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R5008:5008 QWIRE.Semantics.UnitarySemantics <> n:85 var
+R5016:5016 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R5017:5017 QWIRE.Semantics.UnitarySemantics <> n:85 var
+R5046:5050 QuantumLib.Matrix <> ::matrix_scope:x_'⊗'_x not
+R5034:5038 QuantumLib.Matrix <> ::matrix_scope:x_'⊗'_x not
+R5025:5025 QuantumLib.Matrix <> I def
+R5029:5031 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R5032:5032 QWIRE.Semantics.UnitarySemantics <> k:86 var
+R5039:5045 QuantumLib.Quantum <> :::'⟨1∣' not
+R5051:5051 QuantumLib.Matrix <> I def
+R5055:5058 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R5068:5068 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R5064:5066 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R5060:5062 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R5059:5059 QWIRE.Semantics.UnitarySemantics <> n:85 var
+R5063:5063 QWIRE.Semantics.UnitarySemantics <> k:86 var
+def 5375:5395 <> denote_iso_db_circuit
+binder 5398:5398 <> W:87
+R5406:5408 Coq.Init.Datatypes <> nat ind
+binder 5402:5402 <> n:88
+R5416:5431 QWIRE.Syntax.DB.DBCircuits <> DeBruijn_Circuit ind
+R5433:5433 QWIRE.Semantics.UnitarySemantics <> W:87 var
+binder 5412:5412 <> c:89
+R5440:5445 QuantumLib.Matrix <> Matrix def
+R5449:5450 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R5458:5458 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R5451:5453 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R5455:5457 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R5454:5454 QWIRE.Semantics.UnitarySemantics <> W:87 var
+R5463:5463 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R5464:5464 QWIRE.Semantics.UnitarySemantics <> n:88 var
+R5478:5478 QWIRE.Semantics.UnitarySemantics <> c:89 var
+R5489:5497 QWIRE.Syntax.DB.DBCircuits <> db_output constr
+R5507:5509 QWIRE.Semantics.Denotation <> pad def
+R5514:5516 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R5518:5520 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R5511:5511 QWIRE.Semantics.UnitarySemantics <> n:88 var
+R5527:5533 QWIRE.Syntax.DB.DBCircuits <> db_gate constr
+R5581:5581 QWIRE.Base.Contexts <> U constr
+R5617:5620 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R5592:5612 QWIRE.Semantics.UnitarySemantics <> denote_iso_db_circuit:90 def
+R5616:5616 QWIRE.Semantics.UnitarySemantics <> c:89 var
+R5614:5614 QWIRE.Semantics.UnitarySemantics <> n:88 var
+R5621:5633 QWIRE.Semantics.Denotation <> apply_unitary def
+R5640:5650 QWIRE.Base.Contexts <> pat_to_list def
+R5635:5635 QWIRE.Semantics.UnitarySemantics <> n:88 var
+R5678:5682 QWIRE.Base.Contexts <> init0 constr
+R5689:5689 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R5719:5723 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R5690:5710 QWIRE.Semantics.UnitarySemantics <> denote_iso_db_circuit:90 def
+R5718:5718 QWIRE.Semantics.UnitarySemantics <> c:89 var
+R5713:5713 Coq.Init.Datatypes <> S constr
+R5715:5715 QWIRE.Semantics.UnitarySemantics <> n:88 var
+R5724:5735 QWIRE.Semantics.UnitarySemantics <> denote_init0 def
+R5737:5737 QWIRE.Semantics.UnitarySemantics <> n:88 var
+R5763:5767 QWIRE.Base.Contexts <> init1 constr
+R5774:5774 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R5804:5808 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R5775:5795 QWIRE.Semantics.UnitarySemantics <> denote_iso_db_circuit:90 def
+R5803:5803 QWIRE.Semantics.UnitarySemantics <> c:89 var
+R5798:5798 Coq.Init.Datatypes <> S constr
+R5800:5800 QWIRE.Semantics.UnitarySemantics <> n:88 var
+R5809:5820 QWIRE.Semantics.UnitarySemantics <> denote_init1 def
+R5822:5822 QWIRE.Semantics.UnitarySemantics <> n:88 var
+R5847:5853 QWIRE.Base.Contexts <> assert0 constr
+R5858:5858 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R5894:5898 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R5859:5879 QWIRE.Semantics.UnitarySemantics <> denote_iso_db_circuit:90 def
+R5893:5893 QWIRE.Semantics.UnitarySemantics <> c:89 var
+R5883:5885 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R5882:5882 QWIRE.Semantics.UnitarySemantics <> n:88 var
+R5899:5912 QWIRE.Semantics.UnitarySemantics <> denote_assert0 def
+R5914:5914 QWIRE.Semantics.UnitarySemantics <> n:88 var
+R5917:5918 Coq.Lists.List <> hd def
+R5923:5933 QWIRE.Base.Contexts <> pat_to_list def
+R5920:5920 Coq.Init.Datatypes <> O constr
+R5962:5968 QWIRE.Base.Contexts <> assert1 constr
+R5973:5973 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R6009:6013 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R5974:5994 QWIRE.Semantics.UnitarySemantics <> denote_iso_db_circuit:90 def
+R6008:6008 QWIRE.Semantics.UnitarySemantics <> c:89 var
+R5998:6000 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R5997:5997 QWIRE.Semantics.UnitarySemantics <> n:88 var
+R6014:6027 QWIRE.Semantics.UnitarySemantics <> denote_assert1 def
+R6029:6029 QWIRE.Semantics.UnitarySemantics <> n:88 var
+R6032:6033 Coq.Lists.List <> hd def
+R6038:6048 QWIRE.Base.Contexts <> pat_to_list def
+R6035:6035 Coq.Init.Datatypes <> O constr
+R6084:6092 QWIRE.Semantics.Denotation <> dummy_mat def
+R6130:6138 QWIRE.Semantics.Denotation <> dummy_mat def
+def 6159:6175 <> denote_iso_db_box
+binder 6178:6178 <> W:93
+binder 6180:6181 <> W':94
+R6189:6200 QWIRE.Syntax.DB.DBCircuits <> DeBruijn_Box ind
+R6202:6202 QWIRE.Semantics.UnitarySemantics <> W:93 var
+R6204:6205 QWIRE.Semantics.UnitarySemantics <> W':94 var
+binder 6185:6185 <> c:95
+R6210:6215 QuantumLib.Matrix <> Matrix def
+R6219:6219 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R6220:6222 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R6225:6227 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R6223:6224 QWIRE.Semantics.UnitarySemantics <> W':94 var
+R6232:6232 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R6233:6235 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R6237:6239 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R6236:6236 QWIRE.Semantics.UnitarySemantics <> W:93 var
+R6253:6253 QWIRE.Semantics.UnitarySemantics <> c:95 var
+R6264:6269 QWIRE.Syntax.DB.DBCircuits <> db_box constr
+R6279:6299 QWIRE.Semantics.UnitarySemantics <> denote_iso_db_circuit def
+R6302:6304 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R6306:6308 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R6305:6305 QWIRE.Semantics.UnitarySemantics <> W:93 var
+prf 6329:6342 <> isometry_to_db
+binder 6353:6353 <> W:97
+binder 6355:6356 <> Γ:98
+R6363:6369 QWIRE.Syntax.HOAS.HOASCircuits <> Circuit ind
+R6371:6371 QWIRE.Semantics.UnitarySemantics <> W:97 var
+binder 6359:6359 <> c:99
+R6394:6397 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6376:6391 QWIRE.Semantics.UnitarySemantics <> Isometry_Circuit ind
+R6393:6393 QWIRE.Semantics.UnitarySemantics <> c:99 var
+R6398:6416 QWIRE.Semantics.UnitarySemantics <> Isometry_DB_Circuit ind
+R6419:6428 QWIRE.Syntax.DB.DBCircuits <> hoas_to_db def
+R6433:6433 QWIRE.Semantics.UnitarySemantics <> c:99 var
+R6430:6431 QWIRE.Semantics.UnitarySemantics <> Γ:98 var
+R6545:6556 QWIRE.Syntax.DB.DBCircuits <> process_gate def
+R6545:6556 QWIRE.Syntax.DB.DBCircuits <> process_gate def
+prf 6684:6701 <> isometry_box_to_db
+binder 6712:6712 <> W:100
+binder 6714:6715 <> W':101
+R6722:6724 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R6726:6726 QWIRE.Semantics.UnitarySemantics <> W:100 var
+R6728:6729 QWIRE.Semantics.UnitarySemantics <> W':101 var
+binder 6718:6718 <> c:102
+R6748:6751 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6734:6745 QWIRE.Semantics.UnitarySemantics <> Isometry_Box def
+R6747:6747 QWIRE.Semantics.UnitarySemantics <> c:102 var
+R6752:6766 QWIRE.Semantics.UnitarySemantics <> Isometry_DB_Box def
+R6769:6782 QWIRE.Syntax.DB.DBCircuits <> hoas_to_db_box def
+R6784:6784 QWIRE.Semantics.UnitarySemantics <> c:102 var
+R6823:6834 QWIRE.Semantics.UnitarySemantics <> Isometry_Box def
+R6837:6851 QWIRE.Semantics.UnitarySemantics <> Isometry_DB_Box def
+R6897:6905 QWIRE.Syntax.DB.DBCircuits <> add_fresh def
+R6909:6910 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R6897:6905 QWIRE.Syntax.DB.DBCircuits <> add_fresh def
+R6909:6910 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R6922:6935 QWIRE.Semantics.UnitarySemantics <> isometry_to_db thm
+R6922:6935 QWIRE.Semantics.UnitarySemantics <> isometry_to_db thm
+def 6966:6984 <> denote_isometry_box
+binder 6987:6987 <> W:103
+binder 6989:6990 <> W':104
+R6998:7000 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R7002:7002 QWIRE.Semantics.UnitarySemantics <> W:103 var
+R7004:7005 QWIRE.Semantics.UnitarySemantics <> W':104 var
+binder 6994:6994 <> c:105
+R7013:7029 QWIRE.Semantics.UnitarySemantics <> denote_iso_db_box def
+R7032:7045 QWIRE.Syntax.DB.DBCircuits <> hoas_to_db_box def
+R7047:7047 QWIRE.Semantics.UnitarySemantics <> c:105 var
+prf 7058:7087 <> denote_unitary_isometry_box_eq
+binder 7098:7098 <> W:106
+R7105:7107 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R7109:7109 QWIRE.Semantics.UnitarySemantics <> W:106 var
+R7111:7111 QWIRE.Semantics.UnitarySemantics <> W:106 var
+binder 7101:7101 <> c:107
+R7132:7139 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7119:7129 QWIRE.Semantics.UnitarySemantics <> Unitary_Box def
+R7131:7131 QWIRE.Semantics.UnitarySemantics <> c:107 var
+R7160:7162 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7140:7157 QWIRE.Semantics.UnitarySemantics <> denote_unitary_box def
+R7159:7159 QWIRE.Semantics.UnitarySemantics <> c:107 var
+R7163:7181 QWIRE.Semantics.UnitarySemantics <> denote_isometry_box def
+R7183:7183 QWIRE.Semantics.UnitarySemantics <> c:107 var
+R7221:7231 QWIRE.Semantics.UnitarySemantics <> Unitary_Box def
+R7249:7266 QWIRE.Semantics.UnitarySemantics <> denote_unitary_box def
+R7269:7287 QWIRE.Semantics.UnitarySemantics <> denote_isometry_box def
+R7299:7312 QWIRE.Syntax.DB.DBCircuits <> hoas_to_db_box def
+R7327:7335 QWIRE.Syntax.DB.DBCircuits <> add_fresh def
+R7339:7340 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R7327:7335 QWIRE.Syntax.DB.DBCircuits <> add_fresh def
+R7339:7340 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R7441:7457 QWIRE.Semantics.UnitarySemantics <> denote_iso_db_box def
+R7460:7474 QWIRE.Semantics.UnitarySemantics <> denote_u_db_box def
+R7500:7510 QWIRE.Semantics.Denotation <> pad_nothing thm
+R7500:7510 QWIRE.Semantics.Denotation <> pad_nothing thm
+R7500:7510 QWIRE.Semantics.Denotation <> pad_nothing thm
+prf 7628:7649 <> denote_isometry_box_eq
+binder 7660:7660 <> W:108
+binder 7662:7663 <> W':109
+R7670:7672 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R7674:7674 QWIRE.Semantics.UnitarySemantics <> W:108 var
+R7676:7677 QWIRE.Semantics.UnitarySemantics <> W':109 var
+binder 7666:7666 <> c:110
+binder 7680:7681 <> ρ:111
+R7702:7709 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7688:7699 QWIRE.Semantics.UnitarySemantics <> Isometry_Box def
+R7701:7701 QWIRE.Semantics.UnitarySemantics <> c:110 var
+R7731:7733 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7710:7719 QWIRE.Semantics.Denotation <> denote_box def
+R7729:7730 QWIRE.Semantics.UnitarySemantics <> ρ:111 var
+R7727:7727 QWIRE.Semantics.UnitarySemantics <> c:110 var
+R7721:7725 Coq.Init.Datatypes <> false constr
+R7761:7764 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R7755:7758 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R7734:7752 QWIRE.Semantics.UnitarySemantics <> denote_isometry_box def
+R7754:7754 QWIRE.Semantics.UnitarySemantics <> c:110 var
+R7759:7760 QWIRE.Semantics.UnitarySemantics <> ρ:111 var
+R7765:7765 QuantumLib.Matrix <> ::matrix_scope:x_'†' not
+R7787:7790 QuantumLib.Matrix <> ::matrix_scope:x_'†' not
+R7766:7784 QWIRE.Semantics.UnitarySemantics <> denote_isometry_box def
+R7786:7786 QWIRE.Semantics.UnitarySemantics <> c:110 var
+R7849:7867 QWIRE.Semantics.UnitarySemantics <> denote_isometry_box def
+R7870:7879 QWIRE.Semantics.Denotation <> denote_box def
+R7891:7903 QWIRE.Semantics.Denotation <> denote_db_box def
+R7915:7928 QWIRE.Syntax.DB.DBCircuits <> hoas_to_db_box def

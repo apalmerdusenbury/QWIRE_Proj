@@ -1,0 +1,928 @@
+DIGEST 129002258f2110a7451238d55a3f65fa
+FQWIRE.Syntax.HOAS.HOASLib
+R15:23 Coq.Init.Datatypes <> <> lib
+R41:65 QWIRE.Typing.TypeChecking <> <> lib
+R75:87 Coq.Lists.List ListNotations <> mod
+def 149:158 <> boxed_gate
+binder 161:162 <> W1:1
+binder 164:165 <> W2:2
+R173:176 QWIRE.Base.Contexts <> Gate ind
+R178:179 QWIRE.Syntax.HOAS.HOASLib <> W1:1 var
+R181:182 QWIRE.Syntax.HOAS.HOASLib <> W2:2 var
+binder 169:169 <> g:3
+R187:189 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R191:192 QWIRE.Syntax.HOAS.HOASLib <> W1:1 var
+R194:195 QWIRE.Syntax.HOAS.HOASLib <> W2:2 var
+R203:207 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_x_'⇒'_x not
+R209:218 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_x_'⇒'_x not
+binder 208:208 <> p:4
+R219:224 QWIRE.Typing.TypeChecking <> :::'gate_'_x_'←'_x_'@'_x_';'_x not
+R227:231 QWIRE.Typing.TypeChecking <> :::'gate_'_x_'←'_x_'@'_x_';'_x not
+R233:235 QWIRE.Typing.TypeChecking <> :::'gate_'_x_'←'_x_'@'_x_';'_x not
+R237:242 QWIRE.Typing.TypeChecking <> :::'gate_'_x_'←'_x_'@'_x_';'_x not
+R232:232 QWIRE.Syntax.HOAS.HOASLib <> g:3 var
+R236:236 QWIRE.Syntax.HOAS.HOASLib <> p:4 var
+binder 225:226 <> p2:5
+R243:248 QWIRE.Syntax.HOAS.HOASCircuits <> output constr
+R250:251 QWIRE.Syntax.HOAS.HOASLib <> p2:5 var
+prf 260:272 <> boxed_gate_WT
+binder 275:276 <> W1:6
+binder 278:279 <> W2:7
+R287:290 QWIRE.Base.Contexts <> Gate ind
+R292:293 QWIRE.Syntax.HOAS.HOASLib <> W1:6 var
+R295:296 QWIRE.Syntax.HOAS.HOASLib <> W2:7 var
+binder 283:283 <> g:8
+R301:309 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R312:321 QWIRE.Syntax.HOAS.HOASLib <> boxed_gate def
+R323:323 QWIRE.Syntax.HOAS.HOASLib <> g:8 var
+R351:384 QWIRE.Syntax.HOAS.HOASLib <> boxed_gate def
+prf 394:412 <> types_circuit_valid
+binder 423:423 <> w:9
+R430:436 QWIRE.Syntax.HOAS.HOASCircuits <> Circuit ind
+R438:438 QWIRE.Syntax.HOAS.HOASLib <> w:9 var
+binder 426:426 <> c:10
+binder 441:442 <> Γ:11
+R459:462 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R447:451 QWIRE.Syntax.HOAS.HOASCircuits <> :::x_'⊢'_x_':Circ' not
+R453:458 QWIRE.Syntax.HOAS.HOASCircuits <> :::x_'⊢'_x_':Circ' not
+R445:446 QWIRE.Syntax.HOAS.HOASLib <> Γ:11 var
+R452:452 QWIRE.Syntax.HOAS.HOASLib <> c:10 var
+R463:470 QWIRE.Base.Contexts <> is_valid def
+R472:473 QWIRE.Syntax.HOAS.HOASLib <> Γ:11 var
+R541:553 QWIRE.Base.Contexts <> pat_ctx_valid thm
+R541:553 QWIRE.Base.Contexts <> pat_ctx_valid thm
+def 641:649 <> apply_box
+binder 652:653 <> w1:12
+binder 655:656 <> w2:13
+R664:666 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R668:669 QWIRE.Syntax.HOAS.HOASLib <> w1:12 var
+R671:672 QWIRE.Syntax.HOAS.HOASLib <> w2:13 var
+binder 660:660 <> b:14
+R680:686 QWIRE.Syntax.HOAS.HOASCircuits <> Circuit ind
+R688:689 QWIRE.Syntax.HOAS.HOASLib <> w1:12 var
+binder 676:676 <> c:15
+R694:700 QWIRE.Syntax.HOAS.HOASCircuits <> Circuit ind
+R702:703 QWIRE.Syntax.HOAS.HOASLib <> w2:13 var
+R710:714 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R716:720 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R722:725 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R721:721 QWIRE.Syntax.HOAS.HOASLib <> c:15 var
+binder 715:715 <> x:16
+R726:730 QWIRE.Syntax.HOAS.HOASCircuits <> unbox def
+R734:734 QWIRE.Syntax.HOAS.HOASLib <> x:16 var
+R732:732 QWIRE.Syntax.HOAS.HOASLib <> b:14 var
+R758:766 QWIRE.Syntax.HOAS.HOASLib <> apply_box def
+not 746:746 <> ::circ_scope:x_'$'_x
+R823:855 QWIRE.Syntax.HOAS.HOASCircuits <> output constr
+prf 864:875 <> apply_box_WT
+binder 886:887 <> w1:17
+binder 889:890 <> w2:18
+R897:899 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R901:902 QWIRE.Syntax.HOAS.HOASLib <> w1:17 var
+R904:905 QWIRE.Syntax.HOAS.HOASLib <> w2:18 var
+binder 893:893 <> b:19
+R913:919 QWIRE.Syntax.HOAS.HOASCircuits <> Circuit ind
+R921:922 QWIRE.Syntax.HOAS.HOASLib <> w1:17 var
+binder 909:909 <> c:20
+binder 925:926 <> Γ:21
+R946:949 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R935:943 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R945:945 QWIRE.Syntax.HOAS.HOASLib <> b:19 var
+R964:967 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R952:956 QWIRE.Syntax.HOAS.HOASCircuits <> :::x_'⊢'_x_':Circ' not
+R958:963 QWIRE.Syntax.HOAS.HOASCircuits <> :::x_'⊢'_x_':Circ' not
+R950:951 QWIRE.Syntax.HOAS.HOASLib <> Γ:21 var
+R957:957 QWIRE.Syntax.HOAS.HOASLib <> c:20 var
+R970:974 QWIRE.Syntax.HOAS.HOASCircuits <> :::x_'⊢'_x_':Circ' not
+R988:993 QWIRE.Syntax.HOAS.HOASCircuits <> :::x_'⊢'_x_':Circ' not
+R968:969 QWIRE.Syntax.HOAS.HOASLib <> Γ:21 var
+R975:983 QWIRE.Syntax.HOAS.HOASLib <> apply_box def
+R987:987 QWIRE.Syntax.HOAS.HOASLib <> c:20 var
+R985:985 QWIRE.Syntax.HOAS.HOASLib <> b:19 var
+R1073:1091 QWIRE.Syntax.HOAS.HOASLib <> types_circuit_valid thm
+R1073:1091 QWIRE.Syntax.HOAS.HOASLib <> types_circuit_valid thm
+R1110:1121 QWIRE.Syntax.HOAS.HOASCircuits <> unbox_typing thm
+R1110:1121 QWIRE.Syntax.HOAS.HOASCircuits <> unbox_typing thm
+def 1682:1690 <> lift_circ
+R1700:1704 QWIRE.Base.Contexts <> WType ind
+binder 1693:1693 <> W:22
+binder 1695:1696 <> W':23
+R1713:1719 QWIRE.Syntax.HOAS.HOASCircuits <> Circuit ind
+R1721:1721 QWIRE.Syntax.HOAS.HOASLib <> W:22 var
+binder 1708:1709 <> c0:24
+R1740:1743 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1729:1737 QWIRE.Base.Contexts <> interpret def
+R1739:1739 QWIRE.Syntax.HOAS.HOASLib <> W:22 var
+R1744:1750 QWIRE.Syntax.HOAS.HOASCircuits <> Circuit ind
+R1752:1753 QWIRE.Syntax.HOAS.HOASLib <> W':23 var
+binder 1725:1725 <> c:25
+R1769:1775 QWIRE.Syntax.HOAS.HOASCircuits <> Circuit ind
+R1777:1778 QWIRE.Syntax.HOAS.HOASLib <> W':23 var
+R1808:1814 QWIRE.Syntax.HOAS.HOASCircuits <> compose def
+binder 1833:1833 <> p:27
+R1838:1841 QWIRE.Syntax.HOAS.HOASCircuits <> lift constr
+R1843:1843 QWIRE.Syntax.HOAS.HOASLib <> p:27 var
+R1821:1823 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R1817:1820 QWIRE.Base.Contexts <> meas constr
+R1808:1814 QWIRE.Syntax.HOAS.HOASCircuits <> compose def
+binder 1833:1833 <> p:28
+R1838:1841 QWIRE.Syntax.HOAS.HOASCircuits <> lift constr
+R1843:1843 QWIRE.Syntax.HOAS.HOASLib <> p:28 var
+R1821:1823 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R1817:1820 QWIRE.Base.Contexts <> meas constr
+R1861:1867 QWIRE.Syntax.HOAS.HOASCircuits <> compose def
+binder 1877:1877 <> p:29
+R1882:1885 QWIRE.Syntax.HOAS.HOASCircuits <> lift constr
+R1887:1887 QWIRE.Syntax.HOAS.HOASLib <> p:29 var
+R1861:1867 QWIRE.Syntax.HOAS.HOASCircuits <> compose def
+binder 1877:1877 <> p:30
+R1882:1885 QWIRE.Syntax.HOAS.HOASCircuits <> lift constr
+R1887:1887 QWIRE.Syntax.HOAS.HOASLib <> p:30 var
+R1905:1911 QWIRE.Syntax.HOAS.HOASCircuits <> compose def
+R1928:1929 Coq.Init.Datatypes <> tt constr
+R1905:1911 QWIRE.Syntax.HOAS.HOASCircuits <> compose def
+R1928:1929 Coq.Init.Datatypes <> tt constr
+R1968:1972 Coq.Init.Datatypes <> curry def
+R1968:1972 Coq.Init.Datatypes <> curry def
+R1990:1996 QWIRE.Syntax.HOAS.HOASCircuits <> compose def
+binder 2006:2006 <> p:31
+R2011:2017 QWIRE.Typing.TypeChecking <> letpair abbrev
+binder 2019:2020 <> p1:32
+binder 2019:2020 <> p1:33
+binder 2022:2023 <> p2:34
+binder 2022:2023 <> p2:35
+R2066:2067 QWIRE.Syntax.HOAS.HOASLib <> p1:32 var
+binder 2074:2075 <> x1:36
+R2096:2097 QWIRE.Syntax.HOAS.HOASLib <> p2:34 var
+R2103:2104 QWIRE.Syntax.HOAS.HOASLib <> x1:36 var
+R2025:2025 QWIRE.Syntax.HOAS.HOASLib <> p:31 var
+R1990:1996 QWIRE.Syntax.HOAS.HOASCircuits <> compose def
+binder 2006:2006 <> p:37
+R2011:2017 QWIRE.Typing.TypeChecking <> letpair abbrev
+binder 2019:2020 <> p1:38
+binder 2019:2020 <> p1:39
+binder 2022:2023 <> p2:40
+binder 2022:2023 <> p2:41
+R2066:2067 QWIRE.Syntax.HOAS.HOASLib <> p1:38 var
+binder 2074:2075 <> x1:42
+R2096:2097 QWIRE.Syntax.HOAS.HOASLib <> p2:40 var
+R2103:2104 QWIRE.Syntax.HOAS.HOASLib <> x1:42 var
+R2025:2025 QWIRE.Syntax.HOAS.HOASLib <> p:37 var
+def 2208:2216 <> lift_wire
+R2226:2230 QWIRE.Base.Contexts <> WType ind
+binder 2219:2219 <> W:43
+binder 2221:2222 <> W':44
+R2239:2245 QWIRE.Syntax.HOAS.HOASCircuits <> Circuit ind
+R2247:2247 QWIRE.Syntax.HOAS.HOASLib <> W:43 var
+binder 2234:2235 <> c0:45
+R2259:2262 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2255:2258 Coq.Init.Datatypes <> bool ind
+R2263:2269 QWIRE.Syntax.HOAS.HOASCircuits <> Circuit ind
+R2271:2272 QWIRE.Syntax.HOAS.HOASLib <> W':44 var
+binder 2251:2251 <> c:46
+R2279:2285 QWIRE.Syntax.HOAS.HOASCircuits <> Circuit ind
+R2287:2288 QWIRE.Syntax.HOAS.HOASLib <> W':44 var
+R2301:2301 QWIRE.Syntax.HOAS.HOASLib <> W:43 var
+R2313:2315 QWIRE.Base.Contexts <> Bit constr
+R2322:2328 QWIRE.Syntax.HOAS.HOASCircuits <> compose def
+binder 2338:2338 <> p:48
+R2343:2346 QWIRE.Syntax.HOAS.HOASCircuits <> lift constr
+R2350:2350 QWIRE.Syntax.HOAS.HOASLib <> c:46 var
+R2348:2348 QWIRE.Syntax.HOAS.HOASLib <> p:48 var
+R2330:2331 QWIRE.Syntax.HOAS.HOASLib <> c0:45 var
+R2357:2361 QWIRE.Base.Contexts <> Qubit constr
+R2366:2372 QWIRE.Syntax.HOAS.HOASCircuits <> compose def
+binder 2391:2391 <> p:49
+R2396:2399 QWIRE.Syntax.HOAS.HOASCircuits <> lift constr
+R2403:2403 QWIRE.Syntax.HOAS.HOASLib <> c:46 var
+R2401:2401 QWIRE.Syntax.HOAS.HOASLib <> p:49 var
+R2379:2381 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R2375:2378 QWIRE.Base.Contexts <> meas constr
+R2382:2383 QWIRE.Syntax.HOAS.HOASLib <> c0:45 var
+R2410:2412 QWIRE.Base.Contexts <> One constr
+R2419:2419 QWIRE.Syntax.HOAS.HOASLib <> c:46 var
+R2421:2424 Coq.Init.Datatypes <> true constr
+R2449:2454 QWIRE.Base.Contexts <> Tensor constr
+R2465:2465 QWIRE.Syntax.HOAS.HOASLib <> c:46 var
+R2467:2470 Coq.Init.Datatypes <> true constr
+R2536:2544 QWIRE.Syntax.HOAS.HOASLib <> lift_wire def
+binder 2554:2554 <> x:50
+not 2509:2509 <> ::circ_scope:'lift_'_x_'←'_x_';'_x
+R2666:2672 QWIRE.Syntax.HOAS.HOASCircuits <> compose def
+binder 2682:2682 <> p:51
+R2700:2706 QWIRE.Typing.TypeChecking <> letpair abbrev
+binder 2708:2709 <> p1:52
+binder 2708:2709 <> p1:53
+binder 2711:2712 <> p2:54
+binder 2711:2712 <> p2:55
+R2717:2725 QWIRE.Syntax.HOAS.HOASLib <> lift_wire def
+binder 2735:2735 <> x:56
+R2740:2748 QWIRE.Syntax.HOAS.HOASLib <> lift_wire def
+binder 2758:2758 <> y:57
+R2750:2751 QWIRE.Syntax.HOAS.HOASLib <> p2:54 var
+R2727:2728 QWIRE.Syntax.HOAS.HOASLib <> p1:52 var
+R2714:2714 QWIRE.Syntax.HOAS.HOASLib <> p:51 var
+not 2631:2631 <> ::circ_scope:'lift_'_'('_x_','_x_')'_'←'_x_';'_x
+def 3198:3204 <> id_circ
+binder 3207:3207 <> W:58
+R3212:3214 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R3216:3216 QWIRE.Syntax.HOAS.HOASLib <> W:58 var
+R3218:3218 QWIRE.Syntax.HOAS.HOASLib <> W:58 var
+R3225:3229 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_x_'⇒'_x not
+R3231:3236 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_x_'⇒'_x not
+R3245:3245 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_x_'⇒'_x not
+binder 3230:3230 <> p:59
+R3237:3242 QWIRE.Syntax.HOAS.HOASCircuits <> output constr
+R3244:3244 QWIRE.Syntax.HOAS.HOASLib <> p:59 var
+prf 3254:3263 <> id_circ_WT
+binder 3274:3274 <> W:60
+R3277:3285 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R3289:3295 QWIRE.Syntax.HOAS.HOASLib <> id_circ def
+R3297:3297 QWIRE.Syntax.HOAS.HOASLib <> W:60 var
+def 3337:3340 <> SWAP
+R3344:3346 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R3354:3358 QWIRE.Base.Contexts <> ::circ_scope:x_'⊗'_x not
+R3349:3353 QWIRE.Base.Contexts <> Qubit constr
+R3359:3363 QWIRE.Base.Contexts <> Qubit constr
+R3372:3376 QWIRE.Base.Contexts <> ::circ_scope:x_'⊗'_x not
+R3367:3371 QWIRE.Base.Contexts <> Qubit constr
+R3377:3381 QWIRE.Base.Contexts <> Qubit constr
+R3390:3395 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_'('_x_','_x_')'_'⇒'_x not
+R3398:3398 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_'('_x_','_x_')'_'⇒'_x not
+R3401:3406 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_'('_x_','_x_')'_'⇒'_x not
+binder 3396:3397 <> p1:61
+binder 3399:3400 <> p2:62
+R3407:3407 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3410:3410 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3413:3413 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3408:3409 QWIRE.Syntax.HOAS.HOASLib <> p2:62 var
+R3411:3412 QWIRE.Syntax.HOAS.HOASLib <> p1:61 var
+prf 3422:3428 <> WT_SWAP
+R3432:3440 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R3442:3445 QWIRE.Syntax.HOAS.HOASLib <> SWAP def
+def 3485:3492 <> SWAP_GEN
+binder 3495:3496 <> W1:63
+binder 3498:3499 <> W2:64
+R3504:3506 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R3511:3515 QWIRE.Base.Contexts <> ::circ_scope:x_'⊗'_x not
+R3509:3510 QWIRE.Syntax.HOAS.HOASLib <> W1:63 var
+R3516:3517 QWIRE.Syntax.HOAS.HOASLib <> W2:64 var
+R3523:3527 QWIRE.Base.Contexts <> ::circ_scope:x_'⊗'_x not
+R3521:3522 QWIRE.Syntax.HOAS.HOASLib <> W2:64 var
+R3528:3529 QWIRE.Syntax.HOAS.HOASLib <> W1:63 var
+R3538:3543 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_'('_x_','_x_')'_'⇒'_x not
+R3546:3546 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_'('_x_','_x_')'_'⇒'_x not
+R3549:3554 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_'('_x_','_x_')'_'⇒'_x not
+binder 3544:3545 <> p1:65
+binder 3547:3548 <> p2:66
+R3555:3555 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3558:3558 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3561:3561 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3556:3557 QWIRE.Syntax.HOAS.HOASLib <> p2:66 var
+R3559:3560 QWIRE.Syntax.HOAS.HOASLib <> p1:65 var
+prf 3570:3580 <> WT_SWAP_GEN
+binder 3591:3592 <> W1:67
+binder 3594:3595 <> W2:68
+R3598:3606 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R3610:3617 QWIRE.Syntax.HOAS.HOASLib <> SWAP_GEN def
+R3619:3620 QWIRE.Syntax.HOAS.HOASLib <> W1:67 var
+R3622:3623 QWIRE.Syntax.HOAS.HOASLib <> W2:68 var
+def 3664:3666 <> new
+R3673:3676 Coq.Init.Datatypes <> bool ind
+binder 3669:3669 <> b:69
+R3681:3683 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R3685:3687 QWIRE.Base.Contexts <> One constr
+R3689:3691 QWIRE.Base.Contexts <> Bit constr
+R3699:3699 QWIRE.Syntax.HOAS.HOASLib <> b:69 var
+R3716:3719 QWIRE.Base.Contexts <> new0 constr
+R3706:3709 QWIRE.Base.Contexts <> new1 constr
+prf 3728:3733 <> new_WT
+binder 3744:3744 <> b:70
+R3747:3755 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R3758:3760 QWIRE.Syntax.HOAS.HOASLib <> new def
+R3762:3762 QWIRE.Syntax.HOAS.HOASLib <> b:70 var
+def 3818:3821 <> init
+R3828:3831 Coq.Init.Datatypes <> bool ind
+binder 3824:3824 <> b:71
+R3836:3838 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R3840:3842 QWIRE.Base.Contexts <> One constr
+R3844:3848 QWIRE.Base.Contexts <> Qubit constr
+R3856:3856 QWIRE.Syntax.HOAS.HOASLib <> b:71 var
+R3874:3878 QWIRE.Base.Contexts <> init0 constr
+R3863:3867 QWIRE.Base.Contexts <> init1 constr
+prf 3887:3893 <> init_WT
+binder 3904:3904 <> b:72
+R3907:3915 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R3918:3921 QWIRE.Syntax.HOAS.HOASLib <> init def
+R3923:3923 QWIRE.Syntax.HOAS.HOASLib <> b:72 var
+def 3979:3984 <> assert
+R3991:3994 Coq.Init.Datatypes <> bool ind
+binder 3987:3987 <> b:73
+R3999:4001 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R4003:4007 QWIRE.Base.Contexts <> Qubit constr
+R4009:4011 QWIRE.Base.Contexts <> One constr
+R4019:4019 QWIRE.Syntax.HOAS.HOASLib <> b:73 var
+R4039:4045 QWIRE.Base.Contexts <> assert0 constr
+R4026:4032 QWIRE.Base.Contexts <> assert1 constr
+prf 4054:4062 <> assert_WT
+binder 4073:4073 <> b:74
+R4076:4084 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R4087:4092 QWIRE.Syntax.HOAS.HOASLib <> assert def
+R4094:4094 QWIRE.Syntax.HOAS.HOASLib <> b:74 var
+def 4134:4138 <> inSeq
+binder 4141:4142 <> w1:75
+binder 4144:4145 <> w2:76
+binder 4147:4148 <> w3:77
+R4157:4159 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R4161:4162 QWIRE.Syntax.HOAS.HOASLib <> w1:75 var
+R4164:4165 QWIRE.Syntax.HOAS.HOASLib <> w2:76 var
+binder 4152:4153 <> c1:78
+R4174:4176 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R4178:4179 QWIRE.Syntax.HOAS.HOASLib <> w2:76 var
+R4181:4182 QWIRE.Syntax.HOAS.HOASLib <> w3:77 var
+binder 4169:4170 <> c2:79
+R4186:4188 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R4190:4191 QWIRE.Syntax.HOAS.HOASLib <> w1:75 var
+R4193:4194 QWIRE.Syntax.HOAS.HOASLib <> w3:77 var
+R4201:4205 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_x_'⇒'_x not
+R4208:4217 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_x_'⇒'_x not
+binder 4206:4207 <> p1:80
+R4218:4222 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R4225:4229 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R4241:4246 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R4230:4234 QWIRE.Syntax.HOAS.HOASCircuits <> unbox def
+R4239:4240 QWIRE.Syntax.HOAS.HOASLib <> p1:80 var
+R4236:4237 QWIRE.Syntax.HOAS.HOASLib <> c1:78 var
+binder 4223:4224 <> p2:81
+R4247:4251 QWIRE.Syntax.HOAS.HOASCircuits <> unbox def
+R4256:4257 QWIRE.Syntax.HOAS.HOASLib <> p2:81 var
+R4253:4254 QWIRE.Syntax.HOAS.HOASLib <> c2:79 var
+prf 4267:4274 <> inSeq_WT
+binder 4285:4286 <> W1:82
+binder 4288:4289 <> W2:83
+binder 4291:4292 <> W3:84
+R4300:4302 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R4304:4305 QWIRE.Syntax.HOAS.HOASLib <> W1:82 var
+R4307:4308 QWIRE.Syntax.HOAS.HOASLib <> W2:83 var
+binder 4295:4296 <> c1:85
+R4317:4319 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R4321:4322 QWIRE.Syntax.HOAS.HOASLib <> W2:83 var
+R4324:4325 QWIRE.Syntax.HOAS.HOASLib <> W3:84 var
+binder 4312:4313 <> c2:86
+R4359:4362 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4347:4355 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R4357:4358 QWIRE.Syntax.HOAS.HOASLib <> c1:85 var
+R4375:4378 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4363:4371 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R4373:4374 QWIRE.Syntax.HOAS.HOASLib <> c2:86 var
+R4379:4387 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R4390:4394 QWIRE.Syntax.HOAS.HOASLib <> inSeq def
+R4399:4400 QWIRE.Syntax.HOAS.HOASLib <> c2:86 var
+R4396:4397 QWIRE.Syntax.HOAS.HOASLib <> c1:85 var
+def 4440:4444 <> inPar
+binder 4447:4448 <> w1:87
+binder 4450:4451 <> w2:88
+binder 4453:4455 <> w1':89
+binder 4457:4459 <> w2':90
+R4486:4488 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R4490:4491 QWIRE.Syntax.HOAS.HOASLib <> w1:87 var
+R4493:4494 QWIRE.Syntax.HOAS.HOASLib <> w2:88 var
+binder 4481:4482 <> c1:91
+R4503:4505 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R4507:4509 QWIRE.Syntax.HOAS.HOASLib <> w1':89 var
+R4511:4513 QWIRE.Syntax.HOAS.HOASLib <> w2':90 var
+binder 4498:4499 <> c2:92
+R4518:4520 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R4525:4529 QWIRE.Base.Contexts <> ::circ_scope:x_'⊗'_x not
+R4523:4524 QWIRE.Syntax.HOAS.HOASLib <> w1:87 var
+R4530:4532 QWIRE.Syntax.HOAS.HOASLib <> w1':89 var
+R4538:4542 QWIRE.Base.Contexts <> ::circ_scope:x_'⊗'_x not
+R4536:4537 QWIRE.Syntax.HOAS.HOASLib <> w2:88 var
+R4543:4545 QWIRE.Syntax.HOAS.HOASLib <> w2':90 var
+R4552:4556 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_x_'⇒'_x not
+R4560:4569 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_x_'⇒'_x not
+binder 4557:4559 <> p12:93
+R4570:4575 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R4578:4578 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R4581:4586 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R4597:4603 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R4587:4592 QWIRE.Syntax.HOAS.HOASCircuits <> output constr
+R4594:4596 QWIRE.Syntax.HOAS.HOASLib <> p12:93 var
+binder 4576:4577 <> p1:94
+binder 4579:4580 <> p2:95
+R4604:4608 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R4612:4620 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R4632:4637 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R4621:4625 QWIRE.Syntax.HOAS.HOASCircuits <> unbox def
+R4630:4631 QWIRE.Syntax.HOAS.HOASLib <> p1:94 var
+R4627:4628 QWIRE.Syntax.HOAS.HOASLib <> c1:91 var
+binder 4609:4611 <> p1':96
+R4638:4642 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R4646:4654 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R4666:4672 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R4655:4659 QWIRE.Syntax.HOAS.HOASCircuits <> unbox def
+R4664:4665 QWIRE.Syntax.HOAS.HOASLib <> p2:95 var
+R4661:4662 QWIRE.Syntax.HOAS.HOASLib <> c2:92 var
+binder 4643:4645 <> p2':97
+R4673:4673 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4677:4677 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4681:4681 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4674:4676 QWIRE.Syntax.HOAS.HOASLib <> p1':96 var
+R4678:4680 QWIRE.Syntax.HOAS.HOASLib <> p2':97 var
+prf 4919:4926 <> inPar_WT
+binder 4937:4938 <> W1:98
+binder 4940:4942 <> W1':99
+binder 4944:4945 <> W2:100
+binder 4947:4949 <> W2':101
+R4957:4959 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R4961:4962 QWIRE.Syntax.HOAS.HOASLib <> W1:98 var
+R4964:4965 QWIRE.Syntax.HOAS.HOASLib <> W2:100 var
+binder 4952:4953 <> c1:102
+R4974:4976 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R4978:4980 QWIRE.Syntax.HOAS.HOASLib <> W1':99 var
+R4982:4984 QWIRE.Syntax.HOAS.HOASLib <> W2':101 var
+binder 4969:4970 <> c2:103
+R5003:5006 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4991:4999 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R5001:5002 QWIRE.Syntax.HOAS.HOASLib <> c1:102 var
+R5019:5024 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5007:5015 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R5017:5018 QWIRE.Syntax.HOAS.HOASLib <> c2:103 var
+R5025:5033 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R5036:5040 QWIRE.Syntax.HOAS.HOASLib <> inPar def
+R5045:5046 QWIRE.Syntax.HOAS.HOASLib <> c2:103 var
+R5042:5043 QWIRE.Syntax.HOAS.HOASLib <> c1:102 var
+def 5084:5088 <> units
+R5095:5097 Coq.Init.Datatypes <> nat ind
+binder 5091:5091 <> n:104
+R5102:5104 QWIRE.Base.Contexts <> Pat ind
+R5108:5112 QWIRE.Base.Contexts <> ::circ_scope:x_'⨂'_x not
+R5107:5107 QWIRE.Syntax.HOAS.HOASLib <> n:104 var
+R5113:5115 QWIRE.Base.Contexts <> One constr
+R5130:5130 QWIRE.Syntax.HOAS.HOASLib <> n:104 var
+R5141:5141 Coq.Init.Datatypes <> O constr
+R5146:5149 QWIRE.Base.Contexts <> unit constr
+R5155:5155 Coq.Init.Datatypes <> S constr
+R5163:5166 QWIRE.Base.Contexts <> pair constr
+R5174:5178 QWIRE.Syntax.HOAS.HOASLib <> units:105 def
+R5168:5171 QWIRE.Base.Contexts <> unit constr
+prf 5198:5208 <> types_units
+binder 5219:5219 <> n:107
+R5222:5230 QWIRE.Base.Contexts <> Types_Pat ind
+R5237:5241 QWIRE.Syntax.HOAS.HOASLib <> units def
+R5243:5243 QWIRE.Syntax.HOAS.HOASLib <> n:107 var
+R5232:5234 QWIRE.Base.Contexts <> :::'∅' not
+def 5337:5344 <> initMany
+R5351:5354 Coq.Init.Datatypes <> bool ind
+binder 5347:5347 <> b:108
+R5362:5364 Coq.Init.Datatypes <> nat ind
+binder 5358:5358 <> n:109
+R5369:5371 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R5373:5375 QWIRE.Base.Contexts <> One constr
+R5379:5383 QWIRE.Base.Contexts <> ::circ_scope:x_'⨂'_x not
+R5378:5378 QWIRE.Syntax.HOAS.HOASLib <> n:109 var
+R5384:5388 QWIRE.Base.Contexts <> Qubit constr
+R5402:5402 QWIRE.Syntax.HOAS.HOASLib <> n:109 var
+R5422:5428 QWIRE.Syntax.HOAS.HOASLib <> id_circ def
+R5434:5434 Coq.Init.Datatypes <> S constr
+R5442:5465 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_'()'_'⇒'_x not
+R5466:5470 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R5472:5477 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R5495:5507 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R5478:5482 QWIRE.Syntax.HOAS.HOASCircuits <> unbox def
+R5493:5494 QWIRE.Typing.TypeChecking <> ::circ_scope:'()' not
+R5485:5488 QWIRE.Syntax.HOAS.HOASLib <> init def
+R5490:5490 QWIRE.Syntax.HOAS.HOASLib <> b:108 var
+binder 5471:5471 <> q:112
+R5508:5512 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R5515:5519 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R5544:5556 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R5520:5524 QWIRE.Syntax.HOAS.HOASCircuits <> unbox def
+R5542:5543 QWIRE.Typing.TypeChecking <> ::circ_scope:'()' not
+R5527:5534 QWIRE.Syntax.HOAS.HOASLib <> initMany:110 def
+R5536:5536 QWIRE.Syntax.HOAS.HOASLib <> b:108 var
+binder 5513:5514 <> qs:113
+R5557:5557 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5559:5560 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5563:5563 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5558:5558 QWIRE.Syntax.HOAS.HOASLib <> q:112 var
+R5561:5562 QWIRE.Syntax.HOAS.HOASLib <> qs:113 var
+prf 5578:5588 <> initMany_WT
+binder 5599:5599 <> b:114
+binder 5601:5601 <> n:115
+R5604:5612 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R5615:5622 QWIRE.Syntax.HOAS.HOASLib <> initMany def
+R5624:5624 QWIRE.Syntax.HOAS.HOASLib <> b:114 var
+R5626:5626 QWIRE.Syntax.HOAS.HOASLib <> n:115 var
+def 5677:5685 <> inSeqMany
+R5692:5694 Coq.Init.Datatypes <> nat ind
+binder 5688:5688 <> n:116
+binder 5698:5698 <> W:117
+R5706:5708 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R5710:5710 QWIRE.Syntax.HOAS.HOASLib <> W:117 var
+R5712:5712 QWIRE.Syntax.HOAS.HOASLib <> W:117 var
+binder 5702:5702 <> c:118
+R5717:5719 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R5721:5721 QWIRE.Syntax.HOAS.HOASLib <> W:117 var
+R5723:5723 QWIRE.Syntax.HOAS.HOASLib <> W:117 var
+R5736:5736 QWIRE.Syntax.HOAS.HOASLib <> n:116 var
+R5752:5758 QWIRE.Syntax.HOAS.HOASLib <> id_circ def
+R5764:5764 Coq.Init.Datatypes <> S constr
+R5772:5776 QWIRE.Syntax.HOAS.HOASLib <> inSeq def
+R5781:5789 QWIRE.Syntax.HOAS.HOASLib <> inSeqMany:119 def
+R5794:5794 QWIRE.Syntax.HOAS.HOASLib <> c:118 var
+R5778:5778 QWIRE.Syntax.HOAS.HOASLib <> c:118 var
+prf 5810:5821 <> inSeqMany_WT
+binder 5832:5832 <> n:121
+binder 5834:5834 <> W:122
+R5841:5843 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R5845:5845 QWIRE.Syntax.HOAS.HOASLib <> W:122 var
+R5847:5847 QWIRE.Syntax.HOAS.HOASLib <> W:122 var
+binder 5837:5837 <> c:123
+R5869:5872 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5858:5866 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R5868:5868 QWIRE.Syntax.HOAS.HOASLib <> c:123 var
+R5873:5881 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R5884:5892 QWIRE.Syntax.HOAS.HOASLib <> inSeqMany def
+R5896:5896 QWIRE.Syntax.HOAS.HOASLib <> c:123 var
+R5894:5894 QWIRE.Syntax.HOAS.HOASLib <> n:121 var
+def 5966:5974 <> inParMany
+R5981:5983 Coq.Init.Datatypes <> nat ind
+binder 5977:5977 <> n:124
+binder 5987:5987 <> W:125
+binder 5989:5990 <> W':126
+R5998:6000 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R6002:6002 QWIRE.Syntax.HOAS.HOASLib <> W:125 var
+R6004:6005 QWIRE.Syntax.HOAS.HOASLib <> W':126 var
+binder 5994:5994 <> c:127
+R6010:6012 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R6016:6020 QWIRE.Base.Contexts <> ::circ_scope:x_'⨂'_x not
+R6015:6015 QWIRE.Syntax.HOAS.HOASLib <> n:124 var
+R6021:6021 QWIRE.Syntax.HOAS.HOASLib <> W:125 var
+R6026:6030 QWIRE.Base.Contexts <> ::circ_scope:x_'⨂'_x not
+R6025:6025 QWIRE.Syntax.HOAS.HOASLib <> n:124 var
+R6031:6032 QWIRE.Syntax.HOAS.HOASLib <> W':126 var
+R6047:6047 QWIRE.Syntax.HOAS.HOASLib <> n:124 var
+R6067:6073 QWIRE.Syntax.HOAS.HOASLib <> id_circ def
+R6079:6079 Coq.Init.Datatypes <> S constr
+R6087:6091 QWIRE.Syntax.HOAS.HOASLib <> inPar def
+R6096:6104 QWIRE.Syntax.HOAS.HOASLib <> inParMany:128 def
+R6109:6109 QWIRE.Syntax.HOAS.HOASLib <> c:127 var
+R6093:6093 QWIRE.Syntax.HOAS.HOASLib <> c:127 var
+prf 6125:6136 <> inParMany_WT
+binder 6147:6147 <> n:130
+binder 6149:6149 <> W:131
+binder 6151:6152 <> W':132
+R6159:6161 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R6163:6163 QWIRE.Syntax.HOAS.HOASLib <> W:131 var
+R6165:6166 QWIRE.Syntax.HOAS.HOASLib <> W':132 var
+binder 6155:6155 <> c:133
+R6181:6219 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6170:6178 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R6180:6180 QWIRE.Syntax.HOAS.HOASLib <> c:133 var
+R6220:6228 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R6231:6239 QWIRE.Syntax.HOAS.HOASLib <> inParMany def
+R6243:6243 QWIRE.Syntax.HOAS.HOASLib <> c:133 var
+R6241:6241 QWIRE.Syntax.HOAS.HOASLib <> n:130 var
+R6384:6388 QWIRE.Syntax.HOAS.HOASLib <> inPar def
+not 6368:6368 <> ::circ_scope:x_'∥'_x
+R6469:6473 QWIRE.Syntax.HOAS.HOASLib <> inSeq def
+not 6455:6455 <> ::circ_scope:x_'·'_x
+R6554:6558 QWIRE.Syntax.HOAS.HOASLib <> inSeq def
+not 6539:6539 <> ::circ_scope:x_';;'_x
+R6637:6641 QWIRE.Syntax.HOAS.HOASLib <> units def
+not 6626:6626 <> ::circ_scope:'(())'
+R6694:6702 QWIRE.Syntax.HOAS.HOASLib <> inParMany def
+not 6682:6682 <> ::circ_scope:x_'#'_x
+def 7062:7067 <> CL_AND
+R7071:7073 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R7081:7085 QWIRE.Base.Contexts <> ::circ_scope:x_'⊗'_x not
+R7076:7080 QWIRE.Base.Contexts <> Qubit constr
+R7086:7090 QWIRE.Base.Contexts <> Qubit constr
+R7093:7097 QWIRE.Base.Contexts <> Qubit constr
+R7104:7108 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_x_'⇒'_x not
+R7111:7119 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_x_'⇒'_x not
+binder 7109:7110 <> ab:134
+R7120:7125 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R7127:7127 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R7129:7138 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R7148:7153 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R7139:7144 QWIRE.Syntax.HOAS.HOASCircuits <> output constr
+R7146:7147 QWIRE.Syntax.HOAS.HOASLib <> ab:134 var
+binder 7126:7126 <> a:135
+binder 7128:7128 <> b:136
+R7154:7158 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R7160:7172 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R7183:7188 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R7178:7180 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R7173:7177 QWIRE.Base.Contexts <> init0 constr
+R7181:7182 QWIRE.Typing.TypeChecking <> ::circ_scope:'()' not
+binder 7159:7159 <> z:137
+R7189:7194 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_'('_x_','_x_')'_')'_'←'_x_';'_x not
+R7196:7197 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_'('_x_','_x_')'_')'_'←'_x_';'_x not
+R7199:7199 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_'('_x_','_x_')'_')'_'←'_x_';'_x not
+R7201:7207 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_'('_x_','_x_')'_')'_'←'_x_';'_x not
+R7225:7230 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_'('_x_','_x_')'_')'_'←'_x_';'_x not
+R7213:7215 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R7208:7212 QWIRE.Base.Contexts <> CCNOT abbrev
+R7216:7216 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7218:7218 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7224:7224 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7217:7217 QWIRE.Syntax.HOAS.HOASLib <> a:135 var
+R7219:7219 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7221:7221 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7223:7223 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7220:7220 QWIRE.Syntax.HOAS.HOASLib <> b:136 var
+R7222:7222 QWIRE.Syntax.HOAS.HOASLib <> z:137 var
+binder 7195:7195 <> a:138
+binder 7198:7198 <> b:139
+binder 7200:7200 <> z:140
+R7231:7235 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R7237:7249 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R7258:7263 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R7254:7256 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R7250:7253 QWIRE.Base.Contexts <> meas constr
+R7257:7257 QWIRE.Syntax.HOAS.HOASLib <> a:138 var
+binder 7236:7236 <> a:141
+R7264:7268 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R7270:7282 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R7291:7296 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R7287:7289 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R7283:7286 QWIRE.Base.Contexts <> meas constr
+R7290:7290 QWIRE.Syntax.HOAS.HOASLib <> b:139 var
+binder 7269:7269 <> b:142
+R7297:7315 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'()'_'←'_x_';'_x not
+R7327:7335 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'()'_'←'_x_';'_x not
+R7323:7325 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R7316:7322 QWIRE.Base.Contexts <> discard constr
+R7326:7326 QWIRE.Syntax.HOAS.HOASLib <> a:141 var
+R7336:7354 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'()'_'←'_x_';'_x not
+R7366:7374 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'()'_'←'_x_';'_x not
+R7362:7364 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R7355:7361 QWIRE.Base.Contexts <> discard constr
+R7365:7365 QWIRE.Syntax.HOAS.HOASLib <> b:142 var
+R7375:7375 QWIRE.Syntax.HOAS.HOASLib <> z:140 var
+prf 7385:7393 <> CL_AND_WT
+R7397:7405 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R7407:7412 QWIRE.Syntax.HOAS.HOASLib <> CL_AND def
+def 7451:7456 <> CL_XOR
+R7460:7462 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R7470:7474 QWIRE.Base.Contexts <> ::circ_scope:x_'⊗'_x not
+R7465:7469 QWIRE.Base.Contexts <> Qubit constr
+R7475:7479 QWIRE.Base.Contexts <> Qubit constr
+R7482:7486 QWIRE.Base.Contexts <> Qubit constr
+R7494:7499 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_'('_x_','_x_')'_'⇒'_x not
+R7501:7501 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_'('_x_','_x_')'_'⇒'_x not
+R7503:7513 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_'('_x_','_x_')'_'⇒'_x not
+binder 7500:7500 <> a:143
+binder 7502:7502 <> b:144
+R7514:7519 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R7521:7522 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R7524:7529 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R7542:7547 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R7534:7536 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R7530:7533 QWIRE.Base.Contexts <> CNOT abbrev
+R7537:7537 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7539:7539 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7541:7541 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7538:7538 QWIRE.Syntax.HOAS.HOASLib <> a:143 var
+R7540:7540 QWIRE.Syntax.HOAS.HOASLib <> b:144 var
+binder 7520:7520 <> a:145
+binder 7523:7523 <> b:146
+R7548:7552 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R7554:7563 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R7572:7577 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R7568:7570 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R7564:7567 QWIRE.Base.Contexts <> meas constr
+R7571:7571 QWIRE.Syntax.HOAS.HOASLib <> a:145 var
+binder 7553:7553 <> a:147
+R7578:7593 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'()'_'←'_x_';'_x not
+R7605:7610 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'()'_'←'_x_';'_x not
+R7601:7603 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R7594:7600 QWIRE.Base.Contexts <> discard constr
+R7604:7604 QWIRE.Syntax.HOAS.HOASLib <> a:147 var
+R7611:7611 QWIRE.Syntax.HOAS.HOASLib <> b:146 var
+prf 7620:7628 <> CL_XOR_WT
+R7632:7640 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R7642:7647 QWIRE.Syntax.HOAS.HOASLib <> CL_XOR def
+def 7686:7690 <> CL_OR
+R7694:7696 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R7704:7708 QWIRE.Base.Contexts <> ::circ_scope:x_'⊗'_x not
+R7699:7703 QWIRE.Base.Contexts <> Qubit constr
+R7709:7713 QWIRE.Base.Contexts <> Qubit constr
+R7716:7720 QWIRE.Base.Contexts <> Qubit constr
+R7727:7732 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_'('_x_','_x_')'_'⇒'_x not
+R7734:7734 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_'('_x_','_x_')'_'⇒'_x not
+R7736:7746 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_'('_x_','_x_')'_'⇒'_x not
+binder 7733:7733 <> a:148
+binder 7735:7735 <> b:149
+R7747:7751 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R7754:7766 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R7772:7777 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R7769:7770 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R7767:7768 QWIRE.Base.Contexts <> _X constr
+R7771:7771 QWIRE.Syntax.HOAS.HOASLib <> a:148 var
+binder 7752:7753 <> a':150
+R7778:7782 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R7785:7797 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R7803:7808 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R7800:7801 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R7798:7799 QWIRE.Base.Contexts <> _X constr
+R7802:7802 QWIRE.Syntax.HOAS.HOASLib <> b:149 var
+binder 7783:7784 <> b':151
+R7809:7813 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R7815:7828 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R7845:7850 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R7835:7837 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R7829:7834 QWIRE.Syntax.HOAS.HOASLib <> CL_AND def
+R7838:7838 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7841:7841 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7844:7844 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7839:7840 QWIRE.Syntax.HOAS.HOASLib <> a':150 var
+R7842:7843 QWIRE.Syntax.HOAS.HOASLib <> b':151 var
+binder 7814:7814 <> z:152
+R7853:7854 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R7851:7852 QWIRE.Base.Contexts <> _X constr
+R7855:7855 QWIRE.Syntax.HOAS.HOASLib <> z:152 var
+prf 7864:7871 <> CL_OR_WT
+R7875:7883 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R7885:7889 QWIRE.Syntax.HOAS.HOASLib <> CL_OR def
+def 8356:8359 <> TRUE
+R8363:8365 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R8367:8371 QWIRE.Base.Contexts <> Qubit constr
+R8373:8377 QWIRE.Base.Contexts <> Qubit constr
+R8382:8383 QWIRE.Base.Contexts <> _X constr
+prf 8392:8398 <> TRUE_WT
+R8402:8410 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R8412:8415 QWIRE.Syntax.HOAS.HOASLib <> TRUE def
+def 8672:8676 <> FALSE
+R8680:8682 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R8684:8688 QWIRE.Base.Contexts <> Qubit constr
+R8690:8694 QWIRE.Base.Contexts <> Qubit constr
+R8699:8705 QWIRE.Syntax.HOAS.HOASLib <> id_circ def
+prf 8714:8721 <> FALSE_WT
+R8725:8733 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R8735:8739 QWIRE.Syntax.HOAS.HOASLib <> FALSE def
+def 8778:8780 <> NOT
+R8784:8786 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R8794:8798 QWIRE.Base.Contexts <> ::circ_scope:x_'⊗'_x not
+R8789:8793 QWIRE.Base.Contexts <> Qubit constr
+R8799:8803 QWIRE.Base.Contexts <> Qubit constr
+R8812:8816 QWIRE.Base.Contexts <> ::circ_scope:x_'⊗'_x not
+R8807:8811 QWIRE.Base.Contexts <> Qubit constr
+R8817:8821 QWIRE.Base.Contexts <> Qubit constr
+R8829:8834 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_'('_x_','_x_')'_'⇒'_x not
+R8836:8836 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_'('_x_','_x_')'_'⇒'_x not
+R8838:8848 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_'('_x_','_x_')'_'⇒'_x not
+binder 8835:8835 <> x:153
+binder 8837:8837 <> z:154
+R8849:8853 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R8855:8867 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R8873:8878 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R8870:8871 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R8868:8869 QWIRE.Base.Contexts <> _X constr
+R8872:8872 QWIRE.Syntax.HOAS.HOASLib <> x:153 var
+binder 8854:8854 <> x:155
+R8879:8884 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R8886:8886 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R8888:8897 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R8909:8914 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R8902:8903 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R8898:8901 QWIRE.Base.Contexts <> CNOT abbrev
+R8904:8904 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8906:8906 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8908:8908 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8905:8905 QWIRE.Syntax.HOAS.HOASLib <> x:155 var
+R8907:8907 QWIRE.Syntax.HOAS.HOASLib <> z:154 var
+binder 8885:8885 <> x:156
+binder 8887:8887 <> z:157
+R8915:8919 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R8921:8933 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R8939:8944 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R8936:8937 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R8934:8935 QWIRE.Base.Contexts <> _X constr
+R8938:8938 QWIRE.Syntax.HOAS.HOASLib <> x:156 var
+binder 8920:8920 <> x:158
+R8945:8945 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8947:8947 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8949:8949 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8946:8946 QWIRE.Syntax.HOAS.HOASLib <> x:158 var
+R8948:8948 QWIRE.Syntax.HOAS.HOASLib <> z:157 var
+prf 8958:8963 <> NOT_WT
+R8967:8975 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R8977:8979 QWIRE.Syntax.HOAS.HOASLib <> NOT def
+def 9018:9020 <> AND
+R9024:9026 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R9044:9048 QWIRE.Base.Contexts <> ::circ_scope:x_'⊗'_x not
+R9034:9038 QWIRE.Base.Contexts <> ::circ_scope:x_'⊗'_x not
+R9029:9033 QWIRE.Base.Contexts <> Qubit constr
+R9039:9043 QWIRE.Base.Contexts <> Qubit constr
+R9049:9053 QWIRE.Base.Contexts <> Qubit constr
+R9072:9076 QWIRE.Base.Contexts <> ::circ_scope:x_'⊗'_x not
+R9062:9066 QWIRE.Base.Contexts <> ::circ_scope:x_'⊗'_x not
+R9057:9061 QWIRE.Base.Contexts <> Qubit constr
+R9067:9071 QWIRE.Base.Contexts <> Qubit constr
+R9077:9081 QWIRE.Base.Contexts <> Qubit constr
+R9089:9093 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_x_'⇒'_x not
+R9097:9105 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_x_'⇒'_x not
+binder 9094:9096 <> xyz:159
+R9106:9111 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_','_x_')'_'←'_x_';'_x not
+R9113:9113 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_','_x_')'_'←'_x_';'_x not
+R9115:9115 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_','_x_')'_'←'_x_';'_x not
+R9117:9125 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_','_x_')'_'←'_x_';'_x not
+R9136:9141 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_','_x_')'_'←'_x_';'_x not
+R9126:9131 QWIRE.Syntax.HOAS.HOASCircuits <> output constr
+R9133:9135 QWIRE.Syntax.HOAS.HOASLib <> xyz:159 var
+binder 9116:9116 <> z:160
+binder 9112:9112 <> x:161
+binder 9114:9114 <> y:162
+R9142:9147 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_'('_x_','_x_')'_')'_'←'_x_';'_x not
+R9149:9150 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_'('_x_','_x_')'_')'_'←'_x_';'_x not
+R9152:9152 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_'('_x_','_x_')'_')'_'←'_x_';'_x not
+R9154:9160 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_'('_x_','_x_')'_')'_'←'_x_';'_x not
+R9177:9182 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_'('_x_','_x_')'_')'_'←'_x_';'_x not
+R9166:9167 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R9161:9165 QWIRE.Base.Contexts <> CCNOT abbrev
+R9168:9168 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9170:9170 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9176:9176 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9169:9169 QWIRE.Syntax.HOAS.HOASLib <> x:161 var
+R9171:9171 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9173:9173 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9175:9175 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9172:9172 QWIRE.Syntax.HOAS.HOASLib <> y:162 var
+R9174:9174 QWIRE.Syntax.HOAS.HOASLib <> z:160 var
+binder 9148:9148 <> x:163
+binder 9151:9151 <> y:164
+binder 9153:9153 <> z:165
+R9183:9183 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9185:9185 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9187:9187 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9189:9189 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9184:9184 QWIRE.Syntax.HOAS.HOASLib <> x:163 var
+R9186:9186 QWIRE.Syntax.HOAS.HOASLib <> y:164 var
+R9188:9188 QWIRE.Syntax.HOAS.HOASLib <> z:165 var
+prf 9202:9207 <> AND_WT
+R9211:9219 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R9221:9223 QWIRE.Syntax.HOAS.HOASLib <> AND def
+def 9262:9264 <> XOR
+R9268:9270 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R9288:9292 QWIRE.Base.Contexts <> ::circ_scope:x_'⊗'_x not
+R9278:9282 QWIRE.Base.Contexts <> ::circ_scope:x_'⊗'_x not
+R9273:9277 QWIRE.Base.Contexts <> Qubit constr
+R9283:9287 QWIRE.Base.Contexts <> Qubit constr
+R9293:9297 QWIRE.Base.Contexts <> Qubit constr
+R9316:9320 QWIRE.Base.Contexts <> ::circ_scope:x_'⊗'_x not
+R9306:9310 QWIRE.Base.Contexts <> ::circ_scope:x_'⊗'_x not
+R9301:9305 QWIRE.Base.Contexts <> Qubit constr
+R9311:9315 QWIRE.Base.Contexts <> Qubit constr
+R9321:9325 QWIRE.Base.Contexts <> Qubit constr
+R9334:9338 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_x_'⇒'_x not
+R9342:9350 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_x_'⇒'_x not
+binder 9339:9341 <> xyz:166
+R9351:9356 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_','_x_')'_'←'_x_';'_x not
+R9358:9358 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_','_x_')'_'←'_x_';'_x not
+R9360:9360 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_','_x_')'_'←'_x_';'_x not
+R9362:9370 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_','_x_')'_'←'_x_';'_x not
+R9381:9386 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_','_x_')'_'←'_x_';'_x not
+R9371:9376 QWIRE.Syntax.HOAS.HOASCircuits <> output constr
+R9378:9380 QWIRE.Syntax.HOAS.HOASLib <> xyz:166 var
+binder 9361:9361 <> z:167
+binder 9357:9357 <> x:168
+binder 9359:9359 <> y:169
+R9387:9392 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R9394:9394 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R9396:9405 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R9417:9422 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R9410:9411 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R9406:9409 QWIRE.Base.Contexts <> CNOT abbrev
+R9412:9412 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9414:9414 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9416:9416 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9413:9413 QWIRE.Syntax.HOAS.HOASLib <> x:168 var
+R9415:9415 QWIRE.Syntax.HOAS.HOASLib <> z:167 var
+binder 9393:9393 <> x:170
+binder 9395:9395 <> z:171
+R9423:9428 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R9430:9430 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R9432:9441 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R9453:9458 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R9446:9447 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R9442:9445 QWIRE.Base.Contexts <> CNOT abbrev
+R9448:9448 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9450:9450 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9452:9452 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9449:9449 QWIRE.Syntax.HOAS.HOASLib <> y:169 var
+R9451:9451 QWIRE.Syntax.HOAS.HOASLib <> z:171 var
+binder 9429:9429 <> y:172
+binder 9431:9431 <> z:173
+R9459:9459 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9461:9461 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9463:9463 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9465:9465 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9460:9460 QWIRE.Syntax.HOAS.HOASLib <> x:170 var
+R9462:9462 QWIRE.Syntax.HOAS.HOASLib <> y:172 var
+R9464:9464 QWIRE.Syntax.HOAS.HOASLib <> z:173 var
+prf 9474:9479 <> XOR_WT
+R9483:9491 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R9493:9495 QWIRE.Syntax.HOAS.HOASLib <> XOR def

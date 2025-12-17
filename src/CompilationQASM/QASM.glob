@@ -1,0 +1,2092 @@
+DIGEST eb4e6bf5eb5746f8d83a79f2695fc220
+FQWIRE.CompilationQASM.QASM
+R15:19 Coq.Reals.Reals <> <> lib
+R37:42 Coq.Strings.String <> <> lib
+R61:90 QWIRE.Syntax.HOAS.HOASCircuits <> <> lib
+R108:132 QWIRE.Typing.TypeChecking <> <> lib
+R150:175 QWIRE.Syntax.DB.DBCircuits <> <> lib
+R193:197 Coq.Arith.Arith <> <> lib
+R215:218 Coq.Lists.List <> <> lib
+def 281:282 <> id
+R287:292 Coq.Strings.String <> string ind
+ind 306:309 <> bexp
+constr 323:327 <> BTrue
+constr 338:343 <> BFalse
+constr 354:355 <> BI
+constr 376:379 <> BNot
+constr 398:401 <> BAnd
+R331:334 QWIRE.CompilationQASM.QASM <> bexp:1 ind
+R347:350 QWIRE.CompilationQASM.QASM <> bexp:1 ind
+R365:368 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R359:364 Coq.Strings.String <> string ind
+R369:372 QWIRE.CompilationQASM.QASM <> bexp:1 ind
+R387:390 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R383:386 QWIRE.CompilationQASM.QASM <> bexp:1 ind
+R391:394 QWIRE.CompilationQASM.QASM <> bexp:1 ind
+R409:412 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R405:408 QWIRE.CompilationQASM.QASM <> bexp:1 ind
+R417:420 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R413:416 QWIRE.CompilationQASM.QASM <> bexp:1 ind
+R421:424 QWIRE.CompilationQASM.QASM <> bexp:1 ind
+scheme 306:309 <> bexp_rect
+scheme 306:309 <> bexp_ind
+scheme 306:309 <> bexp_rec
+scheme 306:309 <> bexp_sind
+ind 439:443 <> binop
+constr 456:459 <> plus
+constr 463:467 <> minus
+constr 472:476 <> times
+constr 480:482 <> div
+constr 486:488 <> pow
+scheme 439:443 <> binop_rect
+scheme 439:443 <> binop_ind
+scheme 439:443 <> binop_rec
+scheme 439:443 <> binop_sind
+ind 503:509 <> unaryop
+constr 522:524 <> sin
+constr 528:530 <> cos
+constr 534:536 <> tan
+constr 540:543 <> e_to
+constr 547:548 <> ln
+constr 552:555 <> sqrt
+constr 559:561 <> neg
+scheme 503:509 <> unaryop_rect
+scheme 503:509 <> unaryop_ind
+scheme 503:509 <> unaryop_rec
+scheme 503:509 <> unaryop_sind
+ind 576:578 <> exp
+constr 591:596 <> e_real
+constr 606:610 <> e_nat
+constr 622:625 <> e_pi
+constr 629:632 <> e_id
+constr 646:652 <> e_binop
+constr 684:689 <> e_unop
+R601:601 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 599:599 <> r:9
+R615:617 Coq.Init.Datatypes <> nat ind
+binder 613:613 <> n:10
+R640:641 QWIRE.CompilationQASM.QASM <> id def
+binder 635:638 <> name:11
+R658:660 QWIRE.CompilationQASM.QASM <> exp:7 ind
+binder 655:656 <> e1:12
+R666:670 QWIRE.CompilationQASM.QASM <> binop ind
+binder 664:664 <> b:13
+R677:679 QWIRE.CompilationQASM.QASM <> exp:7 ind
+binder 674:675 <> e2:14
+R694:700 QWIRE.CompilationQASM.QASM <> unaryop ind
+binder 692:692 <> u:15
+R706:708 QWIRE.CompilationQASM.QASM <> exp:7 ind
+binder 704:704 <> e:16
+scheme 576:578 <> exp_rect
+scheme 576:578 <> exp_ind
+scheme 576:578 <> exp_rec
+scheme 576:578 <> exp_sind
+ind 733:740 <> argument
+constr 753:756 <> a_id
+constr 767:771 <> a_idx
+R761:762 QWIRE.CompilationQASM.QASM <> id def
+binder 759:759 <> n:19
+R776:777 QWIRE.CompilationQASM.QASM <> id def
+binder 774:774 <> n:20
+R783:785 Coq.Init.Datatypes <> nat ind
+binder 781:781 <> i:21
+scheme 733:740 <> argument_rect
+scheme 733:740 <> argument_ind
+scheme 733:740 <> argument_rec
+scheme 733:740 <> argument_sind
+def 802:807 <> idlist
+R812:815 Coq.Init.Datatypes <> list ind
+R817:818 QWIRE.CompilationQASM.QASM <> id def
+def 832:838 <> anylist
+R843:846 Coq.Init.Datatypes <> list ind
+R848:855 QWIRE.CompilationQASM.QASM <> argument ind
+def 869:875 <> explist
+R880:883 Coq.Init.Datatypes <> list ind
+R885:887 QWIRE.CompilationQASM.QASM <> exp ind
+ind 901:903 <> uop
+constr 916:918 <> u_U
+constr 947:950 <> u_CX
+constr 971:975 <> u_app
+constr 998:1003 <> u_call
+R923:929 QWIRE.CompilationQASM.QASM <> explist def
+binder 921:921 <> l:24
+R935:942 QWIRE.CompilationQASM.QASM <> argument ind
+binder 933:933 <> a:25
+R959:966 QWIRE.CompilationQASM.QASM <> argument ind
+binder 953:954 <> a1:26
+binder 956:957 <> a2:27
+R980:981 QWIRE.CompilationQASM.QASM <> id def
+binder 978:978 <> i:28
+R987:993 QWIRE.CompilationQASM.QASM <> anylist def
+binder 985:985 <> l:29
+R1008:1009 QWIRE.CompilationQASM.QASM <> id def
+binder 1006:1006 <> i:30
+R1016:1022 QWIRE.CompilationQASM.QASM <> explist def
+binder 1013:1014 <> es:31
+R1028:1034 QWIRE.CompilationQASM.QASM <> anylist def
+binder 1026:1026 <> l:32
+scheme 901:903 <> uop_rect
+scheme 901:903 <> uop_ind
+scheme 901:903 <> uop_rec
+scheme 901:903 <> uop_sind
+ind 1050:1052 <> qop
+constr 1065:1069 <> q_uop
+constr 1081:1086 <> q_meas
+constr 1123:1129 <> q_reset
+R1074:1076 QWIRE.CompilationQASM.QASM <> uop ind
+binder 1072:1072 <> u:35
+R1094:1101 QWIRE.CompilationQASM.QASM <> argument ind
+binder 1089:1091 <> ain:36
+R1111:1118 QWIRE.CompilationQASM.QASM <> argument ind
+binder 1105:1108 <> aout:37
+R1134:1141 QWIRE.CompilationQASM.QASM <> argument ind
+binder 1132:1132 <> a:38
+scheme 1050:1052 <> qop_rect
+scheme 1050:1052 <> qop_ind
+scheme 1050:1052 <> qop_rec
+scheme 1050:1052 <> qop_sind
+ind 1167:1169 <> gop
+constr 1182:1186 <> g_uop
+constr 1198:1206 <> g_barrier
+R1191:1193 QWIRE.CompilationQASM.QASM <> uop ind
+binder 1189:1189 <> u:41
+R1213:1218 QWIRE.CompilationQASM.QASM <> idlist def
+binder 1209:1211 <> ids:42
+scheme 1167:1169 <> gop_rect
+scheme 1167:1169 <> gop_ind
+scheme 1167:1169 <> gop_rec
+scheme 1167:1169 <> gop_sind
+def 1235:1241 <> goplist
+R1246:1249 Coq.Init.Datatypes <> list ind
+R1251:1253 QWIRE.CompilationQASM.QASM <> gop ind
+ind 1284:1287 <> decl
+constr 1300:1303 <> qreg
+constr 1328:1331 <> creg
+R1311:1312 QWIRE.CompilationQASM.QASM <> id def
+binder 1306:1309 <> name:45
+R1321:1323 Coq.Init.Datatypes <> nat ind
+binder 1316:1319 <> size:46
+R1339:1340 QWIRE.CompilationQASM.QASM <> id def
+binder 1334:1337 <> name:47
+R1349:1351 Coq.Init.Datatypes <> nat ind
+binder 1344:1347 <> size:48
+scheme 1284:1287 <> decl_rect
+scheme 1284:1287 <> decl_ind
+scheme 1284:1287 <> decl_rec
+scheme 1284:1287 <> decl_sind
+ind 1415:1423 <> statement
+constr 1436:1441 <> s_decl
+constr 1550:1559 <> s_gatedecl
+constr 1624:1631 <> s_opaque
+constr 1681:1685 <> s_qop
+constr 1697:1700 <> s_if
+constr 1727:1735 <> s_barrier
+constr 1754:1761 <> s_output
+constr 1780:1786 <> s_error
+R1446:1449 QWIRE.CompilationQASM.QASM <> decl ind
+binder 1444:1444 <> d:51
+R1567:1568 QWIRE.CompilationQASM.QASM <> id def
+binder 1562:1565 <> name:52
+R1577:1582 Coq.Init.Datatypes <> option ind
+R1584:1589 QWIRE.CompilationQASM.QASM <> idlist def
+binder 1572:1575 <> args:53
+R1599:1604 QWIRE.CompilationQASM.QASM <> idlist def
+binder 1593:1597 <> names:54
+R1613:1619 QWIRE.CompilationQASM.QASM <> goplist def
+binder 1608:1611 <> body:55
+R1639:1640 QWIRE.CompilationQASM.QASM <> id def
+binder 1634:1637 <> name:56
+R1649:1654 Coq.Init.Datatypes <> option ind
+R1656:1661 QWIRE.CompilationQASM.QASM <> idlist def
+binder 1644:1647 <> args:57
+R1671:1676 QWIRE.CompilationQASM.QASM <> idlist def
+binder 1665:1669 <> names:58
+R1690:1692 QWIRE.CompilationQASM.QASM <> qop ind
+binder 1688:1688 <> q:59
+R1705:1706 QWIRE.CompilationQASM.QASM <> id def
+binder 1703:1703 <> x:60
+R1712:1714 Coq.Init.Datatypes <> nat ind
+binder 1710:1710 <> n:61
+R1720:1722 QWIRE.CompilationQASM.QASM <> qop ind
+binder 1718:1718 <> q:62
+R1743:1749 QWIRE.CompilationQASM.QASM <> anylist def
+binder 1738:1741 <> args:63
+R1769:1775 QWIRE.CompilationQASM.QASM <> anylist def
+binder 1764:1767 <> args:64
+R1793:1798 Coq.Strings.String <> string ind
+binder 1789:1791 <> msg:65
+scheme 1415:1423 <> statement_rect
+scheme 1415:1423 <> statement_ind
+scheme 1415:1423 <> statement_rec
+scheme 1415:1423 <> statement_sind
+def 1870:1876 <> program
+R1881:1884 Coq.Init.Datatypes <> list ind
+R1886:1894 QWIRE.CompilationQASM.QASM <> statement ind
+R1949:1955 QWIRE.CompilationQASM.QASM <> e_binop constr
+R1960:1963 QWIRE.CompilationQASM.QASM <> plus constr
+not 1933:1933 <> ::qasm_scope:x_'+'_x
+R2063:2069 QWIRE.CompilationQASM.QASM <> e_binop constr
+R2074:2078 QWIRE.CompilationQASM.QASM <> minus constr
+not 2047:2047 <> ::qasm_scope:x_'-'_x
+R2178:2184 QWIRE.CompilationQASM.QASM <> e_binop constr
+R2189:2193 QWIRE.CompilationQASM.QASM <> times constr
+not 2162:2162 <> ::qasm_scope:x_'*'_x
+R2293:2299 QWIRE.CompilationQASM.QASM <> e_binop constr
+R2304:2306 QWIRE.CompilationQASM.QASM <> div constr
+not 2277:2277 <> ::qasm_scope:x_'/'_x
+R2406:2411 QWIRE.CompilationQASM.QASM <> e_unop constr
+R2413:2415 QWIRE.CompilationQASM.QASM <> neg constr
+not 2390:2390 <> ::qasm_scope:'-'_x
+R2451:2455 QWIRE.CompilationQASM.QASM <> e_nat constr
+not 2443:2443 <> ::qasm_scope:'0'
+R2491:2495 QWIRE.CompilationQASM.QASM <> e_nat constr
+not 2483:2483 <> ::qasm_scope:'2'
+R2531:2535 QWIRE.CompilationQASM.QASM <> e_nat constr
+not 2523:2523 <> ::qasm_scope:'4'
+abbrev 2586:2587 <> pi
+R2593:2596 QWIRE.CompilationQASM.QASM <> e_pi constr
+R2652:2664 Coq.Lists.List ListNotations <> mod
+R2682:2690 Coq.Init.Notations <> <> lib
+def 3334:3339 <> test01
+R3343:3345 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R3347:3349 QWIRE.Base.Contexts <> One constr
+R3355:3359 QWIRE.Base.Contexts <> ::circ_scope:x_'⊗'_x not
+R3352:3354 QWIRE.Base.Contexts <> Bit constr
+R3360:3362 QWIRE.Base.Contexts <> Bit constr
+R3370:3385 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_'()'_'⇒'_x not
+R3386:3391 QWIRE.Typing.TypeChecking <> :::'gate_'_x_'←'_x_'@'_x_';'_x not
+R3393:3397 QWIRE.Typing.TypeChecking <> :::'gate_'_x_'←'_x_'@'_x_';'_x not
+R3403:3404 QWIRE.Typing.TypeChecking <> :::'gate_'_x_'←'_x_'@'_x_';'_x not
+R3407:3412 QWIRE.Typing.TypeChecking <> :::'gate_'_x_'←'_x_'@'_x_';'_x not
+R3398:3402 QWIRE.Base.Contexts <> init0 constr
+R3405:3406 QWIRE.Typing.TypeChecking <> ::circ_scope:'()' not
+binder 3392:3392 <> a:66
+R3413:3418 QWIRE.Typing.TypeChecking <> :::'gate_'_x_'←'_x_'@'_x_';'_x not
+R3420:3424 QWIRE.Typing.TypeChecking <> :::'gate_'_x_'←'_x_'@'_x_';'_x not
+R3430:3431 QWIRE.Typing.TypeChecking <> :::'gate_'_x_'←'_x_'@'_x_';'_x not
+R3434:3439 QWIRE.Typing.TypeChecking <> :::'gate_'_x_'←'_x_'@'_x_';'_x not
+R3425:3429 QWIRE.Base.Contexts <> init1 constr
+R3432:3433 QWIRE.Typing.TypeChecking <> ::circ_scope:'()' not
+binder 3419:3419 <> b:67
+R3440:3445 QWIRE.Typing.TypeChecking <> :::'gate_'_x_'←'_x_'@'_x_';'_x not
+R3448:3452 QWIRE.Typing.TypeChecking <> :::'gate_'_x_'←'_x_'@'_x_';'_x not
+R3457:3458 QWIRE.Typing.TypeChecking <> :::'gate_'_x_'←'_x_'@'_x_';'_x not
+R3460:3465 QWIRE.Typing.TypeChecking <> :::'gate_'_x_'←'_x_'@'_x_';'_x not
+R3453:3456 QWIRE.Base.Contexts <> meas constr
+R3459:3459 QWIRE.CompilationQASM.QASM <> a:66 var
+binder 3446:3447 <> a':68
+R3466:3471 QWIRE.Typing.TypeChecking <> :::'gate_'_x_'←'_x_'@'_x_';'_x not
+R3474:3478 QWIRE.Typing.TypeChecking <> :::'gate_'_x_'←'_x_'@'_x_';'_x not
+R3483:3484 QWIRE.Typing.TypeChecking <> :::'gate_'_x_'←'_x_'@'_x_';'_x not
+R3486:3491 QWIRE.Typing.TypeChecking <> :::'gate_'_x_'←'_x_'@'_x_';'_x not
+R3479:3482 QWIRE.Base.Contexts <> meas constr
+R3485:3485 QWIRE.CompilationQASM.QASM <> b:67 var
+binder 3472:3473 <> b':69
+R3492:3492 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3502:3503 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3513:3513 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3493:3498 QWIRE.Syntax.HOAS.HOASCircuits <> output constr
+R3500:3501 QWIRE.CompilationQASM.QASM <> a':68 var
+R3504:3509 QWIRE.Syntax.HOAS.HOASCircuits <> output constr
+R3511:3512 QWIRE.CompilationQASM.QASM <> b':69 var
+def 3528:3536 <> test01_db
+R3541:3554 QWIRE.Syntax.DB.DBCircuits <> hoas_to_db_box def
+R3556:3561 QWIRE.CompilationQASM.QASM <> test01 def
+def 3576:3581 <> test10
+R3585:3587 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R3589:3591 QWIRE.Base.Contexts <> One constr
+R3597:3601 QWIRE.Base.Contexts <> ::circ_scope:x_'⊗'_x not
+R3594:3596 QWIRE.Base.Contexts <> Bit constr
+R3602:3604 QWIRE.Base.Contexts <> Bit constr
+R3612:3627 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_'()'_'⇒'_x not
+R3628:3633 QWIRE.Typing.TypeChecking <> :::'gate_'_x_'←'_x_'@'_x_';'_x not
+R3635:3639 QWIRE.Typing.TypeChecking <> :::'gate_'_x_'←'_x_'@'_x_';'_x not
+R3645:3646 QWIRE.Typing.TypeChecking <> :::'gate_'_x_'←'_x_'@'_x_';'_x not
+R3649:3654 QWIRE.Typing.TypeChecking <> :::'gate_'_x_'←'_x_'@'_x_';'_x not
+R3640:3644 QWIRE.Base.Contexts <> init0 constr
+R3647:3648 QWIRE.Typing.TypeChecking <> ::circ_scope:'()' not
+binder 3634:3634 <> b:70
+R3655:3660 QWIRE.Typing.TypeChecking <> :::'gate_'_x_'←'_x_'@'_x_';'_x not
+R3662:3666 QWIRE.Typing.TypeChecking <> :::'gate_'_x_'←'_x_'@'_x_';'_x not
+R3672:3673 QWIRE.Typing.TypeChecking <> :::'gate_'_x_'←'_x_'@'_x_';'_x not
+R3676:3681 QWIRE.Typing.TypeChecking <> :::'gate_'_x_'←'_x_'@'_x_';'_x not
+R3667:3671 QWIRE.Base.Contexts <> init1 constr
+R3674:3675 QWIRE.Typing.TypeChecking <> ::circ_scope:'()' not
+binder 3661:3661 <> a:71
+R3682:3687 QWIRE.Typing.TypeChecking <> :::'gate_'_x_'←'_x_'@'_x_';'_x not
+R3690:3694 QWIRE.Typing.TypeChecking <> :::'gate_'_x_'←'_x_'@'_x_';'_x not
+R3699:3700 QWIRE.Typing.TypeChecking <> :::'gate_'_x_'←'_x_'@'_x_';'_x not
+R3702:3707 QWIRE.Typing.TypeChecking <> :::'gate_'_x_'←'_x_'@'_x_';'_x not
+R3695:3698 QWIRE.Base.Contexts <> meas constr
+R3701:3701 QWIRE.CompilationQASM.QASM <> a:71 var
+binder 3688:3689 <> a':72
+R3708:3713 QWIRE.Typing.TypeChecking <> :::'gate_'_x_'←'_x_'@'_x_';'_x not
+R3716:3720 QWIRE.Typing.TypeChecking <> :::'gate_'_x_'←'_x_'@'_x_';'_x not
+R3725:3726 QWIRE.Typing.TypeChecking <> :::'gate_'_x_'←'_x_'@'_x_';'_x not
+R3728:3733 QWIRE.Typing.TypeChecking <> :::'gate_'_x_'←'_x_'@'_x_';'_x not
+R3721:3724 QWIRE.Base.Contexts <> meas constr
+R3727:3727 QWIRE.CompilationQASM.QASM <> b:70 var
+binder 3714:3715 <> b':73
+R3734:3734 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3744:3745 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3755:3755 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3735:3740 QWIRE.Syntax.HOAS.HOASCircuits <> output constr
+R3742:3743 QWIRE.CompilationQASM.QASM <> a':72 var
+R3746:3751 QWIRE.Syntax.HOAS.HOASCircuits <> output constr
+R3753:3754 QWIRE.CompilationQASM.QASM <> b':73 var
+def 3770:3778 <> test10_db
+R3783:3796 QWIRE.Syntax.DB.DBCircuits <> hoas_to_db_box def
+R3798:3803 QWIRE.CompilationQASM.QASM <> test10 def
+R3823:3831 QWIRE.CompilationQASM.QASM <> test01_db def
+R3850:3858 QWIRE.CompilationQASM.QASM <> test10_db def
+R3927:3931 Coq.Strings.Ascii <> <> lib
+def 3975:3984 <> natToDigit
+R3991:3993 Coq.Init.Datatypes <> nat ind
+binder 3987:3987 <> n:74
+R3998:4002 Coq.Strings.Ascii <> ascii ind
+R4015:4015 QWIRE.CompilationQASM.QASM <> n:74 var
+def 4152:4162 <> writeNatAux
+R4174:4176 Coq.Init.Datatypes <> nat ind
+binder 4165:4168 <> time:76
+binder 4170:4170 <> n:77
+R4186:4191 Coq.Strings.String <> string ind
+binder 4180:4182 <> acc:78
+R4196:4201 Coq.Strings.String <> string ind
+R4220:4225 Coq.Strings.String <> String constr
+R4228:4237 QWIRE.CompilationQASM.QASM <> natToDigit def
+R4241:4245 Coq.Arith.PeanoNat <> ::nat_scope:x_'mod'_x not
+R4240:4240 QWIRE.CompilationQASM.QASM <> n:77 var
+R4251:4253 QWIRE.CompilationQASM.QASM <> acc:78 var
+binder 4212:4215 <> acc':80
+R4266:4269 QWIRE.CompilationQASM.QASM <> time:76 var
+R4287:4290 QWIRE.CompilationQASM.QASM <> acc':80 var
+R4298:4298 Coq.Init.Datatypes <> S constr
+R4323:4325 Coq.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R4322:4322 QWIRE.CompilationQASM.QASM <> n:77 var
+R4354:4357 QWIRE.CompilationQASM.QASM <> acc':80 var
+R4375:4385 QWIRE.CompilationQASM.QASM <> writeNatAux:79 def
+R4396:4399 QWIRE.CompilationQASM.QASM <> acc':80 var
+def 4429:4436 <> writeNat
+R4443:4445 Coq.Init.Datatypes <> nat ind
+binder 4439:4439 <> n:82
+R4450:4455 Coq.Strings.String <> string ind
+R4462:4472 QWIRE.CompilationQASM.QASM <> writeNatAux def
+R4474:4474 QWIRE.CompilationQASM.QASM <> n:82 var
+R4476:4476 QWIRE.CompilationQASM.QASM <> n:82 var
+def 4525:4529 <> qname
+R4536:4539 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4533:4535 Coq.Init.Datatypes <> nat ind
+R4540:4541 QWIRE.CompilationQASM.QASM <> id def
+binder 4550:4550 <> x:83
+R4555:4560 Coq.Strings.String <> String constr
+R4563:4574 Coq.Strings.Ascii <> ascii_of_nat def
+R4582:4589 QWIRE.CompilationQASM.QASM <> writeNat def
+R4591:4591 QWIRE.CompilationQASM.QASM <> x:83 var
+def 4638:4642 <> cname
+R4649:4652 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4646:4648 Coq.Init.Datatypes <> nat ind
+R4653:4654 QWIRE.CompilationQASM.QASM <> id def
+binder 4663:4663 <> x:84
+R4668:4673 Coq.Strings.String <> String constr
+R4676:4687 Coq.Strings.Ascii <> ascii_of_nat def
+R4694:4701 QWIRE.CompilationQASM.QASM <> writeNat def
+R4703:4703 QWIRE.CompilationQASM.QASM <> x:84 var
+def 4768:4772 <> bname
+R4776:4777 QWIRE.CompilationQASM.QASM <> id def
+def 4854:4860 <> bname_i
+R4867:4870 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4864:4866 Coq.Init.Datatypes <> nat ind
+R4871:4872 QWIRE.CompilationQASM.QASM <> id def
+binder 4881:4881 <> i:85
+R4886:4891 Coq.Strings.String <> append def
+R4902:4907 Coq.Strings.String <> append def
+R4910:4917 QWIRE.CompilationQASM.QASM <> writeNat def
+R4919:4919 QWIRE.CompilationQASM.QASM <> i:85 var
+def 4938:4949 <> get_var_name
+R4957:4960 Coq.Init.Datatypes <> list ind
+R4962:4967 Coq.Strings.String <> string ind
+binder 4952:4953 <> li:86
+R4975:4977 Coq.Init.Datatypes <> nat ind
+binder 4971:4971 <> x:87
+R4982:4987 Coq.Strings.String <> string ind
+R5000:5000 QWIRE.CompilationQASM.QASM <> x:87 var
+R5022:5023 QWIRE.CompilationQASM.QASM <> li:86 var
+R5040:5041 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R5060:5063 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5087:5087 Coq.Init.Datatypes <> S constr
+R5101:5102 QWIRE.CompilationQASM.QASM <> li:86 var
+R5122:5123 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R5145:5148 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5154:5165 QWIRE.CompilationQASM.QASM <> get_var_name:88 def
+def 5203:5214 <> add_var_name
+R5222:5225 Coq.Init.Datatypes <> list ind
+R5227:5232 Coq.Strings.String <> string ind
+binder 5217:5218 <> li:92
+R5243:5248 Coq.Strings.String <> string ind
+binder 5236:5239 <> name:93
+R5253:5256 Coq.Init.Datatypes <> list ind
+R5258:5263 Coq.Strings.String <> string ind
+R5270:5273 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R5268:5269 QWIRE.CompilationQASM.QASM <> li:92 var
+R5274:5274 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R5279:5279 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R5275:5278 QWIRE.CompilationQASM.QASM <> name:93 var
+def 5291:5302 <> put_var_name
+R5310:5313 Coq.Init.Datatypes <> list ind
+R5315:5320 Coq.Strings.String <> string ind
+binder 5305:5306 <> li:95
+R5328:5330 Coq.Init.Datatypes <> nat ind
+binder 5324:5324 <> x:96
+R5341:5346 Coq.Strings.String <> string ind
+binder 5334:5337 <> name:97
+R5351:5354 Coq.Init.Datatypes <> list ind
+R5356:5361 Coq.Strings.String <> string ind
+R5374:5374 QWIRE.CompilationQASM.QASM <> x:96 var
+R5396:5397 QWIRE.CompilationQASM.QASM <> li:95 var
+R5414:5415 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R5420:5421 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R5434:5437 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5447:5450 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5443:5446 QWIRE.CompilationQASM.QASM <> name:97 var
+R5469:5469 Coq.Init.Datatypes <> S constr
+R5483:5484 QWIRE.CompilationQASM.QASM <> li:95 var
+R5504:5505 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R5510:5511 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R5527:5530 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5537:5541 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5564:5564 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5542:5553 QWIRE.CompilationQASM.QASM <> put_var_name:98 def
+R5560:5563 QWIRE.CompilationQASM.QASM <> name:97 var
+def 5597:5611 <> remove_var_name
+R5619:5622 Coq.Init.Datatypes <> list ind
+R5624:5629 Coq.Strings.String <> string ind
+binder 5614:5615 <> li:102
+R5637:5639 Coq.Init.Datatypes <> nat ind
+binder 5633:5633 <> x:103
+R5644:5647 Coq.Init.Datatypes <> list ind
+R5649:5654 Coq.Strings.String <> string ind
+R5667:5667 QWIRE.CompilationQASM.QASM <> x:103 var
+R5689:5690 QWIRE.CompilationQASM.QASM <> li:102 var
+R5707:5708 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R5713:5714 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R5727:5730 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5754:5754 Coq.Init.Datatypes <> S constr
+R5768:5769 QWIRE.CompilationQASM.QASM <> li:102 var
+R5789:5790 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R5795:5796 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R5812:5815 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5822:5826 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5847:5847 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5827:5841 QWIRE.CompilationQASM.QASM <> remove_var_name:104 def
+def 5905:5916 <> process_ctrl
+R5923:5929 QWIRE.CompilationQASM.QASM <> program def
+binder 5919:5919 <> p:108
+R5945:5950 Coq.Strings.String <> string ind
+binder 5933:5941 <> ctrl_name:109
+R5955:5961 QWIRE.CompilationQASM.QASM <> program def
+R5974:5974 QWIRE.CompilationQASM.QASM <> p:108 var
+R5985:5986 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R5991:5992 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R5999:6002 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R9691:9695 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R9716:9716 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R6031:6034 QWIRE.CompilationQASM.QASM <> s_if constr
+R6079:6083 QWIRE.CompilationQASM.QASM <> q_uop constr
+R6086:6088 QWIRE.CompilationQASM.QASM <> u_U constr
+R6090:6090 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6096:6097 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6101:6102 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6109:6109 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6144:6147 QWIRE.CompilationQASM.QASM <> a_id constr
+R6149:6157 QWIRE.CompilationQASM.QASM <> ctrl_name:109 var
+binder 6138:6138 <> c:114
+binder 6175:6175 <> t:115
+R6202:6202 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6253:6337 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6368:6393 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6452:6548 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6579:6604 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6650:6650 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6203:6206 QWIRE.CompilationQASM.QASM <> s_if constr
+R6216:6220 QWIRE.CompilationQASM.QASM <> q_uop constr
+R6223:6225 QWIRE.CompilationQASM.QASM <> u_U constr
+R6227:6227 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6229:6230 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6232:6233 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6248:6248 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6234:6234 QWIRE.CompilationQASM.QASM <> ::qasm_scope:x_'/'_x not
+R6245:6246 QWIRE.CompilationQASM.QASM <> ::qasm_scope:x_'/'_x not
+R6241:6241 QWIRE.CompilationQASM.QASM <> ::qasm_scope:x_'-'_x not
+R6250:6250 QWIRE.CompilationQASM.QASM <> t:115 var
+R6338:6341 QWIRE.CompilationQASM.QASM <> s_if constr
+R6351:6355 QWIRE.CompilationQASM.QASM <> q_uop constr
+R6358:6361 QWIRE.CompilationQASM.QASM <> u_CX constr
+R6363:6363 QWIRE.CompilationQASM.QASM <> c:114 var
+R6365:6365 QWIRE.CompilationQASM.QASM <> t:115 var
+R6394:6397 QWIRE.CompilationQASM.QASM <> s_if constr
+R6407:6411 QWIRE.CompilationQASM.QASM <> q_uop constr
+R6414:6416 QWIRE.CompilationQASM.QASM <> u_U constr
+R6418:6418 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6427:6428 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6430:6431 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6447:6447 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6425:6425 QWIRE.CompilationQASM.QASM <> ::qasm_scope:x_'/'_x not
+R6419:6419 QWIRE.CompilationQASM.QASM <> ::qasm_scope:'-'_x not
+R6445:6445 QWIRE.CompilationQASM.QASM <> ::qasm_scope:x_'/'_x not
+R6432:6433 QWIRE.CompilationQASM.QASM <> ::qasm_scope:'-'_x not
+R6444:6444 QWIRE.CompilationQASM.QASM <> ::qasm_scope:'-'_x not
+R6437:6437 QWIRE.CompilationQASM.QASM <> ::qasm_scope:x_'+'_x not
+R6449:6449 QWIRE.CompilationQASM.QASM <> t:115 var
+R6549:6552 QWIRE.CompilationQASM.QASM <> s_if constr
+R6562:6566 QWIRE.CompilationQASM.QASM <> q_uop constr
+R6569:6572 QWIRE.CompilationQASM.QASM <> u_CX constr
+R6574:6574 QWIRE.CompilationQASM.QASM <> c:114 var
+R6576:6576 QWIRE.CompilationQASM.QASM <> t:115 var
+R6605:6608 QWIRE.CompilationQASM.QASM <> s_if constr
+R6618:6622 QWIRE.CompilationQASM.QASM <> q_uop constr
+R6625:6627 QWIRE.CompilationQASM.QASM <> u_U constr
+R6629:6629 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6637:6638 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6642:6643 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6645:6645 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6635:6635 QWIRE.CompilationQASM.QASM <> ::qasm_scope:x_'/'_x not
+R6647:6647 QWIRE.CompilationQASM.QASM <> t:115 var
+R6731:6735 QWIRE.CompilationQASM.QASM <> q_uop constr
+R6738:6741 QWIRE.CompilationQASM.QASM <> u_CX constr
+R6786:6789 QWIRE.CompilationQASM.QASM <> a_id constr
+R6791:6799 QWIRE.CompilationQASM.QASM <> ctrl_name:109 var
+binder 6780:6780 <> a:116
+binder 6817:6817 <> b:117
+binder 6847:6847 <> c:118
+R6874:6874 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6914:6936 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6967:7001 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7041:7065 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7096:7130 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7169:7192 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7223:7257 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7297:7321 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7352:7386 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7425:7448 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7487:7510 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7550:7572 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7603:7637 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7676:7699 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7739:7763 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7794:7794 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6875:6878 QWIRE.CompilationQASM.QASM <> s_if constr
+R6888:6892 QWIRE.CompilationQASM.QASM <> q_uop constr
+R6895:6897 QWIRE.CompilationQASM.QASM <> u_U constr
+R6899:6899 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6904:6904 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6906:6906 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6909:6909 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6902:6902 QWIRE.CompilationQASM.QASM <> ::qasm_scope:x_'/'_x not
+R6900:6901 QWIRE.CompilationQASM.QASM <> pi abbrev
+R6907:6908 QWIRE.CompilationQASM.QASM <> pi abbrev
+R6911:6911 QWIRE.CompilationQASM.QASM <> c:118 var
+R6937:6940 QWIRE.CompilationQASM.QASM <> s_if constr
+R6950:6954 QWIRE.CompilationQASM.QASM <> q_uop constr
+R6957:6960 QWIRE.CompilationQASM.QASM <> u_CX constr
+R6962:6962 QWIRE.CompilationQASM.QASM <> b:117 var
+R6964:6964 QWIRE.CompilationQASM.QASM <> c:118 var
+R7002:7005 QWIRE.CompilationQASM.QASM <> s_if constr
+R7015:7019 QWIRE.CompilationQASM.QASM <> q_uop constr
+R7022:7024 QWIRE.CompilationQASM.QASM <> u_U constr
+R7026:7026 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7028:7028 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7030:7030 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7036:7036 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7034:7034 QWIRE.CompilationQASM.QASM <> ::qasm_scope:x_'/'_x not
+R7031:7031 QWIRE.CompilationQASM.QASM <> ::qasm_scope:'-'_x not
+R7032:7033 QWIRE.CompilationQASM.QASM <> pi abbrev
+R7038:7038 QWIRE.CompilationQASM.QASM <> c:118 var
+R7066:7069 QWIRE.CompilationQASM.QASM <> s_if constr
+R7079:7083 QWIRE.CompilationQASM.QASM <> q_uop constr
+R7086:7089 QWIRE.CompilationQASM.QASM <> u_CX constr
+R7091:7091 QWIRE.CompilationQASM.QASM <> a:116 var
+R7093:7093 QWIRE.CompilationQASM.QASM <> c:118 var
+R7131:7134 QWIRE.CompilationQASM.QASM <> s_if constr
+R7144:7148 QWIRE.CompilationQASM.QASM <> q_uop constr
+R7151:7153 QWIRE.CompilationQASM.QASM <> u_U constr
+R7155:7155 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7157:7157 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7159:7159 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7164:7164 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7162:7162 QWIRE.CompilationQASM.QASM <> ::qasm_scope:x_'/'_x not
+R7160:7161 QWIRE.CompilationQASM.QASM <> pi abbrev
+R7166:7166 QWIRE.CompilationQASM.QASM <> c:118 var
+R7193:7196 QWIRE.CompilationQASM.QASM <> s_if constr
+R7206:7210 QWIRE.CompilationQASM.QASM <> q_uop constr
+R7213:7216 QWIRE.CompilationQASM.QASM <> u_CX constr
+R7218:7218 QWIRE.CompilationQASM.QASM <> b:117 var
+R7220:7220 QWIRE.CompilationQASM.QASM <> c:118 var
+R7258:7261 QWIRE.CompilationQASM.QASM <> s_if constr
+R7271:7275 QWIRE.CompilationQASM.QASM <> q_uop constr
+R7278:7280 QWIRE.CompilationQASM.QASM <> u_U constr
+R7282:7282 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7284:7284 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7286:7286 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7292:7292 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7290:7290 QWIRE.CompilationQASM.QASM <> ::qasm_scope:x_'/'_x not
+R7287:7287 QWIRE.CompilationQASM.QASM <> ::qasm_scope:'-'_x not
+R7288:7289 QWIRE.CompilationQASM.QASM <> pi abbrev
+R7294:7294 QWIRE.CompilationQASM.QASM <> c:118 var
+R7322:7325 QWIRE.CompilationQASM.QASM <> s_if constr
+R7335:7339 QWIRE.CompilationQASM.QASM <> q_uop constr
+R7342:7345 QWIRE.CompilationQASM.QASM <> u_CX constr
+R7347:7347 QWIRE.CompilationQASM.QASM <> a:116 var
+R7349:7349 QWIRE.CompilationQASM.QASM <> c:118 var
+R7387:7390 QWIRE.CompilationQASM.QASM <> s_if constr
+R7400:7404 QWIRE.CompilationQASM.QASM <> q_uop constr
+R7407:7409 QWIRE.CompilationQASM.QASM <> u_U constr
+R7411:7411 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7413:7413 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7415:7415 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7420:7420 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7418:7418 QWIRE.CompilationQASM.QASM <> ::qasm_scope:x_'/'_x not
+R7416:7417 QWIRE.CompilationQASM.QASM <> pi abbrev
+R7422:7422 QWIRE.CompilationQASM.QASM <> b:117 var
+R7449:7452 QWIRE.CompilationQASM.QASM <> s_if constr
+R7462:7466 QWIRE.CompilationQASM.QASM <> q_uop constr
+R7469:7471 QWIRE.CompilationQASM.QASM <> u_U constr
+R7473:7473 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7475:7475 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7477:7477 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7482:7482 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7480:7480 QWIRE.CompilationQASM.QASM <> ::qasm_scope:x_'/'_x not
+R7478:7479 QWIRE.CompilationQASM.QASM <> pi abbrev
+R7484:7484 QWIRE.CompilationQASM.QASM <> c:118 var
+R7511:7514 QWIRE.CompilationQASM.QASM <> s_if constr
+R7524:7528 QWIRE.CompilationQASM.QASM <> q_uop constr
+R7531:7533 QWIRE.CompilationQASM.QASM <> u_U constr
+R7535:7535 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7540:7540 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7542:7542 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7545:7545 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7538:7538 QWIRE.CompilationQASM.QASM <> ::qasm_scope:x_'/'_x not
+R7536:7537 QWIRE.CompilationQASM.QASM <> pi abbrev
+R7543:7544 QWIRE.CompilationQASM.QASM <> pi abbrev
+R7547:7547 QWIRE.CompilationQASM.QASM <> c:118 var
+R7573:7576 QWIRE.CompilationQASM.QASM <> s_if constr
+R7586:7590 QWIRE.CompilationQASM.QASM <> q_uop constr
+R7593:7596 QWIRE.CompilationQASM.QASM <> u_CX constr
+R7598:7598 QWIRE.CompilationQASM.QASM <> a:116 var
+R7600:7600 QWIRE.CompilationQASM.QASM <> b:117 var
+R7638:7641 QWIRE.CompilationQASM.QASM <> s_if constr
+R7651:7655 QWIRE.CompilationQASM.QASM <> q_uop constr
+R7658:7660 QWIRE.CompilationQASM.QASM <> u_U constr
+R7662:7662 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7664:7664 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7666:7666 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7671:7671 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7669:7669 QWIRE.CompilationQASM.QASM <> ::qasm_scope:x_'/'_x not
+R7667:7668 QWIRE.CompilationQASM.QASM <> pi abbrev
+R7673:7673 QWIRE.CompilationQASM.QASM <> a:116 var
+R7700:7703 QWIRE.CompilationQASM.QASM <> s_if constr
+R7713:7717 QWIRE.CompilationQASM.QASM <> q_uop constr
+R7720:7722 QWIRE.CompilationQASM.QASM <> u_U constr
+R7724:7724 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7726:7726 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7728:7728 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7734:7734 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7732:7732 QWIRE.CompilationQASM.QASM <> ::qasm_scope:x_'/'_x not
+R7729:7729 QWIRE.CompilationQASM.QASM <> ::qasm_scope:'-'_x not
+R7730:7731 QWIRE.CompilationQASM.QASM <> pi abbrev
+R7736:7736 QWIRE.CompilationQASM.QASM <> b:117 var
+R7764:7767 QWIRE.CompilationQASM.QASM <> s_if constr
+R7777:7781 QWIRE.CompilationQASM.QASM <> q_uop constr
+R7784:7787 QWIRE.CompilationQASM.QASM <> u_CX constr
+R7789:7789 QWIRE.CompilationQASM.QASM <> a:116 var
+R7791:7791 QWIRE.CompilationQASM.QASM <> b:117 var
+R7831:7831 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R7876:7876 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R7832:7838 QWIRE.CompilationQASM.QASM <> s_error constr
+R7894:7898 QWIRE.CompilationQASM.QASM <> s_qop constr
+R7936:7940 QWIRE.CompilationQASM.QASM <> q_uop constr
+R7943:7945 QWIRE.CompilationQASM.QASM <> u_U constr
+R7947:7947 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7953:7954 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7958:7959 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7966:7966 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8001:8004 QWIRE.CompilationQASM.QASM <> a_id constr
+R8006:8014 QWIRE.CompilationQASM.QASM <> ctrl_name:109 var
+binder 7995:7995 <> c:120
+binder 8032:8032 <> t:121
+R8059:8059 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8104:8195 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8220:8260 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8313:8416 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8441:8481 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8521:8521 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8060:8064 QWIRE.CompilationQASM.QASM <> s_qop constr
+R8067:8071 QWIRE.CompilationQASM.QASM <> q_uop constr
+R8074:8076 QWIRE.CompilationQASM.QASM <> u_U constr
+R8078:8078 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8080:8081 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8083:8084 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8099:8099 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8085:8085 QWIRE.CompilationQASM.QASM <> ::qasm_scope:x_'/'_x not
+R8096:8097 QWIRE.CompilationQASM.QASM <> ::qasm_scope:x_'/'_x not
+R8092:8092 QWIRE.CompilationQASM.QASM <> ::qasm_scope:x_'-'_x not
+R8101:8101 QWIRE.CompilationQASM.QASM <> t:121 var
+R8196:8200 QWIRE.CompilationQASM.QASM <> s_qop constr
+R8203:8207 QWIRE.CompilationQASM.QASM <> q_uop constr
+R8210:8213 QWIRE.CompilationQASM.QASM <> u_CX constr
+R8215:8215 QWIRE.CompilationQASM.QASM <> c:120 var
+R8217:8217 QWIRE.CompilationQASM.QASM <> t:121 var
+R8261:8265 QWIRE.CompilationQASM.QASM <> s_qop constr
+R8268:8272 QWIRE.CompilationQASM.QASM <> q_uop constr
+R8275:8277 QWIRE.CompilationQASM.QASM <> u_U constr
+R8279:8279 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8288:8289 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8291:8292 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8308:8308 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8286:8286 QWIRE.CompilationQASM.QASM <> ::qasm_scope:x_'/'_x not
+R8280:8280 QWIRE.CompilationQASM.QASM <> ::qasm_scope:'-'_x not
+R8306:8306 QWIRE.CompilationQASM.QASM <> ::qasm_scope:x_'/'_x not
+R8293:8294 QWIRE.CompilationQASM.QASM <> ::qasm_scope:'-'_x not
+R8305:8305 QWIRE.CompilationQASM.QASM <> ::qasm_scope:'-'_x not
+R8298:8298 QWIRE.CompilationQASM.QASM <> ::qasm_scope:x_'+'_x not
+R8310:8310 QWIRE.CompilationQASM.QASM <> t:121 var
+R8417:8421 QWIRE.CompilationQASM.QASM <> s_qop constr
+R8424:8428 QWIRE.CompilationQASM.QASM <> q_uop constr
+R8431:8434 QWIRE.CompilationQASM.QASM <> u_CX constr
+R8436:8436 QWIRE.CompilationQASM.QASM <> c:120 var
+R8438:8438 QWIRE.CompilationQASM.QASM <> t:121 var
+R8482:8486 QWIRE.CompilationQASM.QASM <> s_qop constr
+R8489:8493 QWIRE.CompilationQASM.QASM <> q_uop constr
+R8496:8498 QWIRE.CompilationQASM.QASM <> u_U constr
+R8500:8500 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8508:8509 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8513:8514 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8516:8516 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8506:8506 QWIRE.CompilationQASM.QASM <> ::qasm_scope:x_'/'_x not
+R8518:8518 QWIRE.CompilationQASM.QASM <> t:121 var
+R8557:8561 QWIRE.CompilationQASM.QASM <> q_uop constr
+R8564:8567 QWIRE.CompilationQASM.QASM <> u_CX constr
+R8612:8615 QWIRE.CompilationQASM.QASM <> a_id constr
+R8617:8625 QWIRE.CompilationQASM.QASM <> ctrl_name:109 var
+binder 8606:8606 <> a:122
+binder 8643:8643 <> b:123
+binder 8673:8673 <> c:124
+R8700:8700 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8734:8758 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8783:8817 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8851:8875 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8900:8934 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8967:8990 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R9015:9049 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R9083:9107 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R9132:9166 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R9199:9222 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R9255:9278 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R9312:9334 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R9359:9393 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R9426:9449 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R9483:9507 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R9532:9532 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8701:8705 QWIRE.CompilationQASM.QASM <> s_qop constr
+R8708:8712 QWIRE.CompilationQASM.QASM <> q_uop constr
+R8715:8717 QWIRE.CompilationQASM.QASM <> u_U constr
+R8719:8719 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8724:8724 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8726:8726 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8729:8729 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8722:8722 QWIRE.CompilationQASM.QASM <> ::qasm_scope:x_'/'_x not
+R8720:8721 QWIRE.CompilationQASM.QASM <> pi abbrev
+R8727:8728 QWIRE.CompilationQASM.QASM <> pi abbrev
+R8731:8731 QWIRE.CompilationQASM.QASM <> c:124 var
+R8759:8763 QWIRE.CompilationQASM.QASM <> s_qop constr
+R8766:8770 QWIRE.CompilationQASM.QASM <> q_uop constr
+R8773:8776 QWIRE.CompilationQASM.QASM <> u_CX constr
+R8778:8778 QWIRE.CompilationQASM.QASM <> b:123 var
+R8780:8780 QWIRE.CompilationQASM.QASM <> c:124 var
+R8818:8822 QWIRE.CompilationQASM.QASM <> s_qop constr
+R8825:8829 QWIRE.CompilationQASM.QASM <> q_uop constr
+R8832:8834 QWIRE.CompilationQASM.QASM <> u_U constr
+R8836:8836 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8838:8838 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8840:8840 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8846:8846 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8844:8844 QWIRE.CompilationQASM.QASM <> ::qasm_scope:x_'/'_x not
+R8841:8841 QWIRE.CompilationQASM.QASM <> ::qasm_scope:'-'_x not
+R8842:8843 QWIRE.CompilationQASM.QASM <> pi abbrev
+R8848:8848 QWIRE.CompilationQASM.QASM <> c:124 var
+R8876:8880 QWIRE.CompilationQASM.QASM <> s_qop constr
+R8883:8887 QWIRE.CompilationQASM.QASM <> q_uop constr
+R8890:8893 QWIRE.CompilationQASM.QASM <> u_CX constr
+R8895:8895 QWIRE.CompilationQASM.QASM <> a:122 var
+R8897:8897 QWIRE.CompilationQASM.QASM <> c:124 var
+R8935:8939 QWIRE.CompilationQASM.QASM <> s_qop constr
+R8942:8946 QWIRE.CompilationQASM.QASM <> q_uop constr
+R8949:8951 QWIRE.CompilationQASM.QASM <> u_U constr
+R8953:8953 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8955:8955 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8957:8957 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8962:8962 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8960:8960 QWIRE.CompilationQASM.QASM <> ::qasm_scope:x_'/'_x not
+R8958:8959 QWIRE.CompilationQASM.QASM <> pi abbrev
+R8964:8964 QWIRE.CompilationQASM.QASM <> c:124 var
+R8991:8995 QWIRE.CompilationQASM.QASM <> s_qop constr
+R8998:9002 QWIRE.CompilationQASM.QASM <> q_uop constr
+R9005:9008 QWIRE.CompilationQASM.QASM <> u_CX constr
+R9010:9010 QWIRE.CompilationQASM.QASM <> b:123 var
+R9012:9012 QWIRE.CompilationQASM.QASM <> c:124 var
+R9050:9054 QWIRE.CompilationQASM.QASM <> s_qop constr
+R9057:9061 QWIRE.CompilationQASM.QASM <> q_uop constr
+R9064:9066 QWIRE.CompilationQASM.QASM <> u_U constr
+R9068:9068 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R9070:9070 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R9072:9072 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R9078:9078 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R9076:9076 QWIRE.CompilationQASM.QASM <> ::qasm_scope:x_'/'_x not
+R9073:9073 QWIRE.CompilationQASM.QASM <> ::qasm_scope:'-'_x not
+R9074:9075 QWIRE.CompilationQASM.QASM <> pi abbrev
+R9080:9080 QWIRE.CompilationQASM.QASM <> c:124 var
+R9108:9112 QWIRE.CompilationQASM.QASM <> s_qop constr
+R9115:9119 QWIRE.CompilationQASM.QASM <> q_uop constr
+R9122:9125 QWIRE.CompilationQASM.QASM <> u_CX constr
+R9127:9127 QWIRE.CompilationQASM.QASM <> a:122 var
+R9129:9129 QWIRE.CompilationQASM.QASM <> c:124 var
+R9167:9171 QWIRE.CompilationQASM.QASM <> s_qop constr
+R9174:9178 QWIRE.CompilationQASM.QASM <> q_uop constr
+R9181:9183 QWIRE.CompilationQASM.QASM <> u_U constr
+R9185:9185 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R9187:9187 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R9189:9189 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R9194:9194 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R9192:9192 QWIRE.CompilationQASM.QASM <> ::qasm_scope:x_'/'_x not
+R9190:9191 QWIRE.CompilationQASM.QASM <> pi abbrev
+R9196:9196 QWIRE.CompilationQASM.QASM <> b:123 var
+R9223:9227 QWIRE.CompilationQASM.QASM <> s_qop constr
+R9230:9234 QWIRE.CompilationQASM.QASM <> q_uop constr
+R9237:9239 QWIRE.CompilationQASM.QASM <> u_U constr
+R9241:9241 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R9243:9243 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R9245:9245 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R9250:9250 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R9248:9248 QWIRE.CompilationQASM.QASM <> ::qasm_scope:x_'/'_x not
+R9246:9247 QWIRE.CompilationQASM.QASM <> pi abbrev
+R9252:9252 QWIRE.CompilationQASM.QASM <> c:124 var
+R9279:9283 QWIRE.CompilationQASM.QASM <> s_qop constr
+R9286:9290 QWIRE.CompilationQASM.QASM <> q_uop constr
+R9293:9295 QWIRE.CompilationQASM.QASM <> u_U constr
+R9297:9297 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R9302:9302 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R9304:9304 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R9307:9307 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R9300:9300 QWIRE.CompilationQASM.QASM <> ::qasm_scope:x_'/'_x not
+R9298:9299 QWIRE.CompilationQASM.QASM <> pi abbrev
+R9305:9306 QWIRE.CompilationQASM.QASM <> pi abbrev
+R9309:9309 QWIRE.CompilationQASM.QASM <> c:124 var
+R9335:9339 QWIRE.CompilationQASM.QASM <> s_qop constr
+R9342:9346 QWIRE.CompilationQASM.QASM <> q_uop constr
+R9349:9352 QWIRE.CompilationQASM.QASM <> u_CX constr
+R9354:9354 QWIRE.CompilationQASM.QASM <> a:122 var
+R9356:9356 QWIRE.CompilationQASM.QASM <> b:123 var
+R9394:9398 QWIRE.CompilationQASM.QASM <> s_qop constr
+R9401:9405 QWIRE.CompilationQASM.QASM <> q_uop constr
+R9408:9410 QWIRE.CompilationQASM.QASM <> u_U constr
+R9412:9412 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R9414:9414 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R9416:9416 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R9421:9421 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R9419:9419 QWIRE.CompilationQASM.QASM <> ::qasm_scope:x_'/'_x not
+R9417:9418 QWIRE.CompilationQASM.QASM <> pi abbrev
+R9423:9423 QWIRE.CompilationQASM.QASM <> a:122 var
+R9450:9454 QWIRE.CompilationQASM.QASM <> s_qop constr
+R9457:9461 QWIRE.CompilationQASM.QASM <> q_uop constr
+R9464:9466 QWIRE.CompilationQASM.QASM <> u_U constr
+R9468:9468 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R9470:9470 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R9472:9472 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R9478:9478 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R9476:9476 QWIRE.CompilationQASM.QASM <> ::qasm_scope:x_'/'_x not
+R9473:9473 QWIRE.CompilationQASM.QASM <> ::qasm_scope:'-'_x not
+R9474:9475 QWIRE.CompilationQASM.QASM <> pi abbrev
+R9480:9480 QWIRE.CompilationQASM.QASM <> b:123 var
+R9508:9512 QWIRE.CompilationQASM.QASM <> s_qop constr
+R9515:9519 QWIRE.CompilationQASM.QASM <> q_uop constr
+R9522:9525 QWIRE.CompilationQASM.QASM <> u_CX constr
+R9527:9527 QWIRE.CompilationQASM.QASM <> a:122 var
+R9529:9529 QWIRE.CompilationQASM.QASM <> b:123 var
+R9569:9569 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R9614:9614 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R9570:9576 QWIRE.CompilationQASM.QASM <> s_error constr
+R9637:9637 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R9682:9682 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R9638:9644 QWIRE.CompilationQASM.QASM <> s_error constr
+R9696:9707 QWIRE.CompilationQASM.QASM <> process_ctrl:110 def
+R9711:9715 QWIRE.CompilationQASM.QASM <> bname def
+def 9735:9751 <> process_transpose
+R9758:9764 QWIRE.CompilationQASM.QASM <> program def
+binder 9754:9754 <> p:125
+R9769:9775 QWIRE.CompilationQASM.QASM <> program def
+R9788:9788 QWIRE.CompilationQASM.QASM <> p:125 var
+R9799:9800 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R9805:9806 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R9813:9816 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R9826:9826 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R9846:9856 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R9827:9843 QWIRE.CompilationQASM.QASM <> process_transpose:126 def
+R9881:9884 QWIRE.CompilationQASM.QASM <> s_if constr
+R9939:9943 QWIRE.CompilationQASM.QASM <> q_uop constr
+R9946:9948 QWIRE.CompilationQASM.QASM <> u_U constr
+R9950:9950 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R9956:9957 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R9961:9962 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R9969:9969 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R10000:10000 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R10062:10062 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R10001:10004 QWIRE.CompilationQASM.QASM <> s_if constr
+R10014:10018 QWIRE.CompilationQASM.QASM <> q_uop constr
+R10021:10023 QWIRE.CompilationQASM.QASM <> u_U constr
+R10025:10025 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R10032:10033 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R10038:10039 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R10047:10047 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R10026:10026 QWIRE.CompilationQASM.QASM <> ::qasm_scope:'-'_x not
+R10034:10034 QWIRE.CompilationQASM.QASM <> ::qasm_scope:'-'_x not
+R10040:10040 QWIRE.CompilationQASM.QASM <> ::qasm_scope:'-'_x not
+R10077:10081 QWIRE.CompilationQASM.QASM <> q_uop constr
+R10084:10087 QWIRE.CompilationQASM.QASM <> u_CX constr
+R10129:10129 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R10179:10179 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R10130:10133 QWIRE.CompilationQASM.QASM <> s_if constr
+R10143:10147 QWIRE.CompilationQASM.QASM <> q_uop constr
+R10150:10153 QWIRE.CompilationQASM.QASM <> u_CX constr
+R10199:10199 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R10249:10249 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R10200:10206 QWIRE.CompilationQASM.QASM <> s_error constr
+R10277:10281 QWIRE.CompilationQASM.QASM <> s_qop constr
+R10284:10288 QWIRE.CompilationQASM.QASM <> q_uop constr
+R10291:10293 QWIRE.CompilationQASM.QASM <> u_U constr
+R10295:10295 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R10301:10302 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R10306:10307 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R10314:10314 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R10344:10344 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R10400:10400 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R10345:10349 QWIRE.CompilationQASM.QASM <> s_qop constr
+R10352:10356 QWIRE.CompilationQASM.QASM <> q_uop constr
+R10359:10361 QWIRE.CompilationQASM.QASM <> u_U constr
+R10363:10363 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R10370:10371 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R10376:10377 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R10385:10385 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R10364:10364 QWIRE.CompilationQASM.QASM <> ::qasm_scope:'-'_x not
+R10372:10372 QWIRE.CompilationQASM.QASM <> ::qasm_scope:'-'_x not
+R10378:10378 QWIRE.CompilationQASM.QASM <> ::qasm_scope:'-'_x not
+R10413:10417 QWIRE.CompilationQASM.QASM <> s_qop constr
+R10420:10424 QWIRE.CompilationQASM.QASM <> q_uop constr
+R10427:10430 QWIRE.CompilationQASM.QASM <> u_CX constr
+R10471:10471 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R10515:10515 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R10472:10476 QWIRE.CompilationQASM.QASM <> s_qop constr
+R10479:10483 QWIRE.CompilationQASM.QASM <> q_uop constr
+R10486:10489 QWIRE.CompilationQASM.QASM <> u_CX constr
+R10533:10533 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R10583:10583 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R10534:10540 QWIRE.CompilationQASM.QASM <> s_error constr
+def 10670:10684 <> unitary_to_qasm
+binder 10687:10687 <> W:130
+R10696:10699 Coq.Init.Datatypes <> list ind
+R10701:10706 Coq.Strings.String <> string ind
+binder 10691:10692 <> li:131
+R10714:10716 Coq.Init.Datatypes <> nat ind
+binder 10710:10710 <> v:132
+R10724:10730 QWIRE.Base.Contexts <> Unitary ind
+R10732:10732 QWIRE.CompilationQASM.QASM <> W:130 var
+binder 10720:10720 <> u:133
+R10740:10742 QWIRE.Base.Contexts <> Pat ind
+R10744:10744 QWIRE.CompilationQASM.QASM <> W:130 var
+binder 10736:10736 <> p:134
+R10757:10759 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R10750:10756 QWIRE.CompilationQASM.QASM <> program def
+R10760:10762 Coq.Init.Datatypes <> nat ind
+R10776:10776 QWIRE.CompilationQASM.QASM <> u:133 var
+R10787:10788 QWIRE.Base.Contexts <> _H constr
+R10803:10803 QWIRE.CompilationQASM.QASM <> p:134 var
+R10816:10820 QWIRE.Base.Contexts <> qubit constr
+R10827:10827 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10888:10889 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10891:10891 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10828:10828 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R10887:10887 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R10829:10833 QWIRE.CompilationQASM.QASM <> s_qop constr
+R10836:10840 QWIRE.CompilationQASM.QASM <> q_uop constr
+R10843:10845 QWIRE.CompilationQASM.QASM <> u_U constr
+R10847:10847 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R10852:10852 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R10854:10854 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R10857:10857 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R10850:10850 QWIRE.CompilationQASM.QASM <> ::qasm_scope:x_'/'_x not
+R10848:10849 QWIRE.CompilationQASM.QASM <> pi abbrev
+R10855:10856 QWIRE.CompilationQASM.QASM <> pi abbrev
+R10860:10863 QWIRE.CompilationQASM.QASM <> a_id constr
+R10866:10877 QWIRE.CompilationQASM.QASM <> get_var_name def
+R10879:10880 QWIRE.CompilationQASM.QASM <> li:131 var
+R10890:10890 QWIRE.CompilationQASM.QASM <> v:132 var
+R10899:10902 QWIRE.Base.Contexts <> unit constr
+R10906:10908 QWIRE.Base.Contexts <> bit constr
+R10914:10917 QWIRE.Base.Contexts <> pair constr
+R10926:10926 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10962:10963 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10965:10965 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10927:10927 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R10961:10961 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R10928:10934 QWIRE.CompilationQASM.QASM <> s_error constr
+R10964:10964 QWIRE.CompilationQASM.QASM <> v:132 var
+R10926:10926 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10962:10963 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10965:10965 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10927:10927 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R10961:10961 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R10928:10934 QWIRE.CompilationQASM.QASM <> s_error constr
+R10964:10964 QWIRE.CompilationQASM.QASM <> v:132 var
+R10926:10926 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10962:10963 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10965:10965 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10927:10927 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R10961:10961 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R10928:10934 QWIRE.CompilationQASM.QASM <> s_error constr
+R10964:10964 QWIRE.CompilationQASM.QASM <> v:132 var
+R10979:10980 QWIRE.Base.Contexts <> _X constr
+R10995:10995 QWIRE.CompilationQASM.QASM <> p:134 var
+R11008:11012 QWIRE.Base.Contexts <> qubit constr
+R11019:11019 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11078:11079 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11081:11081 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11020:11020 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R11077:11077 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R11021:11025 QWIRE.CompilationQASM.QASM <> s_qop constr
+R11028:11032 QWIRE.CompilationQASM.QASM <> q_uop constr
+R11035:11037 QWIRE.CompilationQASM.QASM <> u_U constr
+R11039:11039 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R11042:11042 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R11044:11044 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R11047:11047 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R11040:11041 QWIRE.CompilationQASM.QASM <> pi abbrev
+R11045:11046 QWIRE.CompilationQASM.QASM <> pi abbrev
+R11050:11053 QWIRE.CompilationQASM.QASM <> a_id constr
+R11056:11067 QWIRE.CompilationQASM.QASM <> get_var_name def
+R11069:11070 QWIRE.CompilationQASM.QASM <> li:131 var
+R11080:11080 QWIRE.CompilationQASM.QASM <> v:132 var
+R11089:11092 QWIRE.Base.Contexts <> unit constr
+R11096:11098 QWIRE.Base.Contexts <> bit constr
+R11104:11107 QWIRE.Base.Contexts <> pair constr
+R11116:11116 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11152:11153 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11155:11155 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11117:11117 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R11151:11151 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R11118:11124 QWIRE.CompilationQASM.QASM <> s_error constr
+R11154:11154 QWIRE.CompilationQASM.QASM <> v:132 var
+R11116:11116 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11152:11153 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11155:11155 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11117:11117 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R11151:11151 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R11118:11124 QWIRE.CompilationQASM.QASM <> s_error constr
+R11154:11154 QWIRE.CompilationQASM.QASM <> v:132 var
+R11116:11116 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11152:11153 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11155:11155 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11117:11117 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R11151:11151 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R11118:11124 QWIRE.CompilationQASM.QASM <> s_error constr
+R11154:11154 QWIRE.CompilationQASM.QASM <> v:132 var
+R11169:11170 QWIRE.Base.Contexts <> _Y constr
+R11185:11185 QWIRE.CompilationQASM.QASM <> p:134 var
+R11198:11202 QWIRE.Base.Contexts <> qubit constr
+R11209:11209 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11273:11274 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11276:11276 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11210:11210 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R11272:11272 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R11211:11215 QWIRE.CompilationQASM.QASM <> s_qop constr
+R11218:11222 QWIRE.CompilationQASM.QASM <> q_uop constr
+R11225:11227 QWIRE.CompilationQASM.QASM <> u_U constr
+R11229:11229 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R11232:11232 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R11237:11237 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R11242:11242 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R11230:11231 QWIRE.CompilationQASM.QASM <> pi abbrev
+R11235:11235 QWIRE.CompilationQASM.QASM <> ::qasm_scope:x_'/'_x not
+R11233:11234 QWIRE.CompilationQASM.QASM <> pi abbrev
+R11240:11240 QWIRE.CompilationQASM.QASM <> ::qasm_scope:x_'/'_x not
+R11238:11239 QWIRE.CompilationQASM.QASM <> pi abbrev
+R11245:11248 QWIRE.CompilationQASM.QASM <> a_id constr
+R11251:11262 QWIRE.CompilationQASM.QASM <> get_var_name def
+R11264:11265 QWIRE.CompilationQASM.QASM <> li:131 var
+R11275:11275 QWIRE.CompilationQASM.QASM <> v:132 var
+R11284:11287 QWIRE.Base.Contexts <> unit constr
+R11291:11293 QWIRE.Base.Contexts <> bit constr
+R11299:11302 QWIRE.Base.Contexts <> pair constr
+R11311:11311 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11347:11348 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11350:11350 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11312:11312 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R11346:11346 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R11313:11319 QWIRE.CompilationQASM.QASM <> s_error constr
+R11349:11349 QWIRE.CompilationQASM.QASM <> v:132 var
+R11311:11311 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11347:11348 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11350:11350 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11312:11312 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R11346:11346 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R11313:11319 QWIRE.CompilationQASM.QASM <> s_error constr
+R11349:11349 QWIRE.CompilationQASM.QASM <> v:132 var
+R11311:11311 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11347:11348 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11350:11350 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11312:11312 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R11346:11346 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R11313:11319 QWIRE.CompilationQASM.QASM <> s_error constr
+R11349:11349 QWIRE.CompilationQASM.QASM <> v:132 var
+R11364:11365 QWIRE.Base.Contexts <> _Z constr
+R11380:11380 QWIRE.CompilationQASM.QASM <> p:134 var
+R11393:11397 QWIRE.Base.Contexts <> qubit constr
+R11404:11404 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11462:11463 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11465:11465 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11405:11405 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R11461:11461 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R11406:11410 QWIRE.CompilationQASM.QASM <> s_qop constr
+R11413:11417 QWIRE.CompilationQASM.QASM <> q_uop constr
+R11420:11422 QWIRE.CompilationQASM.QASM <> u_U constr
+R11424:11424 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R11426:11426 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R11428:11428 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R11431:11431 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R11429:11430 QWIRE.CompilationQASM.QASM <> pi abbrev
+R11434:11437 QWIRE.CompilationQASM.QASM <> a_id constr
+R11440:11451 QWIRE.CompilationQASM.QASM <> get_var_name def
+R11453:11454 QWIRE.CompilationQASM.QASM <> li:131 var
+R11464:11464 QWIRE.CompilationQASM.QASM <> v:132 var
+R11473:11476 QWIRE.Base.Contexts <> unit constr
+R11480:11482 QWIRE.Base.Contexts <> bit constr
+R11488:11491 QWIRE.Base.Contexts <> pair constr
+R11500:11500 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11536:11537 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11539:11539 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11501:11501 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R11535:11535 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R11502:11508 QWIRE.CompilationQASM.QASM <> s_error constr
+R11538:11538 QWIRE.CompilationQASM.QASM <> v:132 var
+R11500:11500 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11536:11537 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11539:11539 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11501:11501 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R11535:11535 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R11502:11508 QWIRE.CompilationQASM.QASM <> s_error constr
+R11538:11538 QWIRE.CompilationQASM.QASM <> v:132 var
+R11500:11500 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11536:11537 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11539:11539 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11501:11501 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R11535:11535 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R11502:11508 QWIRE.CompilationQASM.QASM <> s_error constr
+R11538:11538 QWIRE.CompilationQASM.QASM <> v:132 var
+R11553:11555 QWIRE.Base.Contexts <> _R_ constr
+R11574:11574 QWIRE.CompilationQASM.QASM <> p:134 var
+R11587:11591 QWIRE.Base.Contexts <> qubit constr
+R11598:11598 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11664:11665 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11667:11667 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11599:11599 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R11663:11663 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R11600:11604 QWIRE.CompilationQASM.QASM <> s_qop constr
+R11607:11611 QWIRE.CompilationQASM.QASM <> q_uop constr
+R11614:11616 QWIRE.CompilationQASM.QASM <> u_U constr
+R11618:11618 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R11620:11620 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R11622:11622 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R11633:11633 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R11623:11628 QWIRE.CompilationQASM.QASM <> e_real constr
+R11636:11639 QWIRE.CompilationQASM.QASM <> a_id constr
+R11642:11653 QWIRE.CompilationQASM.QASM <> get_var_name def
+R11655:11656 QWIRE.CompilationQASM.QASM <> li:131 var
+R11666:11666 QWIRE.CompilationQASM.QASM <> v:132 var
+R11675:11678 QWIRE.Base.Contexts <> unit constr
+R11682:11684 QWIRE.Base.Contexts <> bit constr
+R11690:11693 QWIRE.Base.Contexts <> pair constr
+R11702:11702 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11738:11739 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11741:11741 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11703:11703 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R11737:11737 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R11704:11710 QWIRE.CompilationQASM.QASM <> s_error constr
+R11740:11740 QWIRE.CompilationQASM.QASM <> v:132 var
+R11702:11702 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11738:11739 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11741:11741 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11703:11703 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R11737:11737 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R11704:11710 QWIRE.CompilationQASM.QASM <> s_error constr
+R11740:11740 QWIRE.CompilationQASM.QASM <> v:132 var
+R11702:11702 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11738:11739 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11741:11741 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11703:11703 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R11737:11737 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R11704:11710 QWIRE.CompilationQASM.QASM <> s_error constr
+R11740:11740 QWIRE.CompilationQASM.QASM <> v:132 var
+R11755:11758 QWIRE.Base.Contexts <> ctrl constr
+R11776:11776 QWIRE.CompilationQASM.QASM <> p:134 var
+R11789:11792 QWIRE.Base.Contexts <> pair constr
+R11831:11835 QWIRE.Base.Contexts <> qubit constr
+R11877:11891 QWIRE.CompilationQASM.QASM <> unitary_to_qasm:135 def
+R11896:11896 QWIRE.CompilationQASM.QASM <> v:132 var
+R11893:11894 QWIRE.CompilationQASM.QASM <> li:131 var
+binder 11855:11866 <> qasm_unitary:144
+binder 11869:11870 <> v':145
+R11916:11917 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11963:11965 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11968:11968 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11918:11929 QWIRE.CompilationQASM.QASM <> process_ctrl def
+R11931:11942 QWIRE.CompilationQASM.QASM <> qasm_unitary:144 var
+R11945:11956 QWIRE.CompilationQASM.QASM <> get_var_name def
+R11958:11959 QWIRE.CompilationQASM.QASM <> li:131 var
+R11966:11967 QWIRE.CompilationQASM.QASM <> v':145 var
+R11978:11981 QWIRE.Base.Contexts <> unit constr
+R11985:11987 QWIRE.Base.Contexts <> bit constr
+R11993:11996 QWIRE.Base.Contexts <> pair constr
+R12005:12005 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12044:12045 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12047:12047 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12006:12006 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12043:12043 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12007:12013 QWIRE.CompilationQASM.QASM <> s_error constr
+R12046:12046 QWIRE.CompilationQASM.QASM <> v:132 var
+R12005:12005 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12044:12045 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12047:12047 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12006:12006 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12043:12043 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12007:12013 QWIRE.CompilationQASM.QASM <> s_error constr
+R12046:12046 QWIRE.CompilationQASM.QASM <> v:132 var
+R12005:12005 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12044:12045 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12047:12047 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12006:12006 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12043:12043 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12007:12013 QWIRE.CompilationQASM.QASM <> s_error constr
+R12046:12046 QWIRE.CompilationQASM.QASM <> v:132 var
+R12065:12068 QWIRE.Base.Contexts <> unit constr
+R12072:12074 QWIRE.Base.Contexts <> bit constr
+R12080:12084 QWIRE.Base.Contexts <> qubit constr
+R12091:12091 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12130:12131 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12133:12133 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12092:12092 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12129:12129 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12093:12099 QWIRE.CompilationQASM.QASM <> s_error constr
+R12132:12132 QWIRE.CompilationQASM.QASM <> v:132 var
+R12091:12091 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12130:12131 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12133:12133 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12092:12092 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12129:12129 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12093:12099 QWIRE.CompilationQASM.QASM <> s_error constr
+R12132:12132 QWIRE.CompilationQASM.QASM <> v:132 var
+R12091:12091 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12130:12131 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12133:12133 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12092:12092 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12129:12129 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12093:12099 QWIRE.CompilationQASM.QASM <> s_error constr
+R12132:12132 QWIRE.CompilationQASM.QASM <> v:132 var
+R12147:12154 QWIRE.Base.Contexts <> bit_ctrl constr
+R12172:12172 QWIRE.CompilationQASM.QASM <> p:134 var
+R12185:12188 QWIRE.Base.Contexts <> pair constr
+R12227:12229 QWIRE.Base.Contexts <> bit constr
+R12271:12285 QWIRE.CompilationQASM.QASM <> unitary_to_qasm:135 def
+R12291:12291 Coq.Init.Datatypes <> S constr
+R12293:12293 QWIRE.CompilationQASM.QASM <> v:132 var
+R12287:12288 QWIRE.CompilationQASM.QASM <> li:131 var
+binder 12249:12260 <> qasm_unitary:148
+binder 12263:12264 <> v':149
+R12314:12315 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12508:12510 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12513:12513 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12455:12471 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R12507:12507 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R12316:12316 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R12342:12356 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R12454:12454 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R12317:12322 QWIRE.CompilationQASM.QASM <> s_decl constr
+R12325:12328 QWIRE.CompilationQASM.QASM <> qreg constr
+R12331:12335 QWIRE.CompilationQASM.QASM <> qname def
+R12337:12337 QWIRE.CompilationQASM.QASM <> v:132 var
+R12357:12360 QWIRE.CompilationQASM.QASM <> s_if constr
+R12363:12374 QWIRE.CompilationQASM.QASM <> get_var_name def
+R12376:12377 QWIRE.CompilationQASM.QASM <> li:131 var
+R12403:12407 QWIRE.CompilationQASM.QASM <> q_uop constr
+R12410:12412 QWIRE.CompilationQASM.QASM <> u_U constr
+R12414:12414 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R12419:12420 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R12428:12429 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R12434:12434 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R12415:12418 QWIRE.CompilationQASM.QASM <> e_pi constr
+R12421:12425 QWIRE.CompilationQASM.QASM <> e_nat constr
+R12430:12433 QWIRE.CompilationQASM.QASM <> e_pi constr
+R12437:12440 QWIRE.CompilationQASM.QASM <> a_id constr
+R12443:12447 QWIRE.CompilationQASM.QASM <> qname def
+R12449:12449 QWIRE.CompilationQASM.QASM <> v:132 var
+R12472:12483 QWIRE.CompilationQASM.QASM <> process_ctrl def
+R12485:12496 QWIRE.CompilationQASM.QASM <> qasm_unitary:148 var
+R12499:12503 QWIRE.CompilationQASM.QASM <> qname def
+R12505:12505 QWIRE.CompilationQASM.QASM <> v:132 var
+R12511:12512 QWIRE.CompilationQASM.QASM <> v':149 var
+R12523:12526 QWIRE.Base.Contexts <> unit constr
+R12530:12534 QWIRE.Base.Contexts <> qubit constr
+R12540:12543 QWIRE.Base.Contexts <> pair constr
+R12552:12552 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12595:12596 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12598:12598 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12553:12553 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12594:12594 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12554:12560 QWIRE.CompilationQASM.QASM <> s_error constr
+R12597:12597 QWIRE.CompilationQASM.QASM <> v:132 var
+R12552:12552 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12595:12596 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12598:12598 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12553:12553 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12594:12594 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12554:12560 QWIRE.CompilationQASM.QASM <> s_error constr
+R12597:12597 QWIRE.CompilationQASM.QASM <> v:132 var
+R12552:12552 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12595:12596 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12598:12598 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12553:12553 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12594:12594 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12554:12560 QWIRE.CompilationQASM.QASM <> s_error constr
+R12597:12597 QWIRE.CompilationQASM.QASM <> v:132 var
+R12616:12619 QWIRE.Base.Contexts <> unit constr
+R12623:12625 QWIRE.Base.Contexts <> bit constr
+R12631:12635 QWIRE.Base.Contexts <> qubit constr
+R12642:12642 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12685:12686 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12688:12688 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12643:12643 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12684:12684 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12644:12650 QWIRE.CompilationQASM.QASM <> s_error constr
+R12687:12687 QWIRE.CompilationQASM.QASM <> v:132 var
+R12642:12642 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12685:12686 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12688:12688 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12643:12643 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12684:12684 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12644:12650 QWIRE.CompilationQASM.QASM <> s_error constr
+R12687:12687 QWIRE.CompilationQASM.QASM <> v:132 var
+R12642:12642 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12685:12686 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12688:12688 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12643:12643 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12684:12684 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12644:12650 QWIRE.CompilationQASM.QASM <> s_error constr
+R12687:12687 QWIRE.CompilationQASM.QASM <> v:132 var
+def 12715:12728 <> pat_to_anylist
+binder 12731:12731 <> w:150
+R12740:12743 Coq.Init.Datatypes <> list ind
+R12745:12750 Coq.Strings.String <> string ind
+binder 12735:12736 <> li:151
+R12758:12760 QWIRE.Base.Contexts <> Pat ind
+R12762:12762 QWIRE.CompilationQASM.QASM <> w:150 var
+binder 12754:12754 <> p:152
+R12767:12773 QWIRE.CompilationQASM.QASM <> anylist def
+R12786:12786 QWIRE.CompilationQASM.QASM <> p:152 var
+R12797:12800 QWIRE.Base.Contexts <> unit constr
+R12805:12806 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R12812:12816 QWIRE.Base.Contexts <> qubit constr
+R12823:12823 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12848:12848 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12824:12827 QWIRE.CompilationQASM.QASM <> a_id constr
+R12830:12841 QWIRE.CompilationQASM.QASM <> get_var_name def
+R12843:12844 QWIRE.CompilationQASM.QASM <> li:151 var
+R12854:12856 QWIRE.Base.Contexts <> bit constr
+R12863:12863 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12888:12888 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12864:12867 QWIRE.CompilationQASM.QASM <> a_id constr
+R12870:12881 QWIRE.CompilationQASM.QASM <> get_var_name def
+R12883:12884 QWIRE.CompilationQASM.QASM <> li:151 var
+R12894:12897 QWIRE.Base.Contexts <> pair constr
+R12908:12908 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R12929:12934 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R12955:12955 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R12909:12922 QWIRE.CompilationQASM.QASM <> pat_to_anylist:153 def
+R12924:12925 QWIRE.CompilationQASM.QASM <> li:151 var
+R12935:12948 QWIRE.CompilationQASM.QASM <> pat_to_anylist:153 def
+R12950:12951 QWIRE.CompilationQASM.QASM <> li:151 var
+def 12982:12991 <> db_to_qasm
+binder 12994:12994 <> w:155
+R13003:13006 Coq.Init.Datatypes <> list ind
+R13008:13013 Coq.Strings.String <> string ind
+binder 12998:12999 <> li:156
+R13021:13023 Coq.Init.Datatypes <> nat ind
+binder 13017:13017 <> v:157
+R13031:13046 QWIRE.Syntax.DB.DBCircuits <> DeBruijn_Circuit ind
+R13048:13048 QWIRE.CompilationQASM.QASM <> w:155 var
+binder 13027:13027 <> c:158
+R13061:13063 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R13054:13060 QWIRE.CompilationQASM.QASM <> program def
+R13064:13066 Coq.Init.Datatypes <> nat ind
+R13080:13080 QWIRE.CompilationQASM.QASM <> c:158 var
+R13091:13099 QWIRE.Syntax.DB.DBCircuits <> db_output constr
+R13106:13106 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13139:13140 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13142:13142 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13107:13107 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R13138:13138 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R13108:13115 QWIRE.CompilationQASM.QASM <> s_output constr
+R13118:13131 QWIRE.CompilationQASM.QASM <> pat_to_anylist def
+R13133:13134 QWIRE.CompilationQASM.QASM <> li:156 var
+R13141:13141 QWIRE.CompilationQASM.QASM <> v:157 var
+R13148:13154 QWIRE.Syntax.DB.DBCircuits <> db_gate constr
+R13189:13189 QWIRE.Base.Contexts <> U constr
+R13229:13243 QWIRE.CompilationQASM.QASM <> unitary_to_qasm def
+R13248:13248 QWIRE.CompilationQASM.QASM <> v:157 var
+R13245:13246 QWIRE.CompilationQASM.QASM <> li:156 var
+binder 13207:13218 <> qasm_unitary:162
+binder 13221:13222 <> v':163
+R13292:13301 QWIRE.CompilationQASM.QASM <> db_to_qasm:159 def
+R13306:13307 QWIRE.CompilationQASM.QASM <> v':163 var
+R13303:13304 QWIRE.CompilationQASM.QASM <> li:156 var
+binder 13269:13280 <> qasm_ramnent:164
+binder 13283:13285 <> v'':165
+R13322:13322 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13351:13352 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13356:13356 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13335:13338 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R13323:13334 QWIRE.CompilationQASM.QASM <> qasm_unitary:162 var
+R13339:13350 QWIRE.CompilationQASM.QASM <> qasm_ramnent:164 var
+R13353:13355 QWIRE.CompilationQASM.QASM <> v'':165 var
+R13364:13367 QWIRE.Base.Contexts <> BNOT constr
+R13399:13401 QWIRE.Base.Contexts <> bit constr
+R13435:13444 QWIRE.CompilationQASM.QASM <> db_to_qasm:159 def
+R13450:13450 Coq.Init.Datatypes <> S constr
+R13452:13452 QWIRE.CompilationQASM.QASM <> v:157 var
+R13446:13447 QWIRE.CompilationQASM.QASM <> li:156 var
+binder 13421:13424 <> qasm:167
+binder 13427:13428 <> v':168
+R13470:13470 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13699:13700 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13703:13703 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13680:13694 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R13471:13471 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R13497:13510 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R13607:13620 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R13679:13679 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R13472:13477 QWIRE.CompilationQASM.QASM <> s_decl constr
+R13480:13483 QWIRE.CompilationQASM.QASM <> qreg constr
+R13486:13490 QWIRE.CompilationQASM.QASM <> qname def
+R13492:13492 QWIRE.CompilationQASM.QASM <> v:157 var
+R13511:13514 QWIRE.CompilationQASM.QASM <> s_if constr
+R13517:13528 QWIRE.CompilationQASM.QASM <> get_var_name def
+R13530:13531 QWIRE.CompilationQASM.QASM <> li:156 var
+R13556:13560 QWIRE.CompilationQASM.QASM <> q_uop constr
+R13563:13565 QWIRE.CompilationQASM.QASM <> u_U constr
+R13567:13567 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R13572:13573 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R13581:13582 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R13587:13587 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R13568:13571 QWIRE.CompilationQASM.QASM <> e_pi constr
+R13574:13578 QWIRE.CompilationQASM.QASM <> e_nat constr
+R13583:13586 QWIRE.CompilationQASM.QASM <> e_pi constr
+R13590:13593 QWIRE.CompilationQASM.QASM <> a_id constr
+R13596:13600 QWIRE.CompilationQASM.QASM <> qname def
+R13602:13602 QWIRE.CompilationQASM.QASM <> v:157 var
+R13621:13625 QWIRE.CompilationQASM.QASM <> s_qop constr
+R13628:13633 QWIRE.CompilationQASM.QASM <> q_meas constr
+R13636:13639 QWIRE.CompilationQASM.QASM <> a_id constr
+R13642:13646 QWIRE.CompilationQASM.QASM <> qname def
+R13648:13648 QWIRE.CompilationQASM.QASM <> v:157 var
+R13653:13656 QWIRE.CompilationQASM.QASM <> a_id constr
+R13659:13670 QWIRE.CompilationQASM.QASM <> get_var_name def
+R13672:13673 QWIRE.CompilationQASM.QASM <> li:156 var
+R13695:13698 QWIRE.CompilationQASM.QASM <> qasm:167 var
+R13701:13702 QWIRE.CompilationQASM.QASM <> v':168 var
+R13713:13716 QWIRE.Base.Contexts <> unit constr
+R13720:13724 QWIRE.Base.Contexts <> qubit constr
+R13730:13733 QWIRE.Base.Contexts <> pair constr
+R13742:13742 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13772:13773 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13775:13775 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13743:13743 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R13771:13771 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R13744:13750 QWIRE.CompilationQASM.QASM <> s_error constr
+R13774:13774 QWIRE.CompilationQASM.QASM <> v:157 var
+R13742:13742 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13772:13773 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13775:13775 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13743:13743 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R13771:13771 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R13744:13750 QWIRE.CompilationQASM.QASM <> s_error constr
+R13774:13774 QWIRE.CompilationQASM.QASM <> v:157 var
+R13742:13742 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13772:13773 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13775:13775 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13743:13743 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R13771:13771 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R13744:13750 QWIRE.CompilationQASM.QASM <> s_error constr
+R13774:13774 QWIRE.CompilationQASM.QASM <> v:157 var
+R13793:13797 QWIRE.Base.Contexts <> init0 constr
+R13829:13832 QWIRE.Base.Contexts <> unit constr
+R13856:13867 QWIRE.CompilationQASM.QASM <> add_var_name def
+R13869:13870 QWIRE.CompilationQASM.QASM <> li:156 var
+R13873:13877 QWIRE.CompilationQASM.QASM <> qname def
+R13879:13879 QWIRE.CompilationQASM.QASM <> v:157 var
+binder 13849:13851 <> li':170
+R13912:13921 QWIRE.CompilationQASM.QASM <> db_to_qasm:159 def
+R13928:13928 Coq.Init.Datatypes <> S constr
+R13930:13930 QWIRE.CompilationQASM.QASM <> v:157 var
+R13923:13925 QWIRE.CompilationQASM.QASM <> li':170 var
+binder 13898:13901 <> qasm:171
+binder 13904:13905 <> v':172
+R13948:13949 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13985:13987 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13990:13990 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13977:13980 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R13950:13950 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R13976:13976 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R13951:13956 QWIRE.CompilationQASM.QASM <> s_decl constr
+R13959:13962 QWIRE.CompilationQASM.QASM <> qreg constr
+R13965:13969 QWIRE.CompilationQASM.QASM <> qname def
+R13971:13971 QWIRE.CompilationQASM.QASM <> v:157 var
+R13981:13984 QWIRE.CompilationQASM.QASM <> qasm:171 var
+R13988:13989 QWIRE.CompilationQASM.QASM <> v':172 var
+R14000:14002 QWIRE.Base.Contexts <> bit constr
+R14008:14012 QWIRE.Base.Contexts <> qubit constr
+R14018:14021 QWIRE.Base.Contexts <> pair constr
+R14030:14030 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14062:14063 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14065:14065 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14031:14031 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R14061:14061 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R14032:14038 QWIRE.CompilationQASM.QASM <> s_error constr
+R14064:14064 QWIRE.CompilationQASM.QASM <> v:157 var
+R14030:14030 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14062:14063 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14065:14065 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14031:14031 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R14061:14061 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R14032:14038 QWIRE.CompilationQASM.QASM <> s_error constr
+R14064:14064 QWIRE.CompilationQASM.QASM <> v:157 var
+R14030:14030 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14062:14063 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14065:14065 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14031:14031 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R14061:14061 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R14032:14038 QWIRE.CompilationQASM.QASM <> s_error constr
+R14064:14064 QWIRE.CompilationQASM.QASM <> v:157 var
+R14083:14087 QWIRE.Base.Contexts <> init1 constr
+R14119:14122 QWIRE.Base.Contexts <> unit constr
+R14146:14157 QWIRE.CompilationQASM.QASM <> add_var_name def
+R14159:14160 QWIRE.CompilationQASM.QASM <> li:156 var
+R14163:14167 QWIRE.CompilationQASM.QASM <> qname def
+R14169:14169 QWIRE.CompilationQASM.QASM <> v:157 var
+binder 14139:14141 <> li':174
+R14202:14211 QWIRE.CompilationQASM.QASM <> db_to_qasm:159 def
+R14218:14218 Coq.Init.Datatypes <> S constr
+R14220:14220 QWIRE.CompilationQASM.QASM <> v:157 var
+R14213:14215 QWIRE.CompilationQASM.QASM <> li':174 var
+binder 14188:14191 <> qasm:175
+binder 14194:14195 <> v':176
+R14238:14239 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14360:14362 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14365:14365 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14340:14355 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R14240:14240 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R14266:14280 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R14339:14339 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R14241:14246 QWIRE.CompilationQASM.QASM <> s_decl constr
+R14249:14252 QWIRE.CompilationQASM.QASM <> qreg constr
+R14255:14259 QWIRE.CompilationQASM.QASM <> qname def
+R14261:14261 QWIRE.CompilationQASM.QASM <> v:157 var
+R14281:14285 QWIRE.CompilationQASM.QASM <> s_qop constr
+R14288:14292 QWIRE.CompilationQASM.QASM <> q_uop constr
+R14295:14297 QWIRE.CompilationQASM.QASM <> u_U constr
+R14299:14299 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R14304:14305 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R14313:14314 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R14319:14319 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R14300:14303 QWIRE.CompilationQASM.QASM <> e_pi constr
+R14306:14310 QWIRE.CompilationQASM.QASM <> e_nat constr
+R14315:14318 QWIRE.CompilationQASM.QASM <> e_pi constr
+R14322:14325 QWIRE.CompilationQASM.QASM <> a_id constr
+R14328:14332 QWIRE.CompilationQASM.QASM <> qname def
+R14334:14334 QWIRE.CompilationQASM.QASM <> v:157 var
+R14356:14359 QWIRE.CompilationQASM.QASM <> qasm:175 var
+R14363:14364 QWIRE.CompilationQASM.QASM <> v':176 var
+R14375:14377 QWIRE.Base.Contexts <> bit constr
+R14383:14387 QWIRE.Base.Contexts <> qubit constr
+R14393:14396 QWIRE.Base.Contexts <> pair constr
+R14405:14405 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14437:14438 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14440:14440 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14406:14406 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R14436:14436 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R14407:14413 QWIRE.CompilationQASM.QASM <> s_error constr
+R14439:14439 QWIRE.CompilationQASM.QASM <> v:157 var
+R14405:14405 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14437:14438 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14440:14440 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14406:14406 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R14436:14436 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R14407:14413 QWIRE.CompilationQASM.QASM <> s_error constr
+R14439:14439 QWIRE.CompilationQASM.QASM <> v:157 var
+R14405:14405 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14437:14438 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14440:14440 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14406:14406 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R14436:14436 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R14407:14413 QWIRE.CompilationQASM.QASM <> s_error constr
+R14439:14439 QWIRE.CompilationQASM.QASM <> v:157 var
+R14458:14461 QWIRE.Base.Contexts <> new0 constr
+R14493:14496 QWIRE.Base.Contexts <> unit constr
+R14520:14531 QWIRE.CompilationQASM.QASM <> add_var_name def
+R14533:14534 QWIRE.CompilationQASM.QASM <> li:156 var
+R14537:14541 QWIRE.CompilationQASM.QASM <> cname def
+R14543:14543 QWIRE.CompilationQASM.QASM <> v:157 var
+binder 14513:14515 <> li':178
+R14576:14585 QWIRE.CompilationQASM.QASM <> db_to_qasm:159 def
+R14592:14592 Coq.Init.Datatypes <> S constr
+R14594:14594 QWIRE.CompilationQASM.QASM <> v:157 var
+R14587:14589 QWIRE.CompilationQASM.QASM <> li':178 var
+binder 14562:14565 <> qasm:179
+binder 14568:14569 <> v':180
+R14612:14613 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14649:14651 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14654:14654 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14641:14644 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R14614:14614 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R14640:14640 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R14615:14620 QWIRE.CompilationQASM.QASM <> s_decl constr
+R14623:14626 QWIRE.CompilationQASM.QASM <> creg constr
+R14629:14633 QWIRE.CompilationQASM.QASM <> cname def
+R14635:14635 QWIRE.CompilationQASM.QASM <> v:157 var
+R14645:14648 QWIRE.CompilationQASM.QASM <> qasm:179 var
+R14652:14653 QWIRE.CompilationQASM.QASM <> v':180 var
+R14664:14666 QWIRE.Base.Contexts <> bit constr
+R14672:14676 QWIRE.Base.Contexts <> qubit constr
+R14682:14685 QWIRE.Base.Contexts <> pair constr
+R14694:14694 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14725:14726 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14728:14728 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14695:14695 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R14724:14724 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R14696:14702 QWIRE.CompilationQASM.QASM <> s_error constr
+R14727:14727 QWIRE.CompilationQASM.QASM <> v:157 var
+R14694:14694 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14725:14726 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14728:14728 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14695:14695 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R14724:14724 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R14696:14702 QWIRE.CompilationQASM.QASM <> s_error constr
+R14727:14727 QWIRE.CompilationQASM.QASM <> v:157 var
+R14694:14694 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14725:14726 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14728:14728 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14695:14695 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R14724:14724 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R14696:14702 QWIRE.CompilationQASM.QASM <> s_error constr
+R14727:14727 QWIRE.CompilationQASM.QASM <> v:157 var
+R14746:14749 QWIRE.Base.Contexts <> new1 constr
+R14781:14784 QWIRE.Base.Contexts <> unit constr
+R14808:14819 QWIRE.CompilationQASM.QASM <> add_var_name def
+R14821:14822 QWIRE.CompilationQASM.QASM <> li:156 var
+R14825:14829 QWIRE.CompilationQASM.QASM <> cname def
+R14831:14831 QWIRE.CompilationQASM.QASM <> v:157 var
+binder 14801:14803 <> li':182
+R14864:14873 QWIRE.CompilationQASM.QASM <> db_to_qasm:159 def
+R14880:14880 Coq.Init.Datatypes <> S constr
+R14883:14883 Coq.Init.Datatypes <> S constr
+R14885:14885 QWIRE.CompilationQASM.QASM <> v:157 var
+R14875:14877 QWIRE.CompilationQASM.QASM <> li':182 var
+binder 14850:14853 <> qasm:183
+binder 14856:14857 <> v':184
+R14904:14905 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15141:15143 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15146:15146 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15121:15136 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R14906:14906 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R14932:14946 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R14976:14990 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15053:15067 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15120:15120 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R14907:14912 QWIRE.CompilationQASM.QASM <> s_decl constr
+R14915:14918 QWIRE.CompilationQASM.QASM <> creg constr
+R14921:14925 QWIRE.CompilationQASM.QASM <> cname def
+R14927:14927 QWIRE.CompilationQASM.QASM <> v:157 var
+R14947:14952 QWIRE.CompilationQASM.QASM <> s_decl constr
+R14955:14958 QWIRE.CompilationQASM.QASM <> qreg constr
+R14961:14965 QWIRE.CompilationQASM.QASM <> qname def
+R14968:14968 Coq.Init.Datatypes <> S constr
+R14970:14970 QWIRE.CompilationQASM.QASM <> v:157 var
+R14991:14995 QWIRE.CompilationQASM.QASM <> s_qop constr
+R14998:15002 QWIRE.CompilationQASM.QASM <> q_uop constr
+R15005:15007 QWIRE.CompilationQASM.QASM <> u_U constr
+R15009:15009 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15014:15015 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15023:15024 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15029:15029 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15010:15013 QWIRE.CompilationQASM.QASM <> e_pi constr
+R15016:15020 QWIRE.CompilationQASM.QASM <> e_nat constr
+R15025:15028 QWIRE.CompilationQASM.QASM <> e_pi constr
+R15032:15035 QWIRE.CompilationQASM.QASM <> a_id constr
+R15038:15042 QWIRE.CompilationQASM.QASM <> qname def
+R15045:15045 Coq.Init.Datatypes <> S constr
+R15047:15047 QWIRE.CompilationQASM.QASM <> v:157 var
+R15068:15072 QWIRE.CompilationQASM.QASM <> s_qop constr
+R15075:15080 QWIRE.CompilationQASM.QASM <> q_meas constr
+R15083:15086 QWIRE.CompilationQASM.QASM <> a_id constr
+R15089:15093 QWIRE.CompilationQASM.QASM <> qname def
+R15096:15096 Coq.Init.Datatypes <> S constr
+R15098:15098 QWIRE.CompilationQASM.QASM <> v:157 var
+R15104:15107 QWIRE.CompilationQASM.QASM <> a_id constr
+R15110:15114 QWIRE.CompilationQASM.QASM <> cname def
+R15116:15116 QWIRE.CompilationQASM.QASM <> v:157 var
+R15137:15140 QWIRE.CompilationQASM.QASM <> qasm:183 var
+R15144:15145 QWIRE.CompilationQASM.QASM <> v':184 var
+R15156:15158 QWIRE.Base.Contexts <> bit constr
+R15164:15168 QWIRE.Base.Contexts <> qubit constr
+R15174:15177 QWIRE.Base.Contexts <> pair constr
+R15186:15186 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15217:15218 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15220:15220 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15187:15187 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R15216:15216 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R15188:15194 QWIRE.CompilationQASM.QASM <> s_error constr
+R15219:15219 QWIRE.CompilationQASM.QASM <> v:157 var
+R15186:15186 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15217:15218 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15220:15220 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15187:15187 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R15216:15216 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R15188:15194 QWIRE.CompilationQASM.QASM <> s_error constr
+R15219:15219 QWIRE.CompilationQASM.QASM <> v:157 var
+R15186:15186 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15217:15218 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15220:15220 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15187:15187 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R15216:15216 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R15188:15194 QWIRE.CompilationQASM.QASM <> s_error constr
+R15219:15219 QWIRE.CompilationQASM.QASM <> v:157 var
+R15238:15241 QWIRE.Base.Contexts <> meas constr
+R15273:15277 QWIRE.Base.Contexts <> qubit constr
+R15304:15315 QWIRE.CompilationQASM.QASM <> put_var_name def
+R15317:15318 QWIRE.CompilationQASM.QASM <> li:156 var
+R15323:15327 QWIRE.CompilationQASM.QASM <> cname def
+R15329:15329 QWIRE.CompilationQASM.QASM <> v:157 var
+binder 15296:15298 <> li':186
+R15363:15372 QWIRE.CompilationQASM.QASM <> db_to_qasm:159 def
+R15379:15379 Coq.Init.Datatypes <> S constr
+R15381:15381 QWIRE.CompilationQASM.QASM <> v:157 var
+R15374:15376 QWIRE.CompilationQASM.QASM <> li':186 var
+binder 15349:15352 <> qasm:187
+binder 15355:15356 <> v':188
+R15399:15400 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15521:15523 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15526:15526 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15501:15516 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R15401:15401 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15427:15441 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15500:15500 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15402:15407 QWIRE.CompilationQASM.QASM <> s_decl constr
+R15410:15413 QWIRE.CompilationQASM.QASM <> creg constr
+R15416:15420 QWIRE.CompilationQASM.QASM <> cname def
+R15422:15422 QWIRE.CompilationQASM.QASM <> v:157 var
+R15442:15446 QWIRE.CompilationQASM.QASM <> s_qop constr
+R15449:15454 QWIRE.CompilationQASM.QASM <> q_meas constr
+R15457:15460 QWIRE.CompilationQASM.QASM <> a_id constr
+R15463:15474 QWIRE.CompilationQASM.QASM <> get_var_name def
+R15476:15477 QWIRE.CompilationQASM.QASM <> li:156 var
+R15484:15487 QWIRE.CompilationQASM.QASM <> a_id constr
+R15490:15494 QWIRE.CompilationQASM.QASM <> cname def
+R15496:15496 QWIRE.CompilationQASM.QASM <> v:157 var
+R15517:15520 QWIRE.CompilationQASM.QASM <> qasm:187 var
+R15524:15525 QWIRE.CompilationQASM.QASM <> v':188 var
+R15536:15539 QWIRE.Base.Contexts <> unit constr
+R15543:15545 QWIRE.Base.Contexts <> bit constr
+R15551:15554 QWIRE.Base.Contexts <> pair constr
+R15563:15563 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15594:15595 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15597:15597 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15564:15564 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R15593:15593 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R15565:15571 QWIRE.CompilationQASM.QASM <> s_error constr
+R15596:15596 QWIRE.CompilationQASM.QASM <> v:157 var
+R15563:15563 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15594:15595 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15597:15597 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15564:15564 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R15593:15593 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R15565:15571 QWIRE.CompilationQASM.QASM <> s_error constr
+R15596:15596 QWIRE.CompilationQASM.QASM <> v:157 var
+R15563:15563 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15594:15595 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15597:15597 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15564:15564 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R15593:15593 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R15565:15571 QWIRE.CompilationQASM.QASM <> s_error constr
+R15596:15596 QWIRE.CompilationQASM.QASM <> v:157 var
+R15615:15619 QWIRE.Base.Contexts <> measQ constr
+R15651:15655 QWIRE.Base.Contexts <> qubit constr
+R15689:15698 QWIRE.CompilationQASM.QASM <> db_to_qasm:159 def
+R15704:15704 Coq.Init.Datatypes <> S constr
+R15706:15706 QWIRE.CompilationQASM.QASM <> v:157 var
+R15700:15701 QWIRE.CompilationQASM.QASM <> li:156 var
+binder 15675:15678 <> qasm:190
+binder 15681:15682 <> v':191
+R15724:15725 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15846:15848 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15851:15851 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15826:15841 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R15726:15726 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15752:15766 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15825:15825 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15727:15732 QWIRE.CompilationQASM.QASM <> s_decl constr
+R15735:15738 QWIRE.CompilationQASM.QASM <> creg constr
+R15741:15745 QWIRE.CompilationQASM.QASM <> cname def
+R15747:15747 QWIRE.CompilationQASM.QASM <> v:157 var
+R15767:15771 QWIRE.CompilationQASM.QASM <> s_qop constr
+R15774:15779 QWIRE.CompilationQASM.QASM <> q_meas constr
+R15782:15785 QWIRE.CompilationQASM.QASM <> a_id constr
+R15788:15799 QWIRE.CompilationQASM.QASM <> get_var_name def
+R15801:15802 QWIRE.CompilationQASM.QASM <> li:156 var
+R15809:15812 QWIRE.CompilationQASM.QASM <> a_id constr
+R15815:15819 QWIRE.CompilationQASM.QASM <> cname def
+R15821:15821 QWIRE.CompilationQASM.QASM <> v:157 var
+R15842:15845 QWIRE.CompilationQASM.QASM <> qasm:190 var
+R15849:15850 QWIRE.CompilationQASM.QASM <> v':191 var
+R15861:15864 QWIRE.Base.Contexts <> unit constr
+R15868:15870 QWIRE.Base.Contexts <> bit constr
+R15876:15879 QWIRE.Base.Contexts <> pair constr
+R15888:15888 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15920:15921 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15923:15923 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15889:15889 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R15919:15919 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R15890:15896 QWIRE.CompilationQASM.QASM <> s_error constr
+R15922:15922 QWIRE.CompilationQASM.QASM <> v:157 var
+R15888:15888 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15920:15921 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15923:15923 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15889:15889 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R15919:15919 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R15890:15896 QWIRE.CompilationQASM.QASM <> s_error constr
+R15922:15922 QWIRE.CompilationQASM.QASM <> v:157 var
+R15888:15888 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15920:15921 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15923:15923 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15889:15889 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R15919:15919 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R15890:15896 QWIRE.CompilationQASM.QASM <> s_error constr
+R15922:15922 QWIRE.CompilationQASM.QASM <> v:157 var
+R15941:15947 QWIRE.Base.Contexts <> discard constr
+R15979:15981 QWIRE.Base.Contexts <> bit constr
+R16008:16022 QWIRE.CompilationQASM.QASM <> remove_var_name def
+R16024:16025 QWIRE.CompilationQASM.QASM <> li:156 var
+binder 16000:16002 <> li':193
+R16042:16051 QWIRE.CompilationQASM.QASM <> db_to_qasm:159 def
+R16057:16057 QWIRE.CompilationQASM.QASM <> v:157 var
+R16053:16055 QWIRE.CompilationQASM.QASM <> li':193 var
+R16071:16074 QWIRE.Base.Contexts <> unit constr
+R16078:16082 QWIRE.Base.Contexts <> qubit constr
+R16088:16091 QWIRE.Base.Contexts <> pair constr
+R16100:16100 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16134:16135 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16137:16137 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16101:16101 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16133:16133 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16102:16108 QWIRE.CompilationQASM.QASM <> s_error constr
+R16136:16136 QWIRE.CompilationQASM.QASM <> v:157 var
+R16100:16100 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16134:16135 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16137:16137 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16101:16101 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16133:16133 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16102:16108 QWIRE.CompilationQASM.QASM <> s_error constr
+R16136:16136 QWIRE.CompilationQASM.QASM <> v:157 var
+R16100:16100 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16134:16135 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16137:16137 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16101:16101 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16133:16133 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16102:16108 QWIRE.CompilationQASM.QASM <> s_error constr
+R16136:16136 QWIRE.CompilationQASM.QASM <> v:157 var
+R16155:16161 QWIRE.Base.Contexts <> assert0 constr
+R16165:16171 QWIRE.Base.Contexts <> assert1 constr
+R16203:16207 QWIRE.Base.Contexts <> qubit constr
+R16234:16248 QWIRE.CompilationQASM.QASM <> remove_var_name def
+R16250:16251 QWIRE.CompilationQASM.QASM <> li:156 var
+binder 16226:16228 <> li':195
+R16268:16277 QWIRE.CompilationQASM.QASM <> db_to_qasm:159 def
+R16283:16283 QWIRE.CompilationQASM.QASM <> v:157 var
+R16279:16281 QWIRE.CompilationQASM.QASM <> li':195 var
+R16297:16300 QWIRE.Base.Contexts <> unit constr
+R16304:16306 QWIRE.Base.Contexts <> bit constr
+R16312:16315 QWIRE.Base.Contexts <> pair constr
+R16324:16324 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16357:16358 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16360:16360 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16325:16325 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16356:16356 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16326:16332 QWIRE.CompilationQASM.QASM <> s_error constr
+R16359:16359 QWIRE.CompilationQASM.QASM <> v:157 var
+R16324:16324 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16357:16358 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16360:16360 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16325:16325 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16356:16356 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16326:16332 QWIRE.CompilationQASM.QASM <> s_error constr
+R16359:16359 QWIRE.CompilationQASM.QASM <> v:157 var
+R16324:16324 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16357:16358 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16360:16360 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16325:16325 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16356:16356 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16326:16332 QWIRE.CompilationQASM.QASM <> s_error constr
+R16359:16359 QWIRE.CompilationQASM.QASM <> v:157 var
+R16203:16207 QWIRE.Base.Contexts <> qubit constr
+R16234:16248 QWIRE.CompilationQASM.QASM <> remove_var_name def
+R16250:16251 QWIRE.CompilationQASM.QASM <> li:156 var
+binder 16226:16228 <> li':197
+R16268:16277 QWIRE.CompilationQASM.QASM <> db_to_qasm:159 def
+R16283:16283 QWIRE.CompilationQASM.QASM <> v:157 var
+R16279:16281 QWIRE.CompilationQASM.QASM <> li':197 var
+R16297:16300 QWIRE.Base.Contexts <> unit constr
+R16304:16306 QWIRE.Base.Contexts <> bit constr
+R16312:16315 QWIRE.Base.Contexts <> pair constr
+R16324:16324 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16357:16358 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16360:16360 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16325:16325 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16356:16356 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16326:16332 QWIRE.CompilationQASM.QASM <> s_error constr
+R16359:16359 QWIRE.CompilationQASM.QASM <> v:157 var
+R16324:16324 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16357:16358 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16360:16360 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16325:16325 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16356:16356 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16326:16332 QWIRE.CompilationQASM.QASM <> s_error constr
+R16359:16359 QWIRE.CompilationQASM.QASM <> v:157 var
+R16324:16324 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16357:16358 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16360:16360 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16325:16325 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16356:16356 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16326:16332 QWIRE.CompilationQASM.QASM <> s_error constr
+R16359:16359 QWIRE.CompilationQASM.QASM <> v:157 var
+R16384:16390 QWIRE.Syntax.DB.DBCircuits <> db_lift constr
+R16422:16424 QWIRE.Base.Contexts <> bit constr
+R16460:16469 QWIRE.CompilationQASM.QASM <> db_to_qasm:159 def
+R16483:16486 Coq.Init.Datatypes <> true constr
+R16475:16475 Coq.Init.Datatypes <> S constr
+R16477:16477 QWIRE.CompilationQASM.QASM <> v:157 var
+R16471:16472 QWIRE.CompilationQASM.QASM <> li:156 var
+binder 16442:16450 <> qasm_true:199
+binder 16453:16454 <> v':200
+R16523:16532 QWIRE.CompilationQASM.QASM <> db_to_qasm:159 def
+R16543:16547 Coq.Init.Datatypes <> false constr
+R16537:16538 QWIRE.CompilationQASM.QASM <> v':200 var
+R16534:16535 QWIRE.CompilationQASM.QASM <> li:156 var
+binder 16503:16512 <> qasm_false:201
+binder 16515:16517 <> v'':202
+R16559:16560 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16867:16869 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16873:16873 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16696:16709 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16561:16561 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16587:16599 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16695:16695 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16562:16567 QWIRE.CompilationQASM.QASM <> s_decl constr
+R16570:16573 QWIRE.CompilationQASM.QASM <> qreg constr
+R16576:16580 QWIRE.CompilationQASM.QASM <> qname def
+R16582:16582 QWIRE.CompilationQASM.QASM <> v:157 var
+R16600:16603 QWIRE.CompilationQASM.QASM <> s_if constr
+R16606:16617 QWIRE.CompilationQASM.QASM <> get_var_name def
+R16619:16620 QWIRE.CompilationQASM.QASM <> li:156 var
+R16644:16648 QWIRE.CompilationQASM.QASM <> q_uop constr
+R16651:16653 QWIRE.CompilationQASM.QASM <> u_U constr
+R16655:16655 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16660:16661 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16669:16670 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16675:16675 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16656:16659 QWIRE.CompilationQASM.QASM <> e_pi constr
+R16662:16666 QWIRE.CompilationQASM.QASM <> e_nat constr
+R16671:16674 QWIRE.CompilationQASM.QASM <> e_pi constr
+R16678:16681 QWIRE.CompilationQASM.QASM <> a_id constr
+R16684:16688 QWIRE.CompilationQASM.QASM <> qname def
+R16690:16690 QWIRE.CompilationQASM.QASM <> v:157 var
+R16710:16710 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16743:16757 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16711:16722 QWIRE.CompilationQASM.QASM <> process_ctrl def
+R16724:16732 QWIRE.CompilationQASM.QASM <> qasm_true:199 var
+R16735:16739 QWIRE.CompilationQASM.QASM <> qname def
+R16741:16741 QWIRE.CompilationQASM.QASM <> v:157 var
+R16818:16832 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16866:16866 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16758:16758 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16817:16817 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16759:16763 QWIRE.CompilationQASM.QASM <> s_qop constr
+R16766:16770 QWIRE.CompilationQASM.QASM <> q_uop constr
+R16773:16775 QWIRE.CompilationQASM.QASM <> u_U constr
+R16777:16777 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16782:16783 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16791:16792 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16797:16797 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16778:16781 QWIRE.CompilationQASM.QASM <> e_pi constr
+R16784:16788 QWIRE.CompilationQASM.QASM <> e_nat constr
+R16793:16796 QWIRE.CompilationQASM.QASM <> e_pi constr
+R16800:16803 QWIRE.CompilationQASM.QASM <> a_id constr
+R16806:16810 QWIRE.CompilationQASM.QASM <> qname def
+R16812:16812 QWIRE.CompilationQASM.QASM <> v:157 var
+R16833:16844 QWIRE.CompilationQASM.QASM <> process_ctrl def
+R16846:16855 QWIRE.CompilationQASM.QASM <> qasm_false:201 var
+R16858:16862 QWIRE.CompilationQASM.QASM <> qname def
+R16864:16864 QWIRE.CompilationQASM.QASM <> v:157 var
+R16870:16872 QWIRE.CompilationQASM.QASM <> v'':202 var
+R16881:16885 QWIRE.Base.Contexts <> qubit constr
+R16891:16894 QWIRE.Base.Contexts <> unit constr
+R16898:16901 QWIRE.Base.Contexts <> pair constr
+R16910:16910 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16936:16937 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16939:16939 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16911:16911 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16935:16935 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16912:16918 QWIRE.CompilationQASM.QASM <> s_error constr
+R16938:16938 QWIRE.CompilationQASM.QASM <> v:157 var
+R16910:16910 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16936:16937 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16939:16939 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16911:16911 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16935:16935 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16912:16918 QWIRE.CompilationQASM.QASM <> s_error constr
+R16938:16938 QWIRE.CompilationQASM.QASM <> v:157 var
+R16910:16910 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16936:16937 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16939:16939 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16911:16911 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16935:16935 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16912:16918 QWIRE.CompilationQASM.QASM <> s_error constr
+R16938:16938 QWIRE.CompilationQASM.QASM <> v:157 var
+def 16968:16981 <> db_to_qasm_box
+binder 16984:16985 <> w1:203
+binder 16987:16988 <> w2:204
+R16996:17007 QWIRE.Syntax.DB.DBCircuits <> DeBruijn_Box ind
+R17009:17010 QWIRE.CompilationQASM.QASM <> w1:203 var
+R17012:17013 QWIRE.CompilationQASM.QASM <> w2:204 var
+binder 16992:16992 <> b:205
+R17018:17024 QWIRE.CompilationQASM.QASM <> program def
+R17037:17038 QWIRE.CompilationQASM.QASM <> w1:203 var
+R17049:17051 QWIRE.Base.Contexts <> One constr
+R17066:17066 QWIRE.CompilationQASM.QASM <> b:205 var
+R17079:17084 QWIRE.Syntax.DB.DBCircuits <> db_box constr
+R17093:17095 Coq.Init.Datatypes <> fst def
+R17098:17107 QWIRE.CompilationQASM.QASM <> db_to_qasm def
+R17109:17110 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R17134:17135 Coq.Lists.List ListNotations ::list_scope:'['_']' not

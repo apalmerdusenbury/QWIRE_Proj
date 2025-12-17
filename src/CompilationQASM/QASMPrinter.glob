@@ -1,0 +1,338 @@
+DIGEST f07067306080ef0da0abf2ed03a7fb37
+FQWIRE.CompilationQASM.QASMPrinter
+R15:20 Coq.Strings.String <> <> lib
+R38:42 Coq.Strings.Ascii <> <> lib
+R60:64 Coq.Reals.Reals <> <> lib
+R82:101 QWIRE.CompilationQASM.QASM <> <> lib
+R119:122 Coq.Lists.List <> <> lib
+R133:145 Coq.Lists.List ListNotations <> mod
+def 207:213 <> newline
+R218:223 Coq.Strings.String <> String constr
+R226:241 Coq.Strings.Ascii <> ascii_of_N def
+R247:257 Coq.Strings.String <> EmptyString constr
+def 270:279 <> print_bexp
+R287:290 QWIRE.CompilationQASM.QASM <> bexp ind
+binder 282:283 <> bx:1
+R295:300 Coq.Strings.String <> string ind
+R313:314 QWIRE.CompilationQASM.QASMPrinter <> bx:1 var
+R325:329 QWIRE.CompilationQASM.QASM <> BTrue constr
+R345:350 QWIRE.CompilationQASM.QASM <> BFalse constr
+R367:368 QWIRE.CompilationQASM.QASM <> BI constr
+R381:384 QWIRE.CompilationQASM.QASM <> BNot constr
+R393:398 Coq.Strings.String <> append def
+R405:414 QWIRE.CompilationQASM.QASMPrinter <> print_bexp:2 def
+R425:428 QWIRE.CompilationQASM.QASM <> BAnd constr
+R441:446 Coq.Strings.String <> append def
+R449:458 QWIRE.CompilationQASM.QASMPrinter <> print_bexp:2 def
+R466:471 Coq.Strings.String <> append def
+R480:489 QWIRE.CompilationQASM.QASMPrinter <> print_bexp:2 def
+def 516:526 <> print_binop
+R533:537 QWIRE.CompilationQASM.QASM <> binop ind
+binder 529:529 <> b:4
+R542:547 Coq.Strings.String <> string ind
+R560:560 QWIRE.CompilationQASM.QASMPrinter <> b:4 var
+R571:574 QWIRE.CompilationQASM.QASM <> plus constr
+R587:591 QWIRE.CompilationQASM.QASM <> minus constr
+R604:608 QWIRE.CompilationQASM.QASM <> times constr
+R621:623 QWIRE.CompilationQASM.QASM <> div constr
+R636:638 QWIRE.CompilationQASM.QASM <> pow constr
+def 665:677 <> print_unaryop
+R684:690 QWIRE.CompilationQASM.QASM <> unaryop ind
+binder 680:680 <> u:6
+R695:700 Coq.Strings.String <> string ind
+R713:713 QWIRE.CompilationQASM.QASMPrinter <> u:6 var
+R724:726 QWIRE.CompilationQASM.QASM <> sin constr
+R741:743 QWIRE.CompilationQASM.QASM <> cos constr
+R758:760 QWIRE.CompilationQASM.QASM <> tan constr
+R775:778 QWIRE.CompilationQASM.QASM <> e_to constr
+R793:794 QWIRE.CompilationQASM.QASM <> ln constr
+R808:811 QWIRE.CompilationQASM.QASM <> sqrt constr
+R827:829 QWIRE.CompilationQASM.QASM <> neg constr
+def 854:862 <> print_exp
+R869:871 QWIRE.CompilationQASM.QASM <> exp ind
+binder 865:865 <> e:8
+R876:881 Coq.Strings.String <> string ind
+R894:894 QWIRE.CompilationQASM.QASMPrinter <> e:8 var
+R905:910 QWIRE.CompilationQASM.QASM <> e_real constr
+R971:975 QWIRE.CompilationQASM.QASM <> e_nat constr
+R982:989 QWIRE.CompilationQASM.QASM <> writeNat def
+R997:1000 QWIRE.CompilationQASM.QASM <> e_pi constr
+R1014:1017 QWIRE.CompilationQASM.QASM <> e_id constr
+R1036:1042 QWIRE.CompilationQASM.QASM <> e_binop constr
+R1058:1061 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1074:1077 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1062:1070 QWIRE.CompilationQASM.QASMPrinter <> print_exp:9 def
+R1091:1123 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1078:1088 QWIRE.CompilationQASM.QASMPrinter <> print_binop def
+R1136:1139 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1124:1132 QWIRE.CompilationQASM.QASMPrinter <> print_exp:9 def
+R1148:1153 QWIRE.CompilationQASM.QASM <> e_unop constr
+R1165:1168 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1184:1187 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1169:1181 QWIRE.CompilationQASM.QASMPrinter <> print_unaryop def
+R1191:1194 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1206:1209 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1195:1203 QWIRE.CompilationQASM.QASMPrinter <> print_exp:9 def
+R1205:1205 QWIRE.CompilationQASM.QASMPrinter <> e:8 var
+def 1234:1247 <> print_argument
+R1254:1261 QWIRE.CompilationQASM.QASM <> argument ind
+binder 1250:1250 <> a:11
+R1266:1271 Coq.Strings.String <> string ind
+R1284:1284 QWIRE.CompilationQASM.QASMPrinter <> a:11 var
+R1295:1298 QWIRE.CompilationQASM.QASM <> a_id constr
+R1311:1315 QWIRE.CompilationQASM.QASM <> a_idx constr
+R1325:1328 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1332:1335 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1346:1349 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1336:1343 QWIRE.CompilationQASM.QASM <> writeNat def
+def 1371:1382 <> print_idlist
+R1392:1397 QWIRE.CompilationQASM.QASM <> idlist def
+binder 1385:1388 <> args:13
+R1402:1407 Coq.Strings.String <> string ind
+R1420:1423 QWIRE.CompilationQASM.QASMPrinter <> args:13 var
+R1434:1435 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R1448:1451 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1452:1453 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R1465:1468 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1475:1478 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1482:1485 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1486:1497 QWIRE.CompilationQASM.QASMPrinter <> print_idlist:14 def
+def 1517:1529 <> print_explist
+R1539:1545 QWIRE.CompilationQASM.QASM <> explist def
+binder 1532:1535 <> exps:16
+R1550:1555 Coq.Strings.String <> string ind
+R1568:1571 QWIRE.CompilationQASM.QASMPrinter <> exps:16 var
+R1582:1583 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R1596:1599 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1600:1601 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R1606:1614 QWIRE.CompilationQASM.QASMPrinter <> print_exp def
+R1623:1626 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1643:1646 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1632:1640 QWIRE.CompilationQASM.QASMPrinter <> print_exp def
+R1650:1653 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1654:1666 QWIRE.CompilationQASM.QASMPrinter <> print_explist:17 def
+def 1686:1698 <> print_anylist
+R1708:1714 QWIRE.CompilationQASM.QASM <> anylist def
+binder 1701:1704 <> args:19
+R1719:1724 Coq.Strings.String <> string ind
+R1737:1740 QWIRE.CompilationQASM.QASMPrinter <> args:19 var
+R1751:1752 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R1765:1768 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1769:1770 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R1775:1788 QWIRE.CompilationQASM.QASMPrinter <> print_argument def
+R1797:1800 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1822:1825 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1806:1819 QWIRE.CompilationQASM.QASMPrinter <> print_argument def
+R1829:1832 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1833:1845 QWIRE.CompilationQASM.QASMPrinter <> print_anylist:20 def
+def 1868:1877 <> print_args
+R1887:1892 Coq.Init.Datatypes <> option ind
+R1894:1899 QWIRE.CompilationQASM.QASM <> idlist def
+binder 1880:1883 <> args:22
+R1904:1909 Coq.Strings.String <> string ind
+R1922:1925 QWIRE.CompilationQASM.QASMPrinter <> args:22 var
+R1936:1939 Coq.Init.Datatypes <> None constr
+R1951:1954 Coq.Init.Datatypes <> Some constr
+R1967:1978 QWIRE.CompilationQASM.QASMPrinter <> print_idlist def
+def 2007:2015 <> print_uop
+R2023:2025 QWIRE.CompilationQASM.QASM <> uop ind
+binder 2018:2019 <> op:24
+R2030:2035 Coq.Strings.String <> string ind
+R2048:2049 QWIRE.CompilationQASM.QASMPrinter <> op:24 var
+R2060:2062 QWIRE.CompilationQASM.QASM <> u_U constr
+R2076:2079 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2095:2098 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2080:2092 QWIRE.CompilationQASM.QASMPrinter <> print_explist def
+R2103:2106 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2123:2126 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2107:2120 QWIRE.CompilationQASM.QASMPrinter <> print_argument def
+R2130:2133 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2134:2140 QWIRE.CompilationQASM.QASMPrinter <> newline def
+R2146:2149 QWIRE.CompilationQASM.QASM <> u_CX constr
+R2165:2168 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2186:2189 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2169:2182 QWIRE.CompilationQASM.QASMPrinter <> print_argument def
+R2193:2196 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2214:2217 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2197:2210 QWIRE.CompilationQASM.QASMPrinter <> print_argument def
+R2221:2224 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2225:2231 QWIRE.CompilationQASM.QASMPrinter <> newline def
+R2237:2241 QWIRE.CompilationQASM.QASM <> u_app constr
+R2251:2254 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2261:2264 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2280:2283 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2265:2277 QWIRE.CompilationQASM.QASMPrinter <> print_anylist def
+R2287:2290 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2291:2297 QWIRE.CompilationQASM.QASMPrinter <> newline def
+R2303:2308 QWIRE.CompilationQASM.QASM <> u_call constr
+R2321:2324 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2329:2332 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2349:2352 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2333:2345 QWIRE.CompilationQASM.QASMPrinter <> print_explist def
+R2357:2383 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2399:2402 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2384:2396 QWIRE.CompilationQASM.QASMPrinter <> print_anylist def
+R2406:2409 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2410:2416 QWIRE.CompilationQASM.QASMPrinter <> newline def
+def 2436:2444 <> print_qop
+R2452:2454 QWIRE.CompilationQASM.QASM <> qop ind
+binder 2447:2448 <> op:26
+R2459:2464 Coq.Strings.String <> string ind
+R2477:2478 QWIRE.CompilationQASM.QASMPrinter <> op:26 var
+R2489:2493 QWIRE.CompilationQASM.QASM <> q_uop constr
+R2500:2508 QWIRE.CompilationQASM.QASMPrinter <> print_uop def
+R2516:2521 QWIRE.CompilationQASM.QASM <> q_meas constr
+R2545:2548 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2567:2570 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2549:2562 QWIRE.CompilationQASM.QASMPrinter <> print_argument def
+R2577:2614 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2634:2637 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2615:2628 QWIRE.CompilationQASM.QASMPrinter <> print_argument def
+R2641:2644 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2645:2651 QWIRE.CompilationQASM.QASMPrinter <> newline def
+R2657:2663 QWIRE.CompilationQASM.QASM <> q_reset constr
+R2678:2681 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2698:2701 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2682:2695 QWIRE.CompilationQASM.QASMPrinter <> print_argument def
+R2705:2708 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2709:2715 QWIRE.CompilationQASM.QASMPrinter <> newline def
+def 2735:2743 <> print_gop
+R2751:2753 QWIRE.CompilationQASM.QASM <> gop ind
+binder 2746:2747 <> op:28
+R2758:2763 Coq.Strings.String <> string ind
+R2776:2777 QWIRE.CompilationQASM.QASMPrinter <> op:28 var
+R2788:2792 QWIRE.CompilationQASM.QASM <> g_uop constr
+R2799:2807 QWIRE.CompilationQASM.QASMPrinter <> print_uop def
+R2815:2823 QWIRE.CompilationQASM.QASM <> g_barrier constr
+R2842:2845 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2862:2865 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2846:2857 QWIRE.CompilationQASM.QASMPrinter <> print_idlist def
+R2869:2872 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2873:2879 QWIRE.CompilationQASM.QASMPrinter <> newline def
+def 2897:2909 <> print_goplist
+R2919:2925 QWIRE.CompilationQASM.QASM <> goplist def
+binder 2912:2915 <> gops:30
+R2930:2935 Coq.Strings.String <> string ind
+R2948:2951 QWIRE.CompilationQASM.QASMPrinter <> gops:30 var
+R2962:2963 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R2976:2979 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2980:2981 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R2986:2994 QWIRE.CompilationQASM.QASMPrinter <> print_gop def
+R3003:3006 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3023:3026 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3012:3020 QWIRE.CompilationQASM.QASMPrinter <> print_gop def
+R3027:3039 QWIRE.CompilationQASM.QASMPrinter <> print_goplist:31 def
+def 3062:3071 <> print_decl
+R3078:3081 QWIRE.CompilationQASM.QASM <> decl ind
+binder 3074:3074 <> d:33
+R3086:3091 Coq.Strings.String <> string ind
+R3104:3104 QWIRE.CompilationQASM.QASMPrinter <> d:33 var
+R3115:3118 QWIRE.CompilationQASM.QASM <> qreg constr
+R3140:3143 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3148:3151 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3155:3158 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3172:3175 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3159:3166 QWIRE.CompilationQASM.QASM <> writeNat def
+R3180:3183 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3184:3190 QWIRE.CompilationQASM.QASMPrinter <> newline def
+R3196:3199 QWIRE.CompilationQASM.QASM <> creg constr
+R3221:3224 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3229:3232 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3236:3239 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3253:3256 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3240:3247 QWIRE.CompilationQASM.QASM <> writeNat def
+R3261:3264 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3265:3271 QWIRE.CompilationQASM.QASMPrinter <> newline def
+def 3291:3304 <> print_gatedecl
+R3312:3313 QWIRE.CompilationQASM.QASM <> id def
+binder 3307:3310 <> name:35
+R3322:3327 Coq.Init.Datatypes <> option ind
+R3329:3334 QWIRE.CompilationQASM.QASM <> idlist def
+binder 3317:3320 <> args:36
+R3344:3349 QWIRE.CompilationQASM.QASM <> idlist def
+binder 3338:3342 <> names:37
+R3358:3364 QWIRE.CompilationQASM.QASM <> goplist def
+binder 3353:3356 <> body:38
+R3371:3376 Coq.Strings.String <> string ind
+R3388:3391 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3396:3399 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3392:3395 QWIRE.CompilationQASM.QASMPrinter <> name:35 var
+R3404:3407 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3423:3426 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3408:3417 QWIRE.CompilationQASM.QASMPrinter <> print_args def
+R3419:3422 QWIRE.CompilationQASM.QASMPrinter <> args:36 var
+R3431:3434 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3453:3477 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3435:3446 QWIRE.CompilationQASM.QASMPrinter <> print_idlist def
+R3448:3452 QWIRE.CompilationQASM.QASMPrinter <> names:37 var
+R3482:3485 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3493:3517 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3486:3492 QWIRE.CompilationQASM.QASMPrinter <> newline def
+R3536:3560 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3518:3530 QWIRE.CompilationQASM.QASMPrinter <> print_goplist def
+R3532:3535 QWIRE.CompilationQASM.QASMPrinter <> body:38 var
+R3564:3567 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3568:3574 QWIRE.CompilationQASM.QASMPrinter <> newline def
+def 3587:3601 <> print_statement
+R3608:3616 QWIRE.CompilationQASM.QASM <> statement ind
+binder 3604:3604 <> s:39
+R3621:3626 Coq.Strings.String <> string ind
+R3639:3639 QWIRE.CompilationQASM.QASMPrinter <> s:39 var
+R3650:3655 QWIRE.CompilationQASM.QASM <> s_decl constr
+R3662:3671 QWIRE.CompilationQASM.QASMPrinter <> print_decl def
+R3679:3688 QWIRE.CompilationQASM.QASM <> s_gatedecl constr
+R3714:3727 QWIRE.CompilationQASM.QASMPrinter <> print_gatedecl def
+R3754:3761 QWIRE.CompilationQASM.QASM <> s_opaque constr
+R3791:3794 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3799:3802 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3807:3810 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3826:3829 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3811:3820 QWIRE.CompilationQASM.QASMPrinter <> print_args def
+R3834:3879 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3898:3901 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3880:3891 QWIRE.CompilationQASM.QASMPrinter <> print_idlist def
+R3905:3908 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3909:3915 QWIRE.CompilationQASM.QASMPrinter <> newline def
+R3921:3925 QWIRE.CompilationQASM.QASM <> s_qop constr
+R3932:3940 QWIRE.CompilationQASM.QASMPrinter <> print_qop def
+R3948:3951 QWIRE.CompilationQASM.QASM <> s_if constr
+R3967:3970 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3972:3975 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3980:3983 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3994:3997 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3984:3991 QWIRE.CompilationQASM.QASM <> writeNat def
+R4002:4005 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4006:4014 QWIRE.CompilationQASM.QASMPrinter <> print_qop def
+R4103:4111 QWIRE.CompilationQASM.QASM <> s_barrier constr
+R4131:4134 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4153:4156 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4135:4147 QWIRE.CompilationQASM.QASMPrinter <> print_anylist def
+R4160:4163 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4164:4170 QWIRE.CompilationQASM.QASMPrinter <> newline def
+R4176:4183 QWIRE.CompilationQASM.QASM <> s_output constr
+R4200:4206 QWIRE.CompilationQASM.QASM <> s_error constr
+R4233:4236 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4240:4243 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4244:4250 QWIRE.CompilationQASM.QASMPrinter <> newline def
+def 4269:4276 <> printer'
+R4283:4289 QWIRE.CompilationQASM.QASM <> program def
+binder 4279:4279 <> p:42
+R4294:4299 Coq.Strings.String <> string ind
+R4312:4312 QWIRE.CompilationQASM.QASMPrinter <> p:42 var
+R4323:4324 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R4338:4341 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4366:4369 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4348:4362 QWIRE.CompilationQASM.QASMPrinter <> print_statement def
+R4370:4377 QWIRE.CompilationQASM.QASMPrinter <> printer':43 def
+def 4399:4405 <> printer
+R4412:4418 QWIRE.CompilationQASM.QASM <> program def
+binder 4408:4408 <> p:45
+R4423:4428 Coq.Strings.String <> string ind
+R4450:4453 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4461:4464 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4454:4460 QWIRE.CompilationQASM.QASMPrinter <> newline def
+R4490:4493 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4501:4504 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4494:4500 QWIRE.CompilationQASM.QASMPrinter <> newline def
+R4505:4512 QWIRE.CompilationQASM.QASMPrinter <> printer' def
+R4514:4514 QWIRE.CompilationQASM.QASMPrinter <> p:45 var

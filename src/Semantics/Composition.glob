@@ -1,0 +1,339 @@
+DIGEST 019c19d71201f0ae89dba7be865adca8
+FQWIRE.Semantics.Composition
+R15:33 QWIRE.Base.Contexts <> <> lib
+R51:80 QWIRE.Syntax.HOAS.HOASCircuits <> <> lib
+R98:122 QWIRE.Syntax.HOAS.HOASLib <> <> lib
+R140:165 QWIRE.Syntax.DB.DBCircuits <> <> lib
+R183:200 QuantumLib.Quantum <> <> lib
+R218:243 QWIRE.Semantics.Denotation <> <> lib
+prf 252:265 <> denote_compose
+binder 276:279 <> safe:1
+binder 281:281 <> w:2
+R288:294 QWIRE.Syntax.HOAS.HOASCircuits <> Circuit ind
+R296:296 QWIRE.Semantics.Composition <> w:2 var
+binder 284:284 <> c:3
+R305:307 QWIRE.Base.Contexts <> Ctx def
+binder 300:301 <> Γ:4
+R328:336 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R316:320 QWIRE.Syntax.HOAS.HOASCircuits <> :::x_'⊢'_x_':Circ' not
+R322:327 QWIRE.Syntax.HOAS.HOASCircuits <> :::x_'⊢'_x_':Circ' not
+R314:315 QWIRE.Semantics.Composition <> Γ:4 var
+R321:321 QWIRE.Semantics.Composition <> c:3 var
+binder 344:345 <> w':5
+R357:360 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R352:354 QWIRE.Base.Contexts <> Pat ind
+R356:356 QWIRE.Semantics.Composition <> w:2 var
+R361:367 QWIRE.Syntax.HOAS.HOASCircuits <> Circuit ind
+R369:370 QWIRE.Semantics.Composition <> w':5 var
+binder 348:348 <> f:6
+R394:396 QWIRE.Base.Contexts <> Ctx def
+binder 374:376 <> Γ0:7
+binder 378:380 <> Γ1:8
+binder 382:385 <> Γ1':9
+binder 387:390 <> Γ01:10
+R416:421 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R405:409 QWIRE.Syntax.HOAS.HOASCircuits <> :::x_'⊢'_x_':Fun' not
+R411:415 QWIRE.Syntax.HOAS.HOASCircuits <> :::x_'⊢'_x_':Fun' not
+R402:404 QWIRE.Semantics.Composition <> Γ1:8 var
+R410:410 QWIRE.Semantics.Composition <> f:6 var
+R440:445 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R426:429 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R433:437 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R430:432 QWIRE.Semantics.Composition <> Γ1:8 var
+R438:439 QWIRE.Semantics.Composition <> Γ:4 var
+R422:425 QWIRE.Semantics.Composition <> Γ1':9 var
+R465:475 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R450:453 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R457:461 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R454:456 QWIRE.Semantics.Composition <> Γ0:7 var
+R462:464 QWIRE.Semantics.Composition <> Γ1:8 var
+R446:449 QWIRE.Semantics.Composition <> Γ01:10 var
+R531:537 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R476:489 QWIRE.Semantics.Denotation <> denote_circuit def
+R527:530 QWIRE.Semantics.Composition <> Γ1':9 var
+R523:525 QWIRE.Semantics.Composition <> Γ0:7 var
+R497:516 QWIRE.Syntax.HOAS.HOASCircuits <> compose def
+R520:520 QWIRE.Semantics.Composition <> f:6 var
+R518:518 QWIRE.Semantics.Composition <> c:3 var
+R491:494 QWIRE.Semantics.Composition <> safe:1 var
+R538:550 QuantumLib.Quantum <> compose_super def
+R647:660 QWIRE.Semantics.Denotation <> denote_circuit def
+R674:675 QWIRE.Semantics.Composition <> Γ:4 var
+R669:672 QWIRE.Semantics.Composition <> Γ01:10 var
+R667:667 QWIRE.Semantics.Composition <> c:3 var
+R662:665 QWIRE.Semantics.Composition <> safe:1 var
+R562:575 QWIRE.Semantics.Denotation <> denote_circuit def
+R613:627 QWIRE.Syntax.DB.DBCircuits <> add_fresh_state def
+R629:629 QWIRE.Semantics.Composition <> w:2 var
+R631:633 QWIRE.Semantics.Composition <> Γ1:8 var
+R608:610 QWIRE.Semantics.Composition <> Γ0:7 var
+R583:583 QWIRE.Semantics.Composition <> f:6 var
+R586:598 QWIRE.Syntax.DB.DBCircuits <> add_fresh_pat def
+R600:600 QWIRE.Semantics.Composition <> w:2 var
+R602:604 QWIRE.Semantics.Composition <> Γ1:8 var
+R577:580 QWIRE.Semantics.Composition <> safe:1 var
+R818:830 QuantumLib.Quantum <> compose_super def
+R844:857 QWIRE.Semantics.Denotation <> denote_circuit def
+R882:884 QWIRE.Semantics.Denotation <> pad def
+R900:913 QWIRE.Base.Contexts <> ctx_wtype_size thm
+R900:913 QWIRE.Base.Contexts <> ctx_wtype_size thm
+R900:913 QWIRE.Base.Contexts <> ctx_wtype_size thm
+R944:954 Coq.Arith.PeanoNat Nat add_sub thm
+R944:954 Coq.Arith.PeanoNat Nat add_sub thm
+R944:954 Coq.Arith.PeanoNat Nat add_sub thm
+R969:982 QWIRE.Semantics.Denotation <> size_fresh_ctx thm
+R969:982 QWIRE.Semantics.Denotation <> size_fresh_ctx thm
+R969:982 QWIRE.Semantics.Denotation <> size_fresh_ctx thm
+R1033:1040 QWIRE.Base.Contexts <> size_ctx def
+R1054:1062 QWIRE.Base.Contexts <> size_octx def
+R1033:1040 QWIRE.Base.Contexts <> size_ctx def
+R1054:1062 QWIRE.Base.Contexts <> size_octx def
+R1112:1126 QWIRE.Base.Contexts <> size_octx_merge thm
+R1112:1126 QWIRE.Base.Contexts <> size_octx_merge thm
+R1112:1126 QWIRE.Base.Contexts <> size_octx_merge thm
+R1161:1174 QWIRE.Base.Contexts <> ctx_wtype_size thm
+R1161:1174 QWIRE.Base.Contexts <> ctx_wtype_size thm
+R1161:1174 QWIRE.Base.Contexts <> ctx_wtype_size thm
+R1441:1460 QWIRE.Syntax.HOAS.HOASCircuits <> compose def
+R1463:1466 QWIRE.Syntax.HOAS.HOASCircuits <> gate constr
+R1492:1495 QWIRE.Syntax.HOAS.HOASCircuits <> gate constr
+binder 1507:1508 <> p2:11
+R1513:1532 QWIRE.Syntax.HOAS.HOASCircuits <> compose def
+R1537:1538 QWIRE.Semantics.Composition <> p2:11 var
+R1441:1460 QWIRE.Syntax.HOAS.HOASCircuits <> compose def
+R1463:1466 QWIRE.Syntax.HOAS.HOASCircuits <> gate constr
+R1492:1495 QWIRE.Syntax.HOAS.HOASCircuits <> gate constr
+binder 1507:1508 <> p2:12
+R1513:1532 QWIRE.Syntax.HOAS.HOASCircuits <> compose def
+R1537:1538 QWIRE.Semantics.Composition <> p2:12 var
+R1580:1598 QWIRE.Semantics.Denotation <> denote_gate_circuit thm
+R1580:1598 QWIRE.Semantics.Denotation <> denote_gate_circuit thm
+R1635:1650 QWIRE.Syntax.DB.DBCircuits <> process_gate_pat def
+R1635:1650 QWIRE.Syntax.DB.DBCircuits <> process_gate_pat def
+R1682:1699 QWIRE.Syntax.DB.DBCircuits <> process_gate_state def
+R1682:1699 QWIRE.Syntax.DB.DBCircuits <> process_gate_state def
+prf 2279:2291 <> inSeq_correct
+binder 2302:2303 <> W1:13
+binder 2305:2306 <> W2:14
+binder 2308:2309 <> W3:15
+R2316:2318 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R2320:2321 QWIRE.Semantics.Composition <> W2:14 var
+R2323:2324 QWIRE.Semantics.Composition <> W3:15 var
+binder 2312:2312 <> g:16
+R2332:2334 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R2336:2337 QWIRE.Semantics.Composition <> W1:13 var
+R2339:2340 QWIRE.Semantics.Composition <> W2:14 var
+binder 2328:2328 <> f:17
+R2351:2354 Coq.Init.Datatypes <> bool ind
+binder 2344:2347 <> safe:18
+R2375:2378 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2364:2372 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R2374:2374 QWIRE.Semantics.Composition <> g:16 var
+R2390:2399 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2379:2387 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R2389:2389 QWIRE.Semantics.Composition <> f:17 var
+R2427:2436 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2400:2409 QWIRE.Semantics.Denotation <> denote_box def
+R2417:2421 QWIRE.Syntax.HOAS.HOASLib <> inSeq def
+R2425:2425 QWIRE.Semantics.Composition <> g:16 var
+R2423:2423 QWIRE.Semantics.Composition <> f:17 var
+R2411:2414 QWIRE.Semantics.Composition <> safe:18 var
+R2437:2449 QuantumLib.Quantum <> compose_super def
+R2472:2481 QWIRE.Semantics.Denotation <> denote_box def
+R2488:2488 QWIRE.Semantics.Composition <> f:17 var
+R2483:2486 QWIRE.Semantics.Composition <> safe:18 var
+R2452:2461 QWIRE.Semantics.Denotation <> denote_box def
+R2468:2468 QWIRE.Semantics.Composition <> g:16 var
+R2463:2466 QWIRE.Semantics.Composition <> safe:18 var
+R2667:2675 QWIRE.Syntax.DB.DBCircuits <> add_fresh def
+R2680:2681 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R2667:2675 QWIRE.Syntax.DB.DBCircuits <> add_fresh def
+R2680:2681 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R2723:2731 QWIRE.Syntax.DB.DBCircuits <> add_fresh def
+R2736:2737 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R2723:2731 QWIRE.Syntax.DB.DBCircuits <> add_fresh def
+R2736:2737 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R2778:2792 QWIRE.Syntax.DB.DBCircuits <> add_fresh_split thm
+R2778:2792 QWIRE.Syntax.DB.DBCircuits <> add_fresh_split thm
+R2778:2792 QWIRE.Syntax.DB.DBCircuits <> add_fresh_split thm
+R2862:2864 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2853:2855 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R2859:2861 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R2865:2867 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R2870:2872 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R2862:2864 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2853:2855 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R2859:2861 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R2865:2867 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R2870:2872 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R2903:2916 QWIRE.Semantics.Denotation <> size_fresh_ctx thm
+R2903:2916 QWIRE.Semantics.Denotation <> size_fresh_ctx thm
+R2903:2916 QWIRE.Semantics.Denotation <> size_fresh_ctx thm
+R2949:2951 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2940:2942 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R2946:2948 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R2952:2954 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R2957:2959 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R2949:2951 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2940:2942 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R2946:2948 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R2952:2954 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R2957:2959 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R2990:3003 QWIRE.Semantics.Denotation <> size_fresh_ctx thm
+R2990:3003 QWIRE.Semantics.Denotation <> size_fresh_ctx thm
+R2990:3003 QWIRE.Semantics.Denotation <> size_fresh_ctx thm
+R3075:3077 Coq.Init.Datatypes <> nat ind
+R3062:3064 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R3071:3073 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R3068:3070 QWIRE.Base.Contexts <> Ctx def
+R3065:3066 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R3075:3077 Coq.Init.Datatypes <> nat ind
+R3062:3064 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R3071:3073 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R3068:3070 QWIRE.Base.Contexts <> Ctx def
+R3065:3066 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R3100:3109 QWIRE.Base.Contexts <> size_wtype def
+R3121:3123 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R3127:3129 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R3100:3109 QWIRE.Base.Contexts <> size_wtype def
+R3121:3123 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R3127:3129 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R3144:3153 QWIRE.Base.Contexts <> size_wtype def
+R3165:3167 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R3171:3173 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R3144:3153 QWIRE.Base.Contexts <> size_wtype def
+R3165:3167 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R3171:3173 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R3193:3206 QWIRE.Semantics.Composition <> denote_compose prfax
+R3193:3206 QWIRE.Semantics.Composition <> denote_compose prfax
+R3224:3237 QWIRE.Semantics.Denotation <> denote_circuit def
+R3273:3274 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R3273:3274 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R3273:3274 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R3273:3274 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R3273:3274 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R3273:3274 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R3273:3274 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R3296:3308 QuantumLib.Quantum <> compose_super def
+R3391:3411 QWIRE.Syntax.DB.DBCircuits <> add_fresh_typed_empty thm
+R3391:3411 QWIRE.Syntax.DB.DBCircuits <> add_fresh_typed_empty thm
+R3422:3436 QWIRE.Syntax.DB.DBCircuits <> add_fresh_split thm
+R3422:3436 QWIRE.Syntax.DB.DBCircuits <> add_fresh_split thm
+R3422:3436 QWIRE.Syntax.DB.DBCircuits <> add_fresh_split thm
+R3457:3465 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R3556:3566 QWIRE.Base.Contexts <> merge_nil_r thm
+R3556:3566 QWIRE.Base.Contexts <> merge_nil_r thm
+R3556:3566 QWIRE.Base.Contexts <> merge_nil_r thm
+prf 3633:3645 <> inPar_correct
+binder 3656:3657 <> W1:19
+binder 3659:3661 <> W1':20
+binder 3663:3664 <> W2:21
+binder 3666:3668 <> W2':22
+R3675:3677 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R3679:3680 QWIRE.Semantics.Composition <> W1:19 var
+R3682:3684 QWIRE.Semantics.Composition <> W1':20 var
+binder 3671:3671 <> f:23
+R3692:3694 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R3696:3697 QWIRE.Semantics.Composition <> W2:21 var
+R3699:3701 QWIRE.Semantics.Composition <> W2':22 var
+binder 3688:3688 <> g:24
+R3712:3715 Coq.Init.Datatypes <> bool ind
+binder 3705:3708 <> safe:25
+R3730:3735 QuantumLib.Matrix <> Square abbrev
+R3739:3739 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R3740:3742 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R3745:3747 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R3743:3744 QWIRE.Semantics.Composition <> W1:19 var
+R3739:3739 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R3740:3742 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R3745:3747 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R3743:3744 QWIRE.Semantics.Composition <> W1:19 var
+binder 3724:3726 <> ρ1:26
+R3758:3763 QuantumLib.Matrix <> Square abbrev
+R3767:3767 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R3768:3770 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R3773:3775 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R3771:3772 QWIRE.Semantics.Composition <> W2:21 var
+R3767:3767 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R3768:3770 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R3773:3775 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R3771:3772 QWIRE.Semantics.Composition <> W2:21 var
+binder 3752:3754 <> ρ2:27
+R3796:3799 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3785:3793 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R3795:3795 QWIRE.Semantics.Composition <> f:23 var
+R3811:3819 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3800:3808 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R3810:3810 QWIRE.Semantics.Composition <> g:24 var
+R3833:3842 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3820:3828 QuantumLib.Matrix <> WF_Matrix def
+R3830:3832 QWIRE.Semantics.Composition <> ρ1:26 var
+R3856:3864 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3843:3851 QuantumLib.Matrix <> WF_Matrix def
+R3853:3855 QWIRE.Semantics.Composition <> ρ2:27 var
+R3908:3915 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3865:3874 QWIRE.Semantics.Denotation <> denote_box def
+R3897:3901 QuantumLib.Matrix <> ::matrix_scope:x_'⊗'_x not
+R3894:3896 QWIRE.Semantics.Composition <> ρ1:26 var
+R3902:3904 QWIRE.Semantics.Composition <> ρ2:27 var
+R3882:3886 QWIRE.Syntax.HOAS.HOASLib <> inPar def
+R3890:3890 QWIRE.Semantics.Composition <> g:24 var
+R3888:3888 QWIRE.Semantics.Composition <> f:23 var
+R3876:3879 QWIRE.Semantics.Composition <> safe:25 var
+R3938:3942 QuantumLib.Matrix <> ::matrix_scope:x_'⊗'_x not
+R3917:3926 QWIRE.Semantics.Denotation <> denote_box def
+R3935:3937 QWIRE.Semantics.Composition <> ρ1:26 var
+R3933:3933 QWIRE.Semantics.Composition <> f:23 var
+R3928:3931 QWIRE.Semantics.Composition <> safe:25 var
+R3943:3952 QWIRE.Semantics.Denotation <> denote_box def
+R3961:3963 QWIRE.Semantics.Composition <> ρ2:27 var
+R3959:3959 QWIRE.Semantics.Composition <> g:24 var
+R3954:3957 QWIRE.Semantics.Composition <> safe:25 var
+prf 6171:6186 <> HOAS_Equiv_inSeq
+binder 6197:6198 <> w1:28
+binder 6200:6201 <> w2:29
+binder 6203:6204 <> w3:30
+R6216:6218 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R6220:6221 QWIRE.Semantics.Composition <> w1:28 var
+R6223:6224 QWIRE.Semantics.Composition <> w2:29 var
+binder 6207:6208 <> c1:31
+binder 6210:6212 <> c1':32
+R6237:6239 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R6241:6242 QWIRE.Semantics.Composition <> w2:29 var
+R6244:6245 QWIRE.Semantics.Composition <> w3:30 var
+binder 6228:6229 <> c2:33
+binder 6231:6233 <> c2':34
+R6265:6268 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6253:6261 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R6263:6264 QWIRE.Semantics.Composition <> c1:31 var
+R6282:6286 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6269:6277 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R6279:6281 QWIRE.Semantics.Composition <> c1':32 var
+R6299:6302 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6287:6295 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R6297:6298 QWIRE.Semantics.Composition <> c2:33 var
+R6316:6324 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6303:6311 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R6313:6315 QWIRE.Semantics.Composition <> c2':34 var
+R6335:6338 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6327:6331 QWIRE.Semantics.Denotation <> ::circ_scope:x_'≡'_x not
+R6325:6326 QWIRE.Semantics.Composition <> c1:31 var
+R6332:6334 QWIRE.Semantics.Composition <> c1':32 var
+R6349:6352 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6341:6345 QWIRE.Semantics.Denotation <> ::circ_scope:x_'≡'_x not
+R6339:6340 QWIRE.Semantics.Composition <> c2:33 var
+R6346:6348 QWIRE.Semantics.Composition <> c2':34 var
+R6353:6353 QWIRE.Semantics.Denotation <> ::circ_scope:x_'≡'_x not
+R6362:6368 QWIRE.Semantics.Denotation <> ::circ_scope:x_'≡'_x not
+R6379:6379 QWIRE.Semantics.Denotation <> ::circ_scope:x_'≡'_x not
+R6356:6359 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'·'_x not
+R6360:6361 QWIRE.Semantics.Composition <> c1:31 var
+R6354:6355 QWIRE.Semantics.Composition <> c2:33 var
+R6372:6375 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'·'_x not
+R6376:6378 QWIRE.Semantics.Composition <> c1':32 var
+R6369:6371 QWIRE.Semantics.Composition <> c2':34 var
+R6477:6489 QWIRE.Semantics.Composition <> inSeq_correct thm
+R6517:6529 QWIRE.Semantics.Composition <> inSeq_correct thm
+R6550:6562 QuantumLib.Quantum <> compose_super def
+R6619:6631 QWIRE.Semantics.Denotation <> WF_denote_box thm
+R6619:6631 QWIRE.Semantics.Denotation <> WF_denote_box thm

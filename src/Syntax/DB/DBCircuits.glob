@@ -1,0 +1,1276 @@
+DIGEST e699ad2bf95f0b6d2c11f631e1ec1069
+FQWIRE.Syntax.DB.DBCircuits
+R15:31 QuantumLib.Prelim <> <> lib
+R49:64 QWIRE.Base.Monad <> <> lib
+R82:100 QWIRE.Base.Contexts <> <> lib
+R118:147 QWIRE.Syntax.HOAS.HOASCircuits <> <> lib
+R188:192 QWIRE.Base.Contexts <> merge def
+ind 206:221 <> DeBruijn_Circuit
+constr 246:254 <> db_output
+constr 288:294 <> db_gate
+constr 398:404 <> db_lift
+R228:232 QWIRE.Base.Contexts <> WType ind
+binder 224:224 <> w:1
+R263:266 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R258:260 QWIRE.Base.Contexts <> Pat ind
+R262:262 QWIRE.Syntax.DB.DBCircuits <> w:1 var
+R267:282 QWIRE.Syntax.DB.DBCircuits <> DeBruijn_Circuit:2 ind
+R284:284 QWIRE.Syntax.DB.DBCircuits <> w:1 var
+binder 308:309 <> w1:4
+binder 311:312 <> w2:5
+R341:344 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R331:334 QWIRE.Base.Contexts <> Gate ind
+R336:337 QWIRE.Syntax.DB.DBCircuits <> w1:4 var
+R339:340 QWIRE.Syntax.DB.DBCircuits <> w2:5 var
+R351:354 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R345:347 QWIRE.Base.Contexts <> Pat ind
+R349:350 QWIRE.Syntax.DB.DBCircuits <> w1:4 var
+R373:376 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R355:370 QWIRE.Syntax.DB.DBCircuits <> DeBruijn_Circuit:2 ind
+R372:372 QWIRE.Syntax.DB.DBCircuits <> w:1 var
+R377:392 QWIRE.Syntax.DB.DBCircuits <> DeBruijn_Circuit:2 ind
+R394:394 QWIRE.Syntax.DB.DBCircuits <> w:1 var
+R417:420 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R410:412 QWIRE.Base.Contexts <> Pat ind
+R414:416 QWIRE.Base.Contexts <> Bit constr
+R421:421 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R448:452 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R426:429 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R422:425 Coq.Init.Datatypes <> bool ind
+R430:445 QWIRE.Syntax.DB.DBCircuits <> DeBruijn_Circuit:2 ind
+R447:447 QWIRE.Syntax.DB.DBCircuits <> w:1 var
+R453:468 QWIRE.Syntax.DB.DBCircuits <> DeBruijn_Circuit:2 ind
+R470:470 QWIRE.Syntax.DB.DBCircuits <> w:1 var
+scheme 206:221 <> DeBruijn_Circuit_rect
+scheme 206:221 <> DeBruijn_Circuit_ind
+scheme 206:221 <> DeBruijn_Circuit_rec
+scheme 206:221 <> DeBruijn_Circuit_sind
+ind 485:496 <> DeBruijn_Box
+constr 525:530 <> db_box
+R507:511 QWIRE.Base.Contexts <> WType ind
+binder 499:500 <> w1:6
+binder 502:503 <> w2:7
+R553:556 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R534:549 QWIRE.Syntax.DB.DBCircuits <> DeBruijn_Circuit ind
+R551:552 QWIRE.Syntax.DB.DBCircuits <> w2:7 var
+R557:568 QWIRE.Syntax.DB.DBCircuits <> DeBruijn_Box:8 ind
+R573:574 QWIRE.Syntax.DB.DBCircuits <> w2:7 var
+R570:571 QWIRE.Syntax.DB.DBCircuits <> w1:6 var
+scheme 485:496 <> DeBruijn_Box_rect
+scheme 485:496 <> DeBruijn_Box_ind
+scheme 485:496 <> DeBruijn_Box_rec
+scheme 485:496 <> DeBruijn_Box_sind
+R588:596 QWIRE.Syntax.DB.DBCircuits <> db_output constr
+R588:596 QWIRE.Syntax.DB.DBCircuits <> db_output constr
+R613:619 QWIRE.Syntax.DB.DBCircuits <> db_gate constr
+R613:619 QWIRE.Syntax.DB.DBCircuits <> db_gate constr
+R643:649 QWIRE.Syntax.DB.DBCircuits <> db_lift constr
+R643:649 QWIRE.Syntax.DB.DBCircuits <> db_lift constr
+R666:671 QWIRE.Syntax.DB.DBCircuits <> db_box constr
+R666:671 QWIRE.Syntax.DB.DBCircuits <> db_box constr
+def 820:828 <> get_fresh
+binder 830:830 <> w:10
+R838:840 QWIRE.Base.Contexts <> Ctx def
+binder 833:834 <> Γ:11
+R850:852 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R845:847 QWIRE.Base.Contexts <> Pat ind
+R849:849 QWIRE.Syntax.DB.DBCircuits <> w:10 var
+R853:855 QWIRE.Base.Contexts <> Ctx def
+R868:868 QWIRE.Syntax.DB.DBCircuits <> w:10 var
+R879:881 QWIRE.Base.Contexts <> One constr
+R888:888 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R893:894 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R897:897 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R889:892 QWIRE.Base.Contexts <> unit constr
+R895:896 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R903:905 QWIRE.Base.Contexts <> Bit constr
+R912:912 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R928:929 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R953:953 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R913:915 QWIRE.Base.Contexts <> bit constr
+R918:923 Coq.Init.Datatypes <> length def
+R925:926 QWIRE.Syntax.DB.DBCircuits <> Γ:11 var
+R930:938 QWIRE.Base.Contexts <> singleton def
+R941:946 Coq.Init.Datatypes <> length def
+R948:949 QWIRE.Syntax.DB.DBCircuits <> Γ:11 var
+R952:952 QWIRE.Syntax.DB.DBCircuits <> w:10 var
+R959:963 QWIRE.Base.Contexts <> Qubit constr
+R968:968 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R986:987 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1011:1011 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R969:973 QWIRE.Base.Contexts <> qubit constr
+R976:981 Coq.Init.Datatypes <> length def
+R983:984 QWIRE.Syntax.DB.DBCircuits <> Γ:11 var
+R988:996 QWIRE.Base.Contexts <> singleton def
+R999:1004 Coq.Init.Datatypes <> length def
+R1006:1007 QWIRE.Syntax.DB.DBCircuits <> Γ:11 var
+R1010:1010 QWIRE.Syntax.DB.DBCircuits <> w:10 var
+R1019:1023 QWIRE.Base.Contexts <> ::circ_scope:x_'⊗'_x not
+R1047:1055 QWIRE.Syntax.DB.DBCircuits <> get_fresh:12 def
+R1060:1061 QWIRE.Syntax.DB.DBCircuits <> Γ:11 var
+binder 1035:1036 <> p1:14
+binder 1039:1041 <> Γ1:15
+R1088:1092 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R1086:1087 QWIRE.Syntax.DB.DBCircuits <> Γ:11 var
+R1093:1095 QWIRE.Syntax.DB.DBCircuits <> Γ1:15 var
+R1118:1124 QWIRE.Base.Contexts <> Invalid constr
+R1130:1130 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1140:1141 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1151:1151 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1131:1139 QWIRE.Base.Contexts <> dummy_pat def
+R1142:1150 QWIRE.Base.Contexts <> dummy_ctx def
+R1169:1173 QWIRE.Base.Contexts <> Valid constr
+R1199:1207 QWIRE.Syntax.DB.DBCircuits <> get_fresh:12 def
+binder 1187:1188 <> p2:16
+binder 1191:1193 <> Γ2:17
+R1255:1259 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R1252:1254 QWIRE.Syntax.DB.DBCircuits <> Γ1:15 var
+R1260:1262 QWIRE.Syntax.DB.DBCircuits <> Γ2:17 var
+R1298:1304 QWIRE.Base.Contexts <> Invalid constr
+R1311:1311 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1321:1322 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1332:1332 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1312:1320 QWIRE.Base.Contexts <> dummy_pat def
+R1323:1331 QWIRE.Base.Contexts <> dummy_ctx def
+R1363:1367 QWIRE.Base.Contexts <> Valid constr
+R1377:1378 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1389:1391 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1396:1396 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1379:1382 QWIRE.Base.Contexts <> pair constr
+R1387:1388 QWIRE.Syntax.DB.DBCircuits <> p2:16 var
+R1384:1385 QWIRE.Syntax.DB.DBCircuits <> p1:14 var
+def 1466:1478 <> get_fresh_pat
+binder 1480:1480 <> w:18
+binder 1482:1483 <> Γ:19
+R1487:1489 QWIRE.Base.Contexts <> Pat ind
+R1491:1491 QWIRE.Syntax.DB.DBCircuits <> w:18 var
+R1496:1498 Coq.Init.Datatypes <> fst def
+R1501:1509 QWIRE.Syntax.DB.DBCircuits <> get_fresh def
+R1511:1511 QWIRE.Syntax.DB.DBCircuits <> w:18 var
+R1513:1514 QWIRE.Syntax.DB.DBCircuits <> Γ:19 var
+def 1529:1543 <> get_fresh_state
+binder 1545:1545 <> w:20
+binder 1547:1548 <> Γ:21
+R1552:1554 QWIRE.Base.Contexts <> Ctx def
+R1559:1561 Coq.Init.Datatypes <> snd def
+R1564:1572 QWIRE.Syntax.DB.DBCircuits <> get_fresh def
+R1574:1574 QWIRE.Syntax.DB.DBCircuits <> w:20 var
+R1576:1577 QWIRE.Syntax.DB.DBCircuits <> Γ:21 var
+prf 1588:1602 <> get_fresh_split
+binder 1613:1613 <> w:22
+binder 1615:1616 <> Γ:23
+R1636:1638 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1622:1630 QWIRE.Syntax.DB.DBCircuits <> get_fresh def
+R1632:1632 QWIRE.Syntax.DB.DBCircuits <> w:22 var
+R1634:1635 QWIRE.Syntax.DB.DBCircuits <> Γ:23 var
+R1639:1639 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1658:1659 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1680:1680 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1640:1652 QWIRE.Syntax.DB.DBCircuits <> get_fresh_pat def
+R1654:1654 QWIRE.Syntax.DB.DBCircuits <> w:22 var
+R1656:1657 QWIRE.Syntax.DB.DBCircuits <> Γ:23 var
+R1660:1674 QWIRE.Syntax.DB.DBCircuits <> get_fresh_state def
+R1676:1676 QWIRE.Syntax.DB.DBCircuits <> w:22 var
+R1678:1679 QWIRE.Syntax.DB.DBCircuits <> Γ:23 var
+R1707:1724 Coq.Init.Datatypes <> surjective_pairing thm
+R1727:1735 QWIRE.Syntax.DB.DBCircuits <> get_fresh def
+R1707:1724 Coq.Init.Datatypes <> surjective_pairing thm
+R1727:1735 QWIRE.Syntax.DB.DBCircuits <> get_fresh def
+R1707:1724 Coq.Init.Datatypes <> surjective_pairing thm
+R1727:1735 QWIRE.Syntax.DB.DBCircuits <> get_fresh def
+prf 1763:1783 <> get_fresh_merge_valid
+binder 1794:1794 <> w:24
+binder 1796:1797 <> Γ:25
+binder 1799:1801 <> Γ0:26
+R1808:1810 QWIRE.Base.Contexts <> Pat ind
+R1812:1812 QWIRE.Syntax.DB.DBCircuits <> w:24 var
+binder 1804:1804 <> p:27
+R1843:1848 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1825:1827 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1818:1818 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1820:1821 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1824:1824 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1819:1819 QWIRE.Syntax.DB.DBCircuits <> p:27 var
+R1822:1823 QWIRE.Syntax.DB.DBCircuits <> Γ:25 var
+R1828:1836 QWIRE.Syntax.DB.DBCircuits <> get_fresh def
+R1838:1838 QWIRE.Syntax.DB.DBCircuits <> w:24 var
+R1840:1842 QWIRE.Syntax.DB.DBCircuits <> Γ0:26 var
+R1849:1856 QWIRE.Base.Contexts <> is_valid def
+R1862:1866 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R1859:1861 QWIRE.Syntax.DB.DBCircuits <> Γ0:26 var
+R1867:1868 QWIRE.Syntax.DB.DBCircuits <> Γ:25 var
+R1962:1983 QWIRE.Base.Contexts <> merge_singleton_append thm
+R1962:1983 QWIRE.Base.Contexts <> merge_singleton_append thm
+R1962:1983 QWIRE.Base.Contexts <> merge_singleton_append thm
+R2068:2089 QWIRE.Base.Contexts <> merge_singleton_append thm
+R2068:2089 QWIRE.Base.Contexts <> merge_singleton_append thm
+R2068:2089 QWIRE.Base.Contexts <> merge_singleton_append thm
+R2174:2184 QWIRE.Base.Contexts <> merge_nil_r thm
+R2174:2184 QWIRE.Base.Contexts <> merge_nil_r thm
+R2174:2184 QWIRE.Base.Contexts <> merge_nil_r thm
+R2254:2262 QWIRE.Syntax.DB.DBCircuits <> get_fresh def
+R2254:2262 QWIRE.Syntax.DB.DBCircuits <> get_fresh def
+R2357:2361 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R2357:2361 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R2430:2438 QWIRE.Syntax.DB.DBCircuits <> get_fresh def
+R2430:2438 QWIRE.Syntax.DB.DBCircuits <> get_fresh def
+R2558:2568 QWIRE.Base.Contexts <> merge_assoc thm
+R2558:2568 QWIRE.Base.Contexts <> merge_assoc thm
+R2558:2568 QWIRE.Base.Contexts <> merge_assoc thm
+R2596:2600 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R2596:2600 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+prf 2705:2719 <> get_fresh_typed
+binder 2730:2730 <> w:28
+binder 2732:2734 <> Γ0:29
+binder 2736:2736 <> p:30
+binder 2738:2739 <> Γ:31
+R2769:2774 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2751:2753 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2744:2744 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2746:2747 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2750:2750 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2745:2745 QWIRE.Syntax.DB.DBCircuits <> p:30 var
+R2748:2749 QWIRE.Syntax.DB.DBCircuits <> Γ:31 var
+R2754:2762 QWIRE.Syntax.DB.DBCircuits <> get_fresh def
+R2764:2764 QWIRE.Syntax.DB.DBCircuits <> w:28 var
+R2766:2768 QWIRE.Syntax.DB.DBCircuits <> Γ0:29 var
+R2777:2781 QWIRE.Base.Contexts <> :::x_'⊢'_x_':Pat' not
+R2783:2786 QWIRE.Base.Contexts <> :::x_'⊢'_x_':Pat' not
+R2775:2776 QWIRE.Syntax.DB.DBCircuits <> Γ:31 var
+R2782:2782 QWIRE.Syntax.DB.DBCircuits <> p:30 var
+R2879:2897 QWIRE.Base.Contexts <> singleton_singleton thm
+R2879:2897 QWIRE.Base.Contexts <> singleton_singleton thm
+R2949:2967 QWIRE.Base.Contexts <> singleton_singleton thm
+R2949:2967 QWIRE.Base.Contexts <> singleton_singleton thm
+R3042:3050 QWIRE.Syntax.DB.DBCircuits <> get_fresh def
+R3042:3050 QWIRE.Syntax.DB.DBCircuits <> get_fresh def
+R3112:3132 QWIRE.Syntax.DB.DBCircuits <> get_fresh_merge_valid thm
+R3112:3132 QWIRE.Syntax.DB.DBCircuits <> get_fresh_merge_valid thm
+R3170:3174 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R3170:3174 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R3243:3251 QWIRE.Syntax.DB.DBCircuits <> get_fresh def
+R3243:3251 QWIRE.Syntax.DB.DBCircuits <> get_fresh def
+R3314:3334 QWIRE.Syntax.DB.DBCircuits <> get_fresh_merge_valid thm
+R3314:3334 QWIRE.Syntax.DB.DBCircuits <> get_fresh_merge_valid thm
+R3394:3404 QWIRE.Base.Contexts <> merge_assoc thm
+R3394:3404 QWIRE.Base.Contexts <> merge_assoc thm
+R3394:3404 QWIRE.Base.Contexts <> merge_assoc thm
+R3430:3434 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R3430:3434 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+def 4037:4045 <> add_fresh
+binder 4047:4047 <> w:32
+R4055:4057 QWIRE.Base.Contexts <> Ctx def
+binder 4050:4051 <> Γ:33
+R4067:4069 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R4062:4064 QWIRE.Base.Contexts <> Pat ind
+R4066:4066 QWIRE.Syntax.DB.DBCircuits <> w:32 var
+R4070:4072 QWIRE.Base.Contexts <> Ctx def
+R4085:4085 QWIRE.Syntax.DB.DBCircuits <> w:32 var
+R4096:4098 QWIRE.Base.Contexts <> One constr
+R4107:4107 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4112:4113 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4116:4116 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4108:4111 QWIRE.Base.Contexts <> unit constr
+R4114:4115 QWIRE.Syntax.DB.DBCircuits <> Γ:33 var
+R4122:4124 QWIRE.Base.Contexts <> Bit constr
+R4133:4133 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4149:4150 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4167:4167 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4134:4136 QWIRE.Base.Contexts <> bit constr
+R4139:4144 Coq.Init.Datatypes <> length def
+R4146:4147 QWIRE.Syntax.DB.DBCircuits <> Γ:33 var
+R4153:4156 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R4151:4152 QWIRE.Syntax.DB.DBCircuits <> Γ:33 var
+R4157:4157 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R4166:4166 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R4158:4161 Coq.Init.Datatypes <> Some constr
+R4163:4165 QWIRE.Base.Contexts <> Bit constr
+R4173:4177 QWIRE.Base.Contexts <> Qubit constr
+R4184:4184 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4202:4203 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4222:4222 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4185:4189 QWIRE.Base.Contexts <> qubit constr
+R4192:4197 Coq.Init.Datatypes <> length def
+R4199:4200 QWIRE.Syntax.DB.DBCircuits <> Γ:33 var
+R4206:4209 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R4204:4205 QWIRE.Syntax.DB.DBCircuits <> Γ:33 var
+R4210:4210 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R4221:4221 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R4211:4214 Coq.Init.Datatypes <> Some constr
+R4216:4220 QWIRE.Base.Contexts <> Qubit constr
+R4230:4234 QWIRE.Base.Contexts <> ::circ_scope:x_'⊗'_x not
+R4258:4266 QWIRE.Syntax.DB.DBCircuits <> add_fresh:34 def
+R4271:4272 QWIRE.Syntax.DB.DBCircuits <> Γ:33 var
+binder 4246:4247 <> p1:36
+binder 4250:4252 <> Γ':37
+R4309:4317 QWIRE.Syntax.DB.DBCircuits <> add_fresh:34 def
+R4322:4324 QWIRE.Syntax.DB.DBCircuits <> Γ':37 var
+binder 4296:4297 <> p2:38
+binder 4300:4303 <> Γ'':39
+R4343:4344 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4355:4357 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4362:4362 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4345:4348 QWIRE.Base.Contexts <> pair constr
+R4353:4354 QWIRE.Syntax.DB.DBCircuits <> p2:38 var
+R4350:4351 QWIRE.Syntax.DB.DBCircuits <> p1:36 var
+R4358:4361 QWIRE.Syntax.DB.DBCircuits <> Γ'':39 var
+def 4383:4395 <> add_fresh_pat
+binder 4397:4397 <> w:40
+R4405:4407 QWIRE.Base.Contexts <> Ctx def
+binder 4400:4401 <> Γ:41
+R4412:4414 QWIRE.Base.Contexts <> Pat ind
+R4416:4416 QWIRE.Syntax.DB.DBCircuits <> w:40 var
+R4421:4423 Coq.Init.Datatypes <> fst def
+R4426:4434 QWIRE.Syntax.DB.DBCircuits <> add_fresh def
+R4436:4436 QWIRE.Syntax.DB.DBCircuits <> w:40 var
+R4438:4439 QWIRE.Syntax.DB.DBCircuits <> Γ:41 var
+def 4454:4468 <> add_fresh_state
+binder 4470:4470 <> w:42
+R4478:4480 QWIRE.Base.Contexts <> Ctx def
+binder 4473:4474 <> Γ:43
+R4485:4487 QWIRE.Base.Contexts <> Ctx def
+R4492:4494 Coq.Init.Datatypes <> snd def
+R4497:4505 QWIRE.Syntax.DB.DBCircuits <> add_fresh def
+R4507:4507 QWIRE.Syntax.DB.DBCircuits <> w:42 var
+R4509:4510 QWIRE.Syntax.DB.DBCircuits <> Γ:43 var
+prf 4521:4535 <> add_fresh_split
+binder 4546:4546 <> w:44
+binder 4548:4549 <> Γ:45
+R4569:4571 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4555:4563 QWIRE.Syntax.DB.DBCircuits <> add_fresh def
+R4565:4565 QWIRE.Syntax.DB.DBCircuits <> w:44 var
+R4567:4568 QWIRE.Syntax.DB.DBCircuits <> Γ:45 var
+R4572:4572 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4591:4592 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4613:4613 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4573:4585 QWIRE.Syntax.DB.DBCircuits <> add_fresh_pat def
+R4587:4587 QWIRE.Syntax.DB.DBCircuits <> w:44 var
+R4589:4590 QWIRE.Syntax.DB.DBCircuits <> Γ:45 var
+R4593:4607 QWIRE.Syntax.DB.DBCircuits <> add_fresh_state def
+R4609:4609 QWIRE.Syntax.DB.DBCircuits <> w:44 var
+R4611:4612 QWIRE.Syntax.DB.DBCircuits <> Γ:45 var
+R4640:4657 Coq.Init.Datatypes <> surjective_pairing thm
+R4660:4668 QWIRE.Syntax.DB.DBCircuits <> add_fresh def
+R4640:4657 Coq.Init.Datatypes <> surjective_pairing thm
+R4660:4668 QWIRE.Syntax.DB.DBCircuits <> add_fresh def
+R4640:4657 Coq.Init.Datatypes <> surjective_pairing thm
+R4660:4668 QWIRE.Syntax.DB.DBCircuits <> add_fresh def
+prf 4696:4716 <> add_fresh_state_merge
+binder 4727:4727 <> w:46
+R4739:4741 QWIRE.Base.Contexts <> Ctx def
+binder 4730:4731 <> Γ:47
+binder 4733:4735 <> Γ':48
+R4776:4783 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4753:4755 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4750:4752 QWIRE.Syntax.DB.DBCircuits <> Γ':48 var
+R4756:4770 QWIRE.Syntax.DB.DBCircuits <> add_fresh_state def
+R4772:4772 QWIRE.Syntax.DB.DBCircuits <> w:46 var
+R4774:4775 QWIRE.Syntax.DB.DBCircuits <> Γ:47 var
+R4793:4795 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4784:4788 QWIRE.Base.Contexts <> Valid constr
+R4790:4792 QWIRE.Syntax.DB.DBCircuits <> Γ':48 var
+R4798:4802 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R4796:4797 QWIRE.Syntax.DB.DBCircuits <> Γ:47 var
+R4803:4817 QWIRE.Syntax.DB.DBCircuits <> get_fresh_state def
+R4819:4819 QWIRE.Syntax.DB.DBCircuits <> w:46 var
+R4821:4822 QWIRE.Syntax.DB.DBCircuits <> Γ:47 var
+R4875:4889 QWIRE.Syntax.DB.DBCircuits <> add_fresh_state def
+R4892:4906 QWIRE.Syntax.DB.DBCircuits <> get_fresh_state def
+R4925:4933 QWIRE.Syntax.DB.DBCircuits <> add_fresh def
+R4936:4944 QWIRE.Syntax.DB.DBCircuits <> get_fresh def
+R4980:5001 QWIRE.Base.Contexts <> merge_singleton_append thm
+R4980:5001 QWIRE.Base.Contexts <> merge_singleton_append thm
+R4980:5001 QWIRE.Base.Contexts <> merge_singleton_append thm
+R5032:5046 QWIRE.Syntax.DB.DBCircuits <> add_fresh_state def
+R5049:5063 QWIRE.Syntax.DB.DBCircuits <> get_fresh_state def
+R5082:5090 QWIRE.Syntax.DB.DBCircuits <> add_fresh def
+R5093:5101 QWIRE.Syntax.DB.DBCircuits <> get_fresh def
+R5137:5158 QWIRE.Base.Contexts <> merge_singleton_append thm
+R5137:5158 QWIRE.Base.Contexts <> merge_singleton_append thm
+R5137:5158 QWIRE.Base.Contexts <> merge_singleton_append thm
+R5189:5203 QWIRE.Syntax.DB.DBCircuits <> add_fresh_state def
+R5206:5220 QWIRE.Syntax.DB.DBCircuits <> get_fresh_state def
+R5239:5247 QWIRE.Syntax.DB.DBCircuits <> add_fresh def
+R5250:5258 QWIRE.Syntax.DB.DBCircuits <> get_fresh def
+R5294:5304 QWIRE.Base.Contexts <> merge_nil_r thm
+R5294:5304 QWIRE.Base.Contexts <> merge_nil_r thm
+R5294:5304 QWIRE.Base.Contexts <> merge_nil_r thm
+R5335:5349 QWIRE.Syntax.DB.DBCircuits <> add_fresh_state def
+R5352:5366 QWIRE.Syntax.DB.DBCircuits <> get_fresh_state def
+R5399:5401 Coq.Init.Datatypes <> snd def
+R5404:5412 QWIRE.Syntax.DB.DBCircuits <> add_fresh def
+R5422:5428 Coq.Init.Logic <> eq_refl constr
+R5399:5401 Coq.Init.Datatypes <> snd def
+R5404:5412 QWIRE.Syntax.DB.DBCircuits <> add_fresh def
+R5422:5428 Coq.Init.Logic <> eq_refl constr
+R5462:5470 QWIRE.Syntax.DB.DBCircuits <> get_fresh def
+R5462:5470 QWIRE.Syntax.DB.DBCircuits <> get_fresh def
+R5531:5535 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R5531:5535 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R5611:5613 Coq.Init.Datatypes <> snd def
+R5616:5624 QWIRE.Syntax.DB.DBCircuits <> add_fresh def
+R5636:5642 Coq.Init.Logic <> eq_refl constr
+R5611:5613 Coq.Init.Datatypes <> snd def
+R5616:5624 QWIRE.Syntax.DB.DBCircuits <> add_fresh def
+R5636:5642 Coq.Init.Logic <> eq_refl constr
+R5676:5684 QWIRE.Syntax.DB.DBCircuits <> get_fresh def
+R5676:5684 QWIRE.Syntax.DB.DBCircuits <> get_fresh def
+R5770:5780 QWIRE.Base.Contexts <> merge_assoc thm
+R5770:5780 QWIRE.Base.Contexts <> merge_assoc thm
+R5770:5780 QWIRE.Base.Contexts <> merge_assoc thm
+R5808:5812 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R5808:5812 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R5945:5953 QWIRE.Syntax.DB.DBCircuits <> add_fresh def
+R5945:5953 QWIRE.Syntax.DB.DBCircuits <> add_fresh def
+R5999:6007 QWIRE.Syntax.DB.DBCircuits <> add_fresh def
+R5999:6007 QWIRE.Syntax.DB.DBCircuits <> add_fresh def
+R6054:6068 QWIRE.Syntax.DB.DBCircuits <> add_fresh_split thm
+R6054:6068 QWIRE.Syntax.DB.DBCircuits <> add_fresh_split thm
+R6054:6068 QWIRE.Syntax.DB.DBCircuits <> add_fresh_split thm
+prf 6155:6170 <> add_fresh_pat_eq
+binder 6181:6181 <> w:49
+binder 6183:6184 <> Γ:50
+R6205:6207 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6187:6199 QWIRE.Syntax.DB.DBCircuits <> add_fresh_pat def
+R6201:6201 QWIRE.Syntax.DB.DBCircuits <> w:49 var
+R6203:6204 QWIRE.Syntax.DB.DBCircuits <> Γ:50 var
+R6208:6220 QWIRE.Syntax.DB.DBCircuits <> get_fresh_pat def
+R6222:6222 QWIRE.Syntax.DB.DBCircuits <> w:49 var
+R6224:6225 QWIRE.Syntax.DB.DBCircuits <> Γ:50 var
+R6279:6291 QWIRE.Syntax.DB.DBCircuits <> add_fresh_pat def
+R6294:6306 QWIRE.Syntax.DB.DBCircuits <> get_fresh_pat def
+R6336:6344 QWIRE.Syntax.DB.DBCircuits <> add_fresh def
+R6336:6344 QWIRE.Syntax.DB.DBCircuits <> add_fresh def
+R6388:6396 QWIRE.Syntax.DB.DBCircuits <> add_fresh def
+R6388:6396 QWIRE.Syntax.DB.DBCircuits <> add_fresh def
+R6442:6450 QWIRE.Syntax.DB.DBCircuits <> get_fresh def
+R6442:6450 QWIRE.Syntax.DB.DBCircuits <> get_fresh def
+R6496:6516 QWIRE.Syntax.DB.DBCircuits <> get_fresh_merge_valid thm
+R6527:6532 Coq.Init.Logic <> eq_sym thm
+R6496:6516 QWIRE.Syntax.DB.DBCircuits <> get_fresh_merge_valid thm
+R6527:6532 Coq.Init.Logic <> eq_sym thm
+R6599:6607 QWIRE.Syntax.DB.DBCircuits <> get_fresh def
+R6599:6607 QWIRE.Syntax.DB.DBCircuits <> get_fresh def
+R6655:6675 QWIRE.Syntax.DB.DBCircuits <> get_fresh_merge_valid thm
+R6686:6691 Coq.Init.Logic <> eq_sym thm
+R6655:6675 QWIRE.Syntax.DB.DBCircuits <> get_fresh_merge_valid thm
+R6686:6691 Coq.Init.Logic <> eq_sym thm
+R6740:6750 QWIRE.Base.Contexts <> merge_assoc thm
+R6740:6750 QWIRE.Base.Contexts <> merge_assoc thm
+R6740:6750 QWIRE.Base.Contexts <> merge_assoc thm
+R6775:6779 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R6775:6779 QWIRE.Base.Contexts <> :::x_'⋓'_x not
+R6844:6858 QWIRE.Syntax.DB.DBCircuits <> add_fresh_split thm
+R6861:6875 QWIRE.Syntax.DB.DBCircuits <> get_fresh_split thm
+R6844:6858 QWIRE.Syntax.DB.DBCircuits <> add_fresh_split thm
+R6844:6858 QWIRE.Syntax.DB.DBCircuits <> add_fresh_split thm
+R6861:6875 QWIRE.Syntax.DB.DBCircuits <> get_fresh_split thm
+R6861:6875 QWIRE.Syntax.DB.DBCircuits <> get_fresh_split thm
+R6956:6968 QWIRE.Syntax.DB.DBCircuits <> get_fresh_pat def
+R6971:6983 QWIRE.Syntax.DB.DBCircuits <> add_fresh_pat def
+R7041:7048 Coq.Init.Logic <> f_equal2 thm
+R7041:7048 Coq.Init.Logic <> f_equal2 thm
+R7090:7110 QWIRE.Syntax.DB.DBCircuits <> add_fresh_state_merge thm
+R7090:7110 QWIRE.Syntax.DB.DBCircuits <> add_fresh_state_merge thm
+R7127:7147 QWIRE.Syntax.DB.DBCircuits <> add_fresh_state_merge thm
+R7127:7147 QWIRE.Syntax.DB.DBCircuits <> add_fresh_state_merge thm
+prf 7182:7196 <> add_fresh_typed
+binder 7207:7207 <> w:51
+binder 7209:7210 <> w0:52
+R7217:7219 QWIRE.Base.Contexts <> Pat ind
+R7221:7221 QWIRE.Syntax.DB.DBCircuits <> w:51 var
+binder 7213:7213 <> p:53
+R7230:7232 QWIRE.Base.Contexts <> Pat ind
+R7234:7235 QWIRE.Syntax.DB.DBCircuits <> w0:52 var
+binder 7225:7226 <> p0:54
+binder 7238:7239 <> Γ:55
+binder 7241:7243 <> Γ0:56
+R7273:7278 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7255:7257 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7248:7248 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7250:7251 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7254:7254 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7249:7249 QWIRE.Syntax.DB.DBCircuits <> p:53 var
+R7252:7253 QWIRE.Syntax.DB.DBCircuits <> Γ:55 var
+R7258:7266 QWIRE.Syntax.DB.DBCircuits <> add_fresh def
+R7268:7268 QWIRE.Syntax.DB.DBCircuits <> w:51 var
+R7270:7272 QWIRE.Syntax.DB.DBCircuits <> Γ0:56 var
+R7293:7298 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7282:7286 QWIRE.Base.Contexts <> :::x_'⊢'_x_':Pat' not
+R7289:7292 QWIRE.Base.Contexts <> :::x_'⊢'_x_':Pat' not
+R7279:7281 QWIRE.Syntax.DB.DBCircuits <> Γ0:56 var
+R7287:7288 QWIRE.Syntax.DB.DBCircuits <> p0:54 var
+R7301:7306 QWIRE.Base.Contexts <> :::x_'⊢'_x_':Pat' not
+R7316:7320 QWIRE.Base.Contexts <> :::x_'⊢'_x_':Pat' not
+R7299:7300 QWIRE.Syntax.DB.DBCircuits <> Γ:55 var
+R7307:7310 QWIRE.Base.Contexts <> pair constr
+R7315:7315 QWIRE.Syntax.DB.DBCircuits <> p:53 var
+R7312:7313 QWIRE.Syntax.DB.DBCircuits <> p0:54 var
+R7372:7386 QWIRE.Syntax.DB.DBCircuits <> add_fresh_split thm
+R7372:7386 QWIRE.Syntax.DB.DBCircuits <> add_fresh_split thm
+R7372:7386 QWIRE.Syntax.DB.DBCircuits <> add_fresh_split thm
+R7420:7440 QWIRE.Syntax.DB.DBCircuits <> add_fresh_state_merge thm
+R7420:7440 QWIRE.Syntax.DB.DBCircuits <> add_fresh_state_merge thm
+R7420:7440 QWIRE.Syntax.DB.DBCircuits <> add_fresh_state_merge thm
+R7420:7440 QWIRE.Syntax.DB.DBCircuits <> add_fresh_state_merge thm
+R7517:7537 QWIRE.Syntax.DB.DBCircuits <> get_fresh_merge_valid thm
+R7517:7537 QWIRE.Syntax.DB.DBCircuits <> get_fresh_merge_valid thm
+R7551:7565 QWIRE.Syntax.DB.DBCircuits <> get_fresh_split thm
+R7551:7565 QWIRE.Syntax.DB.DBCircuits <> get_fresh_split thm
+R7551:7565 QWIRE.Syntax.DB.DBCircuits <> get_fresh_split thm
+R7591:7606 QWIRE.Syntax.DB.DBCircuits <> add_fresh_pat_eq thm
+R7591:7606 QWIRE.Syntax.DB.DBCircuits <> add_fresh_pat_eq thm
+R7591:7606 QWIRE.Syntax.DB.DBCircuits <> add_fresh_pat_eq thm
+R7618:7632 QWIRE.Syntax.DB.DBCircuits <> get_fresh_typed thm
+R7618:7632 QWIRE.Syntax.DB.DBCircuits <> get_fresh_typed thm
+R7645:7659 QWIRE.Syntax.DB.DBCircuits <> get_fresh_split thm
+R7645:7659 QWIRE.Syntax.DB.DBCircuits <> get_fresh_split thm
+R7645:7659 QWIRE.Syntax.DB.DBCircuits <> get_fresh_split thm
+prf 7687:7707 <> add_fresh_typed_empty
+binder 7718:7718 <> w:57
+R7725:7727 QWIRE.Base.Contexts <> Pat ind
+R7729:7729 QWIRE.Syntax.DB.DBCircuits <> w:57 var
+binder 7721:7721 <> p:58
+binder 7732:7733 <> Γ:59
+R7762:7767 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7745:7747 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7738:7738 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7740:7741 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7744:7744 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7739:7739 QWIRE.Syntax.DB.DBCircuits <> p:58 var
+R7742:7743 QWIRE.Syntax.DB.DBCircuits <> Γ:59 var
+R7748:7756 QWIRE.Syntax.DB.DBCircuits <> add_fresh def
+R7758:7758 QWIRE.Syntax.DB.DBCircuits <> w:57 var
+R7760:7761 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R7770:7774 QWIRE.Base.Contexts <> :::x_'⊢'_x_':Pat' not
+R7776:7779 QWIRE.Base.Contexts <> :::x_'⊢'_x_':Pat' not
+R7768:7769 QWIRE.Syntax.DB.DBCircuits <> Γ:59 var
+R7775:7775 QWIRE.Syntax.DB.DBCircuits <> p:58 var
+R7896:7910 QWIRE.Syntax.DB.DBCircuits <> add_fresh_typed thm
+R7926:7935 QWIRE.Base.Contexts <> types_unit constr
+R7896:7910 QWIRE.Syntax.DB.DBCircuits <> add_fresh_typed thm
+R7926:7935 QWIRE.Base.Contexts <> types_unit constr
+R8007:8017 QWIRE.Base.Contexts <> merge_nil_l thm
+R8007:8017 QWIRE.Base.Contexts <> merge_nil_l thm
+R8007:8017 QWIRE.Base.Contexts <> merge_nil_l thm
+def 8057:8066 <> remove_var
+R8073:8075 QWIRE.Base.Contexts <> Var def
+binder 8069:8069 <> v:60
+R8084:8086 QWIRE.Base.Contexts <> Ctx def
+binder 8079:8080 <> Γ:61
+R8091:8093 QWIRE.Base.Contexts <> Ctx def
+R8098:8101 QWIRE.Base.Contexts <> trim def
+R8104:8112 QuantumLib.Prelim <> update_at def
+R8119:8122 Coq.Init.Datatypes <> None constr
+R8117:8117 QWIRE.Syntax.DB.DBCircuits <> v:60 var
+R8114:8115 QWIRE.Syntax.DB.DBCircuits <> Γ:61 var
+def 8140:8150 <> change_type
+R8157:8159 QWIRE.Base.Contexts <> Var def
+binder 8153:8153 <> v:62
+R8167:8171 QWIRE.Base.Contexts <> WType ind
+binder 8163:8163 <> w:63
+R8180:8182 QWIRE.Base.Contexts <> Ctx def
+binder 8175:8176 <> Γ:64
+R8188:8196 QuantumLib.Prelim <> update_at def
+R8204:8207 Coq.Init.Datatypes <> Some constr
+R8209:8209 QWIRE.Syntax.DB.DBCircuits <> w:63 var
+R8201:8201 QWIRE.Syntax.DB.DBCircuits <> v:62 var
+R8198:8199 QWIRE.Syntax.DB.DBCircuits <> Γ:64 var
+def 8223:8229 <> ctx_dom
+R8237:8239 QWIRE.Base.Contexts <> Ctx def
+binder 8232:8233 <> Γ:65
+R8253:8254 QWIRE.Syntax.DB.DBCircuits <> Γ:65 var
+R8265:8266 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R8271:8272 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R8284:8287 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8278:8281 Coq.Init.Datatypes <> Some constr
+R8296:8299 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8300:8303 QWIRE.Base.Monad <> fmap meth
+R8308:8314 QWIRE.Syntax.DB.DBCircuits <> ctx_dom:66 def
+R8305:8305 Coq.Init.Datatypes <> S constr
+R8329:8332 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8325:8328 Coq.Init.Datatypes <> None constr
+R8340:8343 QWIRE.Base.Monad <> fmap meth
+R8348:8354 QWIRE.Syntax.DB.DBCircuits <> ctx_dom:66 def
+R8345:8345 Coq.Init.Datatypes <> S constr
+def 8380:8389 <> remove_pat
+binder 8392:8392 <> w:68
+R8400:8402 QWIRE.Base.Contexts <> Pat ind
+R8404:8404 QWIRE.Syntax.DB.DBCircuits <> w:68 var
+binder 8396:8396 <> p:69
+R8413:8415 QWIRE.Base.Contexts <> Ctx def
+binder 8408:8409 <> Γ:70
+R8420:8422 QWIRE.Base.Contexts <> Ctx def
+R8429:8437 Coq.Lists.List <> fold_left def
+R8484:8485 QWIRE.Syntax.DB.DBCircuits <> Γ:70 var
+R8469:8479 QWIRE.Base.Contexts <> pat_to_list def
+R8481:8481 QWIRE.Syntax.DB.DBCircuits <> p:69 var
+binder 8444:8444 <> a:71
+binder 8446:8446 <> x:72
+R8451:8460 QWIRE.Syntax.DB.DBCircuits <> remove_var def
+R8462:8462 QWIRE.Syntax.DB.DBCircuits <> x:72 var
+R8464:8464 QWIRE.Syntax.DB.DBCircuits <> a:71 var
+def 8500:8511 <> process_gate
+binder 8514:8515 <> w1:73
+binder 8517:8518 <> w2:74
+R8526:8529 QWIRE.Base.Contexts <> Gate ind
+R8531:8532 QWIRE.Syntax.DB.DBCircuits <> w1:73 var
+R8534:8535 QWIRE.Syntax.DB.DBCircuits <> w2:74 var
+binder 8522:8522 <> g:75
+R8556:8559 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8550:8552 QWIRE.Base.Contexts <> Pat ind
+R8554:8555 QWIRE.Syntax.DB.DBCircuits <> w1:73 var
+R8563:8566 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8560:8562 QWIRE.Base.Contexts <> Ctx def
+R8573:8575 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R8567:8569 QWIRE.Base.Contexts <> Pat ind
+R8571:8572 QWIRE.Syntax.DB.DBCircuits <> w2:74 var
+R8576:8578 QWIRE.Base.Contexts <> Ctx def
+R8591:8591 QWIRE.Syntax.DB.DBCircuits <> g:75 var
+R8603:8603 QWIRE.Base.Contexts <> U constr
+R8609:8612 QWIRE.Base.Contexts <> BNOT constr
+R8616:8620 QWIRE.Base.Contexts <> measQ constr
+binder 8629:8629 <> p:77
+binder 8631:8632 <> st:78
+R8637:8637 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8639:8639 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8642:8642 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8638:8638 QWIRE.Syntax.DB.DBCircuits <> p:77 var
+R8640:8641 QWIRE.Syntax.DB.DBCircuits <> st:78 var
+binder 8629:8629 <> p:79
+binder 8631:8632 <> st:80
+R8637:8637 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8639:8639 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8642:8642 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8638:8638 QWIRE.Syntax.DB.DBCircuits <> p:79 var
+R8640:8641 QWIRE.Syntax.DB.DBCircuits <> st:80 var
+binder 8629:8629 <> p:81
+binder 8631:8632 <> st:82
+R8637:8637 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8639:8639 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8642:8642 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8638:8638 QWIRE.Syntax.DB.DBCircuits <> p:81 var
+R8640:8641 QWIRE.Syntax.DB.DBCircuits <> st:82 var
+R8648:8652 QWIRE.Base.Contexts <> init0 constr
+R8656:8660 QWIRE.Base.Contexts <> init1 constr
+binder 8676:8677 <> st:83
+R8682:8690 QWIRE.Syntax.DB.DBCircuits <> add_fresh def
+R8692:8696 QWIRE.Base.Contexts <> Qubit constr
+R8698:8699 QWIRE.Syntax.DB.DBCircuits <> st:83 var
+binder 8676:8677 <> st:84
+R8682:8690 QWIRE.Syntax.DB.DBCircuits <> add_fresh def
+R8692:8696 QWIRE.Base.Contexts <> Qubit constr
+R8698:8699 QWIRE.Syntax.DB.DBCircuits <> st:84 var
+R8705:8708 QWIRE.Base.Contexts <> new0 constr
+R8712:8715 QWIRE.Base.Contexts <> new1 constr
+binder 8731:8731 <> p:85
+binder 8733:8734 <> st:86
+R8739:8747 QWIRE.Syntax.DB.DBCircuits <> add_fresh def
+R8749:8751 QWIRE.Base.Contexts <> Bit constr
+R8753:8754 QWIRE.Syntax.DB.DBCircuits <> st:86 var
+binder 8731:8731 <> p:87
+binder 8733:8734 <> st:88
+R8739:8747 QWIRE.Syntax.DB.DBCircuits <> add_fresh def
+R8749:8751 QWIRE.Base.Contexts <> Bit constr
+R8753:8754 QWIRE.Syntax.DB.DBCircuits <> st:88 var
+R8760:8763 QWIRE.Base.Contexts <> meas constr
+binder 8786:8786 <> p:89
+binder 8788:8789 <> st:90
+R8800:8800 QWIRE.Syntax.DB.DBCircuits <> p:89 var
+R8845:8849 QWIRE.Base.Contexts <> qubit constr
+R8856:8856 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8862:8863 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8884:8884 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8857:8859 QWIRE.Base.Contexts <> bit constr
+R8864:8874 QWIRE.Syntax.DB.DBCircuits <> change_type def
+R8878:8880 QWIRE.Base.Contexts <> Bit constr
+R8882:8883 QWIRE.Syntax.DB.DBCircuits <> st:90 var
+R8929:8935 QWIRE.Base.Contexts <> discard constr
+R8939:8945 QWIRE.Base.Contexts <> assert0 constr
+R8949:8955 QWIRE.Base.Contexts <> assert1 constr
+binder 8965:8965 <> p:92
+binder 8967:8968 <> st:93
+R8973:8973 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8978:8979 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8995:8995 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8974:8977 QWIRE.Base.Contexts <> unit constr
+R8980:8989 QWIRE.Syntax.DB.DBCircuits <> remove_pat def
+R8993:8994 QWIRE.Syntax.DB.DBCircuits <> st:93 var
+R8991:8991 QWIRE.Syntax.DB.DBCircuits <> p:92 var
+binder 8965:8965 <> p:94
+binder 8967:8968 <> st:95
+R8973:8973 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8978:8979 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8995:8995 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8974:8977 QWIRE.Base.Contexts <> unit constr
+R8980:8989 QWIRE.Syntax.DB.DBCircuits <> remove_pat def
+R8993:8994 QWIRE.Syntax.DB.DBCircuits <> st:95 var
+R8991:8991 QWIRE.Syntax.DB.DBCircuits <> p:94 var
+binder 8965:8965 <> p:96
+binder 8967:8968 <> st:97
+R8973:8973 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8978:8979 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8995:8995 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8974:8977 QWIRE.Base.Contexts <> unit constr
+R8980:8989 QWIRE.Syntax.DB.DBCircuits <> remove_pat def
+R8993:8994 QWIRE.Syntax.DB.DBCircuits <> st:97 var
+R8991:8991 QWIRE.Syntax.DB.DBCircuits <> p:96 var
+def 9017:9032 <> process_gate_pat
+binder 9035:9036 <> w1:98
+binder 9038:9039 <> w2:99
+R9047:9050 QWIRE.Base.Contexts <> Gate ind
+R9052:9053 QWIRE.Syntax.DB.DBCircuits <> w1:98 var
+R9055:9056 QWIRE.Syntax.DB.DBCircuits <> w2:99 var
+binder 9043:9043 <> g:100
+R9077:9080 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9071:9073 QWIRE.Base.Contexts <> Pat ind
+R9075:9076 QWIRE.Syntax.DB.DBCircuits <> w1:98 var
+R9084:9087 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9081:9083 QWIRE.Base.Contexts <> Ctx def
+R9088:9090 QWIRE.Base.Contexts <> Pat ind
+R9092:9093 QWIRE.Syntax.DB.DBCircuits <> w2:99 var
+binder 9102:9102 <> p:101
+binder 9104:9105 <> st:102
+R9110:9112 Coq.Init.Datatypes <> fst def
+R9115:9126 QWIRE.Syntax.DB.DBCircuits <> process_gate def
+R9132:9133 QWIRE.Syntax.DB.DBCircuits <> st:102 var
+R9130:9130 QWIRE.Syntax.DB.DBCircuits <> p:101 var
+R9128:9128 QWIRE.Syntax.DB.DBCircuits <> g:100 var
+def 9149:9166 <> process_gate_state
+binder 9169:9170 <> w1:103
+binder 9172:9173 <> w2:104
+R9181:9184 QWIRE.Base.Contexts <> Gate ind
+R9186:9187 QWIRE.Syntax.DB.DBCircuits <> w1:103 var
+R9189:9190 QWIRE.Syntax.DB.DBCircuits <> w2:104 var
+binder 9177:9177 <> g:105
+R9211:9214 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9205:9207 QWIRE.Base.Contexts <> Pat ind
+R9209:9210 QWIRE.Syntax.DB.DBCircuits <> w1:103 var
+R9218:9221 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9215:9217 QWIRE.Base.Contexts <> Ctx def
+R9222:9224 QWIRE.Base.Contexts <> Ctx def
+binder 9233:9233 <> p:106
+binder 9235:9236 <> st:107
+R9241:9243 Coq.Init.Datatypes <> snd def
+R9246:9257 QWIRE.Syntax.DB.DBCircuits <> process_gate def
+R9263:9264 QWIRE.Syntax.DB.DBCircuits <> st:107 var
+R9261:9261 QWIRE.Syntax.DB.DBCircuits <> p:106 var
+R9259:9259 QWIRE.Syntax.DB.DBCircuits <> g:105 var
+ind 9683:9690 <> Types_DB
+constr 9741:9755 <> types_db_output
+constr 9815:9827 <> types_db_gate
+constr 10106:10118 <> types_db_lift
+binder 9693:9693 <> w:108
+R9702:9704 QWIRE.Base.Contexts <> Ctx def
+binder 9697:9698 <> Γ:109
+R9727:9730 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9709:9724 QWIRE.Syntax.DB.DBCircuits <> DeBruijn_Circuit ind
+binder 9766:9766 <> p:112
+R9783:9786 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9769:9777 QWIRE.Base.Contexts <> Types_Pat ind
+R9782:9782 QWIRE.Syntax.DB.DBCircuits <> p:112 var
+R9779:9780 QWIRE.Syntax.DB.DBCircuits <> Γ:109 var
+R9787:9794 QWIRE.Syntax.DB.DBCircuits <> Types_DB:110 ind
+R9800:9808 QWIRE.Syntax.DB.DBCircuits <> db_output constr
+R9810:9810 QWIRE.Syntax.DB.DBCircuits <> p:112 var
+R9796:9797 QWIRE.Syntax.DB.DBCircuits <> Γ:109 var
+R9851:9853 QWIRE.Base.Contexts <> Ctx def
+binder 9841:9843 <> Γ1:113
+binder 9845:9847 <> Γ2:114
+binder 9856:9857 <> w1:115
+binder 9859:9860 <> w2:116
+R9867:9870 QWIRE.Base.Contexts <> Gate ind
+R9872:9873 QWIRE.Syntax.DB.DBCircuits <> w1:115 var
+R9875:9876 QWIRE.Syntax.DB.DBCircuits <> w2:116 var
+binder 9863:9863 <> g:117
+binder 9879:9879 <> p:118
+binder 9881:9881 <> c:119
+R9919:9942 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9904:9912 QWIRE.Base.Contexts <> Types_Pat ind
+R9918:9918 QWIRE.Syntax.DB.DBCircuits <> p:118 var
+R9914:9916 QWIRE.Syntax.DB.DBCircuits <> Γ1:113 var
+R9981:10004 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9943:9950 QWIRE.Syntax.DB.DBCircuits <> Types_DB:110 ind
+R9980:9980 QWIRE.Syntax.DB.DBCircuits <> c:119 var
+R9953:9970 QWIRE.Syntax.DB.DBCircuits <> process_gate_state def
+R9976:9977 QWIRE.Syntax.DB.DBCircuits <> Γ:109 var
+R9974:9974 QWIRE.Syntax.DB.DBCircuits <> p:118 var
+R9972:9972 QWIRE.Syntax.DB.DBCircuits <> g:117 var
+R10022:10045 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10007:10010 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R10014:10018 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R10011:10013 QWIRE.Syntax.DB.DBCircuits <> Γ1:113 var
+R10019:10021 QWIRE.Syntax.DB.DBCircuits <> Γ2:114 var
+R10005:10006 QWIRE.Syntax.DB.DBCircuits <> Γ:109 var
+R10046:10053 QWIRE.Syntax.DB.DBCircuits <> Types_DB:110 ind
+R10059:10065 QWIRE.Syntax.DB.DBCircuits <> db_gate constr
+R10071:10071 QWIRE.Syntax.DB.DBCircuits <> c:119 var
+R10069:10069 QWIRE.Syntax.DB.DBCircuits <> p:118 var
+R10067:10067 QWIRE.Syntax.DB.DBCircuits <> g:117 var
+R10055:10056 QWIRE.Syntax.DB.DBCircuits <> Γ:109 var
+R10146:10148 QWIRE.Base.Contexts <> Ctx def
+binder 10132:10134 <> Γ1:120
+binder 10136:10138 <> Γ2:121
+binder 10140:10142 <> Γ':122
+binder 10151:10151 <> p:123
+binder 10153:10153 <> f:124
+R10191:10214 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10176:10184 QWIRE.Base.Contexts <> Types_Pat ind
+R10190:10190 QWIRE.Syntax.DB.DBCircuits <> p:123 var
+R10186:10188 QWIRE.Syntax.DB.DBCircuits <> Γ1:120 var
+R10215:10215 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10244:10268 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 10223:10223 <> b:125
+R10226:10233 QWIRE.Syntax.DB.DBCircuits <> Types_DB:110 ind
+R10240:10240 QWIRE.Syntax.DB.DBCircuits <> f:124 var
+R10242:10242 QWIRE.Syntax.DB.DBCircuits <> b:125 var
+R10235:10237 QWIRE.Syntax.DB.DBCircuits <> Γ':122 var
+R10286:10309 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10271:10274 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R10278:10282 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R10275:10277 QWIRE.Syntax.DB.DBCircuits <> Γ1:120 var
+R10283:10285 QWIRE.Syntax.DB.DBCircuits <> Γ2:121 var
+R10269:10270 QWIRE.Syntax.DB.DBCircuits <> Γ:109 var
+R10331:10375 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10313:10315 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10310:10312 QWIRE.Syntax.DB.DBCircuits <> Γ':122 var
+R10316:10325 QWIRE.Syntax.DB.DBCircuits <> remove_pat def
+R10329:10330 QWIRE.Syntax.DB.DBCircuits <> Γ:109 var
+R10327:10327 QWIRE.Syntax.DB.DBCircuits <> p:123 var
+R10376:10383 QWIRE.Syntax.DB.DBCircuits <> Types_DB:110 ind
+R10389:10395 QWIRE.Syntax.DB.DBCircuits <> db_lift constr
+R10399:10399 QWIRE.Syntax.DB.DBCircuits <> f:124 var
+R10397:10397 QWIRE.Syntax.DB.DBCircuits <> p:123 var
+R10385:10386 QWIRE.Syntax.DB.DBCircuits <> Γ:109 var
+scheme 9683:9690 <> Types_DB_ind
+scheme 9683:9690 <> Types_DB_sind
+def 10476:10487 <> lookup_maybe
+R10494:10496 Coq.Init.Datatypes <> nat ind
+binder 10490:10490 <> x:126
+R10505:10508 Coq.Init.Datatypes <> list ind
+R10510:10512 Coq.Init.Datatypes <> nat ind
+binder 10500:10501 <> ls:127
+R10517:10522 Coq.Init.Datatypes <> option ind
+R10524:10526 Coq.Init.Datatypes <> nat ind
+R10539:10540 QWIRE.Syntax.DB.DBCircuits <> ls:127 var
+R10551:10552 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R10557:10560 Coq.Init.Datatypes <> None constr
+R10567:10570 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10582:10585 Coq.Arith.PeanoNat <> ::nat_scope:x_'=?'_x not
+R10581:10581 QWIRE.Syntax.DB.DBCircuits <> x:126 var
+R10605:10608 QWIRE.Base.Monad <> fmap meth
+R10613:10624 QWIRE.Syntax.DB.DBCircuits <> lookup_maybe:128 def
+R10626:10626 QWIRE.Syntax.DB.DBCircuits <> x:126 var
+R10610:10610 Coq.Init.Datatypes <> S constr
+R10593:10596 Coq.Init.Datatypes <> Some constr
+def 10728:10734 <> maps_to
+R10741:10743 Coq.Init.Datatypes <> nat ind
+binder 10737:10737 <> x:130
+R10752:10754 QWIRE.Base.Contexts <> Ctx def
+binder 10747:10748 <> Γ:131
+R10759:10764 Coq.Init.Datatypes <> option ind
+R10766:10768 Coq.Init.Datatypes <> nat ind
+R10784:10785 QWIRE.Syntax.DB.DBCircuits <> Γ:131 var
+R10781:10781 QWIRE.Syntax.DB.DBCircuits <> x:130 var
+R10802:10803 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R10818:10821 Coq.Init.Datatypes <> None constr
+R10837:10842 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10833:10836 Coq.Init.Datatypes <> None constr
+R10849:10852 Coq.Init.Datatypes <> None constr
+R10870:10873 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10864:10867 Coq.Init.Datatypes <> Some constr
+R10880:10883 Coq.Init.Datatypes <> Some constr
+R10891:10891 Coq.Init.Datatypes <> S constr
+R10903:10906 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10897:10900 Coq.Init.Datatypes <> Some constr
+R10914:10917 QWIRE.Base.Monad <> fmap meth
+R10922:10928 QWIRE.Syntax.DB.DBCircuits <> maps_to:132 def
+R10919:10919 Coq.Init.Datatypes <> S constr
+R10942:10942 Coq.Init.Datatypes <> S constr
+R10952:10957 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10948:10951 Coq.Init.Datatypes <> None constr
+R10965:10971 QWIRE.Syntax.DB.DBCircuits <> maps_to:132 def
+prf 10994:11010 <> maps_to_singleton
+binder 11021:11021 <> v:135
+binder 11023:11023 <> W:136
+R11051:11053 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11026:11032 QWIRE.Syntax.DB.DBCircuits <> maps_to def
+R11034:11034 QWIRE.Syntax.DB.DBCircuits <> v:135 var
+R11037:11045 QWIRE.Base.Contexts <> singleton def
+R11047:11047 QWIRE.Syntax.DB.DBCircuits <> v:135 var
+R11049:11049 QWIRE.Syntax.DB.DBCircuits <> W:136 var
+R11054:11057 Coq.Init.Datatypes <> Some constr
+R11059:11059 Coq.Init.Datatypes <> O constr
+def 11105:11113 <> subst_var
+R11121:11123 QWIRE.Base.Contexts <> Ctx def
+binder 11116:11117 <> Γ:137
+R11131:11133 QWIRE.Base.Contexts <> Var def
+binder 11127:11127 <> x:138
+R11138:11140 QWIRE.Base.Contexts <> Var def
+R11153:11159 QWIRE.Syntax.DB.DBCircuits <> maps_to def
+R11161:11161 QWIRE.Syntax.DB.DBCircuits <> x:138 var
+R11163:11164 QWIRE.Syntax.DB.DBCircuits <> Γ:137 var
+R11175:11178 Coq.Init.Datatypes <> Some constr
+R11191:11194 Coq.Init.Datatypes <> None constr
+def 11219:11227 <> subst_pat
+R11235:11237 QWIRE.Base.Contexts <> Ctx def
+binder 11230:11231 <> Γ:139
+binder 11241:11241 <> w:140
+R11249:11251 QWIRE.Base.Contexts <> Pat ind
+R11253:11253 QWIRE.Syntax.DB.DBCircuits <> w:140 var
+binder 11245:11245 <> p:141
+R11258:11260 QWIRE.Base.Contexts <> Pat ind
+R11262:11262 QWIRE.Syntax.DB.DBCircuits <> w:140 var
+R11275:11275 QWIRE.Syntax.DB.DBCircuits <> p:141 var
+R11286:11289 QWIRE.Base.Contexts <> unit constr
+R11297:11300 QWIRE.Base.Contexts <> unit constr
+R11306:11310 QWIRE.Base.Contexts <> qubit constr
+R11317:11321 QWIRE.Base.Contexts <> qubit constr
+R11324:11332 QWIRE.Syntax.DB.DBCircuits <> subst_var def
+R11334:11335 QWIRE.Syntax.DB.DBCircuits <> Γ:139 var
+R11344:11346 QWIRE.Base.Contexts <> bit constr
+R11355:11357 QWIRE.Base.Contexts <> bit constr
+R11360:11368 QWIRE.Syntax.DB.DBCircuits <> subst_var def
+R11370:11371 QWIRE.Syntax.DB.DBCircuits <> Γ:139 var
+R11380:11383 QWIRE.Base.Contexts <> pair constr
+R11394:11397 QWIRE.Base.Contexts <> pair constr
+R11418:11426 QWIRE.Syntax.DB.DBCircuits <> subst_pat:142 def
+R11428:11429 QWIRE.Syntax.DB.DBCircuits <> Γ:139 var
+R11400:11408 QWIRE.Syntax.DB.DBCircuits <> subst_pat:142 def
+R11410:11411 QWIRE.Syntax.DB.DBCircuits <> Γ:139 var
+def 11452:11459 <> subst_db
+R11467:11469 QWIRE.Base.Contexts <> Ctx def
+binder 11462:11463 <> Γ:144
+binder 11473:11473 <> w:145
+R11481:11496 QWIRE.Syntax.DB.DBCircuits <> DeBruijn_Circuit ind
+R11498:11498 QWIRE.Syntax.DB.DBCircuits <> w:145 var
+binder 11477:11477 <> c:146
+R11506:11521 QWIRE.Syntax.DB.DBCircuits <> DeBruijn_Circuit ind
+R11523:11523 QWIRE.Syntax.DB.DBCircuits <> w:145 var
+R11536:11536 QWIRE.Syntax.DB.DBCircuits <> c:146 var
+R11547:11555 QWIRE.Syntax.DB.DBCircuits <> db_output constr
+R11565:11573 QWIRE.Syntax.DB.DBCircuits <> db_output constr
+R11576:11584 QWIRE.Syntax.DB.DBCircuits <> subst_pat def
+R11586:11587 QWIRE.Syntax.DB.DBCircuits <> Γ:144 var
+R11596:11602 QWIRE.Syntax.DB.DBCircuits <> db_gate constr
+R11624:11632 QWIRE.Syntax.DB.DBCircuits <> subst_pat def
+R11634:11635 QWIRE.Syntax.DB.DBCircuits <> Γ:144 var
+binder 11618:11619 <> p':149
+R11674:11691 QWIRE.Syntax.DB.DBCircuits <> process_gate_state def
+R11697:11698 QWIRE.Syntax.DB.DBCircuits <> Γ:144 var
+binder 11667:11669 <> Γ':150
+R11724:11730 QWIRE.Syntax.DB.DBCircuits <> db_gate constr
+R11738:11745 QWIRE.Syntax.DB.DBCircuits <> subst_db:147 def
+R11747:11749 QWIRE.Syntax.DB.DBCircuits <> Γ':150 var
+R11734:11735 QWIRE.Syntax.DB.DBCircuits <> p':149 var
+R11759:11765 QWIRE.Syntax.DB.DBCircuits <> db_lift constr
+R11787:11795 QWIRE.Syntax.DB.DBCircuits <> subst_pat def
+R11797:11798 QWIRE.Syntax.DB.DBCircuits <> Γ:144 var
+binder 11781:11782 <> p':151
+R11837:11846 QWIRE.Syntax.DB.DBCircuits <> remove_pat def
+R11850:11851 QWIRE.Syntax.DB.DBCircuits <> Γ:144 var
+binder 11830:11832 <> Γ':152
+R11877:11883 QWIRE.Syntax.DB.DBCircuits <> db_lift constr
+binder 11893:11893 <> b:153
+R11898:11905 QWIRE.Syntax.DB.DBCircuits <> subst_db:147 def
+R11914:11914 QWIRE.Syntax.DB.DBCircuits <> b:153 var
+R11907:11909 QWIRE.Syntax.DB.DBCircuits <> Γ':152 var
+R11885:11886 QWIRE.Syntax.DB.DBCircuits <> p':151 var
+def 12006:12016 <> flatten_ctx
+R12024:12026 QWIRE.Base.Contexts <> Ctx def
+binder 12019:12020 <> Γ:154
+R12040:12041 QWIRE.Syntax.DB.DBCircuits <> Γ:154 var
+R12052:12053 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R12068:12069 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R12081:12084 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12075:12078 Coq.Init.Datatypes <> Some constr
+R12098:12101 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12092:12095 Coq.Init.Datatypes <> Some constr
+R12102:12112 QWIRE.Syntax.DB.DBCircuits <> flatten_ctx:155 def
+R12126:12131 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12122:12125 Coq.Init.Datatypes <> None constr
+R12139:12149 QWIRE.Syntax.DB.DBCircuits <> flatten_ctx:155 def
+def 12174:12185 <> flatten_octx
+binder 12187:12188 <> Γ:157
+R12201:12202 QWIRE.Syntax.DB.DBCircuits <> Γ:157 var
+R12213:12217 QWIRE.Base.Contexts <> Valid constr
+R12226:12230 QWIRE.Base.Contexts <> Valid constr
+R12233:12243 QWIRE.Syntax.DB.DBCircuits <> flatten_ctx def
+R12254:12260 QWIRE.Base.Contexts <> Invalid constr
+R12266:12272 QWIRE.Base.Contexts <> Invalid constr
+prf 12288:12303 <> SingletonCtx_dom
+binder 12314:12314 <> x:159
+binder 12316:12316 <> w:160
+binder 12318:12319 <> Γ:161
+R12347:12356 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12328:12339 QWIRE.Base.Contexts <> SingletonCtx ind
+R12341:12341 QWIRE.Syntax.DB.DBCircuits <> x:159 var
+R12343:12343 QWIRE.Syntax.DB.DBCircuits <> w:160 var
+R12345:12346 QWIRE.Syntax.DB.DBCircuits <> Γ:161 var
+R12367:12369 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12357:12363 QWIRE.Syntax.DB.DBCircuits <> ctx_dom def
+R12365:12366 QWIRE.Syntax.DB.DBCircuits <> Γ:161 var
+R12370:12370 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12372:12372 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12371:12371 QWIRE.Syntax.DB.DBCircuits <> x:159 var
+prf 12456:12475 <> SingletonCtx_flatten
+binder 12486:12486 <> x:162
+binder 12488:12488 <> w:163
+binder 12490:12491 <> Γ:164
+R12519:12528 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12500:12511 QWIRE.Base.Contexts <> SingletonCtx ind
+R12513:12513 QWIRE.Syntax.DB.DBCircuits <> x:162 var
+R12515:12515 QWIRE.Syntax.DB.DBCircuits <> w:163 var
+R12517:12518 QWIRE.Syntax.DB.DBCircuits <> Γ:164 var
+R12543:12545 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12529:12539 QWIRE.Syntax.DB.DBCircuits <> flatten_ctx def
+R12541:12542 QWIRE.Syntax.DB.DBCircuits <> Γ:164 var
+R12546:12546 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12553:12553 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12547:12550 Coq.Init.Datatypes <> Some constr
+R12552:12552 QWIRE.Syntax.DB.DBCircuits <> w:163 var
+def 12626:12639 <> remove_indices
+R12647:12649 QWIRE.Base.Contexts <> Ctx def
+binder 12642:12643 <> Γ:165
+R12660:12663 Coq.Init.Datatypes <> list ind
+R12665:12667 Coq.Init.Datatypes <> nat ind
+binder 12653:12656 <> idxs:166
+R12672:12674 QWIRE.Base.Contexts <> Ctx def
+R12687:12688 QWIRE.Syntax.DB.DBCircuits <> Γ:165 var
+R12699:12700 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R12705:12706 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R12713:12716 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12730:12733 QWIRE.Syntax.DB.DBCircuits <> idxs:166 var
+R12756:12757 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R12772:12773 QWIRE.Syntax.DB.DBCircuits <> Γ:165 var
+R12792:12795 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12807:12820 QWIRE.Syntax.DB.DBCircuits <> remove_indices:167 def
+R12827:12829 Coq.Lists.List <> map def
+R12831:12834 Coq.Init.Peano <> pred abbrev
+R12862:12865 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12859:12859 Coq.Init.Datatypes <> S constr
+R12876:12879 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12880:12893 QWIRE.Syntax.DB.DBCircuits <> remove_indices:167 def
+R12900:12902 Coq.Lists.List <> map def
+R12909:12912 QWIRE.Syntax.DB.DBCircuits <> idxs:166 var
+R12904:12907 Coq.Init.Peano <> pred abbrev
+def 12950:12958 <> get_nones
+R12966:12968 QWIRE.Base.Contexts <> Ctx def
+binder 12961:12962 <> Γ:170
+R12973:12976 Coq.Init.Datatypes <> list ind
+R12978:12980 Coq.Init.Datatypes <> nat ind
+R12994:12995 QWIRE.Syntax.DB.DBCircuits <> Γ:170 var
+R13006:13007 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R13012:13013 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R13024:13027 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13020:13023 Coq.Init.Datatypes <> None constr
+R13036:13040 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13062:13062 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13041:13043 Coq.Lists.List <> map def
+R13048:13056 QWIRE.Syntax.DB.DBCircuits <> get_nones:171 def
+R13045:13045 Coq.Init.Datatypes <> S constr
+R13074:13077 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13068:13071 Coq.Init.Datatypes <> Some constr
+R13085:13087 Coq.Lists.List <> map def
+R13092:13100 QWIRE.Syntax.DB.DBCircuits <> get_nones:171 def
+R13089:13089 Coq.Init.Datatypes <> S constr
+prf 13121:13140 <> remove_indices_empty
+binder 13151:13152 <> Γ:173
+R13175:13177 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13155:13168 QWIRE.Syntax.DB.DBCircuits <> remove_indices def
+R13170:13171 QWIRE.Syntax.DB.DBCircuits <> Γ:173 var
+R13173:13174 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R13178:13179 QWIRE.Syntax.DB.DBCircuits <> Γ:173 var
+prf 13221:13240 <> remove_indices_merge
+R13265:13267 QWIRE.Base.Contexts <> Ctx def
+binder 13252:13253 <> Γ:174
+binder 13255:13257 <> Γ1:175
+binder 13259:13261 <> Γ2:176
+binder 13270:13273 <> idxs:177
+R13296:13301 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13281:13284 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R13288:13292 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R13285:13287 QWIRE.Syntax.DB.DBCircuits <> Γ1:175 var
+R13293:13295 QWIRE.Syntax.DB.DBCircuits <> Γ2:176 var
+R13279:13280 QWIRE.Syntax.DB.DBCircuits <> Γ:174 var
+R13324:13328 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R13352:13358 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R13382:13382 QWIRE.Base.Contexts <> :::x_'=='_x_'∙'_x not
+R13329:13342 QWIRE.Syntax.DB.DBCircuits <> remove_indices def
+R13344:13346 QWIRE.Syntax.DB.DBCircuits <> Γ1:175 var
+R13348:13351 QWIRE.Syntax.DB.DBCircuits <> idxs:177 var
+R13359:13372 QWIRE.Syntax.DB.DBCircuits <> remove_indices def
+R13374:13376 QWIRE.Syntax.DB.DBCircuits <> Γ2:176 var
+R13378:13381 QWIRE.Syntax.DB.DBCircuits <> idxs:177 var
+R13302:13315 QWIRE.Syntax.DB.DBCircuits <> remove_indices def
+R13317:13318 QWIRE.Syntax.DB.DBCircuits <> Γ:174 var
+R13320:13323 QWIRE.Syntax.DB.DBCircuits <> idxs:177 var
+R13422:13434 QWIRE.Base.Contexts <> merge_fun_ind thm
+R13422:13434 QWIRE.Base.Contexts <> merge_fun_ind thm
+R13508:13518 QWIRE.Base.Contexts <> merge_nil_l thm
+R13508:13518 QWIRE.Base.Contexts <> merge_nil_l thm
+R13508:13518 QWIRE.Base.Contexts <> merge_nil_l thm
+R13564:13574 QWIRE.Base.Contexts <> merge_nil_r thm
+R13564:13574 QWIRE.Base.Contexts <> merge_nil_r thm
+R13564:13574 QWIRE.Base.Contexts <> merge_nil_r thm
+R13644:13656 QWIRE.Base.Contexts <> merge_ind_fun thm
+R13644:13656 QWIRE.Base.Contexts <> merge_ind_fun thm
+R13740:13752 QWIRE.Base.Contexts <> merge_ind_fun thm
+R13740:13752 QWIRE.Base.Contexts <> merge_ind_fun thm
+R13798:13810 QWIRE.Base.Contexts <> merge_fun_ind thm
+R13798:13810 QWIRE.Base.Contexts <> merge_fun_ind thm
+prf 13856:13864 <> map_unmap
+binder 13875:13875 <> l:178
+R13896:13898 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13878:13880 Coq.Lists.List <> map def
+R13888:13890 Coq.Lists.List <> map def
+R13894:13894 QWIRE.Syntax.DB.DBCircuits <> l:178 var
+R13892:13892 Coq.Init.Datatypes <> S constr
+R13882:13885 Coq.Init.Peano <> pred abbrev
+R13899:13899 QWIRE.Syntax.DB.DBCircuits <> l:178 var
+prf 13975:13988 <> remove_flatten
+binder 13999:14000 <> Γ:179
+R14035:14037 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14003:14016 QWIRE.Syntax.DB.DBCircuits <> remove_indices def
+R14018:14019 QWIRE.Syntax.DB.DBCircuits <> Γ:179 var
+R14022:14030 QWIRE.Syntax.DB.DBCircuits <> get_nones def
+R14032:14033 QWIRE.Syntax.DB.DBCircuits <> Γ:179 var
+R14038:14048 QWIRE.Syntax.DB.DBCircuits <> flatten_ctx def
+R14050:14051 QWIRE.Syntax.DB.DBCircuits <> Γ:179 var
+R14123:14131 QWIRE.Syntax.DB.DBCircuits <> get_nones def
+R14123:14131 QWIRE.Syntax.DB.DBCircuits <> get_nones def
+R14194:14213 QWIRE.Syntax.DB.DBCircuits <> remove_indices_empty thm
+R14194:14213 QWIRE.Syntax.DB.DBCircuits <> remove_indices_empty thm
+R14194:14213 QWIRE.Syntax.DB.DBCircuits <> remove_indices_empty thm
+R14278:14286 QWIRE.Syntax.DB.DBCircuits <> map_unmap thm
+R14278:14286 QWIRE.Syntax.DB.DBCircuits <> map_unmap thm
+R14278:14286 QWIRE.Syntax.DB.DBCircuits <> map_unmap thm
+R14313:14321 QWIRE.Syntax.DB.DBCircuits <> map_unmap thm
+R14313:14321 QWIRE.Syntax.DB.DBCircuits <> map_unmap thm
+R14313:14321 QWIRE.Syntax.DB.DBCircuits <> map_unmap thm
+def 14349:14358 <> hoas_to_db
+binder 14361:14361 <> w:180
+binder 14364:14365 <> Γ:181
+R14372:14378 QWIRE.Syntax.HOAS.HOASCircuits <> Circuit ind
+R14380:14380 QWIRE.Syntax.DB.DBCircuits <> w:180 var
+binder 14368:14368 <> c:182
+R14385:14400 QWIRE.Syntax.DB.DBCircuits <> DeBruijn_Circuit ind
+R14402:14402 QWIRE.Syntax.DB.DBCircuits <> w:180 var
+R14415:14415 QWIRE.Syntax.DB.DBCircuits <> c:182 var
+R14426:14431 QWIRE.Syntax.HOAS.HOASCircuits <> output constr
+R14440:14448 QWIRE.Syntax.DB.DBCircuits <> db_output constr
+R14451:14459 QWIRE.Syntax.DB.DBCircuits <> subst_pat def
+R14461:14462 QWIRE.Syntax.DB.DBCircuits <> Γ:181 var
+R14471:14474 QWIRE.Syntax.HOAS.HOASCircuits <> gate constr
+R14556:14564 QWIRE.Syntax.DB.DBCircuits <> subst_pat def
+R14566:14567 QWIRE.Syntax.DB.DBCircuits <> Γ:181 var
+binder 14550:14551 <> p0:185
+R14682:14693 QWIRE.Syntax.DB.DBCircuits <> process_gate def
+R14699:14700 QWIRE.Syntax.DB.DBCircuits <> Γ:181 var
+binder 14671:14672 <> p':186
+binder 14674:14676 <> Γ':187
+R14723:14729 QWIRE.Syntax.DB.DBCircuits <> db_gate constr
+R14737:14746 QWIRE.Syntax.DB.DBCircuits <> hoas_to_db:183 def
+R14755:14756 QWIRE.Syntax.DB.DBCircuits <> p':186 var
+R14748:14750 QWIRE.Syntax.DB.DBCircuits <> Γ':187 var
+R14733:14734 QWIRE.Syntax.DB.DBCircuits <> p0:185 var
+R14764:14767 QWIRE.Syntax.HOAS.HOASCircuits <> lift constr
+R14789:14797 QWIRE.Syntax.DB.DBCircuits <> subst_pat def
+R14799:14800 QWIRE.Syntax.DB.DBCircuits <> Γ:181 var
+binder 14783:14784 <> p0:188
+R14836:14845 QWIRE.Syntax.DB.DBCircuits <> remove_pat def
+R14849:14850 QWIRE.Syntax.DB.DBCircuits <> Γ:181 var
+binder 14829:14831 <> Γ':189
+R14873:14879 QWIRE.Syntax.DB.DBCircuits <> db_lift constr
+binder 14889:14889 <> b:190
+R14894:14903 QWIRE.Syntax.DB.DBCircuits <> hoas_to_db:183 def
+R14912:14912 QWIRE.Syntax.DB.DBCircuits <> b:190 var
+R14905:14907 QWIRE.Syntax.DB.DBCircuits <> Γ':189 var
+R14881:14882 QWIRE.Syntax.DB.DBCircuits <> p0:188 var
+prf 14936:14951 <> hoas_to_db_typed
+R14968:14970 QWIRE.Base.Contexts <> Ctx def
+binder 14963:14964 <> Γ:191
+binder 14973:14973 <> w:192
+R14980:14986 QWIRE.Syntax.HOAS.HOASCircuits <> Circuit ind
+R14988:14988 QWIRE.Syntax.DB.DBCircuits <> w:192 var
+binder 14976:14976 <> c:193
+R15012:15021 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15000:15004 QWIRE.Syntax.HOAS.HOASCircuits <> :::x_'⊢'_x_':Circ' not
+R15006:15011 QWIRE.Syntax.HOAS.HOASCircuits <> :::x_'⊢'_x_':Circ' not
+R14998:14999 QWIRE.Syntax.DB.DBCircuits <> Γ:191 var
+R15005:15005 QWIRE.Syntax.DB.DBCircuits <> c:193 var
+R15022:15029 QWIRE.Syntax.DB.DBCircuits <> Types_DB ind
+R15049:15058 QWIRE.Syntax.DB.DBCircuits <> hoas_to_db def
+R15063:15063 QWIRE.Syntax.DB.DBCircuits <> c:193 var
+R15060:15061 QWIRE.Syntax.DB.DBCircuits <> Γ:191 var
+R15032:15042 QWIRE.Syntax.DB.DBCircuits <> flatten_ctx def
+R15044:15045 QWIRE.Syntax.DB.DBCircuits <> Γ:191 var
+def 15217:15230 <> hoas_to_db_box
+binder 15233:15234 <> w1:194
+binder 15236:15237 <> w2:195
+R15245:15247 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R15249:15250 QWIRE.Syntax.DB.DBCircuits <> w1:194 var
+R15252:15253 QWIRE.Syntax.DB.DBCircuits <> w2:195 var
+binder 15241:15241 <> B:196
+R15258:15269 QWIRE.Syntax.DB.DBCircuits <> DeBruijn_Box ind
+R15271:15272 QWIRE.Syntax.DB.DBCircuits <> w1:194 var
+R15274:15275 QWIRE.Syntax.DB.DBCircuits <> w2:195 var
+R15288:15288 QWIRE.Syntax.DB.DBCircuits <> B:196 var
+R15299:15301 QWIRE.Syntax.HOAS.HOASCircuits <> box constr
+R15322:15330 QWIRE.Syntax.DB.DBCircuits <> add_fresh def
+R15332:15333 QWIRE.Syntax.DB.DBCircuits <> w1:194 var
+R15335:15336 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+binder 15313:15313 <> p:198
+binder 15315:15316 <> Γ:199
+R15354:15359 QWIRE.Syntax.DB.DBCircuits <> db_box constr
+R15365:15374 QWIRE.Syntax.DB.DBCircuits <> hoas_to_db def
+R15382:15382 QWIRE.Syntax.DB.DBCircuits <> p:198 var
+R15376:15377 QWIRE.Syntax.DB.DBCircuits <> Γ:199 var
+R15361:15362 QWIRE.Syntax.DB.DBCircuits <> w1:194 var
+R15411:15424 QWIRE.Syntax.DB.DBCircuits <> hoas_to_db_box def
+R15427:15429 QWIRE.Syntax.HOAS.HOASCircuits <> box constr
+R15441:15443 QWIRE.Base.Contexts <> Pat ind
+R15451:15455 QWIRE.Base.Contexts <> ::circ_scope:x_'⊗'_x not
+R15446:15450 QWIRE.Base.Contexts <> Qubit constr
+R15456:15458 QWIRE.Base.Contexts <> Bit constr
+binder 15437:15437 <> p:200
+R15465:15470 QWIRE.Syntax.HOAS.HOASCircuits <> output constr
+R15472:15472 QWIRE.Syntax.DB.DBCircuits <> p:200 var
+prf 15522:15531 <> fmap_S_seq
+binder 15542:15544 <> len:201
+binder 15546:15550 <> start:202
+R15579:15581 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15557:15560 QWIRE.Base.Monad <> fmap meth
+R15565:15567 Coq.Lists.List <> seq def
+R15575:15577 QWIRE.Syntax.DB.DBCircuits <> len:201 var
+R15569:15573 QWIRE.Syntax.DB.DBCircuits <> start:202 var
+R15562:15562 Coq.Init.Datatypes <> S constr
+R15582:15584 Coq.Lists.List <> seq def
+R15596:15598 QWIRE.Syntax.DB.DBCircuits <> len:201 var
+R15587:15587 Coq.Init.Datatypes <> S constr
+R15589:15593 QWIRE.Syntax.DB.DBCircuits <> start:202 var
+prf 15718:15722 <> seq_S
+binder 15733:15735 <> len:203
+binder 15737:15741 <> start:204
+R15761:15763 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15744:15746 Coq.Lists.List <> seq def
+R15755:15755 Coq.Init.Datatypes <> S constr
+R15757:15759 QWIRE.Syntax.DB.DBCircuits <> len:203 var
+R15748:15752 QWIRE.Syntax.DB.DBCircuits <> start:204 var
+R15777:15780 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R15764:15766 Coq.Lists.List <> seq def
+R15774:15776 QWIRE.Syntax.DB.DBCircuits <> len:203 var
+R15768:15772 QWIRE.Syntax.DB.DBCircuits <> start:204 var
+R15781:15781 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R15793:15793 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R15787:15789 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R15782:15786 QWIRE.Syntax.DB.DBCircuits <> start:204 var
+R15790:15792 QWIRE.Syntax.DB.DBCircuits <> len:203 var
+R15884:15886 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R15887:15887 Coq.Init.Datatypes <> S constr
+R15907:15909 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R15900:15900 Coq.Init.Datatypes <> S constr
+R15884:15886 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R15887:15887 Coq.Init.Datatypes <> S constr
+R15907:15909 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R15900:15900 Coq.Init.Datatypes <> S constr

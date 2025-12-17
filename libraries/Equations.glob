@@ -1,0 +1,1509 @@
+DIGEST 9885627fab6ed4bfa6a4d5a87f39a659
+FQWIRE.Libraries.Equations
+R15:44 QWIRE.Syntax.HOAS.HOASCircuits <> <> lib
+R62:78 QuantumLib.Prelim <> <> lib
+R96:121 QWIRE.Syntax.DB.DBCircuits <> <> lib
+R139:164 QWIRE.Semantics.Denotation <> <> lib
+R182:206 QWIRE.Typing.TypeChecking <> <> lib
+R224:248 QWIRE.Syntax.HOAS.HOASLib <> <> lib
+R266:292 QWIRE.Semantics.SemanticLib <> <> lib
+def 595:600 <> X_meas
+R604:606 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R608:612 QWIRE.Base.Contexts <> Qubit constr
+R614:616 QWIRE.Base.Contexts <> Bit constr
+R623:627 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_x_'⇒'_x not
+R629:633 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_x_'⇒'_x not
+binder 628:628 <> q:1
+R638:640 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R634:637 QWIRE.Base.Contexts <> meas constr
+R643:645 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R641:642 QWIRE.Base.Contexts <> _X constr
+R646:646 QWIRE.Libraries.Equations <> q:1 var
+prf 655:663 <> X_meas_WT
+R667:675 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R677:682 QWIRE.Libraries.Equations <> X_meas def
+def 721:728 <> meas_NOT
+R732:734 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R736:740 QWIRE.Base.Contexts <> Qubit constr
+R742:744 QWIRE.Base.Contexts <> Bit constr
+R752:756 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_x_'⇒'_x not
+R758:762 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_x_'⇒'_x not
+binder 757:757 <> q:2
+R767:769 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R763:766 QWIRE.Base.Contexts <> BNOT constr
+R774:776 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R770:773 QWIRE.Base.Contexts <> meas constr
+R777:777 QWIRE.Libraries.Equations <> q:2 var
+prf 787:797 <> meas_NOT_WT
+R801:809 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R811:818 QWIRE.Libraries.Equations <> meas_NOT def
+prf 852:864 <> NOT_meas_comm
+R874:878 QWIRE.Semantics.Denotation <> ::circ_scope:x_'≡'_x not
+R868:873 QWIRE.Libraries.Equations <> X_meas def
+R879:886 QWIRE.Libraries.Equations <> meas_NOT def
+R974:986 QuantumLib.Quantum <> σx_hermitian thm
+R974:986 QuantumLib.Quantum <> σx_hermitian thm
+R974:986 QuantumLib.Quantum <> σx_hermitian thm
+R974:986 QuantumLib.Quantum <> σx_hermitian thm
+R999:1016 QuantumLib.Matrix <> Mmult_plus_distr_l thm
+R999:1016 QuantumLib.Matrix <> Mmult_plus_distr_l thm
+R999:1016 QuantumLib.Matrix <> Mmult_plus_distr_l thm
+R1029:1046 QuantumLib.Matrix <> Mmult_plus_distr_r thm
+R1029:1046 QuantumLib.Matrix <> Mmult_plus_distr_r thm
+R1029:1046 QuantumLib.Matrix <> Mmult_plus_distr_r thm
+R1069:1079 QuantumLib.Matrix <> Mmult_assoc thm
+R1069:1079 QuantumLib.Matrix <> Mmult_assoc thm
+R1069:1079 QuantumLib.Matrix <> Mmult_assoc thm
+R1069:1079 QuantumLib.Matrix <> Mmult_assoc thm
+R1069:1079 QuantumLib.Matrix <> Mmult_assoc thm
+R1069:1079 QuantumLib.Matrix <> Mmult_assoc thm
+R1069:1079 QuantumLib.Matrix <> Mmult_assoc thm
+R1069:1079 QuantumLib.Matrix <> Mmult_assoc thm
+R1069:1079 QuantumLib.Matrix <> Mmult_assoc thm
+R1069:1079 QuantumLib.Matrix <> Mmult_assoc thm
+R1069:1079 QuantumLib.Matrix <> Mmult_assoc thm
+R1069:1079 QuantumLib.Matrix <> Mmult_assoc thm
+R1069:1079 QuantumLib.Matrix <> Mmult_assoc thm
+R1069:1079 QuantumLib.Matrix <> Mmult_assoc thm
+R1069:1079 QuantumLib.Matrix <> Mmult_assoc thm
+R1069:1079 QuantumLib.Matrix <> Mmult_assoc thm
+R1069:1079 QuantumLib.Matrix <> Mmult_assoc thm
+R1069:1079 QuantumLib.Matrix <> Mmult_assoc thm
+R1069:1079 QuantumLib.Matrix <> Mmult_assoc thm
+R1069:1079 QuantumLib.Matrix <> Mmult_assoc thm
+R1069:1079 QuantumLib.Matrix <> Mmult_assoc thm
+R1069:1079 QuantumLib.Matrix <> Mmult_assoc thm
+R1069:1079 QuantumLib.Matrix <> Mmult_assoc thm
+R1069:1079 QuantumLib.Matrix <> Mmult_assoc thm
+R1069:1079 QuantumLib.Matrix <> Mmult_assoc thm
+R1069:1079 QuantumLib.Matrix <> Mmult_assoc thm
+R1069:1079 QuantumLib.Matrix <> Mmult_assoc thm
+R1069:1079 QuantumLib.Matrix <> Mmult_assoc thm
+R1069:1079 QuantumLib.Matrix <> Mmult_assoc thm
+R1069:1079 QuantumLib.Matrix <> Mmult_assoc thm
+R1100:1110 QuantumLib.Matrix <> Mmult_assoc thm
+R1122:1124 QuantumLib.Quantum <> σx def
+R1114:1120 QuantumLib.Quantum <> :::'⟨0∣' not
+R1100:1110 QuantumLib.Matrix <> Mmult_assoc thm
+R1122:1124 QuantumLib.Quantum <> σx def
+R1114:1120 QuantumLib.Quantum <> :::'⟨0∣' not
+R1100:1110 QuantumLib.Matrix <> Mmult_assoc thm
+R1122:1124 QuantumLib.Quantum <> σx def
+R1114:1120 QuantumLib.Quantum <> :::'⟨0∣' not
+R1100:1110 QuantumLib.Matrix <> Mmult_assoc thm
+R1122:1124 QuantumLib.Quantum <> σx def
+R1114:1120 QuantumLib.Quantum <> :::'⟨0∣' not
+R1100:1110 QuantumLib.Matrix <> Mmult_assoc thm
+R1122:1124 QuantumLib.Quantum <> σx def
+R1114:1120 QuantumLib.Quantum <> :::'⟨0∣' not
+R1100:1110 QuantumLib.Matrix <> Mmult_assoc thm
+R1122:1124 QuantumLib.Quantum <> σx def
+R1114:1120 QuantumLib.Quantum <> :::'⟨0∣' not
+R1146:1156 QuantumLib.Matrix <> Mmult_assoc thm
+R1168:1170 QuantumLib.Quantum <> σx def
+R1160:1166 QuantumLib.Quantum <> :::'⟨1∣' not
+R1146:1156 QuantumLib.Matrix <> Mmult_assoc thm
+R1168:1170 QuantumLib.Quantum <> σx def
+R1160:1166 QuantumLib.Quantum <> :::'⟨1∣' not
+R1146:1156 QuantumLib.Matrix <> Mmult_assoc thm
+R1168:1170 QuantumLib.Quantum <> σx def
+R1160:1166 QuantumLib.Quantum <> :::'⟨1∣' not
+R1146:1156 QuantumLib.Matrix <> Mmult_assoc thm
+R1168:1170 QuantumLib.Quantum <> σx def
+R1160:1166 QuantumLib.Quantum <> :::'⟨1∣' not
+R1146:1156 QuantumLib.Matrix <> Mmult_assoc thm
+R1168:1170 QuantumLib.Quantum <> σx def
+R1160:1166 QuantumLib.Quantum <> :::'⟨1∣' not
+R1146:1156 QuantumLib.Matrix <> Mmult_assoc thm
+R1168:1170 QuantumLib.Quantum <> σx def
+R1160:1166 QuantumLib.Quantum <> :::'⟨1∣' not
+R1192:1202 QuantumLib.Matrix <> Mmult_assoc thm
+R1210:1216 QuantumLib.Quantum <> :::'∣0⟩' not
+R1206:1208 QuantumLib.Quantum <> σx def
+R1192:1202 QuantumLib.Matrix <> Mmult_assoc thm
+R1210:1216 QuantumLib.Quantum <> :::'∣0⟩' not
+R1206:1208 QuantumLib.Quantum <> σx def
+R1192:1202 QuantumLib.Matrix <> Mmult_assoc thm
+R1210:1216 QuantumLib.Quantum <> :::'∣0⟩' not
+R1206:1208 QuantumLib.Quantum <> σx def
+R1192:1202 QuantumLib.Matrix <> Mmult_assoc thm
+R1210:1216 QuantumLib.Quantum <> :::'∣0⟩' not
+R1206:1208 QuantumLib.Quantum <> σx def
+R1238:1248 QuantumLib.Matrix <> Mmult_assoc thm
+R1256:1262 QuantumLib.Quantum <> :::'∣1⟩' not
+R1252:1254 QuantumLib.Quantum <> σx def
+R1238:1248 QuantumLib.Matrix <> Mmult_assoc thm
+R1256:1262 QuantumLib.Quantum <> :::'∣1⟩' not
+R1252:1254 QuantumLib.Quantum <> σx def
+R1238:1248 QuantumLib.Matrix <> Mmult_assoc thm
+R1256:1262 QuantumLib.Quantum <> :::'∣1⟩' not
+R1252:1254 QuantumLib.Quantum <> σx def
+R1238:1248 QuantumLib.Matrix <> Mmult_assoc thm
+R1256:1262 QuantumLib.Quantum <> :::'∣1⟩' not
+R1252:1254 QuantumLib.Quantum <> σx def
+R1286:1295 QuantumLib.Matrix <> Mplus_comm thm
+R1286:1295 QuantumLib.Matrix <> Mplus_comm thm
+R1286:1295 QuantumLib.Matrix <> Mplus_comm thm
+def 1415:1421 <> lift_UV
+binder 1424:1424 <> W:3
+R1434:1440 QWIRE.Base.Contexts <> Unitary ind
+R1442:1442 QWIRE.Libraries.Equations <> W:3 var
+binder 1428:1428 <> U:4
+binder 1430:1430 <> V:5
+R1447:1449 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R1457:1461 QWIRE.Base.Contexts <> ::circ_scope:x_'⊗'_x not
+R1452:1456 QWIRE.Base.Contexts <> Qubit constr
+R1462:1462 QWIRE.Libraries.Equations <> W:3 var
+R1465:1465 QWIRE.Libraries.Equations <> W:3 var
+R1472:1476 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_x_'⇒'_x not
+R1479:1488 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_x_'⇒'_x not
+binder 1477:1478 <> qr:6
+R1489:1494 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R1496:1496 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R1498:1503 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R1513:1518 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R1504:1509 QWIRE.Syntax.HOAS.HOASCircuits <> output constr
+R1511:1512 QWIRE.Libraries.Equations <> qr:6 var
+binder 1495:1495 <> q:7
+binder 1497:1497 <> r:8
+R1519:1523 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R1525:1529 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R1538:1543 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R1534:1536 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R1530:1533 QWIRE.Base.Contexts <> meas constr
+R1537:1537 QWIRE.Libraries.Equations <> q:7 var
+binder 1524:1524 <> b:9
+R1544:1549 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:'lift_'_x_'←'_x_';'_x not
+R1551:1555 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:'lift_'_x_'←'_x_';'_x not
+R1557:1562 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:'lift_'_x_'←'_x_';'_x not
+R1556:1556 QWIRE.Libraries.Equations <> b:9 var
+binder 1550:1550 <> x:10
+R1566:1566 QWIRE.Libraries.Equations <> x:10 var
+R1585:1587 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R1584:1584 QWIRE.Libraries.Equations <> V:5 var
+R1588:1588 QWIRE.Libraries.Equations <> r:8 var
+R1574:1576 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R1573:1573 QWIRE.Libraries.Equations <> U:4 var
+R1577:1577 QWIRE.Libraries.Equations <> r:8 var
+prf 1597:1606 <> lift_UV_WT
+binder 1617:1617 <> W:11
+R1626:1632 QWIRE.Base.Contexts <> Unitary ind
+R1634:1634 QWIRE.Libraries.Equations <> W:11 var
+binder 1620:1620 <> U:12
+binder 1622:1622 <> V:13
+R1638:1646 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R1649:1655 QWIRE.Libraries.Equations <> lift_UV def
+R1659:1659 QWIRE.Libraries.Equations <> V:13 var
+R1657:1657 QWIRE.Libraries.Equations <> U:12 var
+def 1699:1707 <> alternate
+binder 1710:1710 <> W:14
+R1720:1726 QWIRE.Base.Contexts <> Unitary ind
+R1728:1728 QWIRE.Libraries.Equations <> W:14 var
+binder 1714:1714 <> U:15
+binder 1716:1716 <> V:16
+R1733:1735 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R1743:1747 QWIRE.Base.Contexts <> ::circ_scope:x_'⊗'_x not
+R1738:1742 QWIRE.Base.Contexts <> Qubit constr
+R1748:1748 QWIRE.Libraries.Equations <> W:14 var
+R1757:1761 QWIRE.Base.Contexts <> ::circ_scope:x_'⊗'_x not
+R1752:1756 QWIRE.Base.Contexts <> Qubit constr
+R1762:1762 QWIRE.Libraries.Equations <> W:14 var
+R1770:1774 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_x_'⇒'_x not
+R1777:1786 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_x_'⇒'_x not
+binder 1775:1776 <> cx:17
+R1787:1792 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R1794:1794 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R1796:1801 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R1813:1818 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R1808:1810 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R1802:1805 QWIRE.Base.Contexts <> ctrl constr
+R1807:1807 QWIRE.Libraries.Equations <> U:15 var
+R1811:1812 QWIRE.Libraries.Equations <> cx:17 var
+binder 1793:1793 <> c:18
+binder 1795:1795 <> x:19
+R1819:1823 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R1825:1833 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R1840:1845 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R1836:1838 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R1834:1835 QWIRE.Base.Contexts <> _X constr
+R1839:1839 QWIRE.Libraries.Equations <> c:18 var
+binder 1824:1824 <> c:20
+R1846:1851 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R1853:1853 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R1855:1860 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R1875:1880 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R1867:1869 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R1861:1864 QWIRE.Base.Contexts <> ctrl constr
+R1866:1866 QWIRE.Libraries.Equations <> V:16 var
+R1870:1870 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1872:1872 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1874:1874 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1871:1871 QWIRE.Libraries.Equations <> c:20 var
+R1873:1873 QWIRE.Libraries.Equations <> x:19 var
+binder 1852:1852 <> c:21
+binder 1854:1854 <> x:22
+R1881:1881 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1888:1888 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1890:1890 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1884:1886 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R1882:1883 QWIRE.Base.Contexts <> _X constr
+R1887:1887 QWIRE.Libraries.Equations <> c:21 var
+R1889:1889 QWIRE.Libraries.Equations <> x:22 var
+prf 1899:1910 <> alternate_WT
+binder 1921:1921 <> W:23
+R1930:1936 QWIRE.Base.Contexts <> Unitary ind
+R1938:1938 QWIRE.Libraries.Equations <> W:23 var
+binder 1924:1924 <> U:24
+binder 1926:1926 <> V:25
+R1942:1950 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R1953:1961 QWIRE.Libraries.Equations <> alternate def
+R1965:1965 QWIRE.Libraries.Equations <> V:25 var
+R1963:1963 QWIRE.Libraries.Equations <> U:24 var
+def 2016:2021 <> alt_UV
+binder 2024:2024 <> W:26
+R2034:2040 QWIRE.Base.Contexts <> Unitary ind
+R2042:2042 QWIRE.Libraries.Equations <> W:26 var
+binder 2028:2028 <> U:27
+binder 2030:2030 <> V:28
+R2047:2049 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R2057:2061 QWIRE.Base.Contexts <> ::circ_scope:x_'⊗'_x not
+R2052:2056 QWIRE.Base.Contexts <> Qubit constr
+R2062:2062 QWIRE.Libraries.Equations <> W:26 var
+R2065:2065 QWIRE.Libraries.Equations <> W:26 var
+R2077:2082 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_'('_x_','_x_')'_'⇒'_x not
+R2084:2084 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_'('_x_','_x_')'_'⇒'_x not
+R2086:2096 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_'('_x_','_x_')'_'⇒'_x not
+binder 2083:2083 <> q:29
+binder 2085:2085 <> r:30
+R2097:2102 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R2104:2104 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R2106:2111 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R2133:2138 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R2125:2127 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R2112:2120 QWIRE.Libraries.Equations <> alternate def
+R2124:2124 QWIRE.Libraries.Equations <> V:28 var
+R2122:2122 QWIRE.Libraries.Equations <> U:27 var
+R2128:2128 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2130:2130 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2132:2132 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2129:2129 QWIRE.Libraries.Equations <> q:29 var
+R2131:2131 QWIRE.Libraries.Equations <> r:30 var
+binder 2103:2103 <> q:31
+binder 2105:2105 <> r:32
+R2139:2153 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'()'_'←'_x_';'_x not
+R2172:2177 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'()'_'←'_x_';'_x not
+R2161:2163 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R2154:2160 QWIRE.Base.Contexts <> discard constr
+R2168:2170 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R2164:2167 QWIRE.Base.Contexts <> meas constr
+R2171:2171 QWIRE.Libraries.Equations <> q:31 var
+R2178:2183 QWIRE.Syntax.HOAS.HOASCircuits <> output constr
+R2185:2185 QWIRE.Libraries.Equations <> r:32 var
+prf 2194:2202 <> alt_UV_WT
+binder 2213:2213 <> W:33
+R2222:2228 QWIRE.Base.Contexts <> Unitary ind
+R2230:2230 QWIRE.Libraries.Equations <> W:33 var
+binder 2216:2216 <> U:34
+binder 2218:2218 <> V:35
+R2234:2242 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R2245:2250 QWIRE.Libraries.Equations <> alt_UV def
+R2254:2254 QWIRE.Libraries.Equations <> V:35 var
+R2252:2252 QWIRE.Libraries.Equations <> U:34 var
+prf 2352:2368 <> lift_alternate_eq
+binder 2379:2379 <> W:36
+R2388:2394 QWIRE.Base.Contexts <> Unitary ind
+R2396:2396 QWIRE.Libraries.Equations <> W:36 var
+binder 2382:2382 <> U:37
+binder 2384:2384 <> V:38
+R2411:2415 QWIRE.Semantics.Denotation <> ::circ_scope:x_'≡'_x not
+R2400:2406 QWIRE.Libraries.Equations <> lift_UV def
+R2410:2410 QWIRE.Libraries.Equations <> V:38 var
+R2408:2408 QWIRE.Libraries.Equations <> U:37 var
+R2416:2421 QWIRE.Libraries.Equations <> alt_UV def
+R2425:2425 QWIRE.Libraries.Equations <> V:38 var
+R2423:2423 QWIRE.Libraries.Equations <> U:37 var
+def 2552:2565 <> U_meas_discard
+R2572:2578 QWIRE.Base.Contexts <> Unitary ind
+R2580:2584 QWIRE.Base.Contexts <> Qubit constr
+binder 2568:2568 <> U:39
+R2593:2597 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_x_'⇒'_x not
+R2599:2603 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_x_'⇒'_x not
+binder 2598:2598 <> q:40
+R2611:2613 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R2604:2610 QWIRE.Base.Contexts <> discard constr
+R2618:2620 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R2614:2617 QWIRE.Base.Contexts <> meas constr
+R2622:2624 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R2621:2621 QWIRE.Libraries.Equations <> U:39 var
+R2625:2625 QWIRE.Libraries.Equations <> q:40 var
+prf 2634:2650 <> U_meas_discard_WT
+R2666:2672 QWIRE.Base.Contexts <> Unitary ind
+R2674:2678 QWIRE.Base.Contexts <> Qubit constr
+binder 2662:2662 <> U:41
+R2682:2690 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R2693:2706 QWIRE.Libraries.Equations <> U_meas_discard def
+R2708:2708 QWIRE.Libraries.Equations <> U:41 var
+def 2750:2761 <> meas_discard
+R2769:2773 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_x_'⇒'_x not
+R2775:2779 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_x_'⇒'_x not
+binder 2774:2774 <> q:42
+R2787:2789 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R2780:2786 QWIRE.Base.Contexts <> discard constr
+R2794:2796 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R2790:2793 QWIRE.Base.Contexts <> meas constr
+R2797:2797 QWIRE.Libraries.Equations <> q:42 var
+prf 2806:2820 <> meas_discard_WT
+R2824:2832 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R2834:2845 QWIRE.Libraries.Equations <> meas_discard def
+prf 2881:2894 <> U_meas_eq_meas
+binder 2905:2905 <> U:43
+R2924:2928 QWIRE.Semantics.Denotation <> ::circ_scope:x_'≡'_x not
+R2908:2921 QWIRE.Libraries.Equations <> U_meas_discard def
+R2923:2923 QWIRE.Libraries.Equations <> U:43 var
+R2929:2940 QWIRE.Libraries.Equations <> meas_discard def
+R3004:3023 QWIRE.Semantics.Denotation <> unitary_gate_unitary thm
+R3004:3023 QWIRE.Semantics.Denotation <> unitary_gate_unitary thm
+R3081:3098 QuantumLib.Matrix <> Mmult_plus_distr_l thm
+R3081:3098 QuantumLib.Matrix <> Mmult_plus_distr_l thm
+R3081:3098 QuantumLib.Matrix <> Mmult_plus_distr_l thm
+R3111:3128 QuantumLib.Matrix <> Mmult_plus_distr_r thm
+R3111:3128 QuantumLib.Matrix <> Mmult_plus_distr_r thm
+R3111:3128 QuantumLib.Matrix <> Mmult_plus_distr_r thm
+R3159:3172 QWIRE.Semantics.Denotation <> denote_unitary def
+R3159:3172 QWIRE.Semantics.Denotation <> denote_unitary def
+R3200:3217 QuantumLib.Complex <> Cmult_plus_distr_r thm
+R3200:3217 QuantumLib.Complex <> Cmult_plus_distr_r thm
+R3200:3217 QuantumLib.Complex <> Cmult_plus_distr_r thm
+R3200:3217 QuantumLib.Complex <> Cmult_plus_distr_r thm
+R3200:3217 QuantumLib.Complex <> Cmult_plus_distr_r thm
+R3200:3217 QuantumLib.Complex <> Cmult_plus_distr_r thm
+R3200:3217 QuantumLib.Complex <> Cmult_plus_distr_r thm
+R3200:3217 QuantumLib.Complex <> Cmult_plus_distr_r thm
+R3200:3217 QuantumLib.Complex <> Cmult_plus_distr_r thm
+R3200:3217 QuantumLib.Complex <> Cmult_plus_distr_r thm
+R3477:3487 QuantumLib.Complex <> Cplus_assoc thm
+R3477:3487 QuantumLib.Complex <> Cplus_assoc thm
+R3477:3487 QuantumLib.Complex <> Cplus_assoc thm
+R3477:3487 QuantumLib.Complex <> Cplus_assoc thm
+R3477:3487 QuantumLib.Complex <> Cplus_assoc thm
+R3477:3487 QuantumLib.Complex <> Cplus_assoc thm
+R3477:3487 QuantumLib.Complex <> Cplus_assoc thm
+R3477:3487 QuantumLib.Complex <> Cplus_assoc thm
+R3477:3487 QuantumLib.Complex <> Cplus_assoc thm
+R3477:3487 QuantumLib.Complex <> Cplus_assoc thm
+R3508:3517 QuantumLib.Complex <> Cmult_comm thm
+R3529:3538 QuantumLib.Complex <> Cmult_comm thm
+R3568:3577 QuantumLib.Complex <> Cmult_comm thm
+R3589:3598 QuantumLib.Complex <> Cmult_comm thm
+R3508:3517 QuantumLib.Complex <> Cmult_comm thm
+R3508:3517 QuantumLib.Complex <> Cmult_comm thm
+R3529:3538 QuantumLib.Complex <> Cmult_comm thm
+R3529:3538 QuantumLib.Complex <> Cmult_comm thm
+R3568:3577 QuantumLib.Complex <> Cmult_comm thm
+R3568:3577 QuantumLib.Complex <> Cmult_comm thm
+R3589:3598 QuantumLib.Complex <> Cmult_comm thm
+R3589:3598 QuantumLib.Complex <> Cmult_comm thm
+R3508:3517 QuantumLib.Complex <> Cmult_comm thm
+R3508:3517 QuantumLib.Complex <> Cmult_comm thm
+R3529:3538 QuantumLib.Complex <> Cmult_comm thm
+R3529:3538 QuantumLib.Complex <> Cmult_comm thm
+R3568:3577 QuantumLib.Complex <> Cmult_comm thm
+R3568:3577 QuantumLib.Complex <> Cmult_comm thm
+R3589:3598 QuantumLib.Complex <> Cmult_comm thm
+R3589:3598 QuantumLib.Complex <> Cmult_comm thm
+R3508:3517 QuantumLib.Complex <> Cmult_comm thm
+R3634:3636 QuantumLib.Complex <> ::C_scope:x_'*'_x not
+R3628:3630 QuantumLib.Complex <> ::C_scope:x_'*'_x not
+R3640:3642 QuantumLib.Complex <> ::C_scope:x_'^*' not
+R3634:3636 QuantumLib.Complex <> ::C_scope:x_'*'_x not
+R3628:3630 QuantumLib.Complex <> ::C_scope:x_'*'_x not
+R3640:3642 QuantumLib.Complex <> ::C_scope:x_'^*' not
+R3670:3672 QuantumLib.Complex <> ::C_scope:x_'*'_x not
+R3664:3666 QuantumLib.Complex <> ::C_scope:x_'*'_x not
+R3676:3678 QuantumLib.Complex <> ::C_scope:x_'^*' not
+R3670:3672 QuantumLib.Complex <> ::C_scope:x_'*'_x not
+R3664:3666 QuantumLib.Complex <> ::C_scope:x_'*'_x not
+R3676:3678 QuantumLib.Complex <> ::C_scope:x_'^*' not
+R3708:3710 QuantumLib.Complex <> ::C_scope:x_'*'_x not
+R3702:3704 QuantumLib.Complex <> ::C_scope:x_'*'_x not
+R3714:3716 QuantumLib.Complex <> ::C_scope:x_'^*' not
+R3708:3710 QuantumLib.Complex <> ::C_scope:x_'*'_x not
+R3702:3704 QuantumLib.Complex <> ::C_scope:x_'*'_x not
+R3714:3716 QuantumLib.Complex <> ::C_scope:x_'^*' not
+R3744:3746 QuantumLib.Complex <> ::C_scope:x_'*'_x not
+R3738:3740 QuantumLib.Complex <> ::C_scope:x_'*'_x not
+R3750:3752 QuantumLib.Complex <> ::C_scope:x_'^*' not
+R3744:3746 QuantumLib.Complex <> ::C_scope:x_'*'_x not
+R3738:3740 QuantumLib.Complex <> ::C_scope:x_'*'_x not
+R3750:3752 QuantumLib.Complex <> ::C_scope:x_'^*' not
+R3782:3784 QuantumLib.Complex <> ::C_scope:x_'*'_x not
+R3776:3778 QuantumLib.Complex <> ::C_scope:x_'*'_x not
+R3788:3790 QuantumLib.Complex <> ::C_scope:x_'^*' not
+R3782:3784 QuantumLib.Complex <> ::C_scope:x_'*'_x not
+R3776:3778 QuantumLib.Complex <> ::C_scope:x_'*'_x not
+R3788:3790 QuantumLib.Complex <> ::C_scope:x_'^*' not
+R3818:3820 QuantumLib.Complex <> ::C_scope:x_'*'_x not
+R3812:3814 QuantumLib.Complex <> ::C_scope:x_'*'_x not
+R3824:3826 QuantumLib.Complex <> ::C_scope:x_'^*' not
+R3818:3820 QuantumLib.Complex <> ::C_scope:x_'*'_x not
+R3812:3814 QuantumLib.Complex <> ::C_scope:x_'*'_x not
+R3824:3826 QuantumLib.Complex <> ::C_scope:x_'^*' not
+R3856:3858 QuantumLib.Complex <> ::C_scope:x_'*'_x not
+R3850:3852 QuantumLib.Complex <> ::C_scope:x_'*'_x not
+R3862:3864 QuantumLib.Complex <> ::C_scope:x_'^*' not
+R3856:3858 QuantumLib.Complex <> ::C_scope:x_'*'_x not
+R3850:3852 QuantumLib.Complex <> ::C_scope:x_'*'_x not
+R3862:3864 QuantumLib.Complex <> ::C_scope:x_'^*' not
+R3892:3894 QuantumLib.Complex <> ::C_scope:x_'*'_x not
+R3886:3888 QuantumLib.Complex <> ::C_scope:x_'*'_x not
+R3898:3900 QuantumLib.Complex <> ::C_scope:x_'^*' not
+R3892:3894 QuantumLib.Complex <> ::C_scope:x_'*'_x not
+R3886:3888 QuantumLib.Complex <> ::C_scope:x_'*'_x not
+R3898:3900 QuantumLib.Complex <> ::C_scope:x_'^*' not
+R3925:3935 QuantumLib.Complex <> Cplus_assoc thm
+R3925:3935 QuantumLib.Complex <> Cplus_assoc thm
+R3925:3935 QuantumLib.Complex <> Cplus_assoc thm
+R3925:3935 QuantumLib.Complex <> Cplus_assoc thm
+R3925:3935 QuantumLib.Complex <> Cplus_assoc thm
+R3925:3935 QuantumLib.Complex <> Cplus_assoc thm
+R3925:3935 QuantumLib.Complex <> Cplus_assoc thm
+R3925:3935 QuantumLib.Complex <> Cplus_assoc thm
+R3925:3935 QuantumLib.Complex <> Cplus_assoc thm
+R3925:3935 QuantumLib.Complex <> Cplus_assoc thm
+R3925:3935 QuantumLib.Complex <> Cplus_assoc thm
+R3925:3935 QuantumLib.Complex <> Cplus_assoc thm
+R3925:3935 QuantumLib.Complex <> Cplus_assoc thm
+R3925:3935 QuantumLib.Complex <> Cplus_assoc thm
+R3947:3956 QuantumLib.Complex <> Cplus_comm thm
+R3947:3956 QuantumLib.Complex <> Cplus_comm thm
+R3947:3956 QuantumLib.Complex <> Cplus_comm thm
+R3985:3995 QuantumLib.Complex <> Cplus_assoc thm
+R3985:3995 QuantumLib.Complex <> Cplus_assoc thm
+R3985:3995 QuantumLib.Complex <> Cplus_assoc thm
+R3985:3995 QuantumLib.Complex <> Cplus_assoc thm
+R3985:3995 QuantumLib.Complex <> Cplus_assoc thm
+R3985:3995 QuantumLib.Complex <> Cplus_assoc thm
+R3985:3995 QuantumLib.Complex <> Cplus_assoc thm
+R3985:3995 QuantumLib.Complex <> Cplus_assoc thm
+R4007:4016 QuantumLib.Complex <> Cplus_comm thm
+R4007:4016 QuantumLib.Complex <> Cplus_comm thm
+R4007:4016 QuantumLib.Complex <> Cplus_comm thm
+R4045:4055 QuantumLib.Complex <> Cplus_assoc thm
+R4045:4055 QuantumLib.Complex <> Cplus_assoc thm
+R4045:4055 QuantumLib.Complex <> Cplus_assoc thm
+R4045:4055 QuantumLib.Complex <> Cplus_assoc thm
+R4045:4055 QuantumLib.Complex <> Cplus_assoc thm
+R4045:4055 QuantumLib.Complex <> Cplus_assoc thm
+R4045:4055 QuantumLib.Complex <> Cplus_assoc thm
+R4045:4055 QuantumLib.Complex <> Cplus_assoc thm
+R4045:4055 QuantumLib.Complex <> Cplus_assoc thm
+R4045:4055 QuantumLib.Complex <> Cplus_assoc thm
+R4067:4076 QuantumLib.Complex <> Cplus_comm thm
+R4067:4076 QuantumLib.Complex <> Cplus_comm thm
+R4067:4076 QuantumLib.Complex <> Cplus_comm thm
+R4102:4112 QuantumLib.Complex <> Cplus_assoc thm
+R4102:4112 QuantumLib.Complex <> Cplus_assoc thm
+R4102:4112 QuantumLib.Complex <> Cplus_assoc thm
+R4102:4112 QuantumLib.Complex <> Cplus_assoc thm
+R4102:4112 QuantumLib.Complex <> Cplus_assoc thm
+R4102:4112 QuantumLib.Complex <> Cplus_assoc thm
+R4102:4112 QuantumLib.Complex <> Cplus_assoc thm
+R4102:4112 QuantumLib.Complex <> Cplus_assoc thm
+R4102:4112 QuantumLib.Complex <> Cplus_assoc thm
+R4102:4112 QuantumLib.Complex <> Cplus_assoc thm
+R4102:4112 QuantumLib.Complex <> Cplus_assoc thm
+R4102:4112 QuantumLib.Complex <> Cplus_assoc thm
+R4102:4112 QuantumLib.Complex <> Cplus_assoc thm
+R4102:4112 QuantumLib.Complex <> Cplus_assoc thm
+R4130:4132 QuantumLib.Complex <> ::C_scope:x_'+'_x not
+R4130:4132 QuantumLib.Complex <> ::C_scope:x_'+'_x not
+R4202:4212 QuantumLib.Complex <> Cmult_assoc thm
+R4202:4212 QuantumLib.Complex <> Cmult_assoc thm
+R4202:4212 QuantumLib.Complex <> Cmult_assoc thm
+R4202:4212 QuantumLib.Complex <> Cmult_assoc thm
+R4202:4212 QuantumLib.Complex <> Cmult_assoc thm
+R4202:4212 QuantumLib.Complex <> Cmult_assoc thm
+R4230:4247 QuantumLib.Complex <> Cmult_plus_distr_l thm
+R4230:4247 QuantumLib.Complex <> Cmult_plus_distr_l thm
+R4230:4247 QuantumLib.Complex <> Cmult_plus_distr_l thm
+R4283:4285 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4267:4267 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R4273:4276 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R4278:4282 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R4269:4272 QuantumLib.Matrix <> ::matrix_scope:x_'†' not
+R4286:4286 QuantumLib.Matrix <> I def
+R4283:4285 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4267:4267 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R4273:4276 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R4278:4282 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R4269:4272 QuantumLib.Matrix <> ::matrix_scope:x_'†' not
+R4286:4286 QuantumLib.Matrix <> I def
+R4337:4341 QuantumLib.Matrix <> Mmult def
+R4344:4344 QuantumLib.Matrix <> I def
+R4347:4353 QuantumLib.Matrix <> adjoint def
+R4417:4426 QuantumLib.Complex <> Cmult_comm thm
+R4417:4426 QuantumLib.Complex <> Cmult_comm thm
+R4417:4426 QuantumLib.Complex <> Cmult_comm thm
+R4447:4456 QuantumLib.Complex <> Cmult_comm thm
+R4459:4459 QuantumLib.Complex <> ::C_scope:x_'^*' not
+R4473:4476 QuantumLib.Complex <> ::C_scope:x_'^*' not
+R4447:4456 QuantumLib.Complex <> Cmult_comm thm
+R4459:4459 QuantumLib.Complex <> ::C_scope:x_'^*' not
+R4473:4476 QuantumLib.Complex <> ::C_scope:x_'^*' not
+R4447:4456 QuantumLib.Complex <> Cmult_comm thm
+R4459:4459 QuantumLib.Complex <> ::C_scope:x_'^*' not
+R4473:4476 QuantumLib.Complex <> ::C_scope:x_'^*' not
+R4551:4561 QuantumLib.Complex <> Cplus_assoc thm
+R4551:4561 QuantumLib.Complex <> Cplus_assoc thm
+R4551:4561 QuantumLib.Complex <> Cplus_assoc thm
+R4551:4561 QuantumLib.Complex <> Cplus_assoc thm
+R4551:4561 QuantumLib.Complex <> Cplus_assoc thm
+R4575:4585 QuantumLib.Complex <> Cplus_assoc thm
+R4575:4585 QuantumLib.Complex <> Cplus_assoc thm
+R4575:4585 QuantumLib.Complex <> Cplus_assoc thm
+R4609:4611 QuantumLib.Complex <> ::C_scope:x_'+'_x not
+R4609:4611 QuantumLib.Complex <> ::C_scope:x_'+'_x not
+R4681:4691 QuantumLib.Complex <> Cmult_assoc thm
+R4681:4691 QuantumLib.Complex <> Cmult_assoc thm
+R4681:4691 QuantumLib.Complex <> Cmult_assoc thm
+R4681:4691 QuantumLib.Complex <> Cmult_assoc thm
+R4681:4691 QuantumLib.Complex <> Cmult_assoc thm
+R4681:4691 QuantumLib.Complex <> Cmult_assoc thm
+R4709:4726 QuantumLib.Complex <> Cmult_plus_distr_l thm
+R4709:4726 QuantumLib.Complex <> Cmult_plus_distr_l thm
+R4709:4726 QuantumLib.Complex <> Cmult_plus_distr_l thm
+R4761:4763 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4745:4745 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R4751:4754 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R4756:4760 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R4747:4750 QuantumLib.Matrix <> ::matrix_scope:x_'†' not
+R4764:4764 QuantumLib.Matrix <> I def
+R4761:4763 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4745:4745 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R4751:4754 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R4756:4760 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R4747:4750 QuantumLib.Matrix <> ::matrix_scope:x_'†' not
+R4764:4764 QuantumLib.Matrix <> I def
+R4815:4819 QuantumLib.Matrix <> Mmult def
+R4822:4822 QuantumLib.Matrix <> I def
+R4825:4831 QuantumLib.Matrix <> adjoint def
+R4895:4904 QuantumLib.Complex <> Cmult_comm thm
+R4895:4904 QuantumLib.Complex <> Cmult_comm thm
+R4895:4904 QuantumLib.Complex <> Cmult_comm thm
+R4924:4933 QuantumLib.Complex <> Cplus_comm thm
+R4924:4933 QuantumLib.Complex <> Cplus_comm thm
+R4924:4933 QuantumLib.Complex <> Cplus_comm thm
+R4953:4962 QuantumLib.Complex <> Cmult_comm thm
+R4953:4962 QuantumLib.Complex <> Cmult_comm thm
+R4953:4962 QuantumLib.Complex <> Cmult_comm thm
+R5030:5039 QuantumLib.Complex <> Cplus_comm thm
+R5030:5039 QuantumLib.Complex <> Cplus_comm thm
+R5030:5039 QuantumLib.Complex <> Cplus_comm thm
+R5061:5071 QuantumLib.Complex <> Cplus_assoc thm
+R5061:5071 QuantumLib.Complex <> Cplus_assoc thm
+R5061:5071 QuantumLib.Complex <> Cplus_assoc thm
+R5092:5102 QuantumLib.Complex <> Cplus_assoc thm
+R5092:5102 QuantumLib.Complex <> Cplus_assoc thm
+R5092:5102 QuantumLib.Complex <> Cplus_assoc thm
+R5092:5102 QuantumLib.Complex <> Cplus_assoc thm
+R5092:5102 QuantumLib.Complex <> Cplus_assoc thm
+R5092:5102 QuantumLib.Complex <> Cplus_assoc thm
+R5126:5128 QuantumLib.Complex <> ::C_scope:x_'+'_x not
+R5140:5141 QuantumLib.Complex <> C0 abbrev
+R5126:5128 QuantumLib.Complex <> ::C_scope:x_'+'_x not
+R5140:5141 QuantumLib.Complex <> C0 abbrev
+R5196:5206 QuantumLib.Complex <> Cmult_assoc thm
+R5196:5206 QuantumLib.Complex <> Cmult_assoc thm
+R5196:5206 QuantumLib.Complex <> Cmult_assoc thm
+R5196:5206 QuantumLib.Complex <> Cmult_assoc thm
+R5196:5206 QuantumLib.Complex <> Cmult_assoc thm
+R5196:5206 QuantumLib.Complex <> Cmult_assoc thm
+R5224:5241 QuantumLib.Complex <> Cmult_plus_distr_l thm
+R5224:5241 QuantumLib.Complex <> Cmult_plus_distr_l thm
+R5224:5241 QuantumLib.Complex <> Cmult_plus_distr_l thm
+R5276:5278 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5261:5261 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R5266:5269 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R5271:5275 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R5263:5265 QuantumLib.Matrix <> ::matrix_scope:x_'†' not
+R5279:5279 QuantumLib.Matrix <> I def
+R5276:5278 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5261:5261 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R5266:5269 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R5271:5275 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R5263:5265 QuantumLib.Matrix <> ::matrix_scope:x_'†' not
+R5279:5279 QuantumLib.Matrix <> I def
+R5331:5335 QuantumLib.Matrix <> Mmult def
+R5338:5338 QuantumLib.Matrix <> I def
+R5341:5347 QuantumLib.Matrix <> adjoint def
+R5411:5420 QuantumLib.Complex <> Cmult_comm thm
+R5411:5420 QuantumLib.Complex <> Cmult_comm thm
+R5411:5420 QuantumLib.Complex <> Cmult_comm thm
+R5440:5449 QuantumLib.Complex <> Cplus_comm thm
+R5440:5449 QuantumLib.Complex <> Cplus_comm thm
+R5440:5449 QuantumLib.Complex <> Cplus_comm thm
+R5469:5478 QuantumLib.Complex <> Cmult_comm thm
+R5469:5478 QuantumLib.Complex <> Cmult_comm thm
+R5469:5478 QuantumLib.Complex <> Cmult_comm thm
+R5555:5563 QuantumLib.Complex <> Cplus_0_l thm
+R5555:5563 QuantumLib.Complex <> Cplus_0_l thm
+R5555:5563 QuantumLib.Complex <> Cplus_0_l thm
+R5579:5589 QuantumLib.Complex <> Cplus_assoc thm
+R5579:5589 QuantumLib.Complex <> Cplus_assoc thm
+R5579:5589 QuantumLib.Complex <> Cplus_assoc thm
+R5610:5620 QuantumLib.Complex <> Cplus_assoc thm
+R5610:5620 QuantumLib.Complex <> Cplus_assoc thm
+R5610:5620 QuantumLib.Complex <> Cplus_assoc thm
+R5610:5620 QuantumLib.Complex <> Cplus_assoc thm
+R5644:5646 QuantumLib.Complex <> ::C_scope:x_'+'_x not
+R5658:5659 QuantumLib.Complex <> C0 abbrev
+R5644:5646 QuantumLib.Complex <> ::C_scope:x_'+'_x not
+R5658:5659 QuantumLib.Complex <> C0 abbrev
+R5714:5724 QuantumLib.Complex <> Cmult_assoc thm
+R5714:5724 QuantumLib.Complex <> Cmult_assoc thm
+R5714:5724 QuantumLib.Complex <> Cmult_assoc thm
+R5714:5724 QuantumLib.Complex <> Cmult_assoc thm
+R5714:5724 QuantumLib.Complex <> Cmult_assoc thm
+R5714:5724 QuantumLib.Complex <> Cmult_assoc thm
+R5742:5759 QuantumLib.Complex <> Cmult_plus_distr_l thm
+R5742:5759 QuantumLib.Complex <> Cmult_plus_distr_l thm
+R5742:5759 QuantumLib.Complex <> Cmult_plus_distr_l thm
+R5796:5798 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5779:5779 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R5785:5788 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R5790:5795 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R5781:5784 QuantumLib.Matrix <> ::matrix_scope:x_'†' not
+R5799:5799 QuantumLib.Matrix <> I def
+R5796:5798 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5779:5779 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R5785:5788 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R5790:5795 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R5781:5784 QuantumLib.Matrix <> ::matrix_scope:x_'†' not
+R5799:5799 QuantumLib.Matrix <> I def
+R5850:5854 QuantumLib.Matrix <> Mmult def
+R5857:5857 QuantumLib.Matrix <> I def
+R5860:5866 QuantumLib.Matrix <> adjoint def
+R5930:5939 QuantumLib.Complex <> Cmult_comm thm
+R5930:5939 QuantumLib.Complex <> Cmult_comm thm
+R5930:5939 QuantumLib.Complex <> Cmult_comm thm
+R5959:5968 QuantumLib.Complex <> Cplus_comm thm
+R5959:5968 QuantumLib.Complex <> Cplus_comm thm
+R5959:5968 QuantumLib.Complex <> Cplus_comm thm
+R5988:5997 QuantumLib.Complex <> Cmult_comm thm
+R5988:5997 QuantumLib.Complex <> Cmult_comm thm
+R5988:5997 QuantumLib.Complex <> Cmult_comm thm
+R6074:6082 QuantumLib.Complex <> Cplus_0_l thm
+R6074:6082 QuantumLib.Complex <> Cplus_0_l thm
+R6074:6082 QuantumLib.Complex <> Cplus_0_l thm
+def 6156:6164 <> init_meas
+R6171:6174 Coq.Init.Datatypes <> bool ind
+binder 6167:6167 <> b:44
+R6179:6181 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R6183:6185 QWIRE.Base.Contexts <> One constr
+R6187:6189 QWIRE.Base.Contexts <> Bit constr
+R6197:6213 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_'()'_'⇒'_x not
+R6214:6218 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R6220:6224 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R6242:6247 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R6225:6229 QWIRE.Syntax.HOAS.HOASCircuits <> unbox def
+R6240:6241 QWIRE.Typing.TypeChecking <> ::circ_scope:'()' not
+R6232:6235 QWIRE.Syntax.HOAS.HOASLib <> init def
+R6237:6237 QWIRE.Libraries.Equations <> b:44 var
+binder 6219:6219 <> q:45
+R6248:6252 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R6254:6258 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R6267:6272 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R6263:6265 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R6259:6262 QWIRE.Base.Contexts <> meas constr
+R6266:6266 QWIRE.Libraries.Equations <> q:45 var
+binder 6253:6253 <> b:46
+R6273:6278 QWIRE.Syntax.HOAS.HOASCircuits <> output constr
+R6280:6280 QWIRE.Libraries.Equations <> b:46 var
+prf 6290:6301 <> init_meas_WT
+binder 6312:6312 <> b:47
+R6315:6323 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R6326:6334 QWIRE.Libraries.Equations <> init_meas def
+R6336:6336 QWIRE.Libraries.Equations <> b:47 var
+def 6388:6400 <> init_meas_new
+binder 6411:6411 <> b:48
+R6425:6429 QWIRE.Semantics.Denotation <> ::circ_scope:x_'≡'_x not
+R6414:6422 QWIRE.Libraries.Equations <> init_meas def
+R6424:6424 QWIRE.Libraries.Equations <> b:48 var
+R6430:6432 QWIRE.Syntax.HOAS.HOASLib <> new def
+R6434:6434 QWIRE.Libraries.Equations <> b:48 var
+def 6707:6714 <> init_alt
+binder 6717:6717 <> W:49
+R6726:6729 Coq.Init.Datatypes <> bool ind
+binder 6722:6722 <> b:50
+R6739:6745 QWIRE.Base.Contexts <> Unitary ind
+R6747:6747 QWIRE.Libraries.Equations <> W:49 var
+binder 6733:6733 <> U:51
+binder 6735:6735 <> V:52
+R6752:6754 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R6756:6756 QWIRE.Libraries.Equations <> W:49 var
+R6764:6768 QWIRE.Base.Contexts <> ::circ_scope:x_'⊗'_x not
+R6759:6763 QWIRE.Base.Contexts <> Qubit constr
+R6769:6769 QWIRE.Libraries.Equations <> W:49 var
+R6778:6782 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_x_'⇒'_x not
+R6785:6794 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_x_'⇒'_x not
+binder 6783:6784 <> qs:53
+R6795:6799 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R6801:6807 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R6819:6824 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R6814:6816 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R6808:6811 QWIRE.Syntax.HOAS.HOASLib <> init def
+R6813:6813 QWIRE.Libraries.Equations <> b:50 var
+R6817:6818 QWIRE.Typing.TypeChecking <> ::circ_scope:'()' not
+binder 6800:6800 <> q:54
+R6825:6830 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R6832:6832 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R6835:6840 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R6863:6868 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R6854:6856 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R6841:6849 QWIRE.Libraries.Equations <> alternate def
+R6853:6853 QWIRE.Libraries.Equations <> V:52 var
+R6851:6851 QWIRE.Libraries.Equations <> U:51 var
+R6857:6857 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6859:6859 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6862:6862 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6858:6858 QWIRE.Libraries.Equations <> q:54 var
+R6860:6861 QWIRE.Libraries.Equations <> qs:53 var
+binder 6831:6831 <> q:55
+binder 6833:6834 <> qs:56
+R6869:6869 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6871:6871 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6874:6874 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6870:6870 QWIRE.Libraries.Equations <> q:55 var
+R6872:6873 QWIRE.Libraries.Equations <> qs:56 var
+prf 6883:6893 <> init_alt_WT
+binder 6904:6904 <> W:57
+binder 6906:6906 <> b:58
+R6915:6921 QWIRE.Base.Contexts <> Unitary ind
+R6923:6923 QWIRE.Libraries.Equations <> W:57 var
+binder 6909:6909 <> U:59
+binder 6911:6911 <> V:60
+R6927:6935 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R6938:6945 QWIRE.Libraries.Equations <> init_alt def
+R6951:6951 QWIRE.Libraries.Equations <> V:60 var
+R6949:6949 QWIRE.Libraries.Equations <> U:59 var
+R6947:6947 QWIRE.Libraries.Equations <> b:58 var
+def 6991:6997 <> init_if
+binder 7000:7000 <> W:61
+R7009:7012 Coq.Init.Datatypes <> bool ind
+binder 7005:7005 <> b:62
+R7022:7028 QWIRE.Base.Contexts <> Unitary ind
+R7030:7030 QWIRE.Libraries.Equations <> W:61 var
+binder 7016:7016 <> U:63
+binder 7018:7018 <> V:64
+R7035:7037 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R7039:7039 QWIRE.Libraries.Equations <> W:61 var
+R7047:7051 QWIRE.Base.Contexts <> ::circ_scope:x_'⊗'_x not
+R7042:7046 QWIRE.Base.Contexts <> Qubit constr
+R7052:7052 QWIRE.Libraries.Equations <> W:61 var
+R7061:7065 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_x_'⇒'_x not
+R7068:7077 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_x_'⇒'_x not
+binder 7066:7067 <> qs:65
+R7078:7082 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R7084:7089 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R7101:7106 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R7096:7098 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R7090:7093 QWIRE.Syntax.HOAS.HOASLib <> init def
+R7095:7095 QWIRE.Libraries.Equations <> b:62 var
+R7099:7100 QWIRE.Typing.TypeChecking <> ::circ_scope:'()' not
+binder 7083:7083 <> q:66
+R7107:7111 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R7114:7118 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R7144:7149 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R7119:7119 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R7138:7141 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R7123:7123 QWIRE.Libraries.Equations <> b:62 var
+R7137:7137 QWIRE.Libraries.Equations <> V:64 var
+R7130:7130 QWIRE.Libraries.Equations <> U:63 var
+R7142:7143 QWIRE.Libraries.Equations <> qs:65 var
+binder 7112:7113 <> qs:67
+R7150:7150 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7152:7152 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7155:7155 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7151:7151 QWIRE.Libraries.Equations <> q:66 var
+R7153:7154 QWIRE.Libraries.Equations <> qs:67 var
+prf 7164:7173 <> init_if_WT
+binder 7184:7184 <> W:68
+binder 7186:7186 <> b:69
+R7195:7201 QWIRE.Base.Contexts <> Unitary ind
+R7203:7203 QWIRE.Libraries.Equations <> W:68 var
+binder 7189:7189 <> U:70
+binder 7191:7191 <> V:71
+R7207:7215 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R7218:7224 QWIRE.Libraries.Equations <> init_if def
+R7230:7230 QWIRE.Libraries.Equations <> V:71 var
+R7228:7228 QWIRE.Libraries.Equations <> U:70 var
+R7226:7226 QWIRE.Libraries.Equations <> b:69 var
+prf 7265:7282 <> init_if_true_qubit
+R7300:7306 QWIRE.Base.Contexts <> Unitary ind
+R7308:7312 QWIRE.Base.Contexts <> Qubit constr
+binder 7294:7294 <> U:72
+binder 7296:7296 <> V:73
+binder 7315:7316 <> ρ:74
+R7333:7339 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7321:7329 QuantumLib.Matrix <> WF_Matrix def
+R7331:7332 QWIRE.Libraries.Equations <> ρ:74 var
+R7365:7367 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7340:7342 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R7359:7364 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R7343:7349 QWIRE.Libraries.Equations <> init_if def
+R7358:7358 QWIRE.Libraries.Equations <> V:73 var
+R7356:7356 QWIRE.Libraries.Equations <> U:72 var
+R7351:7354 Coq.Init.Datatypes <> true constr
+R7363:7364 QWIRE.Libraries.Equations <> ρ:74 var
+R7423:7426 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R7388:7392 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R7422:7422 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R7376:7380 QuantumLib.Matrix <> ::matrix_scope:x_'⊗'_x not
+R7369:7375 QuantumLib.Quantum <> :::'∣1⟩' not
+R7381:7381 QuantumLib.Matrix <> I def
+R7406:7410 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R7421:7421 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R7400:7403 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R7393:7395 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R7397:7399 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R7396:7396 QWIRE.Libraries.Equations <> U:72 var
+R7404:7405 QWIRE.Libraries.Equations <> ρ:74 var
+R7418:7420 QuantumLib.Matrix <> ::matrix_scope:x_'†' not
+R7411:7413 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R7415:7417 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R7414:7414 QWIRE.Libraries.Equations <> U:72 var
+R7435:7439 QuantumLib.Matrix <> ::matrix_scope:x_'⊗'_x not
+R7428:7434 QuantumLib.Quantum <> :::'⟨1∣' not
+R7440:7440 QuantumLib.Matrix <> I def
+R7519:7529 QWIRE.Semantics.Denotation <> WF_Matrix_U thm
+R7519:7529 QWIRE.Semantics.Denotation <> WF_Matrix_U thm
+prf 7599:7617 <> init_if_false_qubit
+R7635:7641 QWIRE.Base.Contexts <> Unitary ind
+R7643:7647 QWIRE.Base.Contexts <> Qubit constr
+binder 7629:7629 <> U:75
+binder 7631:7631 <> V:76
+binder 7650:7651 <> ρ:77
+R7668:7674 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7656:7664 QuantumLib.Matrix <> WF_Matrix def
+R7666:7667 QWIRE.Libraries.Equations <> ρ:77 var
+R7701:7703 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7675:7677 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R7695:7700 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R7678:7684 QWIRE.Libraries.Equations <> init_if def
+R7694:7694 QWIRE.Libraries.Equations <> V:76 var
+R7692:7692 QWIRE.Libraries.Equations <> U:75 var
+R7686:7690 Coq.Init.Datatypes <> false constr
+R7699:7700 QWIRE.Libraries.Equations <> ρ:77 var
+R7759:7762 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R7724:7728 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R7758:7758 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R7712:7716 QuantumLib.Matrix <> ::matrix_scope:x_'⊗'_x not
+R7705:7711 QuantumLib.Quantum <> :::'∣0⟩' not
+R7717:7717 QuantumLib.Matrix <> I def
+R7742:7746 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R7757:7757 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R7736:7739 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R7729:7731 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R7733:7735 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R7732:7732 QWIRE.Libraries.Equations <> V:76 var
+R7740:7741 QWIRE.Libraries.Equations <> ρ:77 var
+R7754:7756 QuantumLib.Matrix <> ::matrix_scope:x_'†' not
+R7747:7749 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R7751:7753 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R7750:7750 QWIRE.Libraries.Equations <> V:76 var
+R7771:7775 QuantumLib.Matrix <> ::matrix_scope:x_'⊗'_x not
+R7764:7770 QuantumLib.Quantum <> :::'⟨0∣' not
+R7776:7776 QuantumLib.Matrix <> I def
+R7855:7865 QWIRE.Semantics.Denotation <> WF_Matrix_U thm
+R7855:7865 QWIRE.Semantics.Denotation <> WF_Matrix_U thm
+prf 7932:7948 <> init_alt_if_qubit
+binder 7959:7959 <> b:78
+R7968:7974 QWIRE.Base.Contexts <> Unitary ind
+R7976:7980 QWIRE.Base.Contexts <> Qubit constr
+binder 7962:7962 <> U:79
+binder 7964:7964 <> V:80
+R7998:8002 QWIRE.Semantics.Denotation <> ::circ_scope:x_'≡'_x not
+R7984:7991 QWIRE.Libraries.Equations <> init_alt def
+R7997:7997 QWIRE.Libraries.Equations <> V:80 var
+R7995:7995 QWIRE.Libraries.Equations <> U:79 var
+R7993:7993 QWIRE.Libraries.Equations <> b:78 var
+R8003:8009 QWIRE.Libraries.Equations <> init_if def
+R8015:8015 QWIRE.Libraries.Equations <> V:80 var
+R8013:8013 QWIRE.Libraries.Equations <> U:79 var
+R8011:8011 QWIRE.Libraries.Equations <> b:78 var
+binder 8130:8132 <> res:81
+binder 8135:8135 <> u:82
+binder 8130:8132 <> res:83
+binder 8135:8135 <> u:84
+R8173:8173 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8179:8180 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8194:8195 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8203:8203 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8181:8181 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8187:8188 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8193:8193 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8182:8186 Coq.Init.Datatypes <> false constr
+R8189:8192 Coq.Init.Datatypes <> true constr
+R8196:8198 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R8200:8202 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R8173:8173 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8179:8180 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8194:8195 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8203:8203 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8181:8181 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8187:8188 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8193:8193 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8182:8186 Coq.Init.Datatypes <> false constr
+R8189:8192 Coq.Init.Datatypes <> true constr
+R8196:8198 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R8200:8202 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+binder 8299:8301 <> res:85
+binder 8304:8304 <> u:86
+binder 8299:8301 <> res:87
+binder 8304:8304 <> u:88
+R8342:8342 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8348:8349 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8363:8364 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8372:8372 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8350:8350 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8356:8357 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8362:8362 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8351:8355 Coq.Init.Datatypes <> false constr
+R8358:8361 Coq.Init.Datatypes <> true constr
+R8365:8367 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R8369:8371 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R8342:8342 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8348:8349 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8363:8364 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8372:8372 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8350:8350 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8356:8357 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8362:8362 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8351:8355 Coq.Init.Datatypes <> false constr
+R8358:8361 Coq.Init.Datatypes <> true constr
+R8365:8367 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R8369:8371 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R8440:8450 QWIRE.Semantics.Denotation <> WF_Matrix_U thm
+R8440:8450 QWIRE.Semantics.Denotation <> WF_Matrix_U thm
+R8480:8490 QWIRE.Semantics.Denotation <> WF_Matrix_U thm
+R8480:8490 QWIRE.Semantics.Denotation <> WF_Matrix_U thm
+R8544:8546 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R8544:8546 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+binder 8653:8655 <> res:89
+binder 8658:8658 <> u:90
+binder 8653:8655 <> res:91
+binder 8658:8658 <> u:92
+R8696:8696 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8702:8703 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8717:8718 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8726:8726 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8704:8704 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8710:8711 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8716:8716 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8705:8709 Coq.Init.Datatypes <> false constr
+R8712:8715 Coq.Init.Datatypes <> true constr
+R8719:8721 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R8723:8725 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R8696:8696 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8702:8703 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8717:8718 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8726:8726 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8704:8704 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8710:8711 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8716:8716 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8705:8709 Coq.Init.Datatypes <> false constr
+R8712:8715 Coq.Init.Datatypes <> true constr
+R8719:8721 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R8723:8725 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+binder 8822:8824 <> res:93
+binder 8827:8827 <> u:94
+binder 8822:8824 <> res:95
+binder 8827:8827 <> u:96
+R8865:8865 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8871:8872 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8886:8887 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8895:8895 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8873:8873 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8879:8880 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8885:8885 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8874:8878 Coq.Init.Datatypes <> false constr
+R8881:8884 Coq.Init.Datatypes <> true constr
+R8888:8890 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R8892:8894 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R8865:8865 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8871:8872 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8886:8887 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8895:8895 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8873:8873 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8879:8880 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8885:8885 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8874:8878 Coq.Init.Datatypes <> false constr
+R8881:8884 Coq.Init.Datatypes <> true constr
+R8888:8890 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R8892:8894 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R8963:8973 QWIRE.Semantics.Denotation <> WF_Matrix_U thm
+R8963:8973 QWIRE.Semantics.Denotation <> WF_Matrix_U thm
+R9003:9013 QWIRE.Semantics.Denotation <> WF_Matrix_U thm
+R9003:9013 QWIRE.Semantics.Denotation <> WF_Matrix_U thm
+R9067:9069 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R9067:9069 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+prf 9130:9140 <> init_alt_if
+binder 9151:9151 <> W:97
+binder 9153:9153 <> b:98
+R9162:9168 QWIRE.Base.Contexts <> Unitary ind
+R9170:9170 QWIRE.Libraries.Equations <> W:97 var
+binder 9156:9156 <> U:99
+binder 9158:9158 <> V:100
+R9188:9192 QWIRE.Semantics.Denotation <> ::circ_scope:x_'≡'_x not
+R9174:9181 QWIRE.Libraries.Equations <> init_alt def
+R9187:9187 QWIRE.Libraries.Equations <> V:100 var
+R9185:9185 QWIRE.Libraries.Equations <> U:99 var
+R9183:9183 QWIRE.Libraries.Equations <> b:98 var
+R9193:9199 QWIRE.Libraries.Equations <> init_if def
+R9205:9205 QWIRE.Libraries.Equations <> V:100 var
+R9203:9203 QWIRE.Libraries.Equations <> U:99 var
+R9201:9201 QWIRE.Libraries.Equations <> b:98 var
+def 9322:9327 <> init_X
+R9334:9337 Coq.Init.Datatypes <> bool ind
+binder 9330:9330 <> b:101
+R9342:9344 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R9346:9348 QWIRE.Base.Contexts <> One constr
+R9350:9354 QWIRE.Base.Contexts <> Qubit constr
+R9361:9372 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_'()'_'⇒'_x not
+R9375:9377 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R9373:9374 QWIRE.Base.Contexts <> _X constr
+R9384:9386 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R9378:9381 QWIRE.Syntax.HOAS.HOASLib <> init def
+R9383:9383 QWIRE.Libraries.Equations <> b:101 var
+R9387:9388 QWIRE.Typing.TypeChecking <> ::circ_scope:'()' not
+prf 9397:9405 <> init_X_WT
+binder 9416:9416 <> b:102
+R9419:9427 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R9430:9435 QWIRE.Libraries.Equations <> init_X def
+R9437:9437 QWIRE.Libraries.Equations <> b:102 var
+prf 9472:9482 <> init_X_init
+binder 9493:9493 <> b:103
+R9504:9508 QWIRE.Semantics.Denotation <> ::circ_scope:x_'≡'_x not
+R9496:9501 QWIRE.Libraries.Equations <> init_X def
+R9503:9503 QWIRE.Libraries.Equations <> b:103 var
+R9509:9512 QWIRE.Syntax.HOAS.HOASLib <> init def
+R9515:9518 Coq.Init.Datatypes <> negb def
+R9520:9520 QWIRE.Libraries.Equations <> b:103 var
+R9613:9623 QuantumLib.Matrix <> Mmult_assoc thm
+R9613:9623 QuantumLib.Matrix <> Mmult_assoc thm
+R9613:9623 QuantumLib.Matrix <> Mmult_assoc thm
+R9613:9623 QuantumLib.Matrix <> Mmult_assoc thm
+R9613:9623 QuantumLib.Matrix <> Mmult_assoc thm
+R9613:9623 QuantumLib.Matrix <> Mmult_assoc thm
+R9653:9663 QuantumLib.Matrix <> Mmult_assoc thm
+R9653:9663 QuantumLib.Matrix <> Mmult_assoc thm
+R9653:9663 QuantumLib.Matrix <> Mmult_assoc thm
+R9653:9663 QuantumLib.Matrix <> Mmult_assoc thm
+R9756:9766 QuantumLib.Matrix <> Mmult_assoc thm
+R9756:9766 QuantumLib.Matrix <> Mmult_assoc thm
+R9756:9766 QuantumLib.Matrix <> Mmult_assoc thm
+R9756:9766 QuantumLib.Matrix <> Mmult_assoc thm
+R9756:9766 QuantumLib.Matrix <> Mmult_assoc thm
+R9756:9766 QuantumLib.Matrix <> Mmult_assoc thm
+R9796:9806 QuantumLib.Matrix <> Mmult_assoc thm
+R9796:9806 QuantumLib.Matrix <> Mmult_assoc thm
+R9796:9806 QuantumLib.Matrix <> Mmult_assoc thm
+R9796:9806 QuantumLib.Matrix <> Mmult_assoc thm
+prf 9931:9936 <> new_WT
+binder 9947:9947 <> b:104
+R9950:9958 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R9961:9963 QWIRE.Syntax.HOAS.HOASLib <> new def
+R9965:9965 QWIRE.Libraries.Equations <> b:104 var
+def 10017:10024 <> lift_new
+R10028:10030 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R10032:10034 QWIRE.Base.Contexts <> Bit constr
+R10036:10038 QWIRE.Base.Contexts <> Bit constr
+R10045:10049 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_x_'⇒'_x not
+R10051:10060 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_x_'⇒'_x not
+binder 10050:10050 <> b:105
+R10061:10066 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:'lift_'_x_'←'_x_';'_x not
+R10068:10072 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:'lift_'_x_'←'_x_';'_x not
+R10074:10080 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:'lift_'_x_'←'_x_';'_x not
+R10073:10073 QWIRE.Libraries.Equations <> b:105 var
+binder 10067:10067 <> x:106
+R10086:10088 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R10081:10083 QWIRE.Syntax.HOAS.HOASLib <> new def
+R10085:10085 QWIRE.Libraries.Equations <> x:106 var
+R10089:10090 QWIRE.Typing.TypeChecking <> ::circ_scope:'()' not
+prf 10099:10109 <> lift_new_WT
+R10113:10121 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R10123:10130 QWIRE.Libraries.Equations <> lift_new def
+R10180:10184 QuantumLib.Quantum <> Splus def
+def 10208:10216 <> Classical
+binder 10219:10219 <> n:107
+R10228:10234 QuantumLib.Quantum <> Density abbrev
+R10236:10236 QWIRE.Libraries.Equations <> n:107 var
+R10236:10236 QWIRE.Libraries.Equations <> n:107 var
+binder 10223:10224 <> ρ:108
+binder 10249:10249 <> i:109
+binder 10251:10251 <> j:110
+R10260:10263 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10255:10258 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R10254:10254 QWIRE.Libraries.Equations <> i:109 var
+R10259:10259 QWIRE.Libraries.Equations <> j:110 var
+R10270:10272 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10264:10265 QWIRE.Libraries.Equations <> ρ:108 var
+R10267:10267 QWIRE.Libraries.Equations <> i:109 var
+R10269:10269 QWIRE.Libraries.Equations <> j:110 var
+prf 10283:10294 <> lift_new_new
+R10311:10317 QuantumLib.Quantum <> Density abbrev
+binder 10306:10307 <> ρ:111
+R10335:10379 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10323:10331 QuantumLib.Matrix <> WF_Matrix def
+R10333:10334 QWIRE.Libraries.Equations <> ρ:111 var
+R10392:10436 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10380:10388 QWIRE.Libraries.Equations <> Classical def
+R10390:10391 QWIRE.Libraries.Equations <> ρ:111 var
+R10454:10456 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10437:10439 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R10448:10453 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R10440:10447 QWIRE.Libraries.Equations <> lift_new def
+R10452:10453 QWIRE.Libraries.Equations <> ρ:111 var
+R10457:10459 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R10472:10477 QWIRE.Semantics.Denotation <> :::'⟦'_x_'⟧' not
+R10461:10467 QWIRE.Syntax.HOAS.HOASLib <> id_circ def
+R10469:10471 QWIRE.Base.Contexts <> Bit constr
+R10476:10477 QWIRE.Libraries.Equations <> ρ:111 var
+def 10679:10691 <> meas_lift_new
+R10695:10697 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R10699:10703 QWIRE.Base.Contexts <> Qubit constr
+R10705:10707 QWIRE.Base.Contexts <> Bit constr
+R10714:10718 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_x_'⇒'_x not
+R10720:10729 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_x_'⇒'_x not
+binder 10719:10719 <> q:112
+R10730:10734 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R10736:10740 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R10749:10754 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_x_'←'_x_';'_x not
+R10745:10747 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R10741:10744 QWIRE.Base.Contexts <> meas constr
+R10748:10748 QWIRE.Libraries.Equations <> q:112 var
+binder 10735:10735 <> b:113
+R10755:10760 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:'lift_'_x_'←'_x_';'_x not
+R10762:10766 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:'lift_'_x_'←'_x_';'_x not
+R10768:10774 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:'lift_'_x_'←'_x_';'_x not
+R10767:10767 QWIRE.Libraries.Equations <> b:113 var
+binder 10761:10761 <> x:114
+R10780:10782 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R10775:10777 QWIRE.Syntax.HOAS.HOASLib <> new def
+R10779:10779 QWIRE.Libraries.Equations <> x:114 var
+R10783:10784 QWIRE.Typing.TypeChecking <> ::circ_scope:'()' not
+prf 10793:10808 <> meas_lift_new_WT
+R10812:10820 QWIRE.Syntax.HOAS.HOASCircuits <> Typed_Box def
+R10822:10834 QWIRE.Libraries.Equations <> meas_lift_new def
+prf 10868:10884 <> meas_lift_new_new
+R10901:10905 QWIRE.Semantics.Denotation <> ::circ_scope:x_'≡'_x not
+R10888:10900 QWIRE.Libraries.Equations <> meas_lift_new def
+R10906:10915 QWIRE.Syntax.HOAS.HOASLib <> boxed_gate def
+R10917:10920 QWIRE.Base.Contexts <> meas constr
+prf 11228:11238 <> super_super
+binder 11249:11249 <> m:115
+binder 11251:11251 <> n:116
+binder 11253:11253 <> o:117
+R11260:11265 QuantumLib.Matrix <> Matrix def
+R11267:11267 QWIRE.Libraries.Equations <> o:117 var
+R11269:11269 QWIRE.Libraries.Equations <> n:116 var
+binder 11256:11256 <> U:118
+R11277:11282 QuantumLib.Matrix <> Matrix def
+R11284:11284 QWIRE.Libraries.Equations <> n:116 var
+R11286:11286 QWIRE.Libraries.Equations <> m:115 var
+binder 11273:11273 <> V:119
+R11295:11300 QuantumLib.Matrix <> Square abbrev
+R11302:11302 QWIRE.Libraries.Equations <> m:115 var
+R11302:11302 QWIRE.Libraries.Equations <> m:115 var
+binder 11290:11291 <> ρ:120
+R11330:11332 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11310:11314 QuantumLib.Quantum <> super def
+R11319:11323 QuantumLib.Quantum <> super def
+R11327:11328 QWIRE.Libraries.Equations <> ρ:120 var
+R11325:11325 QWIRE.Libraries.Equations <> V:119 var
+R11316:11316 QWIRE.Libraries.Equations <> U:118 var
+R11333:11337 QuantumLib.Quantum <> super def
+R11348:11349 QWIRE.Libraries.Equations <> ρ:120 var
+R11341:11344 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R11340:11340 QWIRE.Libraries.Equations <> U:118 var
+R11345:11345 QWIRE.Libraries.Equations <> V:119 var
+R11391:11395 QuantumLib.Quantum <> super def
+R11425:11435 QuantumLib.Matrix <> Mmult_assoc thm
+R11425:11435 QuantumLib.Matrix <> Mmult_assoc thm
+R11425:11435 QuantumLib.Matrix <> Mmult_assoc thm
+R11425:11435 QuantumLib.Matrix <> Mmult_assoc thm
+R11425:11435 QuantumLib.Matrix <> Mmult_assoc thm
+R11425:11435 QuantumLib.Matrix <> Mmult_assoc thm
+R11425:11435 QuantumLib.Matrix <> Mmult_assoc thm
+R11425:11435 QuantumLib.Matrix <> Mmult_assoc thm
+R11425:11435 QuantumLib.Matrix <> Mmult_assoc thm
+R11425:11435 QuantumLib.Matrix <> Mmult_assoc thm
+R11425:11435 QuantumLib.Matrix <> Mmult_assoc thm
+R11425:11435 QuantumLib.Matrix <> Mmult_assoc thm
+prf 11465:11472 <> super_eq
+binder 11483:11483 <> m:121
+binder 11485:11485 <> n:122
+R11495:11500 QuantumLib.Matrix <> Matrix def
+R11502:11502 QWIRE.Libraries.Equations <> m:121 var
+R11504:11504 QWIRE.Libraries.Equations <> n:122 var
+binder 11488:11488 <> U:123
+binder 11490:11491 <> U':124
+R11517:11522 QuantumLib.Matrix <> Square abbrev
+R11524:11524 QWIRE.Libraries.Equations <> n:122 var
+R11524:11524 QWIRE.Libraries.Equations <> n:122 var
+binder 11508:11509 <> ρ:125
+binder 11511:11513 <> ρ':126
+R11537:11542 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11532:11534 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11531:11531 QWIRE.Libraries.Equations <> U:123 var
+R11535:11536 QWIRE.Libraries.Equations <> U':124 var
+R11551:11556 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11545:11547 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11543:11544 QWIRE.Libraries.Equations <> ρ:125 var
+R11548:11550 QWIRE.Libraries.Equations <> ρ':126 var
+R11567:11569 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11557:11561 QuantumLib.Quantum <> super def
+R11565:11566 QWIRE.Libraries.Equations <> ρ:125 var
+R11563:11563 QWIRE.Libraries.Equations <> U:123 var
+R11570:11574 QuantumLib.Quantum <> super def
+R11579:11581 QWIRE.Libraries.Equations <> ρ':126 var
+R11576:11577 QWIRE.Libraries.Equations <> U':124 var
+def 11629:11631 <> HSH
+R11636:11640 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_x_'⇒'_x not
+R11642:11646 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_x_'⇒'_x not
+binder 11641:11641 <> q:127
+R11649:11651 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R11647:11648 QWIRE.Base.Contexts <> _H constr
+R11654:11656 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R11652:11653 QWIRE.Base.Contexts <> _S abbrev
+R11659:11661 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R11657:11658 QWIRE.Base.Contexts <> _H constr
+R11662:11662 QWIRE.Libraries.Equations <> q:127 var
+def 11677:11681 <> SdHSd
+R11686:11690 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_x_'⇒'_x not
+R11692:11696 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_x_'⇒'_x not
+binder 11691:11691 <> q:128
+R11705:11707 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R11697:11701 QWIRE.Base.Contexts <> trans def
+R11703:11704 QWIRE.Base.Contexts <> _S abbrev
+R11710:11712 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R11708:11709 QWIRE.Base.Contexts <> _H constr
+R11721:11723 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R11713:11717 QWIRE.Base.Contexts <> trans def
+R11719:11720 QWIRE.Base.Contexts <> _S abbrev
+R11724:11724 QWIRE.Libraries.Equations <> q:128 var
+prf 11741:11752 <> HSH_SdHSd_eq
+R11759:11763 QWIRE.Semantics.Denotation <> ::circ_scope:x_'≡'_x not
+R11756:11758 QWIRE.Libraries.Equations <> HSH def
+R11764:11768 QWIRE.Libraries.Equations <> SdHSd def
+R11865:11875 QWIRE.Libraries.Equations <> super_super thm
+R11865:11875 QWIRE.Libraries.Equations <> super_super thm
+R11865:11875 QWIRE.Libraries.Equations <> super_super thm
+R11865:11875 QWIRE.Libraries.Equations <> super_super thm
+R11865:11875 QWIRE.Libraries.Equations <> super_super thm
+R11865:11875 QWIRE.Libraries.Equations <> super_super thm
+R11865:11875 QWIRE.Libraries.Equations <> super_super thm
+R11865:11875 QWIRE.Libraries.Equations <> super_super thm
+R11865:11875 QWIRE.Libraries.Equations <> super_super thm
+R11865:11875 QWIRE.Libraries.Equations <> super_super thm
+R11865:11875 QWIRE.Libraries.Equations <> super_super thm
+R11865:11875 QWIRE.Libraries.Equations <> super_super thm
+R11865:11875 QWIRE.Libraries.Equations <> super_super thm
+R11865:11875 QWIRE.Libraries.Equations <> super_super thm
+R11892:11902 QWIRE.Semantics.Denotation <> WF_Matrix_U thm
+R11904:11905 QWIRE.Base.Contexts <> _S abbrev
+R11892:11902 QWIRE.Semantics.Denotation <> WF_Matrix_U thm
+R11904:11905 QWIRE.Base.Contexts <> _S abbrev
+R11930:11940 QWIRE.Semantics.Denotation <> WF_Matrix_U thm
+R11943:11947 QWIRE.Base.Contexts <> trans def
+R11949:11950 QWIRE.Base.Contexts <> _S abbrev
+R11930:11940 QWIRE.Semantics.Denotation <> WF_Matrix_U thm
+R11943:11947 QWIRE.Base.Contexts <> trans def
+R11949:11950 QWIRE.Base.Contexts <> _S abbrev
+R12267:12271 QuantumLib.Quantum <> super def
+R12302:12309 QuantumLib.Complex <> Cexp_PI2 thm
+R12302:12309 QuantumLib.Complex <> Cexp_PI2 thm
+R12302:12309 QuantumLib.Complex <> Cexp_PI2 thm
+R12323:12326 QuantumLib.Complex <> Cexp def
+R12341:12347 Coq.Reals.Rtrigo1 <> cos_neg thm
+R12350:12356 Coq.Reals.Rtrigo1 <> sin_neg thm
+R12341:12347 Coq.Reals.Rtrigo1 <> cos_neg thm
+R12341:12347 Coq.Reals.Rtrigo1 <> cos_neg thm
+R12350:12356 Coq.Reals.Rtrigo1 <> sin_neg thm
+R12350:12356 Coq.Reals.Rtrigo1 <> sin_neg thm
+R12371:12377 Coq.Reals.Rtrigo1 <> cos_PI2 thm
+R12380:12386 Coq.Reals.Rtrigo1 <> sin_PI2 thm
+R12371:12377 Coq.Reals.Rtrigo1 <> cos_PI2 thm
+R12371:12377 Coq.Reals.Rtrigo1 <> cos_PI2 thm
+R12380:12386 Coq.Reals.Rtrigo1 <> sin_PI2 thm
+R12380:12386 Coq.Reals.Rtrigo1 <> sin_PI2 thm
+R12401:12401 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12403:12403 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12406:12406 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12419:12419 QuantumLib.Complex <> ::C_scope:'-'_x not
+R12420:12421 QuantumLib.Complex <> Ci def
+R12401:12401 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12403:12403 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12406:12406 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12419:12419 QuantumLib.Complex <> ::C_scope:'-'_x not
+R12420:12421 QuantumLib.Complex <> Ci def
+R12451:12468 QuantumLib.Complex <> Cmult_plus_distr_r thm
+R12451:12468 QuantumLib.Complex <> Cmult_plus_distr_r thm
+R12451:12468 QuantumLib.Complex <> Cmult_plus_distr_r thm
+R12451:12468 QuantumLib.Complex <> Cmult_plus_distr_r thm
+R12451:12468 QuantumLib.Complex <> Cmult_plus_distr_r thm
+R12451:12468 QuantumLib.Complex <> Cmult_plus_distr_r thm
+R12451:12468 QuantumLib.Complex <> Cmult_plus_distr_r thm
+R12451:12468 QuantumLib.Complex <> Cmult_plus_distr_r thm
+R12451:12468 QuantumLib.Complex <> Cmult_plus_distr_r thm
+R12451:12468 QuantumLib.Complex <> Cmult_plus_distr_r thm
+R12451:12468 QuantumLib.Complex <> Cmult_plus_distr_r thm
+R12451:12468 QuantumLib.Complex <> Cmult_plus_distr_r thm
+R12451:12468 QuantumLib.Complex <> Cmult_plus_distr_r thm
+R12451:12468 QuantumLib.Complex <> Cmult_plus_distr_r thm
+R12451:12468 QuantumLib.Complex <> Cmult_plus_distr_r thm
+R12451:12468 QuantumLib.Complex <> Cmult_plus_distr_r thm
+R12451:12468 QuantumLib.Complex <> Cmult_plus_distr_r thm
+R12451:12468 QuantumLib.Complex <> Cmult_plus_distr_r thm
+R12451:12468 QuantumLib.Complex <> Cmult_plus_distr_r thm
+R12451:12468 QuantumLib.Complex <> Cmult_plus_distr_r thm
+R12451:12468 QuantumLib.Complex <> Cmult_plus_distr_r thm
+R12451:12468 QuantumLib.Complex <> Cmult_plus_distr_r thm
+R12451:12468 QuantumLib.Complex <> Cmult_plus_distr_r thm
+R12451:12468 QuantumLib.Complex <> Cmult_plus_distr_r thm
+R12451:12468 QuantumLib.Complex <> Cmult_plus_distr_r thm
+R12451:12468 QuantumLib.Complex <> Cmult_plus_distr_r thm
+def 12527:12536 <> HH_CNOT_HH
+R12541:12546 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_'('_x_','_x_')'_'⇒'_x not
+R12549:12549 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_'('_x_','_x_')'_'⇒'_x not
+R12552:12557 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_'('_x_','_x_')'_'⇒'_x not
+binder 12547:12548 <> q1:129
+binder 12550:12551 <> q2:130
+R12558:12558 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R12568:12571 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R12561:12565 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'∥'_x not
+R12559:12560 QWIRE.Base.Contexts <> _H constr
+R12566:12567 QWIRE.Base.Contexts <> _H constr
+R12576:12578 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R12572:12575 QWIRE.Base.Contexts <> CNOT abbrev
+R12579:12579 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R12589:12592 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R12582:12586 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'∥'_x not
+R12580:12581 QWIRE.Base.Contexts <> _H constr
+R12587:12588 QWIRE.Base.Contexts <> _H constr
+R12593:12593 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12596:12597 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12600:12600 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12594:12595 QWIRE.Libraries.Equations <> q1:129 var
+R12598:12599 QWIRE.Libraries.Equations <> q2:130 var
+def 12643:12646 <> NOTC
+R12651:12656 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_'('_x_','_x_')'_'⇒'_x not
+R12659:12659 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_'('_x_','_x_')'_'⇒'_x not
+R12662:12667 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_'('_x_','_x_')'_'⇒'_x not
+binder 12657:12658 <> q1:131
+binder 12660:12661 <> q2:132
+R12668:12673 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R12676:12677 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R12680:12685 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R12701:12702 QWIRE.Typing.TypeChecking <> ::circ_scope:'let_'_'('_x_','_x_')'_'←'_x_';'_x not
+R12690:12692 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R12686:12689 QWIRE.Base.Contexts <> CNOT abbrev
+R12693:12693 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12696:12697 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12700:12700 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12694:12695 QWIRE.Libraries.Equations <> q2:132 var
+R12698:12699 QWIRE.Libraries.Equations <> q1:131 var
+binder 12674:12675 <> q2:133
+binder 12678:12679 <> q1:134
+R12703:12703 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12706:12707 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12710:12710 QWIRE.Typing.TypeChecking <> ::circ_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12704:12705 QWIRE.Libraries.Equations <> q1:134 var
+R12708:12709 QWIRE.Libraries.Equations <> q2:133 var
+prf 12720:12737 <> HH_CNOT_HH_eq_NOTC
+R12751:12755 QWIRE.Semantics.Denotation <> ::circ_scope:x_'≡'_x not
+R12741:12750 QWIRE.Libraries.Equations <> HH_CNOT_HH def
+R12756:12759 QWIRE.Libraries.Equations <> NOTC def
+R12856:12866 QWIRE.Libraries.Equations <> super_super thm
+R12856:12866 QWIRE.Libraries.Equations <> super_super thm
+R12856:12866 QWIRE.Libraries.Equations <> super_super thm
+R12856:12866 QWIRE.Libraries.Equations <> super_super thm
+R12856:12866 QWIRE.Libraries.Equations <> super_super thm
+R12856:12866 QWIRE.Libraries.Equations <> super_super thm
+R12856:12866 QWIRE.Libraries.Equations <> super_super thm
+R12856:12866 QWIRE.Libraries.Equations <> super_super thm
+R12856:12866 QWIRE.Libraries.Equations <> super_super thm
+R12856:12866 QWIRE.Libraries.Equations <> super_super thm
+R12856:12866 QWIRE.Libraries.Equations <> super_super thm
+R12856:12866 QWIRE.Libraries.Equations <> super_super thm
+R12856:12866 QWIRE.Libraries.Equations <> super_super thm
+R12856:12866 QWIRE.Libraries.Equations <> super_super thm
+R12887:12894 QWIRE.Libraries.Equations <> super_eq thm
+R12887:12894 QWIRE.Libraries.Equations <> super_eq thm
+def 13084:13086 <> HZH
+R13090:13092 QWIRE.Syntax.HOAS.HOASCircuits <> Box ind
+R13094:13098 QWIRE.Base.Contexts <> Qubit constr
+R13100:13104 QWIRE.Base.Contexts <> Qubit constr
+R13112:13116 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_x_'⇒'_x not
+R13118:13122 QWIRE.Typing.TypeChecking <> ::circ_scope:'box_'_x_'⇒'_x not
+binder 13117:13117 <> q:135
+R13125:13127 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R13123:13124 QWIRE.Base.Contexts <> _H constr
+R13130:13132 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R13128:13129 QWIRE.Base.Contexts <> _Z constr
+R13135:13137 QWIRE.Syntax.HOAS.HOASLib <> ::circ_scope:x_'$'_x not
+R13133:13134 QWIRE.Base.Contexts <> _H constr
+R13138:13138 QWIRE.Libraries.Equations <> q:135 var
+prf 13148:13152 <> HZH_X
+R13159:13163 QWIRE.Semantics.Denotation <> ::circ_scope:x_'≡'_x not
+R13156:13158 QWIRE.Libraries.Equations <> HZH def
+R13164:13165 QWIRE.Base.Contexts <> _X constr
+R13238:13250 QuantumLib.Quantum <> σx_hermitian thm
+R13253:13265 QuantumLib.Quantum <> σz_hermitian thm
+R13268:13285 QuantumLib.Quantum <> hadamard_hermitian thm
+R13238:13250 QuantumLib.Quantum <> σx_hermitian thm
+R13238:13250 QuantumLib.Quantum <> σx_hermitian thm
+R13253:13265 QuantumLib.Quantum <> σz_hermitian thm
+R13253:13265 QuantumLib.Quantum <> σz_hermitian thm
+R13268:13285 QuantumLib.Quantum <> hadamard_hermitian thm
+R13268:13285 QuantumLib.Quantum <> hadamard_hermitian thm
+R13308:13318 QuantumLib.Matrix <> Mmult_assoc thm
+R13308:13318 QuantumLib.Matrix <> Mmult_assoc thm
+R13308:13318 QuantumLib.Matrix <> Mmult_assoc thm
+R13308:13318 QuantumLib.Matrix <> Mmult_assoc thm
+R13308:13318 QuantumLib.Matrix <> Mmult_assoc thm
+R13308:13318 QuantumLib.Matrix <> Mmult_assoc thm
+R13308:13318 QuantumLib.Matrix <> Mmult_assoc thm
+R13308:13318 QuantumLib.Matrix <> Mmult_assoc thm
+R13308:13318 QuantumLib.Matrix <> Mmult_assoc thm
+R13308:13318 QuantumLib.Matrix <> Mmult_assoc thm
+R13332:13342 QuantumLib.Matrix <> Mmult_assoc thm
+R13348:13355 QuantumLib.Quantum <> hadamard def
+R13332:13342 QuantumLib.Matrix <> Mmult_assoc thm
+R13348:13355 QuantumLib.Quantum <> hadamard def
+R13332:13342 QuantumLib.Matrix <> Mmult_assoc thm
+R13348:13355 QuantumLib.Quantum <> hadamard def
+R13370:13380 QuantumLib.Matrix <> Mmult_assoc thm
+R13384:13391 QuantumLib.Quantum <> hadamard def
+R13370:13380 QuantumLib.Matrix <> Mmult_assoc thm
+R13384:13391 QuantumLib.Quantum <> hadamard def
+R13370:13380 QuantumLib.Matrix <> Mmult_assoc thm
+R13384:13391 QuantumLib.Quantum <> hadamard def
+R13409:13419 QuantumLib.Matrix <> Mmult_assoc thm
+R13421:13428 QuantumLib.Quantum <> hadamard def
+R13409:13419 QuantumLib.Matrix <> Mmult_assoc thm
+R13421:13428 QuantumLib.Quantum <> hadamard def
+R13409:13419 QuantumLib.Matrix <> Mmult_assoc thm
+R13421:13428 QuantumLib.Quantum <> hadamard def
+R13458:13461 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R13451:13454 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R13443:13450 QuantumLib.Quantum <> hadamard def
+R13455:13457 QuantumLib.Quantum <> σz def
+R13462:13469 QuantumLib.Quantum <> hadamard def
+R13477:13479 QuantumLib.Quantum <> σx def
+R13458:13461 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R13451:13454 QuantumLib.Matrix <> ::matrix_scope:x_'×'_x not
+R13443:13450 QuantumLib.Quantum <> hadamard def
+R13455:13457 QuantumLib.Quantum <> σz def
+R13462:13469 QuantumLib.Quantum <> hadamard def
+R13477:13479 QuantumLib.Quantum <> σx def

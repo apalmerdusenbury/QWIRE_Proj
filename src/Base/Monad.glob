@@ -1,0 +1,1833 @@
+DIGEST f2d0c37aa5d91abf80f5c09ecf7aa5d9
+FQWIRE.Base.Monad
+R39:42 Coq.Lists.List <> <> lib
+binder 112:112 <> x:1
+R122:122 QWIRE.Base.Monad <> x:1 var
+not 94:94 <> :::x_'∘'_x
+rec 168:174 <> Functor
+proj 207:210 <> fmap
+R185:188 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 177:177 <> f:2
+binder 230:230 <> A:4
+binder 232:232 <> B:5
+R236:236 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R243:247 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R238:241 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R237:237 QWIRE.Base.Monad <> A:4 var
+R242:242 QWIRE.Base.Monad <> B:5 var
+R251:254 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R248:248 QWIRE.Base.Monad <> f:2 var
+R250:250 QWIRE.Base.Monad <> A:4 var
+R255:255 QWIRE.Base.Monad <> f:2 var
+R257:257 QWIRE.Base.Monad <> B:5 var
+rec 269:283 <> Functor_Correct
+proj 326:332 <> fmap_id
+proj 390:401 <> fmap_compose
+R294:297 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 286:286 <> f:7
+R310:316 QWIRE.Base.Monad <> Functor class
+R318:318 QWIRE.Base.Monad <> f:7 var
+binder 306:306 <> F:8
+binder 348:348 <> A:10
+R371:374 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R385:385 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R351:354 QWIRE.Base.Monad <> fmap meth
+R364:364 QWIRE.Base.Monad <> A:10 var
+binder 362:362 <> x:11
+R369:369 QWIRE.Base.Monad <> x:11 var
+binder 379:379 <> x:12
+R384:384 QWIRE.Base.Monad <> x:12 var
+binder 412:412 <> A:14
+binder 414:414 <> B:15
+binder 416:416 <> C:16
+R424:427 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R423:423 QWIRE.Base.Monad <> A:14 var
+R428:428 QWIRE.Base.Monad <> B:15 var
+binder 419:419 <> g:17
+R437:440 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R436:436 QWIRE.Base.Monad <> B:15 var
+R441:441 QWIRE.Base.Monad <> C:16 var
+binder 432:432 <> f:18
+R477:479 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R463:466 QWIRE.Base.Monad <> fmap meth
+R470:474 QWIRE.Base.Monad <> :::x_'∘'_x not
+R475:475 QWIRE.Base.Monad <> g:17 var
+R469:469 QWIRE.Base.Monad <> f:18 var
+R486:490 QWIRE.Base.Monad <> :::x_'∘'_x not
+R491:494 QWIRE.Base.Monad <> fmap meth
+R496:496 QWIRE.Base.Monad <> g:17 var
+R480:483 QWIRE.Base.Monad <> fmap meth
+R485:485 QWIRE.Base.Monad <> f:18 var
+rec 507:517 <> Applicative
+proj 567:570 <> pure
+proj 598:602 <> liftA
+R528:531 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 520:520 <> f:20
+R544:550 QWIRE.Base.Monad <> Functor class
+R552:552 QWIRE.Base.Monad <> f:20 var
+binder 540:540 <> F:21
+binder 582:582 <> A:23
+R587:590 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R586:586 QWIRE.Base.Monad <> A:23 var
+R591:591 QWIRE.Base.Monad <> f:20 var
+R593:593 QWIRE.Base.Monad <> A:23 var
+binder 614:614 <> A:25
+binder 616:616 <> B:26
+R630:633 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R620:620 QWIRE.Base.Monad <> f:20 var
+R624:627 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R623:623 QWIRE.Base.Monad <> A:25 var
+R628:628 QWIRE.Base.Monad <> B:26 var
+R637:640 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R634:634 QWIRE.Base.Monad <> f:20 var
+R636:636 QWIRE.Base.Monad <> A:25 var
+R641:641 QWIRE.Base.Monad <> f:20 var
+R643:643 QWIRE.Base.Monad <> B:26 var
+R671:675 QWIRE.Base.Monad <> liftA meth
+not 657:657 <> :::x_'<*>'_x
+rec 725:743 <> Applicative_Correct
+proj 786:799 <> applicative_id
+proj 863:885 <> applicative_composition
+proj 1027:1050 <> applicative_homomorphism
+proj 1127:1149 <> applicative_interchange
+R754:757 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 746:746 <> f:28
+R766:776 QWIRE.Base.Monad <> Applicative class
+R778:778 QWIRE.Base.Monad <> f:28 var
+binder 766:778 <> H:30
+binder 810:810 <> A:32
+R843:846 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R858:858 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R813:817 QWIRE.Base.Monad <> liftA meth
+R820:823 QWIRE.Base.Monad <> pure meth
+R834:834 QWIRE.Base.Monad <> A:32 var
+binder 832:832 <> x:33
+R840:840 QWIRE.Base.Monad <> x:33 var
+binder 852:852 <> x:34
+R857:857 QWIRE.Base.Monad <> x:34 var
+binder 897:897 <> A:36
+binder 899:899 <> B:37
+binder 901:901 <> C:38
+R909:909 QWIRE.Base.Monad <> f:28 var
+R913:916 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R912:912 QWIRE.Base.Monad <> B:37 var
+R917:917 QWIRE.Base.Monad <> C:38 var
+binder 905:905 <> u:39
+R926:926 QWIRE.Base.Monad <> f:28 var
+R930:933 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R929:929 QWIRE.Base.Monad <> A:36 var
+R934:934 QWIRE.Base.Monad <> B:37 var
+binder 922:922 <> v:40
+R943:943 QWIRE.Base.Monad <> f:28 var
+R945:945 QWIRE.Base.Monad <> A:36 var
+binder 939:939 <> w:41
+R1005:1007 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R999:1003 QWIRE.Base.Monad <> :::x_'<*>'_x not
+R993:997 QWIRE.Base.Monad <> :::x_'<*>'_x not
+R987:991 QWIRE.Base.Monad <> :::x_'<*>'_x not
+R953:956 QWIRE.Base.Monad <> pure meth
+binder 964:964 <> x:42
+binder 974:974 <> y:43
+R980:984 QWIRE.Base.Monad <> :::x_'∘'_x not
+R985:985 QWIRE.Base.Monad <> y:43 var
+R979:979 QWIRE.Base.Monad <> x:42 var
+R992:992 QWIRE.Base.Monad <> u:39 var
+R998:998 QWIRE.Base.Monad <> v:40 var
+R1004:1004 QWIRE.Base.Monad <> w:41 var
+R1009:1014 QWIRE.Base.Monad <> :::x_'<*>'_x not
+R1022:1022 QWIRE.Base.Monad <> :::x_'<*>'_x not
+R1008:1008 QWIRE.Base.Monad <> u:39 var
+R1016:1020 QWIRE.Base.Monad <> :::x_'<*>'_x not
+R1015:1015 QWIRE.Base.Monad <> v:40 var
+R1021:1021 QWIRE.Base.Monad <> w:41 var
+binder 1062:1062 <> A:45
+binder 1064:1064 <> B:46
+R1073:1076 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1072:1072 QWIRE.Base.Monad <> A:45 var
+R1077:1077 QWIRE.Base.Monad <> B:46 var
+binder 1068:1068 <> f:47
+R1085:1085 QWIRE.Base.Monad <> A:45 var
+binder 1081:1081 <> x:48
+R1110:1112 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1099:1103 QWIRE.Base.Monad <> :::x_'<*>'_x not
+R1093:1096 QWIRE.Base.Monad <> pure meth
+R1098:1098 QWIRE.Base.Monad <> f:47 var
+R1104:1107 QWIRE.Base.Monad <> pure meth
+R1109:1109 QWIRE.Base.Monad <> x:48 var
+R1113:1116 QWIRE.Base.Monad <> pure meth
+R1119:1119 QWIRE.Base.Monad <> f:47 var
+R1121:1121 QWIRE.Base.Monad <> x:48 var
+binder 1161:1161 <> A:50
+binder 1163:1163 <> B:51
+R1171:1171 QWIRE.Base.Monad <> f:28 var
+R1175:1178 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1174:1174 QWIRE.Base.Monad <> A:50 var
+R1179:1179 QWIRE.Base.Monad <> B:51 var
+binder 1167:1167 <> u:52
+R1188:1188 QWIRE.Base.Monad <> A:50 var
+binder 1184:1184 <> y:53
+R1208:1210 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1197:1201 QWIRE.Base.Monad <> :::x_'<*>'_x not
+R1196:1196 QWIRE.Base.Monad <> u:52 var
+R1202:1205 QWIRE.Base.Monad <> pure meth
+R1207:1207 QWIRE.Base.Monad <> y:53 var
+R1230:1234 QWIRE.Base.Monad <> :::x_'<*>'_x not
+R1211:1214 QWIRE.Base.Monad <> pure meth
+binder 1221:1221 <> x:54
+R1226:1226 QWIRE.Base.Monad <> x:54 var
+R1228:1228 QWIRE.Base.Monad <> y:53 var
+R1235:1235 QWIRE.Base.Monad <> u:52 var
+rec 1247:1251 <> Monad
+proj 1304:1307 <> bind
+R1261:1264 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 1254:1254 <> m:56
+R1277:1287 QWIRE.Base.Monad <> Applicative class
+R1289:1289 QWIRE.Base.Monad <> m:56 var
+binder 1273:1273 <> M:58
+binder 1318:1318 <> A:60
+R1325:1328 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1322:1322 QWIRE.Base.Monad <> m:56 var
+R1324:1324 QWIRE.Base.Monad <> A:60 var
+binder 1337:1337 <> B:61
+R1341:1341 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1350:1354 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1343:1346 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1342:1342 QWIRE.Base.Monad <> A:60 var
+R1347:1347 QWIRE.Base.Monad <> m:56 var
+R1349:1349 QWIRE.Base.Monad <> B:61 var
+R1355:1355 QWIRE.Base.Monad <> m:56 var
+R1357:1357 QWIRE.Base.Monad <> B:61 var
+def 1373:1379 <> return_
+R1390:1393 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 1382:1382 <> m:63
+R1406:1410 QWIRE.Base.Monad <> Monad class
+R1412:1412 QWIRE.Base.Monad <> m:63 var
+binder 1402:1402 <> M:66
+binder 1416:1416 <> A:67
+R1429:1432 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1428:1428 QWIRE.Base.Monad <> A:67 var
+R1433:1433 QWIRE.Base.Monad <> m:63 var
+R1435:1435 QWIRE.Base.Monad <> A:67 var
+R1440:1443 QWIRE.Base.Monad <> pure meth
+R1469:1472 QWIRE.Base.Monad <> bind meth
+not 1455:1455 <> :::x_'>>='_x
+R1537:1540 QWIRE.Base.Monad <> bind meth
+R1542:1548 QWIRE.Base.Monad <> return_ def
+rec 1569:1581 <> Monad_Correct
+proj 1624:1638 <> bind_right_unit
+proj 1681:1694 <> bind_left_unit
+proj 1768:1785 <> bind_associativity
+R1592:1595 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 1584:1584 <> m:68
+R1608:1612 QWIRE.Base.Monad <> Monad class
+R1614:1614 QWIRE.Base.Monad <> m:68 var
+binder 1604:1604 <> M:71
+binder 1648:1648 <> A:73
+R1654:1654 QWIRE.Base.Monad <> m:68 var
+R1656:1656 QWIRE.Base.Monad <> A:73 var
+binder 1651:1651 <> a:74
+R1661:1663 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1660:1660 QWIRE.Base.Monad <> a:74 var
+R1665:1669 QWIRE.Base.Monad <> :::x_'>>='_x not
+R1664:1664 QWIRE.Base.Monad <> a:74 var
+R1670:1676 QWIRE.Base.Monad <> return_ def
+binder 1704:1704 <> A:76
+R1710:1710 QWIRE.Base.Monad <> A:76 var
+binder 1707:1707 <> a:77
+binder 1713:1713 <> B:78
+R1720:1723 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1719:1719 QWIRE.Base.Monad <> A:76 var
+R1724:1724 QWIRE.Base.Monad <> m:68 var
+R1726:1726 QWIRE.Base.Monad <> B:78 var
+binder 1716:1716 <> f:79
+R1746:1748 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1743:1743 QWIRE.Base.Monad <> f:79 var
+R1745:1745 QWIRE.Base.Monad <> a:77 var
+R1758:1762 QWIRE.Base.Monad <> :::x_'>>='_x not
+R1749:1755 QWIRE.Base.Monad <> return_ def
+R1757:1757 QWIRE.Base.Monad <> a:77 var
+R1763:1763 QWIRE.Base.Monad <> f:79 var
+binder 1795:1795 <> A:81
+R1802:1802 QWIRE.Base.Monad <> m:68 var
+R1804:1804 QWIRE.Base.Monad <> A:81 var
+binder 1798:1799 <> ma:82
+binder 1807:1807 <> B:83
+binder 1809:1809 <> f:84
+binder 1811:1811 <> C:85
+R1818:1821 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1817:1817 QWIRE.Base.Monad <> B:83 var
+R1822:1822 QWIRE.Base.Monad <> m:68 var
+R1824:1824 QWIRE.Base.Monad <> C:85 var
+binder 1814:1814 <> g:86
+R1873:1875 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1845:1848 QWIRE.Base.Monad <> bind meth
+binder 1859:1859 <> x:87
+R1866:1870 QWIRE.Base.Monad <> :::x_'>>='_x not
+R1863:1863 QWIRE.Base.Monad <> f:84 var
+R1865:1865 QWIRE.Base.Monad <> x:87 var
+R1871:1871 QWIRE.Base.Monad <> g:86 var
+R1850:1851 QWIRE.Base.Monad <> ma:82 var
+R1876:1876 QWIRE.Base.Monad <> :::x_'>>='_x not
+R1885:1890 QWIRE.Base.Monad <> :::x_'>>='_x not
+R1879:1883 QWIRE.Base.Monad <> :::x_'>>='_x not
+R1877:1878 QWIRE.Base.Monad <> ma:82 var
+R1884:1884 QWIRE.Base.Monad <> f:84 var
+R1891:1891 QWIRE.Base.Monad <> g:86 var
+R1907:1913 QWIRE.Base.Monad <> Functor class
+R1937:1951 QWIRE.Base.Monad <> Functor_Correct class
+R1937:1951 QWIRE.Base.Monad <> Functor_Correct class
+R1970:1980 QWIRE.Base.Monad <> Applicative class
+R1970:1980 QWIRE.Base.Monad <> Applicative class
+R1999:2017 QWIRE.Base.Monad <> Applicative_Correct class
+R1999:2017 QWIRE.Base.Monad <> Applicative_Correct class
+R2049:2053 QWIRE.Base.Monad <> Monad class
+R2049:2053 QWIRE.Base.Monad <> Monad class
+R2076:2088 QWIRE.Base.Monad <> Monad_Correct class
+R2076:2088 QWIRE.Base.Monad <> Monad_Correct class
+sec 2123:2139 <> monadic_functions
+var 2152:2152 monadic_functions m
+R2160:2163 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+var 2181:2181 monadic_functions F
+R2185:2191 QWIRE.Base.Monad <> Functor class
+R2193:2193 QWIRE.Base.Monad <> monadic_functions.m var
+var 2206:2206 monadic_functions A
+R2210:2220 QWIRE.Base.Monad <> Applicative class
+R2222:2222 QWIRE.Base.Monad <> monadic_functions.m var
+var 2235:2235 monadic_functions M
+R2239:2243 QWIRE.Base.Monad <> Monad class
+R2245:2245 QWIRE.Base.Monad <> monadic_functions.m var
+def 2261:2265 <> wbind
+binder 2268:2268 <> A:93
+R2282:2282 QWIRE.Base.Monad <> monadic_functions.m var
+R2284:2284 QWIRE.Base.Monad <> A:93 var
+binder 2278:2279 <> ma:94
+binder 2288:2288 <> B:95
+R2302:2302 QWIRE.Base.Monad <> monadic_functions.m var
+R2304:2304 QWIRE.Base.Monad <> B:95 var
+binder 2298:2299 <> mb:96
+R2313:2317 QWIRE.Base.Monad <> :::x_'>>='_x not
+R2311:2312 QWIRE.Base.Monad <> ma:94 var
+R2326:2327 QWIRE.Base.Monad <> mb:96 var
+def 2343:2347 <> liftM
+binder 2350:2350 <> A:97
+binder 2352:2352 <> B:98
+R2366:2367 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2365:2365 QWIRE.Base.Monad <> A:97 var
+R2368:2368 QWIRE.Base.Monad <> B:98 var
+binder 2362:2362 <> f:99
+R2376:2376 QWIRE.Base.Monad <> monadic_functions.m var
+R2378:2378 QWIRE.Base.Monad <> A:97 var
+binder 2372:2373 <> ma:100
+R2382:2382 QWIRE.Base.Monad <> monadic_functions.m var
+R2384:2384 QWIRE.Base.Monad <> B:98 var
+R2392:2397 QWIRE.Base.Monad <> :::x_'>>='_x not
+R2421:2421 QWIRE.Base.Monad <> :::x_'>>='_x not
+R2390:2391 QWIRE.Base.Monad <> ma:100 var
+binder 2403:2403 <> a:101
+R2408:2414 QWIRE.Base.Monad <> return_ def
+R2417:2417 QWIRE.Base.Monad <> f:99 var
+R2419:2419 QWIRE.Base.Monad <> a:101 var
+def 2437:2440 <> join
+binder 2443:2443 <> A:102
+R2458:2458 QWIRE.Base.Monad <> monadic_functions.m var
+R2461:2461 QWIRE.Base.Monad <> monadic_functions.m var
+R2463:2463 QWIRE.Base.Monad <> A:102 var
+binder 2453:2455 <> mma:103
+R2468:2468 QWIRE.Base.Monad <> monadic_functions.m var
+R2470:2470 QWIRE.Base.Monad <> A:102 var
+R2479:2484 QWIRE.Base.Monad <> :::x_'>>='_x not
+R2498:2498 QWIRE.Base.Monad <> :::x_'>>='_x not
+R2476:2478 QWIRE.Base.Monad <> mma:103 var
+binder 2490:2491 <> ma:104
+R2496:2497 QWIRE.Base.Monad <> ma:104 var
+R2506:2522 QWIRE.Base.Monad monadic_functions <> sec
+R2548:2552 QWIRE.Base.Monad <> wbind def
+not 2535:2535 <> :::x_'>>'_x
+R2629:2634 QWIRE.Base.Monad <> :::x_'>>='_x not
+R2646:2646 QWIRE.Base.Monad <> :::x_'>>='_x not
+binder 2640:2640 <> a:105
+not 2605:2605 <> :::'do'_x_'←'_x_';'_x
+def 2696:2700 <> foldM
+binder 2703:2703 <> A:106
+binder 2705:2705 <> B:107
+binder 2707:2707 <> m:108
+R2712:2716 QWIRE.Base.Monad <> Monad class
+R2718:2718 QWIRE.Base.Monad <> m:108 var
+binder 2712:2718 <> H:111
+R2743:2746 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2742:2742 QWIRE.Base.Monad <> B:107 var
+R2748:2751 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2747:2747 QWIRE.Base.Monad <> A:106 var
+R2752:2752 QWIRE.Base.Monad <> m:108 var
+R2754:2754 QWIRE.Base.Monad <> B:107 var
+binder 2738:2738 <> f:112
+R2762:2762 QWIRE.Base.Monad <> B:107 var
+binder 2758:2758 <> b:113
+R2771:2774 Coq.Init.Datatypes <> list ind
+R2776:2776 QWIRE.Base.Monad <> A:106 var
+binder 2766:2767 <> ls:114
+R2781:2781 QWIRE.Base.Monad <> m:108 var
+R2783:2783 QWIRE.Base.Monad <> B:107 var
+R2796:2797 QWIRE.Base.Monad <> ls:114 var
+R2808:2810 Coq.Init.Datatypes <> nil constr
+R2820:2826 QWIRE.Base.Monad <> return_ def
+R2828:2828 QWIRE.Base.Monad <> b:113 var
+R2835:2838 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2846:2848 QWIRE.Base.Monad <> :::'do'_x_'←'_x_';'_x not
+R2850:2854 QWIRE.Base.Monad <> :::'do'_x_'←'_x_';'_x not
+R2860:2877 QWIRE.Base.Monad <> :::'do'_x_'←'_x_';'_x not
+R2855:2855 QWIRE.Base.Monad <> f:112 var
+R2857:2857 QWIRE.Base.Monad <> b:113 var
+binder 2849:2849 <> y:117
+R2878:2882 QWIRE.Base.Monad <> foldM:115 def
+R2886:2886 QWIRE.Base.Monad <> y:117 var
+R2884:2884 QWIRE.Base.Monad <> f:112 var
+R2921:2925 QWIRE.Base.Monad <> foldM def
+prf 2946:2958 <> fmap_compose'
+binder 2961:2961 <> f:118
+R2969:2975 QWIRE.Base.Monad <> Functor class
+R2977:2977 QWIRE.Base.Monad <> f:118 var
+binder 2965:2965 <> F:119
+R2982:2996 QWIRE.Base.Monad <> Functor_Correct class
+R2998:2998 QWIRE.Base.Monad <> f:118 var
+binder 2982:2998 <> H:121
+binder 3016:3016 <> A:122
+binder 3018:3018 <> B:123
+binder 3020:3020 <> C:124
+R3029:3032 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3028:3028 QWIRE.Base.Monad <> A:122 var
+R3033:3033 QWIRE.Base.Monad <> B:123 var
+binder 3024:3024 <> g:125
+R3042:3045 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3041:3041 QWIRE.Base.Monad <> B:123 var
+R3046:3046 QWIRE.Base.Monad <> C:124 var
+binder 3037:3037 <> h:126
+R3054:3054 QWIRE.Base.Monad <> f:118 var
+R3056:3056 QWIRE.Base.Monad <> A:122 var
+binder 3050:3050 <> a:127
+R3081:3083 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3064:3067 QWIRE.Base.Monad <> fmap meth
+R3072:3075 QWIRE.Base.Monad <> fmap meth
+R3079:3079 QWIRE.Base.Monad <> a:127 var
+R3077:3077 QWIRE.Base.Monad <> g:125 var
+R3069:3069 QWIRE.Base.Monad <> h:126 var
+R3084:3087 QWIRE.Base.Monad <> fmap meth
+R3099:3099 QWIRE.Base.Monad <> a:127 var
+R3091:3095 QWIRE.Base.Monad <> :::x_'∘'_x not
+R3096:3096 QWIRE.Base.Monad <> g:125 var
+R3090:3090 QWIRE.Base.Monad <> h:126 var
+R3130:3141 QWIRE.Base.Monad <> fmap_compose meth
+R3130:3141 QWIRE.Base.Monad <> fmap_compose meth
+R3130:3141 QWIRE.Base.Monad <> fmap_compose meth
+R3188:3194 Coq.Program.Program <> <> lib
+prf 3203:3209 <> bind_eq
+binder 3221:3221 <> A:128
+binder 3223:3223 <> B:129
+binder 3225:3225 <> m:130
+R3230:3234 QWIRE.Base.Monad <> Monad class
+R3236:3236 QWIRE.Base.Monad <> m:130 var
+binder 3230:3236 <> H:133
+R3247:3247 QWIRE.Base.Monad <> m:130 var
+R3249:3249 QWIRE.Base.Monad <> A:128 var
+binder 3240:3240 <> a:134
+binder 3242:3243 <> a':135
+R3261:3264 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3260:3260 QWIRE.Base.Monad <> A:128 var
+R3265:3265 QWIRE.Base.Monad <> m:130 var
+R3267:3267 QWIRE.Base.Monad <> B:129 var
+binder 3253:3253 <> f:136
+binder 3255:3256 <> f':137
+R3283:3292 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3278:3280 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3277:3277 QWIRE.Base.Monad <> a:134 var
+R3281:3282 QWIRE.Base.Monad <> a':135 var
+R3293:3293 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3314:3324 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 3301:3301 <> x:138
+R3307:3309 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3304:3304 QWIRE.Base.Monad <> f:136 var
+R3306:3306 QWIRE.Base.Monad <> x:138 var
+R3310:3311 QWIRE.Base.Monad <> f':137 var
+R3313:3313 QWIRE.Base.Monad <> x:138 var
+R3333:3335 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3325:3328 QWIRE.Base.Monad <> bind meth
+R3332:3332 QWIRE.Base.Monad <> f:136 var
+R3330:3330 QWIRE.Base.Monad <> a:134 var
+R3336:3339 QWIRE.Base.Monad <> bind meth
+R3344:3345 QWIRE.Base.Monad <> f':137 var
+R3341:3342 QWIRE.Base.Monad <> a':135 var
+R3391:3415 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R3391:3415 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R3511:3513 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3493:3496 QWIRE.Base.Monad <> bind meth
+R3499:3505 QWIRE.Base.Monad <> return_ def
+R3511:3513 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3493:3496 QWIRE.Base.Monad <> bind meth
+R3499:3505 QWIRE.Base.Monad <> return_ def
+R3573:3575 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3556:3559 QWIRE.Base.Monad <> bind meth
+R3562:3565 QWIRE.Base.Monad <> bind meth
+R3573:3575 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3556:3559 QWIRE.Base.Monad <> bind meth
+R3562:3565 QWIRE.Base.Monad <> bind meth
+R3624:3626 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3624:3626 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3682:3684 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3672:3675 QWIRE.Base.Monad <> bind meth
+R3682:3684 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3672:3675 QWIRE.Base.Monad <> bind meth
+R3709:3715 QWIRE.Base.Monad <> bind_eq thm
+R3595:3612 QWIRE.Base.Monad <> bind_associativity meth
+R3532:3545 QWIRE.Base.Monad <> bind_left_unit meth
+R3871:3876 Coq.Init.Logic <> eq_sym thm
+R3909:3914 Coq.Init.Logic <> eq_sym thm
+R3980:3982 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3971:3974 QWIRE.Base.Monad <> bind meth
+R3983:3986 QWIRE.Base.Monad <> bind meth
+R3980:3982 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3971:3974 QWIRE.Base.Monad <> bind meth
+R3983:3986 QWIRE.Base.Monad <> bind meth
+R4004:4010 QWIRE.Base.Monad <> bind_eq thm
+prf 4075:4078 <> test
+R4100:4103 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 4092:4092 <> m:139
+R4124:4130 QWIRE.Base.Monad <> Functor class
+R4132:4132 QWIRE.Base.Monad <> m:139 var
+binder 4120:4120 <> F:140
+R4150:4160 QWIRE.Base.Monad <> Applicative class
+R4162:4162 QWIRE.Base.Monad <> m:139 var
+binder 4145:4146 <> A0:141
+R4180:4184 QWIRE.Base.Monad <> Monad class
+R4186:4186 QWIRE.Base.Monad <> m:139 var
+binder 4175:4176 <> M0:142
+R4204:4216 QWIRE.Base.Monad <> Monad_Correct class
+R4218:4218 QWIRE.Base.Monad <> m:139 var
+binder 4199:4200 <> MC:143
+R4239:4239 QWIRE.Base.Monad <> m:139 var
+R4241:4244 Coq.Init.Datatypes <> unit ind
+binder 4231:4231 <> a:144
+binder 4233:4233 <> b:145
+binder 4235:4235 <> c:146
+R4278:4282 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4252:4254 QWIRE.Base.Monad <> :::'do'_x_'←'_x_';'_x not
+R4256:4260 QWIRE.Base.Monad <> :::'do'_x_'←'_x_';'_x not
+R4262:4263 QWIRE.Base.Monad <> :::'do'_x_'←'_x_';'_x not
+R4261:4261 QWIRE.Base.Monad <> a:144 var
+binder 4255:4255 <> x:147
+R4264:4266 QWIRE.Base.Monad <> :::'do'_x_'←'_x_';'_x not
+R4268:4272 QWIRE.Base.Monad <> :::'do'_x_'←'_x_';'_x not
+R4274:4276 QWIRE.Base.Monad <> :::'do'_x_'←'_x_';'_x not
+R4273:4273 QWIRE.Base.Monad <> b:145 var
+binder 4267:4267 <> y:148
+R4277:4277 QWIRE.Base.Monad <> c:146 var
+R4283:4285 QWIRE.Base.Monad <> :::'do'_x_'←'_x_';'_x not
+R4287:4292 QWIRE.Base.Monad <> :::'do'_x_'←'_x_';'_x not
+R4306:4308 QWIRE.Base.Monad <> :::'do'_x_'←'_x_';'_x not
+R4293:4295 QWIRE.Base.Monad <> :::'do'_x_'←'_x_';'_x not
+R4297:4301 QWIRE.Base.Monad <> :::'do'_x_'←'_x_';'_x not
+R4303:4304 QWIRE.Base.Monad <> :::'do'_x_'←'_x_';'_x not
+R4302:4302 QWIRE.Base.Monad <> a:144 var
+binder 4296:4296 <> x:149
+R4305:4305 QWIRE.Base.Monad <> b:145 var
+binder 4286:4286 <> y:150
+R4309:4309 QWIRE.Base.Monad <> c:146 var
+R4409:4431 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4358:4361 QWIRE.Base.Monad <> bind meth
+R4374:4377 Coq.Init.Datatypes <> unit ind
+R4382:4385 QWIRE.Base.Monad <> bind meth
+R4398:4401 Coq.Init.Datatypes <> unit ind
+R4432:4435 QWIRE.Base.Monad <> bind meth
+R4475:4478 Coq.Init.Datatypes <> unit ind
+R4438:4441 QWIRE.Base.Monad <> bind meth
+R4454:4457 Coq.Init.Datatypes <> unit ind
+R4409:4431 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4358:4361 QWIRE.Base.Monad <> bind meth
+R4374:4377 Coq.Init.Datatypes <> unit ind
+R4382:4385 QWIRE.Base.Monad <> bind meth
+R4398:4401 Coq.Init.Datatypes <> unit ind
+R4432:4435 QWIRE.Base.Monad <> bind meth
+R4475:4478 Coq.Init.Datatypes <> unit ind
+R4438:4441 QWIRE.Base.Monad <> bind meth
+R4454:4457 Coq.Init.Datatypes <> unit ind
+R4496:4513 QWIRE.Base.Monad <> bind_associativity meth
+R4496:4513 QWIRE.Base.Monad <> bind_associativity meth
+def 4615:4623 <> list_fmap
+R4628:4630 Coq.Lists.List <> map def
+R4656:4664 QWIRE.Base.Monad <> list_fmap def
+def 4688:4693 <> concat
+binder 4696:4696 <> A:151
+R4705:4708 Coq.Init.Datatypes <> list ind
+R4711:4714 Coq.Init.Datatypes <> list ind
+R4716:4716 QWIRE.Base.Monad <> A:151 var
+binder 4700:4701 <> xs:152
+R4722:4725 Coq.Init.Datatypes <> list ind
+R4727:4727 QWIRE.Base.Monad <> A:151 var
+R4740:4741 QWIRE.Base.Monad <> xs:152 var
+R4752:4754 Coq.Init.Datatypes <> nil constr
+R4759:4761 Coq.Init.Datatypes <> nil constr
+R4769:4772 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4782:4785 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R4786:4791 QWIRE.Base.Monad <> concat:153 def
+def 4816:4825 <> list_liftA
+binder 4828:4828 <> A:155
+binder 4830:4830 <> B:156
+R4839:4842 Coq.Init.Datatypes <> list ind
+R4846:4849 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4845:4845 QWIRE.Base.Monad <> A:155 var
+R4850:4850 QWIRE.Base.Monad <> B:156 var
+binder 4834:4835 <> fs:157
+R4860:4863 Coq.Init.Datatypes <> list ind
+R4865:4865 QWIRE.Base.Monad <> A:155 var
+binder 4855:4856 <> xs:158
+R4870:4873 Coq.Init.Datatypes <> list ind
+R4875:4875 QWIRE.Base.Monad <> B:156 var
+binder 4895:4895 <> a:159
+R4900:4908 QWIRE.Base.Monad <> list_fmap def
+R4925:4926 QWIRE.Base.Monad <> fs:157 var
+binder 4915:4915 <> f:160
+R4920:4920 QWIRE.Base.Monad <> f:160 var
+R4922:4922 QWIRE.Base.Monad <> a:159 var
+binder 4886:4886 <> g:161
+R4935:4940 QWIRE.Base.Monad <> concat def
+R4943:4951 QWIRE.Base.Monad <> list_fmap def
+R4955:4956 QWIRE.Base.Monad <> xs:158 var
+R4953:4953 QWIRE.Base.Monad <> g:161 var
+R4982:4991 QWIRE.Base.Monad <> list_liftA def
+def 5015:5023 <> list_bind
+binder 5026:5026 <> A:162
+R5035:5038 Coq.Init.Datatypes <> list ind
+R5040:5040 QWIRE.Base.Monad <> A:162 var
+binder 5030:5031 <> xs:163
+binder 5044:5044 <> B:164
+R5053:5056 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5052:5052 QWIRE.Base.Monad <> A:162 var
+R5057:5060 Coq.Init.Datatypes <> list ind
+R5062:5062 QWIRE.Base.Monad <> B:164 var
+binder 5048:5048 <> f:165
+R5067:5070 Coq.Init.Datatypes <> list ind
+R5072:5072 QWIRE.Base.Monad <> B:164 var
+R5085:5086 QWIRE.Base.Monad <> xs:163 var
+R5097:5099 Coq.Init.Datatypes <> nil constr
+R5104:5106 Coq.Init.Datatypes <> nil constr
+R5113:5116 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5127:5130 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R5124:5124 QWIRE.Base.Monad <> f:165 var
+R5131:5139 QWIRE.Base.Monad <> list_bind:166 def
+R5145:5145 QWIRE.Base.Monad <> f:165 var
+R5176:5184 QWIRE.Base.Monad <> list_bind def
+inst 5208:5212 <> listF
+R5216:5222 QWIRE.Base.Monad <> Functor class
+R5224:5227 Coq.Init.Datatypes <> list ind
+R5234:5237 QWIRE.Base.Monad <> fmap meth
+R5243:5251 QWIRE.Base.Monad <> list_fmap def
+inst 5265:5269 <> listA
+R5273:5283 QWIRE.Base.Monad <> Applicative class
+R5285:5288 Coq.Init.Datatypes <> list ind
+R5362:5366 QWIRE.Base.Monad <> liftA meth
+R5295:5298 QWIRE.Base.Monad <> pure meth
+binder 5309:5309 <> x:168
+R5315:5318 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5314:5314 QWIRE.Base.Monad <> x:168 var
+R5319:5321 Coq.Init.Datatypes <> nil constr
+R5372:5381 QWIRE.Base.Monad <> list_liftA def
+inst 5395:5399 <> listM
+R5403:5407 QWIRE.Base.Monad <> Monad class
+R5409:5412 Coq.Init.Datatypes <> list ind
+R5422:5425 QWIRE.Base.Monad <> bind meth
+R5431:5439 QWIRE.Base.Monad <> list_bind def
+inst 5454:5466 <> listF_correct
+R5470:5484 QWIRE.Base.Monad <> Functor_Correct class
+R5486:5489 Coq.Init.Datatypes <> list ind
+R5539:5563 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R5539:5563 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R5654:5678 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R5654:5678 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+prf 5813:5819 <> map_map
+binder 5830:5830 <> A:169
+binder 5832:5832 <> B:170
+binder 5834:5834 <> C:171
+R5842:5845 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5841:5841 QWIRE.Base.Monad <> A:169 var
+R5846:5846 QWIRE.Base.Monad <> B:170 var
+binder 5837:5837 <> f:172
+R5855:5858 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5854:5854 QWIRE.Base.Monad <> B:170 var
+R5859:5859 QWIRE.Base.Monad <> C:171 var
+binder 5850:5850 <> g:173
+R5867:5870 Coq.Init.Datatypes <> list ind
+R5872:5872 QWIRE.Base.Monad <> A:169 var
+binder 5863:5863 <> l:174
+R5893:5895 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5878:5880 Coq.Lists.List <> map def
+R5885:5887 Coq.Lists.List <> map def
+R5891:5891 QWIRE.Base.Monad <> l:174 var
+R5889:5889 QWIRE.Base.Monad <> f:172 var
+R5882:5882 QWIRE.Base.Monad <> g:173 var
+R5896:5898 Coq.Lists.List <> map def
+R5919:5919 QWIRE.Base.Monad <> l:174 var
+binder 5905:5905 <> x:175
+R5910:5910 QWIRE.Base.Monad <> g:173 var
+R5913:5913 QWIRE.Base.Monad <> f:172 var
+R5915:5915 QWIRE.Base.Monad <> x:175 var
+prf 6005:6014 <> concat_map
+binder 6025:6025 <> A:176
+binder 6027:6027 <> B:177
+R6035:6038 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6034:6034 QWIRE.Base.Monad <> A:176 var
+R6039:6039 QWIRE.Base.Monad <> B:177 var
+binder 6030:6030 <> f:178
+R6047:6050 Coq.Init.Datatypes <> list ind
+R6053:6056 Coq.Init.Datatypes <> list ind
+R6058:6058 QWIRE.Base.Monad <> A:176 var
+binder 6043:6043 <> l:179
+R6081:6083 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6065:6067 Coq.Lists.List <> map def
+R6072:6077 QWIRE.Base.Monad <> concat def
+R6079:6079 QWIRE.Base.Monad <> l:179 var
+R6069:6069 QWIRE.Base.Monad <> f:178 var
+R6084:6089 QWIRE.Base.Monad <> concat def
+R6092:6094 Coq.Lists.List <> map def
+R6104:6104 QWIRE.Base.Monad <> l:179 var
+R6097:6099 Coq.Lists.List <> map def
+R6101:6101 QWIRE.Base.Monad <> f:178 var
+R6161:6167 Coq.Lists.List <> map_app thm
+R6161:6167 Coq.Lists.List <> map_app thm
+R6161:6167 Coq.Lists.List <> map_app thm
+prf 6208:6221 <> list_liftA_map
+binder 6232:6232 <> A:180
+binder 6234:6234 <> B:181
+binder 6236:6236 <> C:182
+R6244:6247 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6243:6243 QWIRE.Base.Monad <> B:181 var
+R6248:6248 QWIRE.Base.Monad <> C:182 var
+binder 6239:6239 <> f:183
+R6256:6259 Coq.Init.Datatypes <> list ind
+R6263:6266 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6262:6262 QWIRE.Base.Monad <> A:180 var
+R6267:6267 QWIRE.Base.Monad <> B:181 var
+binder 6252:6252 <> g:184
+R6277:6280 Coq.Init.Datatypes <> list ind
+R6282:6282 QWIRE.Base.Monad <> A:180 var
+binder 6272:6273 <> xs:185
+R6337:6342 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6288:6297 QWIRE.Base.Monad <> list_liftA def
+R6335:6336 QWIRE.Base.Monad <> xs:185 var
+R6300:6302 Coq.Lists.List <> map def
+R6332:6332 QWIRE.Base.Monad <> g:184 var
+binder 6309:6309 <> h:186
+binder 6318:6318 <> x:187
+R6323:6323 QWIRE.Base.Monad <> f:183 var
+R6326:6326 QWIRE.Base.Monad <> h:186 var
+R6328:6328 QWIRE.Base.Monad <> x:187 var
+R6343:6345 Coq.Lists.List <> map def
+R6350:6359 QWIRE.Base.Monad <> list_liftA def
+R6363:6364 QWIRE.Base.Monad <> xs:185 var
+R6361:6361 QWIRE.Base.Monad <> g:184 var
+R6347:6347 QWIRE.Base.Monad <> f:183 var
+R6392:6401 QWIRE.Base.Monad <> list_liftA def
+R6414:6422 QWIRE.Base.Monad <> list_fmap def
+R6435:6444 QWIRE.Base.Monad <> concat_map thm
+R6435:6444 QWIRE.Base.Monad <> concat_map thm
+R6435:6444 QWIRE.Base.Monad <> concat_map thm
+prf 6597:6613 <> list_liftA_pure_l
+binder 6624:6624 <> A:188
+binder 6626:6626 <> B:189
+R6634:6637 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6633:6633 QWIRE.Base.Monad <> A:188 var
+R6638:6638 QWIRE.Base.Monad <> B:189 var
+binder 6629:6629 <> f:190
+R6647:6650 Coq.Init.Datatypes <> list ind
+R6652:6652 QWIRE.Base.Monad <> A:188 var
+binder 6642:6643 <> xs:191
+R6682:6684 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6658:6667 QWIRE.Base.Monad <> list_liftA def
+R6680:6681 QWIRE.Base.Monad <> xs:191 var
+R6671:6674 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6670:6670 QWIRE.Base.Monad <> f:190 var
+R6675:6677 Coq.Init.Datatypes <> nil constr
+R6685:6687 Coq.Lists.List <> map def
+R6691:6692 QWIRE.Base.Monad <> xs:191 var
+R6689:6689 QWIRE.Base.Monad <> f:190 var
+R6719:6728 QWIRE.Base.Monad <> list_liftA def
+R6770:6778 QWIRE.Base.Monad <> list_fmap def
+prf 6839:6848 <> concat_app
+binder 6859:6859 <> A:192
+R6870:6873 Coq.Init.Datatypes <> list ind
+R6876:6879 Coq.Init.Datatypes <> list ind
+R6881:6881 QWIRE.Base.Monad <> A:192 var
+binder 6862:6863 <> xs:193
+binder 6865:6866 <> ys:194
+R6905:6907 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6888:6893 QWIRE.Base.Monad <> concat def
+R6898:6901 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R6896:6897 QWIRE.Base.Monad <> xs:193 var
+R6902:6903 QWIRE.Base.Monad <> ys:194 var
+R6917:6920 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R6908:6913 QWIRE.Base.Monad <> concat def
+R6915:6916 QWIRE.Base.Monad <> xs:193 var
+R6921:6926 QWIRE.Base.Monad <> concat def
+R6928:6929 QWIRE.Base.Monad <> ys:194 var
+R7014:7022 Coq.Lists.List <> app_assoc thm
+R7014:7022 Coq.Lists.List <> app_assoc thm
+R7014:7022 Coq.Lists.List <> app_assoc thm
+prf 7050:7066 <> list_liftA_app_xs
+binder 7077:7077 <> A:195
+binder 7079:7079 <> B:196
+R7087:7090 Coq.Init.Datatypes <> list ind
+R7094:7097 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7093:7093 QWIRE.Base.Monad <> A:195 var
+R7098:7098 QWIRE.Base.Monad <> B:196 var
+binder 7082:7083 <> fs:197
+R7111:7114 Coq.Init.Datatypes <> list ind
+R7116:7116 QWIRE.Base.Monad <> A:195 var
+binder 7103:7104 <> xs:198
+binder 7106:7107 <> ys:199
+R7146:7148 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7122:7131 QWIRE.Base.Monad <> list_liftA def
+R7139:7142 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R7137:7138 QWIRE.Base.Monad <> xs:198 var
+R7143:7144 QWIRE.Base.Monad <> ys:199 var
+R7133:7134 QWIRE.Base.Monad <> fs:197 var
+R7165:7168 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R7149:7158 QWIRE.Base.Monad <> list_liftA def
+R7163:7164 QWIRE.Base.Monad <> xs:198 var
+R7160:7161 QWIRE.Base.Monad <> fs:197 var
+R7169:7178 QWIRE.Base.Monad <> list_liftA def
+R7183:7184 QWIRE.Base.Monad <> ys:199 var
+R7180:7181 QWIRE.Base.Monad <> fs:197 var
+R7226:7235 QWIRE.Base.Monad <> list_liftA def
+R7247:7255 QWIRE.Base.Monad <> list_fmap def
+R7268:7274 Coq.Lists.List <> map_app thm
+R7268:7274 Coq.Lists.List <> map_app thm
+R7268:7274 Coq.Lists.List <> map_app thm
+R7285:7294 QWIRE.Base.Monad <> concat_app thm
+R7285:7294 QWIRE.Base.Monad <> concat_app thm
+prf 7309:7328 <> concat_map_singleton
+binder 7341:7341 <> A:200
+binder 7343:7343 <> B:201
+R7351:7354 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7350:7350 QWIRE.Base.Monad <> A:200 var
+R7355:7355 QWIRE.Base.Monad <> B:201 var
+binder 7346:7346 <> h:202
+R7363:7366 Coq.Init.Datatypes <> list ind
+R7368:7368 QWIRE.Base.Monad <> A:200 var
+binder 7359:7359 <> l:203
+R7412:7414 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7376:7381 QWIRE.Base.Monad <> concat def
+R7384:7386 Coq.Lists.List <> map def
+R7410:7410 QWIRE.Base.Monad <> l:203 var
+binder 7393:7393 <> x:204
+R7401:7404 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7398:7398 QWIRE.Base.Monad <> h:202 var
+R7400:7400 QWIRE.Base.Monad <> x:204 var
+R7405:7407 Coq.Init.Datatypes <> nil constr
+R7415:7417 Coq.Lists.List <> map def
+R7421:7421 QWIRE.Base.Monad <> l:203 var
+R7419:7419 QWIRE.Base.Monad <> h:202 var
+prf 7531:7558 <> list_applicative_interchange
+binder 7571:7571 <> A:205
+binder 7573:7573 <> B:206
+R7580:7583 Coq.Init.Datatypes <> list ind
+R7587:7590 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7586:7586 QWIRE.Base.Monad <> A:205 var
+R7591:7591 QWIRE.Base.Monad <> B:206 var
+binder 7576:7576 <> u:207
+R7600:7600 QWIRE.Base.Monad <> A:205 var
+binder 7596:7596 <> y:208
+R7631:7633 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7608:7617 QWIRE.Base.Monad <> list_liftA def
+R7623:7626 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7622:7622 QWIRE.Base.Monad <> y:208 var
+R7627:7629 Coq.Init.Datatypes <> nil constr
+R7619:7619 QWIRE.Base.Monad <> u:207 var
+R7634:7643 QWIRE.Base.Monad <> list_liftA def
+R7669:7669 QWIRE.Base.Monad <> u:207 var
+R7646:7646 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7659:7663 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+binder 7651:7651 <> x:209
+R7656:7656 QWIRE.Base.Monad <> x:209 var
+R7658:7658 QWIRE.Base.Monad <> y:208 var
+R7664:7666 Coq.Init.Datatypes <> nil constr
+R7706:7715 QWIRE.Base.Monad <> list_liftA def
+R7718:7726 QWIRE.Base.Monad <> list_fmap def
+R7811:7814 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 7806:7806 <> f:210
+R7820:7820 QWIRE.Base.Monad <> f:210 var
+R7760:7779 QWIRE.Base.Monad <> concat_map_singleton thm
+R7811:7814 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 7806:7806 <> f:211
+R7820:7820 QWIRE.Base.Monad <> f:211 var
+R7760:7779 QWIRE.Base.Monad <> concat_map_singleton thm
+R7811:7814 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 7806:7806 <> f:212
+R7820:7820 QWIRE.Base.Monad <> f:212 var
+R7760:7779 QWIRE.Base.Monad <> concat_map_singleton thm
+R7845:7853 Coq.Lists.List <> app_nil_r thm
+R7845:7853 Coq.Lists.List <> app_nil_r thm
+R7845:7853 Coq.Lists.List <> app_nil_r thm
+prf 7883:7902 <> list_liftA_singleton
+binder 7915:7915 <> A:213
+binder 7917:7917 <> B:214
+R7925:7928 Coq.Init.Datatypes <> list ind
+R7932:7935 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7931:7931 QWIRE.Base.Monad <> A:213 var
+R7936:7936 QWIRE.Base.Monad <> B:214 var
+binder 7920:7921 <> fs:215
+R7945:7945 QWIRE.Base.Monad <> A:213 var
+binder 7941:7941 <> x:216
+R7977:7979 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7953:7962 QWIRE.Base.Monad <> list_liftA def
+R7969:7972 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7968:7968 QWIRE.Base.Monad <> x:216 var
+R7973:7975 Coq.Init.Datatypes <> nil constr
+R7964:7965 QWIRE.Base.Monad <> fs:215 var
+R7980:7982 Coq.Lists.List <> map def
+R7999:8000 QWIRE.Base.Monad <> fs:215 var
+binder 7989:7989 <> f:217
+R7994:7994 QWIRE.Base.Monad <> f:217 var
+R7996:7996 QWIRE.Base.Monad <> x:216 var
+R8038:8047 QWIRE.Base.Monad <> list_liftA def
+R8050:8058 QWIRE.Base.Monad <> list_fmap def
+R8078:8086 Coq.Lists.List <> app_nil_r thm
+R8078:8086 Coq.Lists.List <> app_nil_r thm
+R8078:8086 Coq.Lists.List <> app_nil_r thm
+prf 8116:8133 <> list_liftA_cons_xs
+binder 8146:8146 <> A:218
+binder 8148:8148 <> B:219
+R8156:8159 Coq.Init.Datatypes <> list ind
+R8163:8166 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8162:8162 QWIRE.Base.Monad <> A:218 var
+R8167:8167 QWIRE.Base.Monad <> B:219 var
+binder 8151:8152 <> fs:220
+R8176:8176 QWIRE.Base.Monad <> A:218 var
+binder 8172:8172 <> x:221
+binder 8179:8180 <> xs:222
+R8210:8214 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8187:8196 QWIRE.Base.Monad <> list_liftA def
+R8203:8206 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8202:8202 QWIRE.Base.Monad <> x:221 var
+R8207:8208 QWIRE.Base.Monad <> xs:222 var
+R8198:8199 QWIRE.Base.Monad <> fs:220 var
+R8239:8242 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R8215:8224 QWIRE.Base.Monad <> list_liftA def
+R8231:8234 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8230:8230 QWIRE.Base.Monad <> x:221 var
+R8235:8237 Coq.Init.Datatypes <> nil constr
+R8226:8227 QWIRE.Base.Monad <> fs:220 var
+R8243:8252 QWIRE.Base.Monad <> list_liftA def
+R8257:8258 QWIRE.Base.Monad <> xs:222 var
+R8254:8255 QWIRE.Base.Monad <> fs:220 var
+R8301:8304 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8315:8315 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R8324:8328 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R8317:8320 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8321:8323 Coq.Init.Datatypes <> nil constr
+R8301:8304 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8315:8315 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R8324:8328 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R8317:8320 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8321:8323 Coq.Init.Datatypes <> nil constr
+R8342:8358 QWIRE.Base.Monad <> list_liftA_app_xs thm
+R8342:8358 QWIRE.Base.Monad <> list_liftA_app_xs thm
+prf 8373:8410 <> list_applicative_composition_singleton
+binder 8423:8423 <> A:223
+binder 8425:8425 <> B:224
+binder 8427:8427 <> C:225
+R8434:8437 Coq.Init.Datatypes <> list ind
+R8441:8444 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8440:8440 QWIRE.Base.Monad <> B:224 var
+R8445:8445 QWIRE.Base.Monad <> C:225 var
+binder 8430:8430 <> u:226
+R8454:8457 Coq.Init.Datatypes <> list ind
+R8461:8464 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8460:8460 QWIRE.Base.Monad <> A:223 var
+R8465:8465 QWIRE.Base.Monad <> B:224 var
+binder 8450:8450 <> v:227
+R8474:8474 QWIRE.Base.Monad <> A:223 var
+binder 8470:8470 <> a:228
+R8631:8641 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8482:8491 QWIRE.Base.Monad <> list_liftA def
+R8623:8626 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8622:8622 QWIRE.Base.Monad <> a:228 var
+R8627:8629 Coq.Init.Datatypes <> nil constr
+R8500:8509 QWIRE.Base.Monad <> list_liftA def
+R8612:8612 QWIRE.Base.Monad <> v:227 var
+R8521:8523 Coq.Lists.List <> map def
+R8609:8609 QWIRE.Base.Monad <> u:226 var
+R8547:8550 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8546:8546 QWIRE.Base.Monad <> B:224 var
+R8551:8551 QWIRE.Base.Monad <> C:225 var
+binder 8542:8542 <> x:229
+R8578:8581 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8577:8577 QWIRE.Base.Monad <> A:223 var
+R8582:8582 QWIRE.Base.Monad <> B:224 var
+binder 8573:8573 <> y:230
+R8595:8595 QWIRE.Base.Monad <> A:223 var
+binder 8591:8591 <> z:231
+R8600:8600 QWIRE.Base.Monad <> x:229 var
+R8603:8603 QWIRE.Base.Monad <> y:230 var
+R8605:8605 QWIRE.Base.Monad <> z:231 var
+R8642:8651 QWIRE.Base.Monad <> list_liftA def
+R8656:8665 QWIRE.Base.Monad <> list_liftA def
+R8671:8674 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8670:8670 QWIRE.Base.Monad <> a:228 var
+R8675:8677 Coq.Init.Datatypes <> nil constr
+R8667:8667 QWIRE.Base.Monad <> v:227 var
+R8653:8653 QWIRE.Base.Monad <> u:226 var
+R8735:8738 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 8730:8730 <> x:232
+R8748:8751 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 8743:8743 <> y:233
+binder 8756:8756 <> z:234
+R8766:8766 QWIRE.Base.Monad <> x:232 var
+R8769:8769 QWIRE.Base.Monad <> y:233 var
+R8771:8771 QWIRE.Base.Monad <> z:234 var
+R8735:8738 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 8730:8730 <> x:235
+R8748:8751 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 8743:8743 <> y:236
+binder 8756:8756 <> z:237
+R8766:8766 QWIRE.Base.Monad <> x:235 var
+R8769:8769 QWIRE.Base.Monad <> y:236 var
+R8771:8771 QWIRE.Base.Monad <> z:237 var
+R8786:8805 QWIRE.Base.Monad <> list_liftA_singleton thm
+R8786:8805 QWIRE.Base.Monad <> list_liftA_singleton thm
+R8786:8805 QWIRE.Base.Monad <> list_liftA_singleton thm
+R8817:8826 QWIRE.Base.Monad <> list_liftA def
+R8844:8853 QWIRE.Base.Monad <> concat_map thm
+R8844:8853 QWIRE.Base.Monad <> concat_map thm
+R8844:8853 QWIRE.Base.Monad <> concat_map thm
+R8866:8872 QWIRE.Base.Monad <> map_map thm
+R8866:8872 QWIRE.Base.Monad <> map_map thm
+R8866:8872 QWIRE.Base.Monad <> map_map thm
+R8884:8893 QWIRE.Base.Monad <> list_liftA def
+R8910:8918 QWIRE.Base.Monad <> list_fmap def
+R8943:8962 QWIRE.Base.Monad <> list_liftA_singleton thm
+R8943:8962 QWIRE.Base.Monad <> list_liftA_singleton thm
+R8943:8962 QWIRE.Base.Monad <> list_liftA_singleton thm
+R8984:8990 QWIRE.Base.Monad <> map_map thm
+R8984:8990 QWIRE.Base.Monad <> map_map thm
+R8984:8990 QWIRE.Base.Monad <> map_map thm
+R9041:9047 Coq.Init.Logic <> f_equal thm
+R9041:9047 Coq.Init.Logic <> f_equal thm
+R9058:9064 Coq.Lists.List <> map_ext thm
+R9058:9064 Coq.Lists.List <> map_ext thm
+R9113:9119 QWIRE.Base.Monad <> map_map thm
+R9113:9119 QWIRE.Base.Monad <> map_map thm
+R9113:9119 QWIRE.Base.Monad <> map_map thm
+R9132:9138 QWIRE.Base.Monad <> map_map thm
+R9132:9138 QWIRE.Base.Monad <> map_map thm
+R9132:9138 QWIRE.Base.Monad <> map_map thm
+prf 9168:9195 <> list_applicative_composition
+binder 9208:9208 <> A:238
+binder 9210:9210 <> B:239
+binder 9212:9212 <> C:240
+R9219:9222 Coq.Init.Datatypes <> list ind
+R9226:9229 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9225:9225 QWIRE.Base.Monad <> B:239 var
+R9230:9230 QWIRE.Base.Monad <> C:240 var
+binder 9215:9215 <> u:241
+R9239:9242 Coq.Init.Datatypes <> list ind
+R9246:9249 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9245:9245 QWIRE.Base.Monad <> A:238 var
+R9250:9250 QWIRE.Base.Monad <> B:239 var
+binder 9235:9235 <> v:242
+R9259:9262 Coq.Init.Datatypes <> list ind
+R9264:9264 QWIRE.Base.Monad <> A:238 var
+binder 9255:9255 <> w:243
+R9412:9422 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9272:9281 QWIRE.Base.Monad <> list_liftA def
+R9411:9411 QWIRE.Base.Monad <> w:243 var
+R9290:9299 QWIRE.Base.Monad <> list_liftA def
+R9402:9402 QWIRE.Base.Monad <> v:242 var
+R9311:9313 Coq.Lists.List <> map def
+R9399:9399 QWIRE.Base.Monad <> u:241 var
+R9337:9340 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9336:9336 QWIRE.Base.Monad <> B:239 var
+R9341:9341 QWIRE.Base.Monad <> C:240 var
+binder 9332:9332 <> x:244
+R9368:9371 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9367:9367 QWIRE.Base.Monad <> A:238 var
+R9372:9372 QWIRE.Base.Monad <> B:239 var
+binder 9363:9363 <> y:245
+R9385:9385 QWIRE.Base.Monad <> A:238 var
+binder 9381:9381 <> z:246
+R9390:9390 QWIRE.Base.Monad <> x:244 var
+R9393:9393 QWIRE.Base.Monad <> y:245 var
+R9395:9395 QWIRE.Base.Monad <> z:246 var
+R9423:9432 QWIRE.Base.Monad <> list_liftA def
+R9437:9446 QWIRE.Base.Monad <> list_liftA def
+R9450:9450 QWIRE.Base.Monad <> w:243 var
+R9448:9448 QWIRE.Base.Monad <> v:242 var
+R9434:9434 QWIRE.Base.Monad <> u:241 var
+R9539:9548 QWIRE.Base.Monad <> list_liftA def
+R9670:9687 QWIRE.Base.Monad <> list_liftA_cons_xs thm
+R9738:9747 QWIRE.Base.Monad <> list_liftA def
+R9768:9770 Coq.Lists.List <> map def
+R9803:9806 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 9798:9798 <> x:247
+R9843:9846 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 9838:9838 <> y:248
+binder 9856:9856 <> z:249
+R9865:9865 QWIRE.Base.Monad <> x:247 var
+R9868:9868 QWIRE.Base.Monad <> y:248 var
+R9870:9870 QWIRE.Base.Monad <> z:249 var
+R9670:9687 QWIRE.Base.Monad <> list_liftA_cons_xs thm
+R9738:9747 QWIRE.Base.Monad <> list_liftA def
+R9768:9770 Coq.Lists.List <> map def
+R9803:9806 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 9798:9798 <> x:250
+R9843:9846 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 9838:9838 <> y:251
+binder 9856:9856 <> z:252
+R9865:9865 QWIRE.Base.Monad <> x:250 var
+R9868:9868 QWIRE.Base.Monad <> y:251 var
+R9870:9870 QWIRE.Base.Monad <> z:252 var
+R9670:9687 QWIRE.Base.Monad <> list_liftA_cons_xs thm
+R9738:9747 QWIRE.Base.Monad <> list_liftA def
+R9768:9770 Coq.Lists.List <> map def
+R9803:9806 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 9798:9798 <> x:253
+R9843:9846 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 9838:9838 <> y:254
+binder 9856:9856 <> z:255
+R9865:9865 QWIRE.Base.Monad <> x:253 var
+R9868:9868 QWIRE.Base.Monad <> y:254 var
+R9870:9870 QWIRE.Base.Monad <> z:255 var
+R9993:10010 QWIRE.Base.Monad <> list_liftA_cons_xs thm
+R9993:10010 QWIRE.Base.Monad <> list_liftA_cons_xs thm
+R9993:10010 QWIRE.Base.Monad <> list_liftA_cons_xs thm
+R10136:10152 QWIRE.Base.Monad <> list_liftA_app_xs thm
+R10231:10240 QWIRE.Base.Monad <> list_liftA def
+R10205:10214 QWIRE.Base.Monad <> list_liftA def
+R10220:10223 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10224:10226 Coq.Init.Datatypes <> nil constr
+R10136:10152 QWIRE.Base.Monad <> list_liftA_app_xs thm
+R10231:10240 QWIRE.Base.Monad <> list_liftA def
+R10205:10214 QWIRE.Base.Monad <> list_liftA def
+R10220:10223 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10224:10226 Coq.Init.Datatypes <> nil constr
+R10136:10152 QWIRE.Base.Monad <> list_liftA_app_xs thm
+R10231:10240 QWIRE.Base.Monad <> list_liftA def
+R10205:10214 QWIRE.Base.Monad <> list_liftA def
+R10220:10223 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10224:10226 Coq.Init.Datatypes <> nil constr
+R10823:10860 QWIRE.Base.Monad <> list_applicative_composition_singleton thm
+R10823:10860 QWIRE.Base.Monad <> list_applicative_composition_singleton thm
+R10823:10860 QWIRE.Base.Monad <> list_applicative_composition_singleton thm
+inst 11012:11024 <> listA_correct
+R11028:11046 QWIRE.Base.Monad <> Applicative_Correct class
+R11048:11051 Coq.Init.Datatypes <> list ind
+R11126:11129 QWIRE.Base.Monad <> pure meth
+R11132:11136 QWIRE.Base.Monad <> liftA meth
+R11156:11180 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R11156:11180 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R11252:11268 QWIRE.Base.Monad <> list_liftA_pure_l thm
+R11252:11268 QWIRE.Base.Monad <> list_liftA_pure_l thm
+R11252:11268 QWIRE.Base.Monad <> list_liftA_pure_l thm
+R11287:11292 Coq.Lists.List <> map_id thm
+R11287:11292 Coq.Lists.List <> map_id thm
+R11287:11292 Coq.Lists.List <> map_id thm
+R11363:11366 QWIRE.Base.Monad <> pure meth
+R11369:11373 QWIRE.Base.Monad <> liftA meth
+R11396:11412 QWIRE.Base.Monad <> list_liftA_pure_l thm
+R11396:11412 QWIRE.Base.Monad <> list_liftA_pure_l thm
+R11396:11412 QWIRE.Base.Monad <> list_liftA_pure_l thm
+R11426:11453 QWIRE.Base.Monad <> list_applicative_composition thm
+R11426:11453 QWIRE.Base.Monad <> list_applicative_composition thm
+R11523:11526 QWIRE.Base.Monad <> pure meth
+R11529:11533 QWIRE.Base.Monad <> liftA meth
+R11554:11563 QWIRE.Base.Monad <> list_liftA def
+R11566:11574 QWIRE.Base.Monad <> list_fmap def
+R11667:11670 QWIRE.Base.Monad <> pure meth
+R11673:11677 QWIRE.Base.Monad <> liftA meth
+R11774:11801 QWIRE.Base.Monad <> list_applicative_interchange thm
+R11774:11801 QWIRE.Base.Monad <> list_applicative_interchange thm
+prf 11816:11828 <> list_bind_app
+binder 11839:11839 <> A:256
+binder 11841:11841 <> B:257
+R11849:11852 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11848:11848 QWIRE.Base.Monad <> A:256 var
+R11853:11856 Coq.Init.Datatypes <> list ind
+R11858:11858 QWIRE.Base.Monad <> B:257 var
+binder 11844:11844 <> f:258
+R11870:11873 Coq.Init.Datatypes <> list ind
+R11875:11875 QWIRE.Base.Monad <> A:256 var
+binder 11862:11863 <> xs:259
+binder 11865:11866 <> ys:260
+R11903:11905 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11881:11889 QWIRE.Base.Monad <> list_bind def
+R11902:11902 QWIRE.Base.Monad <> f:258 var
+R11894:11897 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R11892:11893 QWIRE.Base.Monad <> xs:259 var
+R11898:11899 QWIRE.Base.Monad <> ys:260 var
+R11920:11923 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R11906:11914 QWIRE.Base.Monad <> list_bind def
+R11919:11919 QWIRE.Base.Monad <> f:258 var
+R11916:11917 QWIRE.Base.Monad <> xs:259 var
+R11924:11932 QWIRE.Base.Monad <> list_bind def
+R11937:11937 QWIRE.Base.Monad <> f:258 var
+R11934:11935 QWIRE.Base.Monad <> ys:260 var
+R12008:12016 Coq.Lists.List <> app_assoc thm
+R12008:12016 Coq.Lists.List <> app_assoc thm
+R12008:12016 Coq.Lists.List <> app_assoc thm
+prf 12044:12056 <> list_bind_ret
+binder 12067:12067 <> A:261
+R12075:12078 Coq.Init.Datatypes <> list ind
+R12080:12080 QWIRE.Base.Monad <> A:261 var
+binder 12070:12071 <> xs:262
+R12118:12120 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12086:12094 QWIRE.Base.Monad <> list_bind def
+binder 12104:12104 <> x:263
+R12110:12113 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12109:12109 QWIRE.Base.Monad <> x:263 var
+R12114:12116 Coq.Init.Datatypes <> nil constr
+R12096:12097 QWIRE.Base.Monad <> xs:262 var
+R12121:12122 QWIRE.Base.Monad <> xs:262 var
+prf 12227:12241 <> list_bind_assoc
+binder 12254:12254 <> A:264
+R12262:12265 Coq.Init.Datatypes <> list ind
+R12267:12267 QWIRE.Base.Monad <> A:264 var
+binder 12257:12258 <> ma:265
+binder 12270:12270 <> B:266
+R12278:12281 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12277:12277 QWIRE.Base.Monad <> A:264 var
+R12282:12285 Coq.Init.Datatypes <> list ind
+R12287:12287 QWIRE.Base.Monad <> B:266 var
+binder 12273:12273 <> f:267
+binder 12290:12290 <> C:268
+R12298:12301 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12297:12297 QWIRE.Base.Monad <> B:266 var
+R12302:12305 Coq.Init.Datatypes <> list ind
+R12307:12307 QWIRE.Base.Monad <> C:268 var
+binder 12293:12293 <> g:269
+R12356:12362 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12315:12323 QWIRE.Base.Monad <> list_bind def
+binder 12333:12333 <> x:270
+R12338:12346 QWIRE.Base.Monad <> list_bind def
+R12354:12354 QWIRE.Base.Monad <> g:269 var
+R12349:12349 QWIRE.Base.Monad <> f:267 var
+R12351:12351 QWIRE.Base.Monad <> x:270 var
+R12325:12326 QWIRE.Base.Monad <> ma:265 var
+R12363:12371 QWIRE.Base.Monad <> list_bind def
+R12390:12390 QWIRE.Base.Monad <> g:269 var
+R12374:12382 QWIRE.Base.Monad <> list_bind def
+R12387:12387 QWIRE.Base.Monad <> f:267 var
+R12384:12385 QWIRE.Base.Monad <> ma:265 var
+R12844:12856 QWIRE.Base.Monad <> list_bind_app thm
+R12844:12856 QWIRE.Base.Monad <> list_bind_app thm
+R12844:12856 QWIRE.Base.Monad <> list_bind_app thm
+inst 12907:12919 <> listM_correct
+R12923:12935 QWIRE.Base.Monad <> Monad_Correct class
+R12937:12940 Coq.Init.Datatypes <> list ind
+R13031:13037 QWIRE.Base.Monad <> return_ def
+R13103:13115 QWIRE.Base.Monad <> list_bind_ret thm
+R13103:13115 QWIRE.Base.Monad <> list_bind_ret thm
+R13103:13115 QWIRE.Base.Monad <> list_bind_ret thm
+R13215:13221 QWIRE.Base.Monad <> return_ def
+R13318:13326 Coq.Lists.List <> app_nil_r thm
+R13318:13326 Coq.Lists.List <> app_nil_r thm
+R13318:13326 Coq.Lists.List <> app_nil_r thm
+R13495:13509 QWIRE.Base.Monad <> list_bind_assoc thm
+R13495:13509 QWIRE.Base.Monad <> list_bind_assoc thm
+prf 13524:13531 <> fmap_app
+binder 13543:13543 <> A:271
+binder 13545:13545 <> B:272
+R13554:13557 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13553:13553 QWIRE.Base.Monad <> A:271 var
+R13558:13558 QWIRE.Base.Monad <> B:272 var
+binder 13549:13549 <> f:273
+binder 13561:13563 <> ls1:274
+binder 13565:13567 <> ls2:275
+R13595:13597 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13576:13579 QWIRE.Base.Monad <> fmap meth
+R13587:13590 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R13584:13586 QWIRE.Base.Monad <> ls1:274 var
+R13591:13593 QWIRE.Base.Monad <> ls2:275 var
+R13581:13581 QWIRE.Base.Monad <> f:273 var
+R13608:13611 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R13598:13601 QWIRE.Base.Monad <> fmap meth
+R13605:13607 QWIRE.Base.Monad <> ls1:274 var
+R13603:13603 QWIRE.Base.Monad <> f:273 var
+R13612:13615 QWIRE.Base.Monad <> fmap meth
+R13619:13621 QWIRE.Base.Monad <> ls2:275 var
+R13617:13617 QWIRE.Base.Monad <> f:273 var
+def 13757:13767 <> option_fmap
+binder 13770:13770 <> A:276
+binder 13772:13772 <> B:277
+R13781:13784 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13780:13780 QWIRE.Base.Monad <> A:276 var
+R13785:13785 QWIRE.Base.Monad <> B:277 var
+binder 13776:13776 <> f:278
+R13793:13798 Coq.Init.Datatypes <> option ind
+R13800:13800 QWIRE.Base.Monad <> A:276 var
+binder 13789:13789 <> x:279
+R13805:13810 Coq.Init.Datatypes <> option ind
+R13812:13812 QWIRE.Base.Monad <> B:277 var
+R13825:13825 QWIRE.Base.Monad <> x:279 var
+R13836:13839 Coq.Init.Datatypes <> None constr
+R13844:13847 Coq.Init.Datatypes <> None constr
+R13853:13856 Coq.Init.Datatypes <> Some constr
+R13863:13866 Coq.Init.Datatypes <> Some constr
+R13869:13869 QWIRE.Base.Monad <> f:278 var
+def 13892:13903 <> option_liftA
+binder 13906:13906 <> A:281
+binder 13908:13908 <> B:282
+R13916:13921 Coq.Init.Datatypes <> option ind
+R13925:13928 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13924:13924 QWIRE.Base.Monad <> A:281 var
+R13929:13929 QWIRE.Base.Monad <> B:282 var
+binder 13912:13912 <> f:283
+R13938:13943 Coq.Init.Datatypes <> option ind
+R13945:13945 QWIRE.Base.Monad <> A:281 var
+binder 13934:13934 <> x:284
+R13950:13955 Coq.Init.Datatypes <> option ind
+R13957:13957 QWIRE.Base.Monad <> B:282 var
+R13973:13973 QWIRE.Base.Monad <> x:284 var
+R13970:13970 QWIRE.Base.Monad <> f:283 var
+R13984:13987 Coq.Init.Datatypes <> Some constr
+R13993:13996 Coq.Init.Datatypes <> Some constr
+R14003:14006 Coq.Init.Datatypes <> Some constr
+R14027:14030 Coq.Init.Datatypes <> None constr
+inst 14048:14054 <> optionF
+R14058:14064 QWIRE.Base.Monad <> Functor class
+R14066:14071 Coq.Init.Datatypes <> option ind
+R14078:14081 QWIRE.Base.Monad <> fmap meth
+R14087:14097 QWIRE.Base.Monad <> option_fmap def
+inst 14110:14116 <> optionA
+R14120:14130 QWIRE.Base.Monad <> Applicative class
+R14132:14137 Coq.Init.Datatypes <> option ind
+R14202:14206 QWIRE.Base.Monad <> liftA meth
+R14144:14147 QWIRE.Base.Monad <> pure meth
+R14153:14156 Coq.Init.Datatypes <> Some constr
+R14212:14223 QWIRE.Base.Monad <> option_liftA def
+inst 14236:14242 <> optionM
+R14246:14250 QWIRE.Base.Monad <> Monad class
+R14252:14257 Coq.Init.Datatypes <> option ind
+R14266:14269 QWIRE.Base.Monad <> bind meth
+binder 14279:14279 <> A:287
+binder 14281:14281 <> m:288
+binder 14283:14283 <> B:289
+binder 14285:14285 <> f:290
+R14296:14296 QWIRE.Base.Monad <> m:288 var
+R14303:14306 Coq.Init.Datatypes <> None constr
+R14311:14314 Coq.Init.Datatypes <> None constr
+R14318:14321 Coq.Init.Datatypes <> Some constr
+R14328:14328 QWIRE.Base.Monad <> f:290 var
+inst 14350:14361 <> optionM_Laws
+R14365:14377 QWIRE.Base.Monad <> Monad_Correct class
+R14379:14384 Coq.Init.Datatypes <> option ind
+rec 14512:14521 <> MonadTrans
+proj 14569:14573 <> liftT
+R14528:14528 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14541:14546 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14559:14559 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14533:14536 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14551:14554 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 14524:14524 <> t:292
+binder 14585:14585 <> m:294
+R14590:14594 QWIRE.Base.Monad <> Monad class
+R14596:14596 QWIRE.Base.Monad <> m:294 var
+binder 14590:14596 <> H:297
+binder 14600:14600 <> A:298
+R14607:14610 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14604:14604 QWIRE.Base.Monad <> m:294 var
+R14606:14606 QWIRE.Base.Monad <> A:298 var
+R14611:14611 QWIRE.Base.Monad <> t:292 var
+R14615:14615 QWIRE.Base.Monad <> A:298 var
+R14613:14613 QWIRE.Base.Monad <> m:294 var
+def 14665:14671 <> optionT
+binder 14673:14673 <> m:300
+binder 14676:14676 <> A:301
+R14696:14696 QWIRE.Base.Monad <> m:300 var
+R14699:14704 Coq.Init.Datatypes <> option ind
+R14706:14706 QWIRE.Base.Monad <> A:301 var
+def 14722:14734 <> optionT_liftT
+binder 14737:14737 <> m:302
+R14742:14746 QWIRE.Base.Monad <> Monad class
+R14748:14748 QWIRE.Base.Monad <> m:302 var
+binder 14742:14748 <> H:305
+binder 14752:14752 <> A:306
+R14760:14760 QWIRE.Base.Monad <> m:302 var
+R14762:14762 QWIRE.Base.Monad <> A:306 var
+binder 14756:14756 <> x:307
+R14767:14773 QWIRE.Base.Monad <> optionT def
+R14777:14777 QWIRE.Base.Monad <> A:306 var
+R14775:14775 QWIRE.Base.Monad <> m:302 var
+R14796:14802 QWIRE.Base.Monad <> optionT def
+R14815:14817 QWIRE.Base.Monad <> :::'do'_x_'←'_x_';'_x not
+R14819:14823 QWIRE.Base.Monad <> :::'do'_x_'←'_x_';'_x not
+R14825:14826 QWIRE.Base.Monad <> :::'do'_x_'←'_x_';'_x not
+binder 14818:14818 <> a:308
+R14827:14833 QWIRE.Base.Monad <> return_ def
+R14836:14839 Coq.Init.Datatypes <> Some constr
+R14841:14841 QWIRE.Base.Monad <> a:308 var
+R14815:14817 QWIRE.Base.Monad <> :::'do'_x_'←'_x_';'_x not
+R14819:14823 QWIRE.Base.Monad <> :::'do'_x_'←'_x_';'_x not
+R14825:14826 QWIRE.Base.Monad <> :::'do'_x_'←'_x_';'_x not
+binder 14818:14818 <> a:309
+R14827:14833 QWIRE.Base.Monad <> return_ def
+R14836:14839 Coq.Init.Datatypes <> Some constr
+R14841:14841 QWIRE.Base.Monad <> a:309 var
+inst 14864:14872 <> optionT_T
+R14876:14885 QWIRE.Base.Monad <> MonadTrans class
+R14887:14893 QWIRE.Base.Monad <> optionT def
+R14899:14903 QWIRE.Base.Monad <> liftT meth
+R14909:14921 QWIRE.Base.Monad <> optionT_liftT def
+def 14937:14948 <> optionT_fmap
+binder 14951:14951 <> f:310
+R14956:14962 QWIRE.Base.Monad <> Functor class
+R14964:14964 QWIRE.Base.Monad <> f:310 var
+binder 14956:14964 <> H:311
+binder 14993:14993 <> A:312
+binder 14995:14995 <> B:313
+R15004:15007 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15003:15003 QWIRE.Base.Monad <> A:312 var
+R15008:15008 QWIRE.Base.Monad <> B:313 var
+binder 14999:14999 <> g:314
+R15016:15022 QWIRE.Base.Monad <> optionT def
+R15026:15026 QWIRE.Base.Monad <> A:312 var
+R15024:15024 QWIRE.Base.Monad <> f:310 var
+binder 15012:15012 <> x:315
+R15031:15037 QWIRE.Base.Monad <> optionT def
+R15041:15041 QWIRE.Base.Monad <> B:313 var
+R15039:15039 QWIRE.Base.Monad <> f:310 var
+R15049:15052 QWIRE.Base.Monad <> fmap meth
+R15054:15054 QWIRE.Base.Monad <> f:310 var
+R15063:15066 QWIRE.Base.Monad <> fmap meth
+R15068:15068 QWIRE.Base.Monad <> g:314 var
+R15071:15071 QWIRE.Base.Monad <> x:315 var
+def 15085:15097 <> optionT_liftA
+binder 15100:15100 <> f:316
+R15105:15115 QWIRE.Base.Monad <> Applicative class
+R15117:15117 QWIRE.Base.Monad <> f:316 var
+binder 15105:15117 <> H:318
+binder 15146:15146 <> A:319
+binder 15148:15148 <> B:320
+R15156:15162 QWIRE.Base.Monad <> optionT def
+R15168:15171 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15167:15167 QWIRE.Base.Monad <> A:319 var
+R15172:15172 QWIRE.Base.Monad <> B:320 var
+R15164:15164 QWIRE.Base.Monad <> f:316 var
+binder 15152:15152 <> g:321
+R15181:15187 QWIRE.Base.Monad <> optionT def
+R15191:15191 QWIRE.Base.Monad <> A:319 var
+R15189:15189 QWIRE.Base.Monad <> f:316 var
+binder 15177:15177 <> x:322
+R15220:15226 QWIRE.Base.Monad <> optionT def
+R15230:15230 QWIRE.Base.Monad <> B:320 var
+R15228:15228 QWIRE.Base.Monad <> f:316 var
+R15291:15297 QWIRE.Base.Monad <> optionT def
+R15326:15330 QWIRE.Base.Monad <> :::x_'<*>'_x not
+R15314:15317 QWIRE.Base.Monad <> fmap meth
+R15319:15323 QWIRE.Base.Monad <> liftA meth
+R15326:15330 QWIRE.Base.Monad <> :::x_'<*>'_x not
+R15314:15317 QWIRE.Base.Monad <> fmap meth
+R15319:15323 QWIRE.Base.Monad <> liftA meth
+def 15356:15367 <> optionT_pure
+binder 15370:15370 <> f:323
+R15375:15385 QWIRE.Base.Monad <> Applicative class
+R15387:15387 QWIRE.Base.Monad <> f:323 var
+binder 15375:15387 <> H:325
+binder 15415:15415 <> A:326
+R15423:15423 QWIRE.Base.Monad <> A:326 var
+binder 15419:15419 <> a:327
+R15428:15434 QWIRE.Base.Monad <> optionT def
+R15438:15438 QWIRE.Base.Monad <> A:326 var
+R15436:15436 QWIRE.Base.Monad <> f:323 var
+R15444:15447 QWIRE.Base.Monad <> pure meth
+R15449:15449 QWIRE.Base.Monad <> f:323 var
+R15458:15461 QWIRE.Base.Monad <> pure meth
+R15463:15463 QWIRE.Base.Monad <> a:327 var
+def 15478:15489 <> optionT_bind
+binder 15492:15492 <> m:328
+R15497:15501 QWIRE.Base.Monad <> Monad class
+R15503:15503 QWIRE.Base.Monad <> m:328 var
+binder 15497:15503 <> H:331
+binder 15531:15531 <> A:332
+R15540:15546 QWIRE.Base.Monad <> optionT def
+R15550:15550 QWIRE.Base.Monad <> A:332 var
+R15548:15548 QWIRE.Base.Monad <> m:328 var
+binder 15535:15536 <> ma:333
+binder 15554:15554 <> B:334
+R15563:15566 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15562:15562 QWIRE.Base.Monad <> A:332 var
+R15567:15573 QWIRE.Base.Monad <> optionT def
+R15577:15577 QWIRE.Base.Monad <> B:334 var
+R15575:15575 QWIRE.Base.Monad <> m:328 var
+binder 15558:15558 <> f:335
+R15606:15612 QWIRE.Base.Monad <> optionT def
+R15616:15616 QWIRE.Base.Monad <> B:334 var
+R15614:15614 QWIRE.Base.Monad <> m:328 var
+R15628:15634 QWIRE.Base.Monad <> optionT def
+R15651:15653 QWIRE.Base.Monad <> :::'do'_x_'←'_x_';'_x not
+R15656:15660 QWIRE.Base.Monad <> :::'do'_x_'←'_x_';'_x not
+R15663:15674 QWIRE.Base.Monad <> :::'do'_x_'←'_x_';'_x not
+binder 15654:15655 <> oa:336
+R15681:15682 QWIRE.Base.Monad <> oa:336 var
+R15700:15703 Coq.Init.Datatypes <> None constr
+R15708:15711 QWIRE.Base.Monad <> pure meth
+R15713:15716 Coq.Init.Datatypes <> None constr
+R15729:15732 Coq.Init.Datatypes <> Some constr
+R15651:15653 QWIRE.Base.Monad <> :::'do'_x_'←'_x_';'_x not
+R15656:15660 QWIRE.Base.Monad <> :::'do'_x_'←'_x_';'_x not
+R15663:15674 QWIRE.Base.Monad <> :::'do'_x_'←'_x_';'_x not
+binder 15654:15655 <> oa:338
+R15681:15682 QWIRE.Base.Monad <> oa:338 var
+R15700:15703 Coq.Init.Datatypes <> None constr
+R15708:15711 QWIRE.Base.Monad <> pure meth
+R15713:15716 Coq.Init.Datatypes <> None constr
+R15729:15732 Coq.Init.Datatypes <> Some constr
+inst 15780:15788 <> optionT_F
+binder 15791:15791 <> f:340
+R15796:15802 QWIRE.Base.Monad <> Functor class
+R15804:15804 QWIRE.Base.Monad <> f:340 var
+binder 15796:15804 <> H:341
+R15809:15815 QWIRE.Base.Monad <> Functor class
+R15818:15824 QWIRE.Base.Monad <> optionT def
+R15826:15826 QWIRE.Base.Monad <> f:340 var
+R15838:15841 QWIRE.Base.Monad <> fmap meth
+R15847:15858 QWIRE.Base.Monad <> optionT_fmap def
+inst 15875:15883 <> optionT_A
+binder 15886:15886 <> f:342
+R15891:15901 QWIRE.Base.Monad <> Applicative class
+R15903:15903 QWIRE.Base.Monad <> f:342 var
+binder 15891:15903 <> H:344
+R15908:15918 QWIRE.Base.Monad <> Applicative class
+R15921:15927 QWIRE.Base.Monad <> optionT def
+R15929:15929 QWIRE.Base.Monad <> f:342 var
+R15972:15976 QWIRE.Base.Monad <> liftA meth
+R15939:15942 QWIRE.Base.Monad <> pure meth
+R15948:15959 QWIRE.Base.Monad <> optionT_pure def
+R15982:15994 QWIRE.Base.Monad <> optionT_liftA def
+inst 16014:16022 <> optionT_M
+binder 16025:16025 <> m:345
+R16030:16034 QWIRE.Base.Monad <> Monad class
+R16036:16036 QWIRE.Base.Monad <> m:345 var
+binder 16030:16036 <> H:348
+R16041:16045 QWIRE.Base.Monad <> Monad class
+R16048:16054 QWIRE.Base.Monad <> optionT def
+R16056:16056 QWIRE.Base.Monad <> m:345 var
+R16066:16069 QWIRE.Base.Monad <> bind meth
+R16075:16086 QWIRE.Base.Monad <> optionT_bind def
+ax 16130:16132 <> Eta
+binder 16142:16142 <> A:349
+R16149:16152 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16148:16148 QWIRE.Base.Monad <> A:349 var
+binder 16145:16145 <> B:350
+binder 16170:16170 <> a:351
+R16173:16173 QWIRE.Base.Monad <> B:350 var
+R16175:16175 QWIRE.Base.Monad <> a:351 var
+binder 16160:16160 <> f:352
+R16180:16182 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16179:16179 QWIRE.Base.Monad <> f:352 var
+binder 16188:16188 <> a:353
+R16191:16191 QWIRE.Base.Monad <> f:352 var
+R16193:16193 QWIRE.Base.Monad <> a:353 var
+def 16208:16213 <> Reader
+binder 16216:16216 <> E:355
+binder 16234:16234 <> X:356
+R16240:16243 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16239:16239 QWIRE.Base.Monad <> E:355 var
+R16244:16244 QWIRE.Base.Monad <> X:356 var
+def 16258:16268 <> reader_fmap
+binder 16270:16270 <> E:357
+binder 16272:16272 <> A:358
+binder 16274:16274 <> B:359
+R16282:16285 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16281:16281 QWIRE.Base.Monad <> A:358 var
+R16286:16286 QWIRE.Base.Monad <> B:359 var
+binder 16277:16277 <> f:360
+R16294:16299 QWIRE.Base.Monad <> Reader def
+R16303:16303 QWIRE.Base.Monad <> A:358 var
+R16301:16301 QWIRE.Base.Monad <> E:357 var
+binder 16290:16290 <> r:361
+R16308:16313 QWIRE.Base.Monad <> Reader def
+R16317:16317 QWIRE.Base.Monad <> B:359 var
+R16315:16315 QWIRE.Base.Monad <> E:357 var
+binder 16328:16328 <> x:362
+R16333:16333 QWIRE.Base.Monad <> f:360 var
+R16336:16336 QWIRE.Base.Monad <> r:361 var
+R16338:16338 QWIRE.Base.Monad <> x:362 var
+def 16353:16364 <> reader_liftA
+binder 16366:16366 <> E:363
+binder 16368:16368 <> A:364
+binder 16370:16370 <> B:365
+R16377:16382 QWIRE.Base.Monad <> Reader def
+R16388:16391 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16387:16387 QWIRE.Base.Monad <> A:364 var
+R16392:16392 QWIRE.Base.Monad <> B:365 var
+R16384:16384 QWIRE.Base.Monad <> E:363 var
+binder 16373:16373 <> f:366
+R16401:16406 QWIRE.Base.Monad <> Reader def
+R16410:16410 QWIRE.Base.Monad <> A:364 var
+R16408:16408 QWIRE.Base.Monad <> E:363 var
+binder 16397:16397 <> r:367
+binder 16422:16422 <> x:368
+R16428:16428 QWIRE.Base.Monad <> f:366 var
+R16430:16430 QWIRE.Base.Monad <> x:368 var
+R16434:16434 QWIRE.Base.Monad <> r:367 var
+R16436:16436 QWIRE.Base.Monad <> x:368 var
+def 16451:16461 <> reader_bind
+binder 16463:16463 <> E:369
+binder 16465:16465 <> A:370
+R16472:16477 QWIRE.Base.Monad <> Reader def
+R16481:16481 QWIRE.Base.Monad <> A:370 var
+R16479:16479 QWIRE.Base.Monad <> E:369 var
+binder 16468:16468 <> r:371
+binder 16484:16484 <> B:372
+R16492:16495 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16491:16491 QWIRE.Base.Monad <> A:370 var
+R16496:16501 QWIRE.Base.Monad <> Reader def
+R16505:16505 QWIRE.Base.Monad <> B:372 var
+R16503:16503 QWIRE.Base.Monad <> E:369 var
+binder 16487:16487 <> f:373
+R16510:16515 QWIRE.Base.Monad <> Reader def
+R16519:16519 QWIRE.Base.Monad <> B:372 var
+R16517:16517 QWIRE.Base.Monad <> E:369 var
+binder 16530:16530 <> x:374
+R16535:16535 QWIRE.Base.Monad <> f:373 var
+R16543:16543 QWIRE.Base.Monad <> x:374 var
+R16538:16538 QWIRE.Base.Monad <> r:371 var
+R16540:16540 QWIRE.Base.Monad <> x:374 var
+inst 16558:16564 <> readerF
+binder 16566:16566 <> E:375
+R16570:16576 QWIRE.Base.Monad <> Functor class
+R16579:16584 QWIRE.Base.Monad <> Reader def
+R16586:16586 QWIRE.Base.Monad <> E:375 var
+R16595:16598 QWIRE.Base.Monad <> fmap meth
+R16604:16614 QWIRE.Base.Monad <> reader_fmap def
+inst 16630:16636 <> readerA
+binder 16638:16638 <> E:376
+R16642:16652 QWIRE.Base.Monad <> Applicative class
+R16655:16660 QWIRE.Base.Monad <> Reader def
+R16662:16662 QWIRE.Base.Monad <> E:376 var
+R16702:16706 QWIRE.Base.Monad <> liftA meth
+R16671:16674 QWIRE.Base.Monad <> pure meth
+binder 16684:16684 <> A:377
+R16689:16689 QWIRE.Base.Monad <> A:377 var
+binder 16687:16687 <> a:378
+binder 16692:16692 <> e:379
+R16696:16696 QWIRE.Base.Monad <> a:378 var
+R16712:16723 QWIRE.Base.Monad <> reader_liftA def
+inst 16739:16745 <> readerM
+binder 16748:16748 <> E:380
+R16759:16763 QWIRE.Base.Monad <> Monad class
+R16766:16771 QWIRE.Base.Monad <> Reader def
+R16773:16773 QWIRE.Base.Monad <> E:380 var
+R16782:16785 QWIRE.Base.Monad <> bind meth
+R16791:16801 QWIRE.Base.Monad <> reader_bind def
+R17013:17019 Coq.Program.Program <> <> lib
+sec 17030:17034 <> State
+var 17140:17140 State S
+def 17164:17168 <> State
+binder 17171:17171 <> A:382
+R17185:17188 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17184:17184 QWIRE.Base.Monad <> State.S var
+R17190:17192 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17189:17189 QWIRE.Base.Monad <> A:382 var
+R17193:17193 QWIRE.Base.Monad <> State.S var
+def 17209:17218 <> state_fmap
+binder 17220:17220 <> A:383
+binder 17222:17222 <> B:384
+R17230:17233 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17229:17229 QWIRE.Base.Monad <> A:383 var
+R17234:17234 QWIRE.Base.Monad <> B:384 var
+binder 17225:17225 <> f:385
+R17243:17247 QWIRE.Base.Monad <> State def
+R17249:17249 QWIRE.Base.Monad <> A:383 var
+binder 17238:17239 <> st:386
+R17254:17258 QWIRE.Base.Monad <> State def
+R17260:17260 QWIRE.Base.Monad <> B:384 var
+binder 17274:17274 <> s:387
+R17292:17293 QWIRE.Base.Monad <> st:386 var
+R17295:17295 QWIRE.Base.Monad <> s:387 var
+binder 17284:17284 <> a:388
+binder 17286:17286 <> s:389
+R17300:17300 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17304:17304 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17306:17306 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17301:17301 QWIRE.Base.Monad <> f:385 var
+R17303:17303 QWIRE.Base.Monad <> a:388 var
+R17305:17305 QWIRE.Base.Monad <> s:389 var
+def 17322:17332 <> state_liftA
+binder 17334:17334 <> A:390
+binder 17336:17336 <> B:391
+R17346:17350 QWIRE.Base.Monad <> State def
+R17354:17357 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17353:17353 QWIRE.Base.Monad <> A:390 var
+R17358:17358 QWIRE.Base.Monad <> B:391 var
+binder 17339:17342 <> st_f:392
+R17370:17374 QWIRE.Base.Monad <> State def
+R17376:17376 QWIRE.Base.Monad <> A:390 var
+binder 17363:17366 <> st_a:393
+binder 17391:17391 <> s:394
+R17409:17412 QWIRE.Base.Monad <> st_f:392 var
+R17414:17414 QWIRE.Base.Monad <> s:394 var
+binder 17401:17401 <> f:395
+binder 17403:17403 <> s:396
+R17446:17449 QWIRE.Base.Monad <> st_a:393 var
+R17451:17451 QWIRE.Base.Monad <> s:396 var
+binder 17438:17438 <> a:397
+binder 17440:17440 <> s:398
+R17470:17470 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17474:17474 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17476:17476 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17471:17471 QWIRE.Base.Monad <> f:395 var
+R17473:17473 QWIRE.Base.Monad <> a:397 var
+R17475:17475 QWIRE.Base.Monad <> s:398 var
+def 17492:17501 <> state_bind
+binder 17503:17503 <> A:399
+R17513:17517 QWIRE.Base.Monad <> State def
+R17519:17519 QWIRE.Base.Monad <> A:399 var
+binder 17506:17509 <> st_a:400
+binder 17522:17522 <> B:401
+R17531:17534 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17530:17530 QWIRE.Base.Monad <> A:399 var
+R17535:17539 QWIRE.Base.Monad <> State def
+R17541:17541 QWIRE.Base.Monad <> B:401 var
+binder 17526:17526 <> f:402
+binder 17556:17556 <> s:403
+R17574:17577 QWIRE.Base.Monad <> st_a:400 var
+R17579:17579 QWIRE.Base.Monad <> s:403 var
+binder 17566:17566 <> a:404
+binder 17568:17568 <> s:405
+R17598:17598 QWIRE.Base.Monad <> f:402 var
+R17602:17602 QWIRE.Base.Monad <> s:405 var
+R17600:17600 QWIRE.Base.Monad <> a:404 var
+def 17619:17621 <> put
+R17628:17628 QWIRE.Base.Monad <> State.S var
+binder 17624:17624 <> x:406
+R17633:17637 QWIRE.Base.Monad <> State def
+R17639:17640 Coq.Program.Syntax <> ::type_scope:'()' not
+R17658:17658 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17661:17661 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17663:17663 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17659:17660 Coq.Init.Datatypes <> tt constr
+R17662:17662 QWIRE.Base.Monad <> x:406 var
+def 17679:17681 <> get
+R17685:17689 QWIRE.Base.Monad <> State def
+R17691:17691 QWIRE.Base.Monad <> State.S var
+binder 17704:17704 <> x:407
+R17709:17709 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17711:17711 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17713:17713 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17710:17710 QWIRE.Base.Monad <> x:407 var
+R17712:17712 QWIRE.Base.Monad <> x:407 var
+def 17729:17736 <> runState
+binder 17740:17740 <> A:408
+R17749:17753 QWIRE.Base.Monad <> State def
+R17755:17755 QWIRE.Base.Monad <> A:408 var
+binder 17744:17745 <> op:409
+R17761:17764 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17760:17760 QWIRE.Base.Monad <> State.S var
+R17766:17768 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17765:17765 QWIRE.Base.Monad <> A:408 var
+R17769:17769 QWIRE.Base.Monad <> State.S var
+R17774:17775 QWIRE.Base.Monad <> op:409 var
+def 17791:17799 <> evalState
+binder 17802:17802 <> A:410
+R17811:17815 QWIRE.Base.Monad <> State def
+R17817:17817 QWIRE.Base.Monad <> A:410 var
+binder 17806:17807 <> op:411
+R17823:17826 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17822:17822 QWIRE.Base.Monad <> State.S var
+R17827:17827 QWIRE.Base.Monad <> A:410 var
+R17835:17839 Coq.Program.Basics <> ::program_scope:x_'∘'_x not
+R17832:17834 Coq.Init.Datatypes <> fst def
+R17840:17841 QWIRE.Base.Monad <> op:411 var
+def 17857:17865 <> execState
+binder 17868:17868 <> A:412
+R17877:17881 QWIRE.Base.Monad <> State def
+R17883:17883 QWIRE.Base.Monad <> A:412 var
+binder 17872:17873 <> op:413
+R17889:17892 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17888:17888 QWIRE.Base.Monad <> State.S var
+R17893:17893 QWIRE.Base.Monad <> State.S var
+R17901:17905 Coq.Program.Basics <> ::program_scope:x_'∘'_x not
+R17898:17900 Coq.Init.Datatypes <> snd def
+R17906:17907 QWIRE.Base.Monad <> op:413 var
+R17917:17921 QWIRE.Base.Monad State <> sec
+R17946:17948 QWIRE.Base.Monad <> put def
+R17950:17952 QWIRE.Base.Monad <> get def
+R17954:17961 QWIRE.Base.Monad <> runState def
+R17963:17971 QWIRE.Base.Monad <> evalState def
+R17973:17981 QWIRE.Base.Monad <> execState def
+R17983:17992 QWIRE.Base.Monad <> state_fmap def
+R17994:18004 QWIRE.Base.Monad <> state_liftA def
+R18006:18015 QWIRE.Base.Monad <> state_bind def
+R18087:18089 Coq.Init.Datatypes <> fst def
+R18087:18089 Coq.Init.Datatypes <> fst def
+R18114:18116 Coq.Init.Datatypes <> fst def
+R18131:18139 QWIRE.Base.Monad <> evalState def
+R18234:18236 QWIRE.Base.Monad <> get def
+R18234:18236 QWIRE.Base.Monad <> get def
+R18253:18255 QWIRE.Base.Monad <> put def
+R18253:18255 QWIRE.Base.Monad <> put def
+inst 18272:18277 <> stateF
+binder 18280:18280 <> A:414
+R18285:18291 QWIRE.Base.Monad <> Functor class
+R18294:18298 QWIRE.Base.Monad <> State def
+R18300:18300 QWIRE.Base.Monad <> A:414 var
+R18312:18315 QWIRE.Base.Monad <> fmap meth
+R18321:18330 QWIRE.Base.Monad <> state_fmap def
+inst 18346:18351 <> stateA
+binder 18354:18354 <> A:415
+R18359:18369 QWIRE.Base.Monad <> Applicative class
+R18372:18376 QWIRE.Base.Monad <> State def
+R18378:18378 QWIRE.Base.Monad <> A:415 var
+R18424:18428 QWIRE.Base.Monad <> liftA meth
+R18390:18393 QWIRE.Base.Monad <> pure meth
+binder 18403:18403 <> A:416
+binder 18405:18405 <> a:417
+binder 18407:18407 <> s:418
+R18411:18411 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18413:18413 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18415:18415 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18412:18412 QWIRE.Base.Monad <> a:417 var
+R18414:18414 QWIRE.Base.Monad <> s:418 var
+R18434:18444 QWIRE.Base.Monad <> state_liftA def
+inst 18460:18465 <> stateM
+binder 18468:18468 <> A:419
+R18473:18477 QWIRE.Base.Monad <> Monad class
+R18480:18484 QWIRE.Base.Monad <> State def
+R18486:18486 QWIRE.Base.Monad <> A:419 var
+R18498:18501 QWIRE.Base.Monad <> bind meth
+R18507:18516 QWIRE.Base.Monad <> state_bind def
+inst 18534:18547 <> stateF_correct
+binder 18550:18550 <> A:420
+R18555:18569 QWIRE.Base.Monad <> Functor_Correct class
+R18572:18576 QWIRE.Base.Monad <> State def
+R18578:18578 QWIRE.Base.Monad <> A:420 var
+R18622:18646 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R18672:18696 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R18729:18738 QWIRE.Base.Monad <> state_fmap def
+R18622:18646 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R18622:18646 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R18672:18696 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R18672:18696 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+inst 18830:18843 <> stateA_correct
+binder 18846:18846 <> A:421
+R18851:18869 QWIRE.Base.Monad <> Applicative_Correct class
+R18872:18876 QWIRE.Base.Monad <> State def
+R18878:18878 QWIRE.Base.Monad <> A:421 var
+R18923:18947 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R18982:18992 QWIRE.Base.Monad <> state_liftA def
+R18923:18947 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R18923:18947 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R18923:18947 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R18923:18947 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R19007:19031 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R19007:19031 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+inst 19246:19259 <> stateM_correct
+binder 19262:19262 <> A:422
+R19267:19279 QWIRE.Base.Monad <> Monad_Correct class
+R19282:19286 QWIRE.Base.Monad <> State def
+R19288:19288 QWIRE.Base.Monad <> A:422 var
+R19334:19343 QWIRE.Base.Monad <> state_bind def
+R19358:19382 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R19358:19382 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R19462:19486 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R19462:19486 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R19571:19584 Coq.Program.Basics <> compose def
+R19620:19625 QWIRE.Base.Monad <> stateM inst

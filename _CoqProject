@@ -29,9 +29,9 @@ src/CompilationQASM/QASMPrinter.v
 # Libraries
 
 libraries/Equations.v
-libraries/Algorithms/Arithmetic.v
-libraries/Algorithms/Deutsch.v
-libraries/Algorithms/GHZ.v
+libraries/algorithms/Arithmetic.v
+libraries/algorithms/Deutsch.v
+libraries/algorithms/GHZ.v
 
 # Examples
 
